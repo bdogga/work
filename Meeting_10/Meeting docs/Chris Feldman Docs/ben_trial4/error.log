@@ -1,0 +1,56 @@
+T-Blade3 ERROR LOG FILE
+ 
+ WARNING: Background grid generation is no longer available with T-Blade3
+ WARNING: Background grid generation parameters should be removed from main input file
+ For developers: Check subroutine readinput in readinput.f90
+ 
+ 
+ WARNING: spl_intersect - splines may not intersect for section 1    . End knot of spline 1 is closest possible to spline 2.
+ For developers: Check subroutine spl_intersect in spline.f90
+ 
+ 
+ WARNING: spl_intersect - splines may not intersect for section 2    . End knot of spline 1 is closest possible to spline 2.
+ For developers: Check subroutine spl_intersect in spline.f90
+ 
+ 
+ WARNING: spl_intersect - splines may not intersect for section 1    . End knot of spline 1 is closest possible to spline 2.
+ For developers: Check subroutine spl_intersect in spline.f90
+ 
+ 
+ WARNING: spl_intersect - splines may not intersect for section 2    . End knot of spline 1 is closest possible to spline 2.
+ For developers: Check subroutine spl_intersect in spline.f90
+ 
+ 
+ WARNING: Could not find initial guesses for the TE clustering_parameter bisection solver for section 1
+ WARNING: Returning to uniform midchord clustering
+ For developers: Check subroutine TE_clustering_parameter_solver in funcNsubs.f90
+ 
+ 
+ WARNING: Thickness distribution for blade section 1 isn't monotonic
+ For developers: Check subroutine bladegen in bladegen.f90
+ 
+ 
+ WARNING: No throats found because of low number of blades for section 1
+ For developers: Check subroutine throat_calc_pitch_line in funcNsubs.f90
+ 
+ 
+ WARNING: Could not find initial guesses for the TE clustering_parameter bisection solver for section 2
+ WARNING: Returning to uniform midchord clustering
+ For developers: Check subroutine TE_clustering_parameter_solver in funcNsubs.f90
+ 
+ 
+ WARNING: Thickness distribution for blade section 2 isn't monotonic
+ For developers: Check subroutine bladegen in bladegen.f90
+ 
+ 
+ WARNING: No throats found because of low number of blades for section 2
+ For developers: Check subroutine throat_calc_pitch_line in funcNsubs.f90
+ 
+ 
+ WARNING: No Throat found for section 1
+ For developers: Check subroutine throatindex in funcNsubs.f90
+ 
+ 
+ WARNING: No Throat found for section 2
+ For developers: Check subroutine throatindex in funcNsubs.f90
+ 

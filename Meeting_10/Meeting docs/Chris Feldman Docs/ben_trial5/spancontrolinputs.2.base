@@ -1,0 +1,15 @@
+Casename:
+TT
+Blade row#:
+2
+Span control points, Chord & curvature control points
+        2   7
+Span    u2      u3      u4      u5      u6      cur1                cur2                cur3                cur4                cur5                cur6                cur7
+0.00    0.15    0.25    0.50    0.75    0.95    0.427970483400      0.296986600300     -0.1250877611000     0.3391737853        0.0922283477100     0.023394309230      0.2520297588
+1.00    0.15    0.25    0.50    0.75    0.95    0.427970483400      0.296986600300     -0.1250877611000     0.3391737853        0.0922283477100     0.023394309230      0.2520297588
+
+Span control points, Chord & thickness control points
+        2   1
+Span    LE_radius   u_max   t_max   t_TE   dy_dx_TE             
+0.00    6.00         0.30    0.11936256   0.00   0              
+1.00    6.00         0.30    0.11936256   0.00   0          

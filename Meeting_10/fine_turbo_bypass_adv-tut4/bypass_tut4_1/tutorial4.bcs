@@ -1,0 +1,1429 @@
+NUMBER_OF_BLOCKS 57 
+row_1_flux_1_Main_Blade_downStream domain1 FLUID
+41 61 13
+ROTATION 0 0 1 0 0 0 18 1 
+1 
+(aap) PER 1 1 61 13 1 6 1 0 0 1 row_1_flux_1_Main_Blade_downStream 
+1 
+row_1_flux_1_Main_Blade_downStream__hub_identifier__rotating SOL 1 1 41 13 
+1 
+row_1_flux_1_Main_Blade_downStream_outlet_rotor-stator_id(11) UND 1 1 41 61 
+3 
+unknown CON 1 1 13 61 6 4 1 1 1 row_1_flux_1_Main_Blade_down 
+unknown CON 13 1 29 61 2 3 1 0 0 row_1_flux_1_Main_Blade_outlet 
+unknown CON 29 1 41 61 5 3 1 0 0 row_1_flux_1_Main_Blade_up 
+1 
+unknown CON 1 1 41 13 22 5 1 1 3 C_block_around_nozzle 
+1 
+unknown PER 1 1 61 13 1 1 1 0 0 -1 row_1_flux_1_Main_Blade_downStream 
+row_1_flux_1_Main_Blade_outlet row_1_flux_1_Main_Blade_outlet FLUID
+17 61 33
+ROTATION 0 0 1 0 0 0 18 1 
+1 
+unknown CON 1 1 61 33 6 1 3 1 3 row_1_flux_1_Main_Blade_down 
+1 
+row_1_flux_1_Main_Blade_outlet__hub_identifier__rotating SOL 1 1 17 33 
+1 
+unknown CON 1 1 17 61 1 4 2 0 0 row_1_flux_1_Main_Blade_downStream 
+2 
+unknown CON 1 1 9 61 4 6 1 1 0 row_1_flux_1_Main_Blade_skin 
+unknown CON 9 1 17 61 4 6 5 1 0 row_1_flux_1_Main_Blade_skin 
+1 
+unknown CON 1 1 17 33 10 2 1 0 0 row_1_flux_2_Main_Blade_outlet 
+1 
+unknown CON 1 1 61 33 5 1 3 0 0 row_1_flux_1_Main_Blade_up 
+row_1_flux_1_Main_Blade_inlet row_1_flux_1_Main_Blade_inlet FLUID
+17 61 77
+ROTATION 0 0 1 0 0 0 18 1 
+1 
+unknown CON 1 1 61 77 6 1 1 1 3 row_1_flux_1_Main_Blade_down 
+1 
+row_1_flux_1_Main_Blade_inlet__hub_identifier__rotating SOL 1 1 17 77 
+1 
+unknown CON 1 1 17 61 4 6 3 0 3 row_1_flux_1_Main_Blade_skin 
+2 
+row_1_flux_1_Main_Blade_inlet_fnmb_inlet CON 1 1 17 17 25 4 2 1 1 bulb_at_inlet_C 
+unknown CON 1 17 17 61 23 4 2 1 1 bulb_at_inlet_H1 
+1 
+unknown CON 1 1 17 77 9 2 1 0 0 row_1_flux_2_Main_Blade_inlet 
+1 
+unknown CON 1 1 61 77 5 1 1 0 0 row_1_flux_1_Main_Blade_up 
+row_1_flux_1_Main_Blade_skin row_1_flux_1_Main_Blade_skin FLUID
+17 61 113
+ROTATION 0 0 1 0 0 0 18 1 
+3 
+unknown CON 1 1 17 113 7 6 1 0 0 row_1_flux_1_Main_Blade_hubgap1 
+row_1_flux_1_Main_Blade_skin_blade_(aap-ps)_rotating SOL 17 57 61 113 
+row_1_flux_1_Main_Blade_skin_blade_(aap-ss)_rotating SOL 17 1 61 57 
+1 
+row_1_flux_1_Main_Blade_skin__hub_identifier__rotating SOL 1 1 17 113 
+1 
+unknown CON 1 1 17 61 4 4 1 0 0 row_1_flux_1_Main_Blade_skin 
+1 
+unknown CON 1 1 17 61 4 3 1 0 0 row_1_flux_1_Main_Blade_skin 
+1 
+unknown CON 1 1 17 113 11 2 1 0 0 row_1_flux_2_Main_Blade_skin 
+5 
+unknown CON 1 105 61 113 2 4 1 1 0 row_1_flux_1_Main_Blade_outlet 
+unknown CON 1 65 61 105 6 1 2 0 0 row_1_flux_1_Main_Blade_down 
+unknown CON 1 49 61 65 3 3 1 0 1 row_1_flux_1_Main_Blade_inlet 
+unknown CON 1 9 61 49 5 1 2 0 0 row_1_flux_1_Main_Blade_up 
+unknown CON 1 1 61 9 2 4 2 1 0 row_1_flux_1_Main_Blade_outlet 
+row_1_flux_1_Main_Blade_up row_1_flux_1_Main_Blade_up FLUID
+13 61 149
+ROTATION 0 0 1 0 0 0 18 1 
+3 
+unknown CON 1 73 61 149 3 6 1 0 0 row_1_flux_1_Main_Blade_inlet 
+unknown CON 1 33 61 73 4 6 4 0 0 row_1_flux_1_Main_Blade_skin 
+unknown CON 1 1 61 33 2 6 1 0 0 row_1_flux_1_Main_Blade_outlet 
+1 
+row_1_flux_1_Main_Blade_up__hub_identifier__rotating SOL 1 1 13 149 
+1 
+unknown CON 1 1 13 61 1 4 3 0 0 row_1_flux_1_Main_Blade_downStream 
+2 
+row_1_flux_1_Main_Blade_up_fnmb_inlet CON 1 1 13 17 25 4 1 1 1 bulb_at_inlet_C 
+unknown CON 1 17 13 61 23 4 1 1 1 bulb_at_inlet_H1 
+1 
+unknown CON 1 1 13 149 12 2 1 0 0 row_1_flux_2_Main_Blade_up 
+1 
+unknown PERNM 1 1 61 149 6 6 1 1 3 -1 row_1_flux_1_Main_Blade_down 
+row_1_flux_1_Main_Blade_down row_1_flux_1_Main_Blade_down FLUID
+13 61 149
+ROTATION 0 0 1 0 0 0 18 1 
+3 
+unknown CON 1 1 61 77 3 1 1 1 3 row_1_flux_1_Main_Blade_inlet 
+unknown CON 1 77 61 117 4 6 2 0 0 row_1_flux_1_Main_Blade_skin 
+unknown CON 1 117 61 149 2 1 1 1 3 row_1_flux_1_Main_Blade_outlet 
+1 
+row_1_flux_1_Main_Blade_down__hub_identifier__rotating SOL 1 1 13 149 
+2 
+row_1_flux_1_Main_Blade_down_fnmb_inlet CON 1 1 13 17 25 4 3 0 0 bulb_at_inlet_C 
+unknown CON 1 17 13 61 23 4 3 0 0 bulb_at_inlet_H1 
+1 
+unknown CON 1 1 13 61 1 4 1 1 1 row_1_flux_1_Main_Blade_downStream 
+1 
+unknown CON 1 1 13 149 13 2 1 0 0 row_1_flux_2_Main_Blade_down 
+1 
+(aap) PERNM 1 1 61 149 5 6 1 1 3 1 row_1_flux_1_Main_Blade_up 
+row_1_flux_1_Main_Blade_hubgap1 row_1_flux_1_Main_Blade_hubgap1 FLUID
+13 17 113
+ROTATION 0 0 1 0 0 0 18 1 
+5 
+unknown CON 1 105 17 113 8 3 1 1 0 row_1_flux_1_Main_Blade_hubgap2 
+unknown CON 1 65 17 105 8 1 1 1 3 row_1_flux_1_Main_Blade_hubgap2 
+unknown CON 1 49 17 65 8 4 1 0 1 row_1_flux_1_Main_Blade_hubgap2 
+unknown CON 1 9 17 49 8 6 1 0 0 row_1_flux_1_Main_Blade_hubgap2 
+unknown CON 1 1 17 9 8 3 2 1 0 row_1_flux_1_Main_Blade_hubgap2 
+1 
+row_1_flux_1_Main_Blade_hubgap1__hub_identifier__rotating SOL 1 1 13 113 
+1 
+unknown CON 1 1 13 17 7 4 1 0 0 row_1_flux_1_Main_Blade_hubgap1 
+1 
+unknown CON 1 1 13 17 7 3 1 0 0 row_1_flux_1_Main_Blade_hubgap1 
+1 
+row_1_flux_1_Main_Blade_hubgap1_hub_gap_identifier_rotating SOL 1 1 13 113 
+1 
+unknown CON 1 1 17 113 4 1 1 0 0 row_1_flux_1_Main_Blade_skin 
+row_1_flux_1_Main_Blade_hubgap2 row_1_flux_1_Main_Blade_hubgap2 FLUID
+17 17 41
+ROTATION 0 0 1 0 0 0 18 1 
+1 
+unknown CON 1 1 17 41 7 1 2 1 3 row_1_flux_1_Main_Blade_hubgap1 
+1 
+row_1_flux_1_Main_Blade_hubgap2__hub_identifier__rotating SOL 1 1 17 41 
+2 
+unknown CON 1 1 9 17 7 1 1 1 0 row_1_flux_1_Main_Blade_hubgap1 
+unknown CON 9 1 17 17 7 1 5 1 0 row_1_flux_1_Main_Blade_hubgap1 
+1 
+unknown CON 1 1 17 17 7 1 3 0 3 row_1_flux_1_Main_Blade_hubgap1 
+1 
+row_1_flux_1_Main_Blade_hubgap2_hub_gap_identifier_rotating SOL 1 1 17 41 
+1 
+unknown CON 1 1 17 41 7 1 4 0 0 row_1_flux_1_Main_Blade_hubgap1 
+row_1_flux_2_Main_Blade_inlet row_1_flux_2_Main_Blade_inlet FLUID
+17 25 77
+ROTATION 0 0 1 0 0 0 18 1 
+1 
+unknown CON 1 1 25 77 13 1 1 1 3 row_1_flux_2_Main_Blade_down 
+1 
+unknown CON 1 1 17 77 3 5 1 0 0 row_1_flux_1_Main_Blade_inlet 
+1 
+unknown CON 1 1 17 25 11 6 3 0 3 row_1_flux_2_Main_Blade_skin 
+1 
+row_1_flux_2_Main_Blade_inlet_fnmb_inlet CON 1 1 17 25 23 4 6 1 1 bulb_at_inlet_H1 
+1 
+unknown CON 1 1 17 77 16 2 1 0 0 row_1_flux_3_Main_Blade_inlet 
+1 
+unknown CON 1 1 25 77 12 1 1 0 0 row_1_flux_2_Main_Blade_up 
+row_1_flux_2_Main_Blade_outlet row_1_flux_2_Main_Blade_outlet FLUID
+17 25 33
+ROTATION 0 0 1 0 0 0 18 1 
+1 
+unknown CON 1 1 25 33 13 1 3 1 3 row_1_flux_2_Main_Blade_down 
+1 
+unknown CON 1 1 17 33 2 5 1 0 0 row_1_flux_1_Main_Blade_outlet 
+1 
+row_1_flux_2_Main_Blade_outlet_outlet CON 1 1 17 25 22 5 3 1 3 C_block_around_nozzle 
+2 
+unknown CON 1 1 9 25 11 6 1 1 0 row_1_flux_2_Main_Blade_skin 
+unknown CON 9 1 17 25 11 6 5 1 0 row_1_flux_2_Main_Blade_skin 
+1 
+unknown CON 1 1 17 33 15 2 1 0 0 row_1_flux_3_Main_Blade_outlet 
+1 
+unknown CON 1 1 25 33 12 1 3 0 0 row_1_flux_2_Main_Blade_up 
+row_1_flux_2_Main_Blade_skin row_1_flux_2_Main_Blade_skin FLUID
+17 25 113
+ROTATION 0 0 1 0 0 0 18 1 
+2 
+row_1_flux_2_Main_Blade_skin_blade_(aap-ps)_rotating SOL 1 57 25 113 
+row_1_flux_2_Main_Blade_skin_blade_(aap-ss)_rotating SOL 1 1 25 57 
+1 
+unknown CON 1 1 17 113 4 5 1 0 0 row_1_flux_1_Main_Blade_skin 
+1 
+unknown CON 1 1 17 25 11 4 1 0 0 row_1_flux_2_Main_Blade_skin 
+1 
+unknown CON 1 1 17 25 11 3 1 0 0 row_1_flux_2_Main_Blade_skin 
+1 
+unknown CON 1 1 17 113 17 2 1 0 0 row_1_flux_3_Main_Blade_skin 
+5 
+unknown CON 1 105 25 113 10 4 1 1 0 row_1_flux_2_Main_Blade_outlet 
+unknown CON 1 65 25 105 13 1 2 0 0 row_1_flux_2_Main_Blade_down 
+unknown CON 1 49 25 65 9 3 1 0 1 row_1_flux_2_Main_Blade_inlet 
+unknown CON 1 9 25 49 12 1 2 0 0 row_1_flux_2_Main_Blade_up 
+unknown CON 1 1 25 9 10 4 2 1 0 row_1_flux_2_Main_Blade_outlet 
+row_1_flux_2_Main_Blade_up row_1_flux_2_Main_Blade_up FLUID
+13 25 149
+ROTATION 0 0 1 0 0 0 18 1 
+3 
+unknown CON 1 73 25 149 9 6 1 0 0 row_1_flux_2_Main_Blade_inlet 
+unknown CON 1 33 25 73 11 6 4 0 0 row_1_flux_2_Main_Blade_skin 
+unknown CON 1 1 25 33 10 6 1 0 0 row_1_flux_2_Main_Blade_outlet 
+1 
+unknown CON 1 1 13 149 5 5 1 0 0 row_1_flux_1_Main_Blade_up 
+1 
+row_1_flux_2_Main_Blade_up_outlet CON 1 1 13 25 22 5 4 1 3 C_block_around_nozzle 
+1 
+row_1_flux_2_Main_Blade_up_fnmb_inlet CON 1 1 13 25 23 4 4 1 1 bulb_at_inlet_H1 
+1 
+unknown CON 1 1 13 149 18 2 1 0 0 row_1_flux_3_Main_Blade_up 
+1 
+unknown PERNM 1 1 25 149 13 6 1 1 3 -1 row_1_flux_2_Main_Blade_down 
+row_1_flux_2_Main_Blade_down row_1_flux_2_Main_Blade_down FLUID
+13 25 149
+ROTATION 0 0 1 0 0 0 18 1 
+3 
+unknown CON 1 1 25 77 9 1 1 1 3 row_1_flux_2_Main_Blade_inlet 
+unknown CON 1 77 25 117 11 6 2 0 0 row_1_flux_2_Main_Blade_skin 
+unknown CON 1 117 25 149 10 1 1 1 3 row_1_flux_2_Main_Blade_outlet 
+1 
+unknown CON 1 1 13 149 6 5 1 0 0 row_1_flux_1_Main_Blade_down 
+1 
+row_1_flux_2_Main_Blade_down_fnmb_inlet CON 1 1 13 25 23 4 8 0 0 bulb_at_inlet_H1 
+1 
+row_1_flux_2_Main_Blade_down_outlet CON 1 1 13 25 22 5 2 0 2 C_block_around_nozzle 
+1 
+unknown CON 1 1 13 149 19 2 1 0 0 row_1_flux_3_Main_Blade_down 
+1 
+(aap) PERNM 1 1 25 149 12 6 1 1 3 1 row_1_flux_2_Main_Blade_up 
+row_1_flux_3_Main_Blade_downStream domain14 FLUID
+41 61 17
+ROTATION 0 0 1 0 0 0 18 1 
+1 
+(aap) PER 1 1 61 17 14 6 1 0 0 1 row_1_flux_3_Main_Blade_downStream 
+1 
+unknown CON 1 1 41 17 22 5 5 0 0 C_block_around_nozzle 
+1 
+row_1_flux_3_Main_Blade_downStream_outlet_rotor-stator_id(41) ROT 1 1 41 61 
+3 
+unknown CON 1 1 13 61 19 4 1 1 1 row_1_flux_3_Main_Blade_down 
+unknown CON 13 1 29 61 15 3 1 0 0 row_1_flux_3_Main_Blade_outlet 
+unknown CON 29 1 41 61 18 3 1 0 0 row_1_flux_3_Main_Blade_up 
+1 
+row_1_flux_3_Main_Blade_downStream__shroud_identifier_ SOL 1 1 41 17 
+1 
+unknown PER 1 1 61 17 14 1 1 0 0 -1 row_1_flux_3_Main_Blade_downStream 
+row_1_flux_3_Main_Blade_outlet row_1_flux_3_Main_Blade_outlet FLUID
+17 61 33
+ROTATION 0 0 1 0 0 0 18 1 
+1 
+unknown CON 1 1 61 33 19 1 3 1 3 row_1_flux_3_Main_Blade_down 
+1 
+unknown CON 1 1 17 33 10 5 1 0 0 row_1_flux_2_Main_Blade_outlet 
+1 
+unknown CON 1 1 17 61 14 4 2 0 0 row_1_flux_3_Main_Blade_downStream 
+2 
+unknown CON 1 1 9 61 17 6 1 1 0 row_1_flux_3_Main_Blade_skin 
+unknown CON 9 1 17 61 17 6 5 1 0 row_1_flux_3_Main_Blade_skin 
+1 
+row_1_flux_3_Main_Blade_outlet__shroud_identifier_ SOL 1 1 17 33 
+1 
+unknown CON 1 1 61 33 18 1 3 0 0 row_1_flux_3_Main_Blade_up 
+row_1_flux_3_Main_Blade_inlet row_1_flux_3_Main_Blade_inlet FLUID
+17 61 77
+ROTATION 0 0 1 0 0 0 18 1 
+1 
+unknown CON 1 1 61 77 19 1 1 1 3 row_1_flux_3_Main_Blade_down 
+1 
+unknown CON 1 1 17 77 9 5 1 0 0 row_1_flux_2_Main_Blade_inlet 
+1 
+unknown CON 1 1 17 61 17 6 3 0 3 row_1_flux_3_Main_Blade_skin 
+1 
+row_1_flux_3_Main_Blade_inlet_fnmb_inlet CON 1 1 17 61 23 4 7 1 1 bulb_at_inlet_H1 
+1 
+row_1_flux_3_Main_Blade_inlet__shroud_identifier_ SOL 1 1 17 77 
+1 
+unknown CON 1 1 61 77 18 1 1 0 0 row_1_flux_3_Main_Blade_up 
+row_1_flux_3_Main_Blade_skin row_1_flux_3_Main_Blade_skin FLUID
+17 61 113
+ROTATION 0 0 1 0 0 0 18 1 
+3 
+unknown CON 45 1 61 113 20 6 1 0 0 row_1_flux_3_Main_Blade_shroudgap1 
+row_1_flux_3_Main_Blade_skin_blade_(aap-ps)_rotating SOL 1 57 45 113 
+row_1_flux_3_Main_Blade_skin_blade_(aap-ss)_rotating SOL 1 1 45 57 
+1 
+unknown CON 1 1 17 113 11 5 1 0 0 row_1_flux_2_Main_Blade_skin 
+1 
+unknown CON 1 1 17 61 17 4 1 0 0 row_1_flux_3_Main_Blade_skin 
+1 
+unknown CON 1 1 17 61 17 3 1 0 0 row_1_flux_3_Main_Blade_skin 
+1 
+row_1_flux_3_Main_Blade_skin__shroud_identifier_ SOL 1 1 17 113 
+5 
+unknown CON 1 105 61 113 15 4 1 1 0 row_1_flux_3_Main_Blade_outlet 
+unknown CON 1 65 61 105 19 1 2 0 0 row_1_flux_3_Main_Blade_down 
+unknown CON 1 49 61 65 16 3 1 0 1 row_1_flux_3_Main_Blade_inlet 
+unknown CON 1 9 61 49 18 1 2 0 0 row_1_flux_3_Main_Blade_up 
+unknown CON 1 1 61 9 15 4 2 1 0 row_1_flux_3_Main_Blade_outlet 
+row_1_flux_3_Main_Blade_up row_1_flux_3_Main_Blade_up FLUID
+13 61 149
+ROTATION 0 0 1 0 0 0 18 1 
+3 
+unknown CON 1 73 61 149 16 6 1 0 0 row_1_flux_3_Main_Blade_inlet 
+unknown CON 1 33 61 73 17 6 4 0 0 row_1_flux_3_Main_Blade_skin 
+unknown CON 1 1 61 33 15 6 1 0 0 row_1_flux_3_Main_Blade_outlet 
+1 
+unknown CON 1 1 13 149 12 5 1 0 0 row_1_flux_2_Main_Blade_up 
+1 
+unknown CON 1 1 13 61 14 4 3 0 0 row_1_flux_3_Main_Blade_downStream 
+1 
+row_1_flux_3_Main_Blade_up_fnmb_inlet CON 1 1 13 61 23 4 5 1 1 bulb_at_inlet_H1 
+1 
+row_1_flux_3_Main_Blade_up__shroud_identifier_ SOL 1 1 13 149 
+1 
+unknown PERNM 1 1 61 149 19 6 1 1 3 -1 row_1_flux_3_Main_Blade_down 
+row_1_flux_3_Main_Blade_down row_1_flux_3_Main_Blade_down FLUID
+13 61 149
+ROTATION 0 0 1 0 0 0 18 1 
+3 
+unknown CON 1 1 61 77 16 1 1 1 3 row_1_flux_3_Main_Blade_inlet 
+unknown CON 1 77 61 117 17 6 2 0 0 row_1_flux_3_Main_Blade_skin 
+unknown CON 1 117 61 149 15 1 1 1 3 row_1_flux_3_Main_Blade_outlet 
+1 
+unknown CON 1 1 13 149 13 5 1 0 0 row_1_flux_2_Main_Blade_down 
+1 
+row_1_flux_3_Main_Blade_down_fnmb_inlet CON 1 1 13 61 23 4 9 0 0 bulb_at_inlet_H1 
+1 
+unknown CON 1 1 13 61 14 4 1 1 1 row_1_flux_3_Main_Blade_downStream 
+1 
+row_1_flux_3_Main_Blade_down__shroud_identifier_ SOL 1 1 13 149 
+1 
+(aap) PERNM 1 1 61 149 18 6 1 1 3 1 row_1_flux_3_Main_Blade_up 
+row_1_flux_3_Main_Blade_shroudgap1 domain20 FLUID
+13 17 113
+ROTATION 0 0 1 0 0 0 18 1 
+5 
+unknown CON 1 105 17 113 21 3 1 1 0 row_1_flux_3_Main_Blade_shroudgap2 
+unknown CON 1 65 17 105 21 1 1 1 3 row_1_flux_3_Main_Blade_shroudgap2 
+unknown CON 1 49 17 65 21 4 1 0 1 row_1_flux_3_Main_Blade_shroudgap2 
+unknown CON 1 9 17 49 21 6 1 0 0 row_1_flux_3_Main_Blade_shroudgap2 
+unknown CON 1 1 17 9 21 3 2 1 0 row_1_flux_3_Main_Blade_shroudgap2 
+1 
+row_1_flux_3_Main_Blade_shroudgap1_tip_gap_identifier_rotating SOL 1 1 13 113 
+1 
+unknown CON 1 1 13 17 20 4 1 0 0 row_1_flux_3_Main_Blade_shroudgap1 
+1 
+unknown CON 1 1 13 17 20 3 1 0 0 row_1_flux_3_Main_Blade_shroudgap1 
+1 
+row_1_flux_3_Main_Blade_shroudgap1__shroud_identifier_ SOL 1 1 13 113 
+1 
+unknown CON 1 1 17 113 17 1 1 0 0 row_1_flux_3_Main_Blade_skin 
+row_1_flux_3_Main_Blade_shroudgap2 domain21 FLUID
+17 17 41
+ROTATION 0 0 1 0 0 0 18 1 
+1 
+unknown CON 1 1 17 41 20 1 2 1 3 row_1_flux_3_Main_Blade_shroudgap1 
+1 
+row_1_flux_3_Main_Blade_shroudgap2_tip_gap_identifier_rotating SOL 1 1 17 41 
+2 
+unknown CON 1 1 9 17 20 1 1 1 0 row_1_flux_3_Main_Blade_shroudgap1 
+unknown CON 9 1 17 17 20 1 5 1 0 row_1_flux_3_Main_Blade_shroudgap1 
+1 
+unknown CON 1 1 17 17 20 1 3 0 3 row_1_flux_3_Main_Blade_shroudgap1 
+1 
+row_1_flux_3_Main_Blade_shroudgap2__shroud_identifier_ SOL 1 1 17 41 
+1 
+unknown CON 1 1 17 41 20 1 4 0 0 row_1_flux_3_Main_Blade_shroudgap1 
+C_block_around_nozzle C_block_around_nozzle FLUID
+41 13 53
+ROTATION 0 0 1 0 0 0 18 1 
+1 
+(aap) PER 1 1 13 53 22 6 1 0 0 1 C_block_around_nozzle 
+1 
+C_block_around_nozzle_nozzle_identifier SOL 1 1 41 53 
+1 
+C_block_around_nozzle_nozzle_outlet_rotor-stator_id(40) ROT 1 1 41 13 
+1 
+C_block_around_nozzle_nozzle_outlet_rotor-stator_id(10) ROT 1 1 41 13 
+5 
+unknown CON 1 41 41 53 1 5 1 1 3 row_1_flux_1_Main_Blade_downStream 
+unknown CON 1 17 13 41 13 4 1 0 2 row_1_flux_2_Main_Blade_down 
+unknown CON 13 17 29 41 10 3 1 1 3 row_1_flux_2_Main_Blade_outlet 
+unknown CON 29 17 41 41 12 3 1 1 3 row_1_flux_2_Main_Blade_up 
+unknown CON 1 1 41 17 14 2 1 0 0 row_1_flux_3_Main_Blade_downStream 
+1 
+unknown PER 1 1 13 53 22 1 1 0 0 -1 C_block_around_nozzle 
+bulb_at_inlet_H1 bulb_at_inlet_H1 FLUID
+41 129 25
+ROTATION 0 0 1 0 0 0 18 1 
+1 
+unknown PER 1 1 129 25 23 6 1 0 0 -1 bulb_at_inlet_H1 
+1 
+unknown CON 1 1 41 25 24 5 1 0 0 bulb_at_inlet_H2 
+1 
+bulb_at_inlet_H1_inlet INL 1 1 41 129 
+9 
+unknown CON 1 1 13 45 5 4 2 1 1 row_1_flux_1_Main_Blade_up 
+unknown CON 13 1 29 45 3 4 2 1 1 row_1_flux_1_Main_Blade_inlet 
+unknown CON 29 1 41 45 6 3 2 0 0 row_1_flux_1_Main_Blade_down 
+unknown CON 1 45 13 69 12 4 1 1 1 row_1_flux_2_Main_Blade_up 
+unknown CON 1 69 13 129 18 4 1 1 1 row_1_flux_3_Main_Blade_up 
+unknown CON 13 45 29 69 9 4 1 1 1 row_1_flux_2_Main_Blade_inlet 
+unknown CON 13 69 29 129 16 4 1 1 1 row_1_flux_3_Main_Blade_inlet 
+unknown CON 29 45 41 69 13 3 1 0 0 row_1_flux_2_Main_Blade_down 
+unknown CON 29 69 41 129 19 3 1 0 0 row_1_flux_3_Main_Blade_down 
+1 
+bulb_at_inlet_H1__shroud_identifier_ SOL 1 1 41 25 
+1 
+(aap) PER 1 1 129 25 23 1 1 0 0 1 bulb_at_inlet_H1 
+bulb_at_inlet_H2 bulb_at_inlet_H2 FLUID
+41 13 25
+ROTATION 0 0 1 0 0 0 18 1 
+1 
+unknown PER 1 1 13 25 24 6 1 0 0 -1 bulb_at_inlet_H2 
+1 
+unknown CON 1 1 41 25 27 5 1 0 0 bulb_at_inlet_butterfly_2 
+1 
+bulb_at_inlet_H1_inlet INL 1 1 41 13 
+1 
+unknown CON 1 1 41 13 25 5 1 0 0 bulb_at_inlet_C 
+1 
+unknown CON 1 1 41 25 23 2 1 0 0 bulb_at_inlet_H1 
+1 
+(aap) PER 1 1 13 25 24 1 1 0 0 1 bulb_at_inlet_H2 
+bulb_at_inlet_C bulb_at_inlet_C FLUID
+41 17 13
+ROTATION 0 0 1 0 0 0 18 1 
+1 
+unknown PER 1 1 17 13 25 6 1 0 0 -1 bulb_at_inlet_C 
+1 
+bulb_at_inlet_C__hub_identifier__rotating SOL 1 1 41 13 
+1 
+unknown CON 1 1 41 17 27 5 2 1 3 bulb_at_inlet_butterfly_2 
+3 
+unknown CON 1 1 13 17 5 4 1 1 1 row_1_flux_1_Main_Blade_up 
+unknown CON 13 1 29 17 3 4 1 1 1 row_1_flux_1_Main_Blade_inlet 
+unknown CON 29 1 41 17 6 3 1 0 0 row_1_flux_1_Main_Blade_down 
+1 
+unknown CON 1 1 41 13 24 4 1 0 0 bulb_at_inlet_H2 
+1 
+(aap) PER 1 1 17 13 25 1 1 0 0 1 bulb_at_inlet_C 
+bulb_at_inlet_butterfly_1 bulb_at_inlet_butterfly_1 FLUID
+21 21 41
+ROTATION 0 0 1 0 0 0 18 1 
+1 
+(aap-nonaxi) PER 1 1 21 41 26 2 1 0 0 1 bulb_at_inlet_butterfly_1 
+1 
+unknown PER 1 1 21 41 26 1 1 0 0 -1 bulb_at_inlet_butterfly_1 
+1 
+bulb_at_inlet_butterfly_1__hub_identifier__rotating SOL 1 1 21 21 
+1 
+bulb_at_inlet_butterfly_1_inlet INL 1 1 21 21 
+1 
+unknown CON 1 1 21 41 27 2 2 0 2 bulb_at_inlet_butterfly_2 
+1 
+unknown CON 1 1 21 41 27 2 1 1 3 bulb_at_inlet_butterfly_2 
+bulb_at_inlet_butterfly_2 bulb_at_inlet_butterfly_2 FLUID
+41 9 41
+ROTATION 0 0 1 0 0 0 18 1 
+1 
+unknown PER 1 1 9 41 27 6 1 0 0 -1 bulb_at_inlet_butterfly_2 
+2 
+unknown CON 1 1 21 41 26 6 1 1 3 bulb_at_inlet_butterfly_1 
+unknown CON 21 1 41 41 26 5 1 0 2 bulb_at_inlet_butterfly_1 
+1 
+bulb_at_inlet_butterfly_2_inlet INL 1 1 41 9 
+1 
+bulb_at_inlet_butterfly_2__hub_identifier__rotating SOL 1 1 41 9 
+2 
+unknown CON 1 1 41 25 24 2 1 0 0 bulb_at_inlet_H2 
+unknown CON 1 25 41 41 25 3 1 1 3 bulb_at_inlet_C 
+1 
+(aap-nonaxi) PER 1 1 9 41 27 1 1 0 0 1 bulb_at_inlet_butterfly_2 
+row_2_flux_1_Main_Blade_inlet row_2_flux_1_Main_Blade_inlet FLUID
+17 57 29
+ROTATION 0 0 1 0 0 0 77 1 
+1 
+unknown CON 1 1 57 29 32 1 1 1 3 row_2_flux_1_Main_Blade_down 
+1 
+row_2_flux_1_Main_Blade_inlet__nozzle_identifier_ SOL 1 1 17 29 
+1 
+unknown CON 1 1 17 57 30 6 3 0 3 row_2_flux_1_Main_Blade_skin 
+2 
+row_2_flux_1_Main_Blade_inlet_inlet_rotor-stator_id(40) ROT 1 1 17 13 
+row_2_flux_1_Main_Blade_inlet_inlet_rotor-stator_id(41) ROT 1 13 17 57 
+1 
+row_2_flux_1_Main_Blade_inlet__shroud_identifier_ SOL 1 1 17 29 
+1 
+unknown CON 1 1 57 29 31 1 1 0 0 row_2_flux_1_Main_Blade_up 
+row_2_flux_1_Main_Blade_outlet row_2_flux_1_Main_Blade_outlet FLUID
+17 57 29
+ROTATION 0 0 1 0 0 0 77 1 
+1 
+unknown CON 1 1 57 29 32 1 3 1 3 row_2_flux_1_Main_Blade_down 
+1 
+row_2_flux_1_Main_Blade_outlet__nozzle_identifier_ SOL 1 1 17 29 
+1 
+row_2_flux_1_Main_Blade_outlet_outlet OUT 1 1 17 57 
+2 
+unknown CON 1 1 9 57 30 6 1 1 0 row_2_flux_1_Main_Blade_skin 
+unknown CON 9 1 17 57 30 6 5 1 0 row_2_flux_1_Main_Blade_skin 
+1 
+row_2_flux_1_Main_Blade_outlet__shroud_identifier_ SOL 1 1 17 29 
+1 
+unknown CON 1 1 57 29 31 1 3 0 0 row_2_flux_1_Main_Blade_up 
+row_2_flux_1_Main_Blade_skin row_2_flux_1_Main_Blade_skin FLUID
+17 57 121
+ROTATION 0 0 1 0 0 0 77 1 
+2 
+row_2_flux_1_Main_Blade_skin_blade_(aap-ps) SOL 1 61 57 121 
+row_2_flux_1_Main_Blade_skin_blade_(aap-ss) SOL 1 1 57 61 
+1 
+row_2_flux_1_Main_Blade_skin__nozzle_identifier_ SOL 1 1 17 121 
+1 
+unknown CON 1 1 17 57 30 4 1 0 0 row_2_flux_1_Main_Blade_skin 
+1 
+unknown CON 1 1 17 57 30 3 1 0 0 row_2_flux_1_Main_Blade_skin 
+1 
+row_2_flux_1_Main_Blade_skin__shroud_identifier_ SOL 1 1 17 121 
+5 
+unknown CON 1 113 57 121 29 4 1 1 0 row_2_flux_1_Main_Blade_outlet 
+unknown CON 1 69 57 113 32 1 2 0 0 row_2_flux_1_Main_Blade_down 
+unknown CON 1 53 57 69 28 3 1 0 1 row_2_flux_1_Main_Blade_inlet 
+unknown CON 1 9 57 53 31 1 2 0 0 row_2_flux_1_Main_Blade_up 
+unknown CON 1 1 57 9 29 4 2 1 0 row_2_flux_1_Main_Blade_outlet 
+row_2_flux_1_Main_Blade_up row_2_flux_1_Main_Blade_up FLUID
+13 57 101
+ROTATION 0 0 1 0 0 0 77 1 
+3 
+unknown CON 1 73 57 101 28 6 1 0 0 row_2_flux_1_Main_Blade_inlet 
+unknown CON 1 29 57 73 30 6 4 0 0 row_2_flux_1_Main_Blade_skin 
+unknown CON 1 1 57 29 29 6 1 0 0 row_2_flux_1_Main_Blade_outlet 
+1 
+row_2_flux_1_Main_Blade_up__nozzle_identifier_ SOL 1 1 13 101 
+1 
+row_2_flux_1_Main_Blade_up_outlet OUT 1 1 13 57 
+2 
+row_2_flux_1_Main_Blade_up_inlet_rotor-stator_id(40) ROT 1 1 13 13 
+row_2_flux_1_Main_Blade_up_inlet_rotor-stator_id(41) ROT 1 13 13 57 
+1 
+row_2_flux_1_Main_Blade_up__shroud_identifier_ SOL 1 1 13 101 
+1 
+(aap) PERNM 1 1 57 101 32 6 1 1 3 -1 row_2_flux_1_Main_Blade_down 
+row_2_flux_1_Main_Blade_down row_2_flux_1_Main_Blade_down FLUID
+13 57 101
+ROTATION 0 0 1 0 0 0 77 1 
+3 
+unknown CON 1 1 57 29 28 1 1 1 3 row_2_flux_1_Main_Blade_inlet 
+unknown CON 1 29 57 73 30 6 2 0 0 row_2_flux_1_Main_Blade_skin 
+unknown CON 1 73 57 101 29 1 1 1 3 row_2_flux_1_Main_Blade_outlet 
+1 
+row_2_flux_1_Main_Blade_down__nozzle_identifier_ SOL 1 1 13 101 
+2 
+row_2_flux_1_Main_Blade_down_inlet_rotor-stator_id(40) ROT 1 1 13 13 
+row_2_flux_1_Main_Blade_down_inlet_rotor-stator_id(41) ROT 1 13 13 57 
+1 
+row_2_flux_1_Main_Blade_down_outlet OUT 1 1 13 57 
+1 
+row_2_flux_1_Main_Blade_down__shroud_identifier_ SOL 1 1 13 101 
+1 
+unknown PERNM 1 1 57 101 31 6 1 1 3 1 row_2_flux_1_Main_Blade_up 
+row_3_flux_1_Main_Blade_inlet row_3_flux_1_Main_Blade_inlet FLUID
+17 89 21
+ROTATION 0 0 1 0 0 0 119 1 
+1 
+unknown CON 1 1 89 21 37 1 1 1 3 row_3_flux_1_Main_Blade_down 
+1 
+row_3_flux_1_Main_Blade_inlet__hub_identifier__rotating SOL 1 1 17 21 
+1 
+unknown CON 1 1 17 89 35 6 3 0 3 row_3_flux_1_Main_Blade_skin 
+2 
+row_3_flux_1_Main_Blade_inlet_inlet_rotor-stator_id(11) ROT 1 1 17 61 
+row_3_flux_1_Main_Blade_inlet_inlet_rotor-stator_id(10) ROT 1 61 17 89 
+1 
+row_3_flux_1_Main_Blade_inlet__nozzle_identifier_ SOL 1 1 17 21 
+1 
+unknown CON 1 1 89 21 36 1 1 0 0 row_3_flux_1_Main_Blade_up 
+row_3_flux_1_Main_Blade_outlet row_3_flux_1_Main_Blade_outlet FLUID
+17 89 21
+ROTATION 0 0 1 0 0 0 119 1 
+1 
+unknown CON 1 1 89 21 37 1 3 1 3 row_3_flux_1_Main_Blade_down 
+1 
+row_3_flux_1_Main_Blade_outlet__hub_identifier__rotating SOL 1 1 17 21 
+1 
+row_3_flux_1_Main_Blade_outlet_outlet_rotor-stator_id(20) ROT 1 1 17 89 
+2 
+unknown CON 1 1 9 89 35 6 1 1 0 row_3_flux_1_Main_Blade_skin 
+unknown CON 9 1 17 89 35 6 5 1 0 row_3_flux_1_Main_Blade_skin 
+1 
+row_3_flux_1_Main_Blade_outlet__nozzle_identifier_ SOL 1 1 17 21 
+1 
+unknown CON 1 1 89 21 36 1 3 0 0 row_3_flux_1_Main_Blade_up 
+row_3_flux_1_Main_Blade_skin row_3_flux_1_Main_Blade_skin FLUID
+17 89 121
+ROTATION 0 0 1 0 0 0 119 1 
+4 
+unknown CON 1 1 13 121 38 6 1 0 0 row_3_flux_1_Main_Blade_hubgap1 
+unknown CON 77 1 89 121 40 6 1 0 0 row_3_flux_1_Main_Blade_shroudgap1 
+row_3_flux_1_Main_Blade_skin_blade_(aap-ps) SOL 13 61 77 121 
+row_3_flux_1_Main_Blade_skin_blade_(aap-ss) SOL 13 1 77 61 
+1 
+row_3_flux_1_Main_Blade_skin__hub_identifier__rotating SOL 1 1 17 121 
+1 
+unknown CON 1 1 17 89 35 4 1 0 0 row_3_flux_1_Main_Blade_skin 
+1 
+unknown CON 1 1 17 89 35 3 1 0 0 row_3_flux_1_Main_Blade_skin 
+1 
+row_3_flux_1_Main_Blade_skin__nozzle_identifier_ SOL 1 1 17 121 
+5 
+unknown CON 1 113 89 121 34 4 1 1 0 row_3_flux_1_Main_Blade_outlet 
+unknown CON 1 69 89 113 37 1 2 0 0 row_3_flux_1_Main_Blade_down 
+unknown CON 1 53 89 69 33 3 1 0 1 row_3_flux_1_Main_Blade_inlet 
+unknown CON 1 9 89 53 36 1 2 0 0 row_3_flux_1_Main_Blade_up 
+unknown CON 1 1 89 9 34 4 2 1 0 row_3_flux_1_Main_Blade_outlet 
+row_3_flux_1_Main_Blade_up row_3_flux_1_Main_Blade_up FLUID
+13 89 85
+ROTATION 0 0 1 0 0 0 119 1 
+3 
+unknown CON 1 65 89 85 33 6 1 0 0 row_3_flux_1_Main_Blade_inlet 
+unknown CON 1 21 89 65 35 6 4 0 0 row_3_flux_1_Main_Blade_skin 
+unknown CON 1 1 89 21 34 6 1 0 0 row_3_flux_1_Main_Blade_outlet 
+1 
+row_3_flux_1_Main_Blade_up__hub_identifier__rotating SOL 1 1 13 85 
+1 
+row_3_flux_1_Main_Blade_up_outlet_rotor-stator_id(20) ROT 1 1 13 89 
+2 
+row_3_flux_1_Main_Blade_up_inlet_rotor-stator_id(11) ROT 1 1 13 61 
+row_3_flux_1_Main_Blade_up_inlet_rotor-stator_id(10) ROT 1 61 13 89 
+1 
+row_3_flux_1_Main_Blade_up__nozzle_identifier_ SOL 1 1 13 85 
+1 
+(aap) PERNM 1 1 89 85 37 6 1 1 3 -1 row_3_flux_1_Main_Blade_down 
+row_3_flux_1_Main_Blade_down row_3_flux_1_Main_Blade_down FLUID
+13 89 85
+ROTATION 0 0 1 0 0 0 119 1 
+3 
+unknown CON 1 1 89 21 33 1 1 1 3 row_3_flux_1_Main_Blade_inlet 
+unknown CON 1 21 89 65 35 6 2 0 0 row_3_flux_1_Main_Blade_skin 
+unknown CON 1 65 89 85 34 1 1 1 3 row_3_flux_1_Main_Blade_outlet 
+1 
+row_3_flux_1_Main_Blade_down__hub_identifier__rotating SOL 1 1 13 85 
+2 
+row_3_flux_1_Main_Blade_down_inlet_rotor-stator_id(11) ROT 1 1 13 61 
+row_3_flux_1_Main_Blade_down_inlet_rotor-stator_id(10) ROT 1 61 13 89 
+1 
+row_3_flux_1_Main_Blade_down_outlet_rotor-stator_id(20) ROT 1 1 13 89 
+1 
+row_3_flux_1_Main_Blade_down__nozzle_identifier_ SOL 1 1 13 85 
+1 
+unknown PERNM 1 1 89 85 36 6 1 1 3 1 row_3_flux_1_Main_Blade_up 
+row_3_flux_1_Main_Blade_hubgap1 row_3_flux_1_Main_Blade_hubgap1 FLUID
+13 13 121
+ROTATION 0 0 1 0 0 0 119 1 
+5 
+unknown CON 1 113 13 121 39 3 1 1 0 row_3_flux_1_Main_Blade_hubgap2 
+unknown CON 1 69 13 113 39 1 1 1 3 row_3_flux_1_Main_Blade_hubgap2 
+unknown CON 1 53 13 69 39 4 1 0 1 row_3_flux_1_Main_Blade_hubgap2 
+unknown CON 1 9 13 53 39 6 1 0 0 row_3_flux_1_Main_Blade_hubgap2 
+unknown CON 1 1 13 9 39 3 2 1 0 row_3_flux_1_Main_Blade_hubgap2 
+1 
+row_3_flux_1_Main_Blade_hubgap1__hub_identifier__rotating SOL 1 1 13 121 
+1 
+unknown CON 1 1 13 13 38 4 1 0 0 row_3_flux_1_Main_Blade_hubgap1 
+1 
+unknown CON 1 1 13 13 38 3 1 0 0 row_3_flux_1_Main_Blade_hubgap1 
+1 
+row_3_flux_1_Main_Blade_hubgap1_hub_gap_identifier SOL 1 1 13 121 
+1 
+unknown CON 1 1 13 121 35 1 1 0 0 row_3_flux_1_Main_Blade_skin 
+row_3_flux_1_Main_Blade_hubgap2 row_3_flux_1_Main_Blade_hubgap2 FLUID
+17 13 45
+ROTATION 0 0 1 0 0 0 119 1 
+1 
+unknown CON 1 1 13 45 38 1 2 1 3 row_3_flux_1_Main_Blade_hubgap1 
+1 
+row_3_flux_1_Main_Blade_hubgap2__hub_identifier__rotating SOL 1 1 17 45 
+2 
+unknown CON 1 1 9 13 38 1 1 1 0 row_3_flux_1_Main_Blade_hubgap1 
+unknown CON 9 1 17 13 38 1 5 1 0 row_3_flux_1_Main_Blade_hubgap1 
+1 
+unknown CON 1 1 17 13 38 1 3 0 3 row_3_flux_1_Main_Blade_hubgap1 
+1 
+row_3_flux_1_Main_Blade_hubgap2_hub_gap_identifier SOL 1 1 17 45 
+1 
+unknown CON 1 1 13 45 38 1 4 0 0 row_3_flux_1_Main_Blade_hubgap1 
+row_3_flux_1_Main_Blade_shroudgap1 domain40 FLUID
+13 13 121
+ROTATION 0 0 1 0 0 0 119 1 
+5 
+unknown CON 1 113 13 121 41 3 1 1 0 row_3_flux_1_Main_Blade_shroudgap2 
+unknown CON 1 69 13 113 41 1 1 1 3 row_3_flux_1_Main_Blade_shroudgap2 
+unknown CON 1 53 13 69 41 4 1 0 1 row_3_flux_1_Main_Blade_shroudgap2 
+unknown CON 1 9 13 53 41 6 1 0 0 row_3_flux_1_Main_Blade_shroudgap2 
+unknown CON 1 1 13 9 41 3 2 1 0 row_3_flux_1_Main_Blade_shroudgap2 
+1 
+row_3_flux_1_Main_Blade_shroudgap1_tip_gap_identifier SOL 1 1 13 121 
+1 
+unknown CON 1 1 13 13 40 4 1 0 0 row_3_flux_1_Main_Blade_shroudgap1 
+1 
+unknown CON 1 1 13 13 40 3 1 0 0 row_3_flux_1_Main_Blade_shroudgap1 
+1 
+row_3_flux_1_Main_Blade_shroudgap1__nozzle_identifier_ SOL 1 1 13 121 
+1 
+unknown CON 1 1 13 121 35 1 2 0 0 row_3_flux_1_Main_Blade_skin 
+row_3_flux_1_Main_Blade_shroudgap2 domain41 FLUID
+17 13 45
+ROTATION 0 0 1 0 0 0 119 1 
+1 
+unknown CON 1 1 13 45 40 1 2 1 3 row_3_flux_1_Main_Blade_shroudgap1 
+1 
+row_3_flux_1_Main_Blade_shroudgap2_tip_gap_identifier SOL 1 1 17 45 
+2 
+unknown CON 1 1 9 13 40 1 1 1 0 row_3_flux_1_Main_Blade_shroudgap1 
+unknown CON 9 1 17 13 40 1 5 1 0 row_3_flux_1_Main_Blade_shroudgap1 
+1 
+unknown CON 1 1 17 13 40 1 3 0 3 row_3_flux_1_Main_Blade_shroudgap1 
+1 
+row_3_flux_1_Main_Blade_shroudgap2__nozzle_identifier_ SOL 1 1 17 45 
+1 
+unknown CON 1 1 13 45 40 1 4 0 0 row_3_flux_1_Main_Blade_shroudgap1 
+row_4_flux_1_Main_Blade_inlet row_4_flux_1_Main_Blade_inlet FLUID
+17 73 21
+ROTATION 0 0 1 0 0 0 127 1 
+1 
+unknown CON 1 1 73 21 46 1 1 1 3 row_4_flux_1_Main_Blade_down 
+1 
+row_4_flux_1_Main_Blade_inlet__hub_identifier__rotating SOL 1 1 17 21 
+1 
+unknown CON 1 1 17 73 44 6 3 0 3 row_4_flux_1_Main_Blade_skin 
+1 
+row_4_flux_1_Main_Blade_inlet_inlet_rotor-stator_id(20) ROT 1 1 17 73 
+1 
+row_4_flux_1_Main_Blade_inlet__nozzle_identifier_ SOL 1 1 17 21 
+1 
+unknown CON 1 1 73 21 45 1 1 0 0 row_4_flux_1_Main_Blade_up 
+row_4_flux_1_Main_Blade_outlet row_4_flux_1_Main_Blade_outlet FLUID
+17 73 29
+ROTATION 0 0 1 0 0 0 127 1 
+1 
+unknown CON 1 1 73 29 46 1 3 1 3 row_4_flux_1_Main_Blade_down 
+1 
+row_4_flux_1_Main_Blade_outlet__hub_identifier__rotating SOL 1 1 17 29 
+1 
+row_4_flux_1_Main_Blade_outlet_outlet_rotor-stator_id(30) ROT 1 1 17 73 
+2 
+unknown CON 1 1 9 73 44 6 1 1 0 row_4_flux_1_Main_Blade_skin 
+unknown CON 9 1 17 73 44 6 5 1 0 row_4_flux_1_Main_Blade_skin 
+1 
+row_4_flux_1_Main_Blade_outlet__nozzle_identifier_ SOL 1 1 17 29 
+1 
+unknown CON 1 1 73 29 45 1 3 0 0 row_4_flux_1_Main_Blade_up 
+row_4_flux_1_Main_Blade_skin row_4_flux_1_Main_Blade_skin FLUID
+17 73 129
+ROTATION 0 0 1 0 0 0 127 1 
+3 
+unknown CON 61 1 73 129 47 6 1 0 0 row_4_flux_1_Main_Blade_shroudgap1 
+row_4_flux_1_Main_Blade_skin_blade_(aap-ps)_rotating SOL 1 65 61 129 
+row_4_flux_1_Main_Blade_skin_blade_(aap-ss)_rotating SOL 1 1 61 65 
+1 
+row_4_flux_1_Main_Blade_skin__hub_identifier__rotating SOL 1 1 17 129 
+1 
+unknown CON 1 1 17 73 44 4 1 0 0 row_4_flux_1_Main_Blade_skin 
+1 
+unknown CON 1 1 17 73 44 3 1 0 0 row_4_flux_1_Main_Blade_skin 
+1 
+row_4_flux_1_Main_Blade_skin__nozzle_identifier_ SOL 1 1 17 129 
+5 
+unknown CON 1 121 73 129 43 4 1 1 0 row_4_flux_1_Main_Blade_outlet 
+unknown CON 1 73 73 121 46 1 2 0 0 row_4_flux_1_Main_Blade_down 
+unknown CON 1 57 73 73 42 3 1 0 1 row_4_flux_1_Main_Blade_inlet 
+unknown CON 1 9 73 57 45 1 2 0 0 row_4_flux_1_Main_Blade_up 
+unknown CON 1 1 73 9 43 4 2 1 0 row_4_flux_1_Main_Blade_outlet 
+row_4_flux_1_Main_Blade_up row_4_flux_1_Main_Blade_up FLUID
+13 73 97
+ROTATION 0 0 1 0 0 0 127 1 
+3 
+unknown CON 1 77 73 97 42 6 1 0 0 row_4_flux_1_Main_Blade_inlet 
+unknown CON 1 29 73 77 44 6 4 0 0 row_4_flux_1_Main_Blade_skin 
+unknown CON 1 1 73 29 43 6 1 0 0 row_4_flux_1_Main_Blade_outlet 
+1 
+row_4_flux_1_Main_Blade_up__hub_identifier__rotating SOL 1 1 13 97 
+1 
+row_4_flux_1_Main_Blade_up_outlet_rotor-stator_id(30) ROT 1 1 13 73 
+1 
+row_4_flux_1_Main_Blade_up_inlet_rotor-stator_id(20) ROT 1 1 13 73 
+1 
+row_4_flux_1_Main_Blade_up__nozzle_identifier_ SOL 1 1 13 97 
+1 
+(aap) PERNM 1 1 73 97 46 6 1 1 3 -1 row_4_flux_1_Main_Blade_down 
+row_4_flux_1_Main_Blade_down row_4_flux_1_Main_Blade_down FLUID
+13 73 97
+ROTATION 0 0 1 0 0 0 127 1 
+3 
+unknown CON 1 1 73 21 42 1 1 1 3 row_4_flux_1_Main_Blade_inlet 
+unknown CON 1 21 73 69 44 6 2 0 0 row_4_flux_1_Main_Blade_skin 
+unknown CON 1 69 73 97 43 1 1 1 3 row_4_flux_1_Main_Blade_outlet 
+1 
+row_4_flux_1_Main_Blade_down__hub_identifier__rotating SOL 1 1 13 97 
+1 
+row_4_flux_1_Main_Blade_down_inlet_rotor-stator_id(20) ROT 1 1 13 73 
+1 
+row_4_flux_1_Main_Blade_down_outlet_rotor-stator_id(30) ROT 1 1 13 73 
+1 
+row_4_flux_1_Main_Blade_down__nozzle_identifier_ SOL 1 1 13 97 
+1 
+unknown PERNM 1 1 73 97 45 6 1 1 3 1 row_4_flux_1_Main_Blade_up 
+row_4_flux_1_Main_Blade_shroudgap1 domain47 FLUID
+13 13 129
+ROTATION 0 0 1 0 0 0 127 1 
+5 
+unknown CON 1 121 13 129 48 3 1 1 0 row_4_flux_1_Main_Blade_shroudgap2 
+unknown CON 1 73 13 121 48 1 1 1 3 row_4_flux_1_Main_Blade_shroudgap2 
+unknown CON 1 57 13 73 48 4 1 0 1 row_4_flux_1_Main_Blade_shroudgap2 
+unknown CON 1 9 13 57 48 6 1 0 0 row_4_flux_1_Main_Blade_shroudgap2 
+unknown CON 1 1 13 9 48 3 2 1 0 row_4_flux_1_Main_Blade_shroudgap2 
+1 
+row_4_flux_1_Main_Blade_shroudgap1_tip_gap_identifier_rotating SOL 1 1 13 129 
+1 
+unknown CON 1 1 13 13 47 4 1 0 0 row_4_flux_1_Main_Blade_shroudgap1 
+1 
+unknown CON 1 1 13 13 47 3 1 0 0 row_4_flux_1_Main_Blade_shroudgap1 
+1 
+row_4_flux_1_Main_Blade_shroudgap1__nozzle_identifier_ SOL 1 1 13 129 
+1 
+unknown CON 1 1 13 129 44 1 1 0 0 row_4_flux_1_Main_Blade_skin 
+row_4_flux_1_Main_Blade_shroudgap2 domain48 FLUID
+17 13 49
+ROTATION 0 0 1 0 0 0 127 1 
+1 
+unknown CON 1 1 13 49 47 1 2 1 3 row_4_flux_1_Main_Blade_shroudgap1 
+1 
+row_4_flux_1_Main_Blade_shroudgap2_tip_gap_identifier_rotating SOL 1 1 17 49 
+2 
+unknown CON 1 1 9 13 47 1 1 1 0 row_4_flux_1_Main_Blade_shroudgap1 
+unknown CON 9 1 17 13 47 1 5 1 0 row_4_flux_1_Main_Blade_shroudgap1 
+1 
+unknown CON 1 1 17 13 47 1 3 0 3 row_4_flux_1_Main_Blade_shroudgap1 
+1 
+row_4_flux_1_Main_Blade_shroudgap2__nozzle_identifier_ SOL 1 1 17 49 
+1 
+unknown CON 1 1 13 49 47 1 4 0 0 row_4_flux_1_Main_Blade_shroudgap1 
+row_5_flux_1_Main_Blade_inlet row_5_flux_1_Main_Blade_inlet FLUID
+17 89 21
+ROTATION 0 0 1 0 0 0 117 1 
+1 
+unknown CON 1 1 89 21 53 1 1 1 3 row_5_flux_1_Main_Blade_down 
+1 
+row_5_flux_1_Main_Blade_inlet__hub_identifier__rotating SOL 1 1 17 21 
+1 
+unknown CON 1 1 17 89 51 6 3 0 3 row_5_flux_1_Main_Blade_skin 
+1 
+row_5_flux_1_Main_Blade_inlet_inlet_rotor-stator_id(30) ROT 1 1 17 89 
+1 
+row_5_flux_1_Main_Blade_inlet__nozzle_identifier_ SOL 1 1 17 21 
+1 
+unknown CON 1 1 89 21 52 1 1 0 0 row_5_flux_1_Main_Blade_up 
+row_5_flux_1_Main_Blade_outlet row_5_flux_1_Main_Blade_outlet FLUID
+17 89 29
+ROTATION 0 0 1 0 0 0 117 1 
+1 
+unknown CON 1 1 89 29 53 1 3 1 3 row_5_flux_1_Main_Blade_down 
+1 
+row_5_flux_1_Main_Blade_outlet__hub_identifier__rotating SOL 1 1 17 29 
+1 
+row_5_flux_1_Main_Blade_outlet_outlet OUT 1 1 17 89 
+2 
+unknown CON 1 1 9 89 51 6 1 1 0 row_5_flux_1_Main_Blade_skin 
+unknown CON 9 1 17 89 51 6 5 1 0 row_5_flux_1_Main_Blade_skin 
+1 
+row_5_flux_1_Main_Blade_outlet__nozzle_identifier_ SOL 1 1 17 29 
+1 
+unknown CON 1 1 89 29 52 1 3 0 0 row_5_flux_1_Main_Blade_up 
+row_5_flux_1_Main_Blade_skin row_5_flux_1_Main_Blade_skin FLUID
+17 89 121
+ROTATION 0 0 1 0 0 0 117 1 
+4 
+unknown CON 1 1 13 121 54 6 1 0 0 row_5_flux_1_Main_Blade_hubgap1 
+unknown CON 77 1 89 121 56 6 1 0 0 row_5_flux_1_Main_Blade_shroudgap1 
+row_5_flux_1_Main_Blade_skin_blade_(aap-ps) SOL 13 61 77 121 
+row_5_flux_1_Main_Blade_skin_blade_(aap-ss) SOL 13 1 77 61 
+1 
+row_5_flux_1_Main_Blade_skin__hub_identifier__rotating SOL 1 1 17 121 
+1 
+unknown CON 1 1 17 89 51 4 1 0 0 row_5_flux_1_Main_Blade_skin 
+1 
+unknown CON 1 1 17 89 51 3 1 0 0 row_5_flux_1_Main_Blade_skin 
+1 
+row_5_flux_1_Main_Blade_skin__nozzle_identifier_ SOL 1 1 17 121 
+5 
+unknown CON 1 113 89 121 50 4 1 1 0 row_5_flux_1_Main_Blade_outlet 
+unknown CON 1 69 89 113 53 1 2 0 0 row_5_flux_1_Main_Blade_down 
+unknown CON 1 53 89 69 49 3 1 0 1 row_5_flux_1_Main_Blade_inlet 
+unknown CON 1 9 89 53 52 1 2 0 0 row_5_flux_1_Main_Blade_up 
+unknown CON 1 1 89 9 50 4 2 1 0 row_5_flux_1_Main_Blade_outlet 
+row_5_flux_1_Main_Blade_up row_5_flux_1_Main_Blade_up FLUID
+13 89 93
+ROTATION 0 0 1 0 0 0 117 1 
+3 
+unknown CON 1 73 89 93 49 6 1 0 0 row_5_flux_1_Main_Blade_inlet 
+unknown CON 1 29 89 73 51 6 4 0 0 row_5_flux_1_Main_Blade_skin 
+unknown CON 1 1 89 29 50 6 1 0 0 row_5_flux_1_Main_Blade_outlet 
+1 
+row_5_flux_1_Main_Blade_up__hub_identifier__rotating SOL 1 1 13 93 
+1 
+row_5_flux_1_Main_Blade_up_outlet OUT 1 1 13 89 
+1 
+row_5_flux_1_Main_Blade_up_inlet_rotor-stator_id(30) ROT 1 1 13 89 
+1 
+row_5_flux_1_Main_Blade_up__nozzle_identifier_ SOL 1 1 13 93 
+1 
+(aap) PERNM 1 1 89 93 53 6 1 1 3 -1 row_5_flux_1_Main_Blade_down 
+row_5_flux_1_Main_Blade_down row_5_flux_1_Main_Blade_down FLUID
+13 89 93
+ROTATION 0 0 1 0 0 0 117 1 
+3 
+unknown CON 1 1 89 21 49 1 1 1 3 row_5_flux_1_Main_Blade_inlet 
+unknown CON 1 21 89 65 51 6 2 0 0 row_5_flux_1_Main_Blade_skin 
+unknown CON 1 65 89 93 50 1 1 1 3 row_5_flux_1_Main_Blade_outlet 
+1 
+row_5_flux_1_Main_Blade_down__hub_identifier__rotating SOL 1 1 13 93 
+1 
+row_5_flux_1_Main_Blade_down_inlet_rotor-stator_id(30) ROT 1 1 13 89 
+1 
+row_5_flux_1_Main_Blade_down_outlet OUT 1 1 13 89 
+1 
+row_5_flux_1_Main_Blade_down__nozzle_identifier_ SOL 1 1 13 93 
+1 
+unknown PERNM 1 1 89 93 52 6 1 1 3 1 row_5_flux_1_Main_Blade_up 
+row_5_flux_1_Main_Blade_hubgap1 row_5_flux_1_Main_Blade_hubgap1 FLUID
+13 13 121
+ROTATION 0 0 1 0 0 0 117 1 
+5 
+unknown CON 1 113 13 121 55 3 1 1 0 row_5_flux_1_Main_Blade_hubgap2 
+unknown CON 1 69 13 113 55 1 1 1 3 row_5_flux_1_Main_Blade_hubgap2 
+unknown CON 1 53 13 69 55 4 1 0 1 row_5_flux_1_Main_Blade_hubgap2 
+unknown CON 1 9 13 53 55 6 1 0 0 row_5_flux_1_Main_Blade_hubgap2 
+unknown CON 1 1 13 9 55 3 2 1 0 row_5_flux_1_Main_Blade_hubgap2 
+1 
+row_5_flux_1_Main_Blade_hubgap1__hub_identifier__rotating SOL 1 1 13 121 
+1 
+unknown CON 1 1 13 13 54 4 1 0 0 row_5_flux_1_Main_Blade_hubgap1 
+1 
+unknown CON 1 1 13 13 54 3 1 0 0 row_5_flux_1_Main_Blade_hubgap1 
+1 
+row_5_flux_1_Main_Blade_hubgap1_hub_gap_identifier SOL 1 1 13 121 
+1 
+unknown CON 1 1 13 121 51 1 1 0 0 row_5_flux_1_Main_Blade_skin 
+row_5_flux_1_Main_Blade_hubgap2 row_5_flux_1_Main_Blade_hubgap2 FLUID
+17 13 45
+ROTATION 0 0 1 0 0 0 117 1 
+1 
+unknown CON 1 1 13 45 54 1 2 1 3 row_5_flux_1_Main_Blade_hubgap1 
+1 
+row_5_flux_1_Main_Blade_hubgap2__hub_identifier__rotating SOL 1 1 17 45 
+2 
+unknown CON 1 1 9 13 54 1 1 1 0 row_5_flux_1_Main_Blade_hubgap1 
+unknown CON 9 1 17 13 54 1 5 1 0 row_5_flux_1_Main_Blade_hubgap1 
+1 
+unknown CON 1 1 17 13 54 1 3 0 3 row_5_flux_1_Main_Blade_hubgap1 
+1 
+row_5_flux_1_Main_Blade_hubgap2_hub_gap_identifier SOL 1 1 17 45 
+1 
+unknown CON 1 1 13 45 54 1 4 0 0 row_5_flux_1_Main_Blade_hubgap1 
+row_5_flux_1_Main_Blade_shroudgap1 domain56 FLUID
+13 13 121
+ROTATION 0 0 1 0 0 0 117 1 
+5 
+unknown CON 1 113 13 121 57 3 1 1 0 row_5_flux_1_Main_Blade_shroudgap2 
+unknown CON 1 69 13 113 57 1 1 1 3 row_5_flux_1_Main_Blade_shroudgap2 
+unknown CON 1 53 13 69 57 4 1 0 1 row_5_flux_1_Main_Blade_shroudgap2 
+unknown CON 1 9 13 53 57 6 1 0 0 row_5_flux_1_Main_Blade_shroudgap2 
+unknown CON 1 1 13 9 57 3 2 1 0 row_5_flux_1_Main_Blade_shroudgap2 
+1 
+row_5_flux_1_Main_Blade_shroudgap1_tip_gap_identifier SOL 1 1 13 121 
+1 
+unknown CON 1 1 13 13 56 4 1 0 0 row_5_flux_1_Main_Blade_shroudgap1 
+1 
+unknown CON 1 1 13 13 56 3 1 0 0 row_5_flux_1_Main_Blade_shroudgap1 
+1 
+row_5_flux_1_Main_Blade_shroudgap1__nozzle_identifier_ SOL 1 1 13 121 
+1 
+unknown CON 1 1 13 121 51 1 2 0 0 row_5_flux_1_Main_Blade_skin 
+row_5_flux_1_Main_Blade_shroudgap2 domain57 FLUID
+17 13 45
+ROTATION 0 0 1 0 0 0 117 1 
+1 
+unknown CON 1 1 13 45 56 1 2 1 3 row_5_flux_1_Main_Blade_shroudgap1 
+1 
+row_5_flux_1_Main_Blade_shroudgap2_tip_gap_identifier SOL 1 1 17 45 
+2 
+unknown CON 1 1 9 13 56 1 1 1 0 row_5_flux_1_Main_Blade_shroudgap1 
+unknown CON 9 1 17 13 56 1 5 1 0 row_5_flux_1_Main_Blade_shroudgap1 
+1 
+unknown CON 1 1 17 13 56 1 3 0 3 row_5_flux_1_Main_Blade_shroudgap1 
+1 
+row_5_flux_1_Main_Blade_shroudgap2__nozzle_identifier_ SOL 1 1 17 45 
+1 
+unknown CON 1 1 13 45 56 1 4 0 0 row_5_flux_1_Main_Blade_shroudgap1 
+NUMBER_OF_BLADES  5
+NI_BEGIN  BLADE_DEFINITION
+          VERSION                     1.0
+          NAME                        row_1_Main_Blade
+          NUMBER_OF_TRAILING_EDGE_RANGE  3
+         NI_BEGIN trailing_edge
+          VERSION                     1.0
+          BLOCK_NAME                  row_1_flux_1_Main_Blade_skin
+          INDICES                     1 1 17 61 113 113
+         NI_END trailing_edge
+         NI_BEGIN trailing_edge
+          VERSION                     1.0
+          BLOCK_NAME                  row_1_flux_2_Main_Blade_skin
+          INDICES                     1 1 1 25 113 113
+         NI_END trailing_edge
+         NI_BEGIN trailing_edge
+          VERSION                     1.0
+          BLOCK_NAME                  row_1_flux_3_Main_Blade_skin
+          INDICES                     1 1 1 45 113 113
+         NI_END trailing_edge
+          NUMBER_OF_LEADING_EDGE_RANGE  3
+         NI_BEGIN leading_edge
+          VERSION                     1.0
+          BLOCK_NAME                  row_1_flux_1_Main_Blade_skin
+          INDICES                     1 1 17 61 57 57
+         NI_END leading_edge
+         NI_BEGIN leading_edge
+          VERSION                     1.0
+          BLOCK_NAME                  row_1_flux_2_Main_Blade_skin
+          INDICES                     1 1 1 25 57 57
+         NI_END leading_edge
+         NI_BEGIN leading_edge
+          VERSION                     1.0
+          BLOCK_NAME                  row_1_flux_3_Main_Blade_skin
+          INDICES                     1 1 1 45 57 57
+         NI_END leading_edge
+          NUMBER_OF_TOPOLOGICAL_PATCH  6
+         NI_BEGIN topological_patch
+          VERSION                     1.0
+          BLOCK_NAME                  row_1_flux_1_Main_Blade_skin
+          INDICES                     5 2
+         NI_END topological_patch
+         NI_BEGIN topological_patch
+          VERSION                     1.0
+          BLOCK_NAME                  row_1_flux_1_Main_Blade_skin
+          INDICES                     5 3
+         NI_END topological_patch
+         NI_BEGIN topological_patch
+          VERSION                     1.0
+          BLOCK_NAME                  row_1_flux_2_Main_Blade_skin
+          INDICES                     5 1
+         NI_END topological_patch
+         NI_BEGIN topological_patch
+          VERSION                     1.0
+          BLOCK_NAME                  row_1_flux_2_Main_Blade_skin
+          INDICES                     5 2
+         NI_END topological_patch
+         NI_BEGIN topological_patch
+          VERSION                     1.0
+          BLOCK_NAME                  row_1_flux_3_Main_Blade_skin
+          INDICES                     5 2
+         NI_END topological_patch
+         NI_BEGIN topological_patch
+          VERSION                     1.0
+          BLOCK_NAME                  row_1_flux_3_Main_Blade_skin
+          INDICES                     5 3
+         NI_END topological_patch
+NI_END    BLADE_DEFINITION
+NI_BEGIN  BLADE_DEFINITION
+          VERSION                     1.0
+          NAME                        row_2_Main_Blade
+          NUMBER_OF_TRAILING_EDGE_RANGE  1
+         NI_BEGIN trailing_edge
+          VERSION                     1.0
+          BLOCK_NAME                  row_2_flux_1_Main_Blade_skin
+          INDICES                     1 1 1 57 121 121
+         NI_END trailing_edge
+          NUMBER_OF_LEADING_EDGE_RANGE  1
+         NI_BEGIN leading_edge
+          VERSION                     1.0
+          BLOCK_NAME                  row_2_flux_1_Main_Blade_skin
+          INDICES                     1 1 1 57 61 61
+         NI_END leading_edge
+          NUMBER_OF_TOPOLOGICAL_PATCH  2
+         NI_BEGIN topological_patch
+          VERSION                     1.0
+          BLOCK_NAME                  row_2_flux_1_Main_Blade_skin
+          INDICES                     5 1
+         NI_END topological_patch
+         NI_BEGIN topological_patch
+          VERSION                     1.0
+          BLOCK_NAME                  row_2_flux_1_Main_Blade_skin
+          INDICES                     5 2
+         NI_END topological_patch
+NI_END    BLADE_DEFINITION
+NI_BEGIN  BLADE_DEFINITION
+          VERSION                     1.0
+          NAME                        row_3_Main_Blade
+          NUMBER_OF_TRAILING_EDGE_RANGE  1
+         NI_BEGIN trailing_edge
+          VERSION                     1.0
+          BLOCK_NAME                  row_3_flux_1_Main_Blade_skin
+          INDICES                     1 1 13 77 121 121
+         NI_END trailing_edge
+          NUMBER_OF_LEADING_EDGE_RANGE  1
+         NI_BEGIN leading_edge
+          VERSION                     1.0
+          BLOCK_NAME                  row_3_flux_1_Main_Blade_skin
+          INDICES                     1 1 13 77 61 61
+         NI_END leading_edge
+          NUMBER_OF_TOPOLOGICAL_PATCH  2
+         NI_BEGIN topological_patch
+          VERSION                     1.0
+          BLOCK_NAME                  row_3_flux_1_Main_Blade_skin
+          INDICES                     5 3
+         NI_END topological_patch
+         NI_BEGIN topological_patch
+          VERSION                     1.0
+          BLOCK_NAME                  row_3_flux_1_Main_Blade_skin
+          INDICES                     5 4
+         NI_END topological_patch
+NI_END    BLADE_DEFINITION
+NI_BEGIN  BLADE_DEFINITION
+          VERSION                     1.0
+          NAME                        row_4_Main_Blade
+          NUMBER_OF_TRAILING_EDGE_RANGE  1
+         NI_BEGIN trailing_edge
+          VERSION                     1.0
+          BLOCK_NAME                  row_4_flux_1_Main_Blade_skin
+          INDICES                     1 1 1 61 129 129
+         NI_END trailing_edge
+          NUMBER_OF_LEADING_EDGE_RANGE  1
+         NI_BEGIN leading_edge
+          VERSION                     1.0
+          BLOCK_NAME                  row_4_flux_1_Main_Blade_skin
+          INDICES                     1 1 1 61 65 65
+         NI_END leading_edge
+          NUMBER_OF_TOPOLOGICAL_PATCH  2
+         NI_BEGIN topological_patch
+          VERSION                     1.0
+          BLOCK_NAME                  row_4_flux_1_Main_Blade_skin
+          INDICES                     5 2
+         NI_END topological_patch
+         NI_BEGIN topological_patch
+          VERSION                     1.0
+          BLOCK_NAME                  row_4_flux_1_Main_Blade_skin
+          INDICES                     5 3
+         NI_END topological_patch
+NI_END    BLADE_DEFINITION
+NI_BEGIN  BLADE_DEFINITION
+          VERSION                     1.0
+          NAME                        row_5_Main_Blade
+          NUMBER_OF_TRAILING_EDGE_RANGE  1
+         NI_BEGIN trailing_edge
+          VERSION                     1.0
+          BLOCK_NAME                  row_5_flux_1_Main_Blade_skin
+          INDICES                     1 1 13 77 121 121
+         NI_END trailing_edge
+          NUMBER_OF_LEADING_EDGE_RANGE  1
+         NI_BEGIN leading_edge
+          VERSION                     1.0
+          BLOCK_NAME                  row_5_flux_1_Main_Blade_skin
+          INDICES                     1 1 13 77 61 61
+         NI_END leading_edge
+          NUMBER_OF_TOPOLOGICAL_PATCH  2
+         NI_BEGIN topological_patch
+          VERSION                     1.0
+          BLOCK_NAME                  row_5_flux_1_Main_Blade_skin
+          INDICES                     5 3
+         NI_END topological_patch
+         NI_BEGIN topological_patch
+          VERSION                     1.0
+          BLOCK_NAME                  row_5_flux_1_Main_Blade_skin
+          INDICES                     5 4
+         NI_END topological_patch
+NI_END    BLADE_DEFINITION
+NI_BEGIN NITurbomachineryConfigurationMesh
+BYPASS       1
+NI_BEGIN NITurbomachineryRow row
+  NAME                      row 1
+  TYPE                      0
+  BOUNDARIES_ROTATION_SPEED 500
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_downStream
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_outlet
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_inlet
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_skin
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_up
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_down
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_hubgap1
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_hubgap2
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_2_Main_Blade_inlet
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_2_Main_Blade_outlet
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_2_Main_Blade_skin
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_2_Main_Blade_up
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_2_Main_Blade_down
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_3_Main_Blade_downStream
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_3_Main_Blade_outlet
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_3_Main_Blade_inlet
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_3_Main_Blade_skin
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_3_Main_Blade_up
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_3_Main_Blade_down
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_3_Main_Blade_shroudgap1
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_3_Main_Blade_shroudgap2
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                C_block_around_nozzle
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                bulb_at_inlet_H1
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                bulb_at_inlet_H2
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                bulb_at_inlet_C
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                bulb_at_inlet_butterfly_1
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                bulb_at_inlet_butterfly_2
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+NI_END   NITurbomachineryRow row
+NI_BEGIN NITurbomachineryRow row
+  NAME                      row 2
+  TYPE                      2
+  BOUNDARIES_ROTATION_SPEED 0
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_2_flux_1_Main_Blade_inlet
+  ROTATION_SPEED      0
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_2_flux_1_Main_Blade_outlet
+  ROTATION_SPEED      0
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_2_flux_1_Main_Blade_skin
+  ROTATION_SPEED      0
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_2_flux_1_Main_Blade_up
+  ROTATION_SPEED      0
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_2_flux_1_Main_Blade_down
+  ROTATION_SPEED      0
+  NI_END   NITurbomachineryBlocks
+NI_END   NITurbomachineryRow row
+NI_BEGIN NITurbomachineryRow row
+  NAME                      row 3
+  TYPE                      3
+  BOUNDARIES_ROTATION_SPEED 0
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_3_flux_1_Main_Blade_inlet
+  ROTATION_SPEED      0
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_3_flux_1_Main_Blade_outlet
+  ROTATION_SPEED      0
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_3_flux_1_Main_Blade_skin
+  ROTATION_SPEED      0
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_3_flux_1_Main_Blade_up
+  ROTATION_SPEED      0
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_3_flux_1_Main_Blade_down
+  ROTATION_SPEED      0
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_3_flux_1_Main_Blade_hubgap1
+  ROTATION_SPEED      0
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_3_flux_1_Main_Blade_hubgap2
+  ROTATION_SPEED      0
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_3_flux_1_Main_Blade_shroudgap1
+  ROTATION_SPEED      0
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_3_flux_1_Main_Blade_shroudgap2
+  ROTATION_SPEED      0
+  NI_END   NITurbomachineryBlocks
+NI_END   NITurbomachineryRow row
+NI_BEGIN NITurbomachineryRow row
+  NAME                      row 4
+  TYPE                      3
+  BOUNDARIES_ROTATION_SPEED 500
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_4_flux_1_Main_Blade_inlet
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_4_flux_1_Main_Blade_outlet
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_4_flux_1_Main_Blade_skin
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_4_flux_1_Main_Blade_up
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_4_flux_1_Main_Blade_down
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_4_flux_1_Main_Blade_shroudgap1
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_4_flux_1_Main_Blade_shroudgap2
+  ROTATION_SPEED      500
+  NI_END   NITurbomachineryBlocks
+NI_END   NITurbomachineryRow row
+NI_BEGIN NITurbomachineryRow row
+  NAME                      row 5
+  TYPE                      3
+  BOUNDARIES_ROTATION_SPEED 0
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_5_flux_1_Main_Blade_inlet
+  ROTATION_SPEED      0
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_5_flux_1_Main_Blade_outlet
+  ROTATION_SPEED      0
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_5_flux_1_Main_Blade_skin
+  ROTATION_SPEED      0
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_5_flux_1_Main_Blade_up
+  ROTATION_SPEED      0
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_5_flux_1_Main_Blade_down
+  ROTATION_SPEED      0
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_5_flux_1_Main_Blade_hubgap1
+  ROTATION_SPEED      0
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_5_flux_1_Main_Blade_hubgap2
+  ROTATION_SPEED      0
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_5_flux_1_Main_Blade_shroudgap1
+  ROTATION_SPEED      0
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_5_flux_1_Main_Blade_shroudgap2
+  ROTATION_SPEED      0
+  NI_END   NITurbomachineryBlocks
+NI_END   NITurbomachineryRow row
+NI_END NITurbomachineryConfigurationMesh

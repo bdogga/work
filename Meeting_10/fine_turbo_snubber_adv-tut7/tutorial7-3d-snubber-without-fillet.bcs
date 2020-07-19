@@ -1,0 +1,643 @@
+NUMBER_OF_BLOCKS 29 
+row_1_flux_1_Main_Blade_downStream domain1 FLUID
+49 81 69
+ROTATION 0 0 1 0 0 0 36 1 
+1 
+(aap) PER 1 1 81 69 1 6 1 0 0 1 row_1_flux_1_Main_Blade_downStream 
+1 
+row_1_flux_1_Main_Blade_downStream__hub_identifier__rotating SOL 1 1 49 69 
+1 
+row_1_flux_1_Main_Blade_downStream_outlet OUT 1 1 49 81 
+3 
+unknown CON 1 1 17 81 9 4 1 1 1 row_1_flux_1_Main_Blade_down_downstream 
+unknown CON 17 1 33 81 2 3 1 0 0 row_1_flux_1_Main_Blade_outlet 
+unknown CON 33 1 49 81 7 3 1 0 0 row_1_flux_1_Main_Blade_up_downstream 
+1 
+row_1_flux_1_Main_Blade_downStream__shroud_identifier_ SOL 1 1 49 69 
+1 
+unknown PER 1 1 81 69 1 1 1 0 0 -1 row_1_flux_1_Main_Blade_downStream 
+row_1_flux_1_Main_Blade_outlet row_1_flux_1_Main_Blade_outlet FLUID
+17 81 17
+ROTATION 0 0 1 0 0 0 36 1 
+1 
+unknown CON 1 1 81 17 9 1 1 1 3 row_1_flux_1_Main_Blade_down_downstream 
+1 
+row_1_flux_1_Main_Blade_outlet__hub_identifier__rotating SOL 1 1 17 17 
+1 
+unknown CON 1 1 17 81 1 4 2 0 0 row_1_flux_1_Main_Blade_downStream 
+6 
+unknown CON 1 33 9 41 16 6 1 1 0 row_1_flux_1_Main_Blade_skin_snubber_1_downstream1 
+unknown CON 9 33 17 41 17 6 1 1 0 row_1_flux_1_Main_Blade_skin_snubber_1_downstream2 
+unknown CON 1 1 9 33 13 6 1 1 0 row_1_flux_1_Main_Blade_skin_snubber_1_lower 
+unknown CON 9 1 17 33 13 6 5 1 0 row_1_flux_1_Main_Blade_skin_snubber_1_lower 
+unknown CON 1 41 9 81 14 6 1 1 0 row_1_flux_1_Main_Blade_skin_snubber_1_upper 
+unknown CON 9 41 17 81 14 6 5 1 0 row_1_flux_1_Main_Blade_skin_snubber_1_upper 
+1 
+row_1_flux_1_Main_Blade_outlet__shroud_identifier_ SOL 1 1 17 17 
+1 
+unknown CON 1 1 81 17 7 1 1 0 0 row_1_flux_1_Main_Blade_up_downstream 
+row_1_flux_1_Main_Blade_upStream domain3 FLUID
+49 81 41
+ROTATION 0 0 1 0 0 0 36 1 
+1 
+(aap) PER 1 1 81 41 3 6 1 0 0 1 row_1_flux_1_Main_Blade_upStream 
+1 
+row_1_flux_1_Main_Blade_upStream__hub_identifier__rotating SOL 1 1 49 41 
+3 
+unknown CON 1 1 17 81 10 3 1 1 1 row_1_flux_1_Main_Blade_down_upstream 
+unknown CON 17 1 33 81 4 4 1 0 0 row_1_flux_1_Main_Blade_inlet 
+unknown CON 33 1 49 81 8 4 1 0 0 row_1_flux_1_Main_Blade_up_upstream 
+1 
+row_1_flux_1_Main_Blade_upStream_inlet INL 1 1 49 81 
+1 
+row_1_flux_1_Main_Blade_upStream__shroud_identifier_ SOL 1 1 49 41 
+1 
+unknown PER 1 1 81 41 3 1 1 0 0 -1 row_1_flux_1_Main_Blade_upStream 
+row_1_flux_1_Main_Blade_inlet row_1_flux_1_Main_Blade_inlet FLUID
+17 81 17
+ROTATION 0 0 1 0 0 0 36 1 
+1 
+unknown CON 1 1 81 17 10 1 1 1 3 row_1_flux_1_Main_Blade_down_upstream 
+1 
+row_1_flux_1_Main_Blade_inlet__hub_identifier__rotating SOL 1 1 17 17 
+3 
+unknown CON 1 33 17 41 15 6 1 0 3 row_1_flux_1_Main_Blade_skin_snubber_1_upstream 
+unknown CON 1 1 17 33 13 6 3 0 3 row_1_flux_1_Main_Blade_skin_snubber_1_lower 
+unknown CON 1 41 17 81 14 6 3 0 3 row_1_flux_1_Main_Blade_skin_snubber_1_upper 
+1 
+unknown CON 1 1 17 81 3 3 2 0 0 row_1_flux_1_Main_Blade_upStream 
+1 
+row_1_flux_1_Main_Blade_inlet__shroud_identifier_ SOL 1 1 17 17 
+1 
+unknown CON 1 1 81 17 8 1 1 0 0 row_1_flux_1_Main_Blade_up_upstream 
+row_1_flux_1_Main_Blade_shroudgap1 domain5 FLUID
+17 17 169
+ROTATION 0 0 1 0 0 0 36 1 
+5 
+unknown CON 1 161 17 169 6 3 1 1 0 row_1_flux_1_Main_Blade_shroudgap2 
+unknown CON 1 93 17 161 6 1 1 1 3 row_1_flux_1_Main_Blade_shroudgap2 
+unknown CON 1 77 17 93 6 4 1 0 1 row_1_flux_1_Main_Blade_shroudgap2 
+unknown CON 1 9 17 77 6 6 1 0 0 row_1_flux_1_Main_Blade_shroudgap2 
+unknown CON 1 1 17 9 6 3 2 1 0 row_1_flux_1_Main_Blade_shroudgap2 
+1 
+row_1_flux_1_Main_Blade_shroudgap1_tip_gap_identifier_rotating SOL 1 1 17 169 
+1 
+unknown CON 1 1 17 17 5 4 1 0 0 row_1_flux_1_Main_Blade_shroudgap1 
+1 
+unknown CON 1 1 17 17 5 3 1 0 0 row_1_flux_1_Main_Blade_shroudgap1 
+1 
+row_1_flux_1_Main_Blade_shroudgap1__shroud_identifier_ SOL 1 1 17 169 
+1 
+unknown CON 1 1 17 169 14 1 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_upper 
+row_1_flux_1_Main_Blade_shroudgap2 domain6 FLUID
+17 17 69
+ROTATION 0 0 1 0 0 0 36 1 
+1 
+unknown CON 1 1 17 69 5 1 2 1 3 row_1_flux_1_Main_Blade_shroudgap1 
+1 
+row_1_flux_1_Main_Blade_shroudgap2_tip_gap_identifier_rotating SOL 1 1 17 69 
+2 
+unknown CON 1 1 9 17 5 1 1 1 0 row_1_flux_1_Main_Blade_shroudgap1 
+unknown CON 9 1 17 17 5 1 5 1 0 row_1_flux_1_Main_Blade_shroudgap1 
+1 
+unknown CON 1 1 17 17 5 1 3 0 3 row_1_flux_1_Main_Blade_shroudgap1 
+1 
+row_1_flux_1_Main_Blade_shroudgap2__shroud_identifier_ SOL 1 1 17 69 
+1 
+unknown CON 1 1 17 69 5 1 4 0 0 row_1_flux_1_Main_Blade_shroudgap1 
+row_1_flux_1_Main_Blade_up_downstream domain7 FLUID
+17 81 17
+ROTATION 0 0 1 0 0 0 36 1 
+1 
+unknown CON 1 1 81 17 2 6 1 0 0 row_1_flux_1_Main_Blade_outlet 
+1 
+row_1_flux_1_Main_Blade_up__hub_identifier__rotating SOL 1 1 17 17 
+1 
+unknown CON 1 1 17 81 1 4 3 0 0 row_1_flux_1_Main_Blade_downStream 
+3 
+unknown CON 1 33 17 41 24 3 1 0 0 row_1_flux_1_Main_Blade_up_snubber_1_downstream 
+unknown CON 1 1 17 33 22 3 1 0 0 row_1_flux_1_Main_Blade_up_snubber_1_lower 
+unknown CON 1 41 17 81 23 3 1 0 0 row_1_flux_1_Main_Blade_up_snubber_1_upper 
+1 
+row_1_flux_1_Main_Blade_up__shroud_identifier_ SOL 1 1 17 17 
+1 
+unknown PER 1 1 81 17 9 6 1 1 3 -1 row_1_flux_1_Main_Blade_down_downstream 
+row_1_flux_1_Main_Blade_up_upstream domain8 FLUID
+17 81 17
+ROTATION 0 0 1 0 0 0 36 1 
+1 
+unknown CON 1 1 81 17 4 6 1 0 0 row_1_flux_1_Main_Blade_inlet 
+1 
+row_1_flux_1_Main_Blade_up__hub_identifier__rotating SOL 1 1 17 17 
+3 
+unknown CON 1 33 17 41 25 4 1 0 0 row_1_flux_1_Main_Blade_up_snubber_1_upstream 
+unknown CON 1 1 17 33 22 4 1 0 0 row_1_flux_1_Main_Blade_up_snubber_1_lower 
+unknown CON 1 41 17 81 23 4 1 0 0 row_1_flux_1_Main_Blade_up_snubber_1_upper 
+1 
+unknown CON 1 1 17 81 3 3 3 0 0 row_1_flux_1_Main_Blade_upStream 
+1 
+row_1_flux_1_Main_Blade_up__shroud_identifier_ SOL 1 1 17 17 
+1 
+unknown PER 1 1 81 17 10 6 1 1 3 -1 row_1_flux_1_Main_Blade_down_upstream 
+row_1_flux_1_Main_Blade_down_downstream domain9 FLUID
+17 81 17
+ROTATION 0 0 1 0 0 0 36 1 
+1 
+unknown CON 1 1 81 17 2 1 1 1 3 row_1_flux_1_Main_Blade_outlet 
+1 
+row_1_flux_1_Main_Blade_down__hub_identifier__rotating SOL 1 1 17 17 
+3 
+unknown CON 1 33 17 41 28 4 1 0 0 row_1_flux_1_Main_Blade_down_snubber_1_downstream 
+unknown CON 1 1 17 33 26 4 1 0 0 row_1_flux_1_Main_Blade_down_snubber_1_lower 
+unknown CON 1 41 17 81 27 4 1 0 0 row_1_flux_1_Main_Blade_down_snubber_1_upper 
+1 
+unknown CON 1 1 17 81 1 4 1 1 1 row_1_flux_1_Main_Blade_downStream 
+1 
+row_1_flux_1_Main_Blade_down__shroud_identifier_ SOL 1 1 17 17 
+1 
+(aap) PER 1 1 81 17 7 6 1 1 3 1 row_1_flux_1_Main_Blade_up_downstream 
+row_1_flux_1_Main_Blade_down_upstream domain10 FLUID
+17 81 17
+ROTATION 0 0 1 0 0 0 36 1 
+1 
+unknown CON 1 1 81 17 4 1 1 1 3 row_1_flux_1_Main_Blade_inlet 
+1 
+row_1_flux_1_Main_Blade_down__hub_identifier__rotating SOL 1 1 17 17 
+1 
+unknown CON 1 1 17 81 3 3 1 1 1 row_1_flux_1_Main_Blade_upStream 
+3 
+unknown CON 1 33 17 41 29 3 1 0 0 row_1_flux_1_Main_Blade_down_snubber_1_upstream 
+unknown CON 1 1 17 33 26 3 1 0 0 row_1_flux_1_Main_Blade_down_snubber_1_lower 
+unknown CON 1 41 17 81 27 3 1 0 0 row_1_flux_1_Main_Blade_down_snubber_1_upper 
+1 
+row_1_flux_1_Main_Blade_down__shroud_identifier_ SOL 1 1 17 17 
+1 
+(aap) PER 1 1 81 17 8 6 1 1 3 1 row_1_flux_1_Main_Blade_up_upstream 
+row_1_flux_1_Main_Blade_skin_snubber_1_up domain11 FLUID
+21 33 81
+ROTATION 0 0 1 0 0 0 36 1 
+1 
+row_1_flux_1_Main_Blade_skin_snubber_1_up_solid_rotating SOL 1 1 33 81 
+1 
+row_1_flux_1_Main_Blade_skin_blade_(aap-ss)_rotating SOL 1 1 21 81 
+1 
+unknown CON 1 1 21 33 11 4 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_up 
+1 
+unknown CON 1 1 21 33 11 3 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_up 
+1 
+unknown PER 1 1 21 81 12 5 1 1 3 -1 row_1_flux_1_Main_Blade_skin_snubber_1_down 
+10 
+unknown CON 1 1 17 5 18 4 1 1 3 row_1_flux_1_Main_Blade_skin_snubber_1_downstream_up 
+unknown CON 1 5 17 37 13 5 8 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_lower 
+unknown CON 1 37 17 45 20 3 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_upstream_up 
+unknown CON 1 45 17 77 14 2 8 1 3 row_1_flux_1_Main_Blade_skin_snubber_1_upper 
+unknown CON 1 77 17 81 18 4 2 1 3 row_1_flux_1_Main_Blade_skin_snubber_1_downstream_up 
+unknown CON 17 1 33 5 24 4 1 1 3 row_1_flux_1_Main_Blade_up_snubber_1_downstream 
+unknown CON 17 5 33 37 22 5 3 0 0 row_1_flux_1_Main_Blade_up_snubber_1_lower 
+unknown CON 17 37 33 45 25 3 1 0 0 row_1_flux_1_Main_Blade_up_snubber_1_upstream 
+unknown CON 17 45 33 77 23 2 3 1 3 row_1_flux_1_Main_Blade_up_snubber_1_upper 
+unknown CON 17 77 33 81 24 4 2 1 3 row_1_flux_1_Main_Blade_up_snubber_1_downstream 
+row_1_flux_1_Main_Blade_skin_snubber_1_down domain12 FLUID
+21 33 81
+ROTATION 0 0 1 0 0 0 36 1 
+1 
+row_1_flux_1_Main_Blade_skin_snubber_1_down_solid_rotating SOL 1 1 33 81 
+1 
+row_1_flux_1_Main_Blade_skin_blade_(aap-ps)_rotating SOL 1 1 21 81 
+1 
+unknown CON 1 1 21 33 12 4 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_down 
+1 
+unknown CON 1 1 21 33 12 3 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_down 
+1 
+(aap) PER 1 1 21 81 11 5 1 1 3 1 row_1_flux_1_Main_Blade_skin_snubber_1_up 
+10 
+unknown CON 1 77 17 81 19 3 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_downstream_down 
+unknown CON 1 45 17 77 13 5 4 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_lower 
+unknown CON 1 37 17 45 21 4 1 1 3 row_1_flux_1_Main_Blade_skin_snubber_1_upstream_down 
+unknown CON 1 5 17 37 14 2 4 1 3 row_1_flux_1_Main_Blade_skin_snubber_1_upper 
+unknown CON 1 1 17 5 19 3 2 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_downstream_down 
+unknown CON 17 77 33 81 28 3 1 0 0 row_1_flux_1_Main_Blade_down_snubber_1_downstream 
+unknown CON 17 45 33 77 26 5 3 0 0 row_1_flux_1_Main_Blade_down_snubber_1_lower 
+unknown CON 17 37 33 45 29 4 1 1 3 row_1_flux_1_Main_Blade_down_snubber_1_upstream 
+unknown CON 17 5 33 37 27 2 3 1 3 row_1_flux_1_Main_Blade_down_snubber_1_upper 
+unknown CON 17 1 33 5 28 3 2 0 0 row_1_flux_1_Main_Blade_down_snubber_1_downstream 
+row_1_flux_1_Main_Blade_skin_snubber_1_lower domain13 FLUID
+17 33 169
+ROTATION 0 0 1 0 0 0 36 1 
+2 
+row_1_flux_1_Main_Blade_skin_blade_(aap-ps)_rotating SOL 1 85 33 169 
+row_1_flux_1_Main_Blade_skin_blade_(aap-ss)_rotating SOL 1 1 33 85 
+1 
+row_1_flux_1_Main_Blade_skin__hub_identifier__rotating SOL 1 1 17 169 
+1 
+unknown CON 1 1 17 33 13 4 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_lower 
+1 
+unknown CON 1 1 17 33 13 3 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_lower 
+9 
+unknown CON 1 161 17 169 16 2 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_downstream1 
+unknown CON 1 93 17 105 21 2 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_upstream_down 
+unknown CON 1 137 17 161 19 2 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_downstream_down 
+unknown CON 1 105 17 137 12 6 2 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_down 
+unknown CON 1 77 17 93 15 2 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_upstream 
+unknown CON 1 9 17 33 18 2 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_downstream_up 
+unknown CON 1 65 17 77 20 2 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_upstream_up 
+unknown CON 1 33 17 65 11 6 2 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_up 
+unknown CON 1 1 17 9 17 2 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_downstream2 
+5 
+unknown CON 1 161 33 169 2 4 3 1 0 row_1_flux_1_Main_Blade_outlet 
+unknown CON 1 93 33 161 26 1 1 0 0 row_1_flux_1_Main_Blade_down_snubber_1_lower 
+unknown CON 1 77 33 93 4 3 2 0 1 row_1_flux_1_Main_Blade_inlet 
+unknown CON 1 9 33 77 22 1 1 0 0 row_1_flux_1_Main_Blade_up_snubber_1_lower 
+unknown CON 1 1 33 9 2 4 4 1 0 row_1_flux_1_Main_Blade_outlet 
+row_1_flux_1_Main_Blade_skin_snubber_1_upper domain14 FLUID
+17 41 169
+ROTATION 0 0 1 0 0 0 36 1 
+3 
+unknown CON 25 1 41 169 5 6 1 0 0 row_1_flux_1_Main_Blade_shroudgap1 
+row_1_flux_1_Main_Blade_skin_blade_(aap-ps)_rotating SOL 1 85 25 169 
+row_1_flux_1_Main_Blade_skin_blade_(aap-ss)_rotating SOL 1 1 25 85 
+9 
+unknown CON 1 161 17 169 16 5 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_downstream1 
+unknown CON 1 93 17 105 21 5 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_upstream_down 
+unknown CON 1 137 17 161 19 5 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_downstream_down 
+unknown CON 1 105 17 137 12 6 4 1 3 row_1_flux_1_Main_Blade_skin_snubber_1_down 
+unknown CON 1 77 17 93 15 5 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_upstream 
+unknown CON 1 9 17 33 18 5 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_downstream_up 
+unknown CON 1 65 17 77 20 5 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_upstream_up 
+unknown CON 1 33 17 65 11 6 4 1 3 row_1_flux_1_Main_Blade_skin_snubber_1_up 
+unknown CON 1 1 17 9 17 5 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_downstream2 
+1 
+unknown CON 1 1 17 41 14 4 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_upper 
+1 
+unknown CON 1 1 17 41 14 3 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_upper 
+1 
+row_1_flux_1_Main_Blade_skin__shroud_identifier_ SOL 1 1 17 169 
+5 
+unknown CON 1 161 41 169 2 4 5 1 0 row_1_flux_1_Main_Blade_outlet 
+unknown CON 1 93 41 161 27 1 1 0 0 row_1_flux_1_Main_Blade_down_snubber_1_upper 
+unknown CON 1 77 41 93 4 3 3 0 1 row_1_flux_1_Main_Blade_inlet 
+unknown CON 1 9 41 77 23 1 1 0 0 row_1_flux_1_Main_Blade_up_snubber_1_upper 
+unknown CON 1 1 41 9 2 4 6 1 0 row_1_flux_1_Main_Blade_outlet 
+row_1_flux_1_Main_Blade_skin_snubber_1_upstream domain15 FLUID
+17 9 17
+ROTATION 0 0 1 0 0 0 36 1 
+2 
+row_1_flux_1_Main_Blade_skin_blade_(aap-ps)_rotating SOL 1 9 9 17 
+row_1_flux_1_Main_Blade_skin_blade_(aap-ss)_rotating SOL 1 1 9 9 
+1 
+unknown CON 1 1 17 17 13 5 5 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_lower 
+1 
+unknown CON 1 1 17 9 20 4 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_upstream_up 
+1 
+unknown CON 1 1 17 9 21 3 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_upstream_down 
+1 
+unknown CON 1 1 17 17 14 2 5 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_upper 
+1 
+unknown CON 1 1 9 17 4 3 1 0 1 row_1_flux_1_Main_Blade_inlet 
+row_1_flux_1_Main_Blade_skin_snubber_1_downstream1 domain16 FLUID
+17 9 9
+ROTATION 0 0 1 0 0 0 36 1 
+1 
+row_1_flux_1_Main_Blade_skin_blade_(aap-ps)_rotating SOL 1 1 9 9 
+1 
+unknown CON 1 1 17 9 13 5 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_lower 
+1 
+unknown CON 1 1 17 9 19 4 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_downstream_down 
+1 
+unknown CON 1 1 17 9 17 3 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_downstream2 
+1 
+unknown CON 1 1 17 9 14 2 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_upper 
+1 
+unknown CON 1 1 9 9 2 4 1 1 0 row_1_flux_1_Main_Blade_outlet 
+row_1_flux_1_Main_Blade_skin_snubber_1_downstream2 domain17 FLUID
+17 9 9
+ROTATION 0 0 1 0 0 0 36 1 
+1 
+row_1_flux_1_Main_Blade_skin_blade_(aap-ss)_rotating SOL 1 1 9 9 
+1 
+unknown CON 1 1 17 9 13 5 9 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_lower 
+1 
+unknown CON 1 1 17 9 16 4 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_downstream1 
+1 
+unknown CON 1 1 17 9 18 3 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_downstream_up 
+1 
+unknown CON 1 1 17 9 14 2 9 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_upper 
+1 
+unknown CON 1 1 9 9 2 4 2 1 0 row_1_flux_1_Main_Blade_outlet 
+row_1_flux_1_Main_Blade_skin_snubber_1_downstream_up domain18 FLUID
+17 9 25
+ROTATION 0 0 1 0 0 0 36 1 
+1 
+row_1_flux_1_Main_Blade_skin_blade_(aap-ss)_rotating SOL 1 1 9 25 
+1 
+unknown CON 1 1 17 25 13 5 6 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_lower 
+1 
+unknown CON 1 1 17 9 17 4 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_downstream2 
+2 
+unknown CON 1 1 17 5 11 6 1 1 3 row_1_flux_1_Main_Blade_skin_snubber_1_up 
+unknown CON 1 5 17 9 11 6 5 1 3 row_1_flux_1_Main_Blade_skin_snubber_1_up 
+1 
+unknown CON 1 1 17 25 14 2 6 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_upper 
+1 
+unknown CON 1 1 9 25 24 1 1 0 0 row_1_flux_1_Main_Blade_up_snubber_1_downstream 
+row_1_flux_1_Main_Blade_skin_snubber_1_downstream_down domain19 FLUID
+17 9 25
+ROTATION 0 0 1 0 0 0 36 1 
+1 
+row_1_flux_1_Main_Blade_skin_blade_(aap-ps)_rotating SOL 1 1 9 25 
+1 
+unknown CON 1 1 17 25 13 5 3 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_lower 
+2 
+unknown CON 1 1 17 5 12 6 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_down 
+unknown CON 1 5 17 9 12 6 5 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_down 
+1 
+unknown CON 1 1 17 9 16 3 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_downstream1 
+1 
+unknown CON 1 1 17 25 14 2 3 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_upper 
+1 
+unknown CON 1 1 9 25 28 1 1 0 0 row_1_flux_1_Main_Blade_down_snubber_1_downstream 
+row_1_flux_1_Main_Blade_skin_snubber_1_upstream_up domain20 FLUID
+17 9 13
+ROTATION 0 0 1 0 0 0 36 1 
+1 
+row_1_flux_1_Main_Blade_skin_blade_(aap-ss)_rotating SOL 1 1 9 13 
+1 
+unknown CON 1 1 17 13 13 5 7 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_lower 
+1 
+unknown CON 1 1 17 9 11 6 3 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_up 
+1 
+unknown CON 1 1 17 9 15 3 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_upstream 
+1 
+unknown CON 1 1 17 13 14 2 7 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_upper 
+1 
+unknown CON 1 1 9 13 25 1 1 0 0 row_1_flux_1_Main_Blade_up_snubber_1_upstream 
+row_1_flux_1_Main_Blade_skin_snubber_1_upstream_down domain21 FLUID
+17 9 13
+ROTATION 0 0 1 0 0 0 36 1 
+1 
+row_1_flux_1_Main_Blade_skin_blade_(aap-ps)_rotating SOL 1 1 9 13 
+1 
+unknown CON 1 1 17 13 13 5 2 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_lower 
+1 
+unknown CON 1 1 17 9 15 4 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_upstream 
+1 
+unknown CON 1 1 17 9 12 6 3 1 3 row_1_flux_1_Main_Blade_skin_snubber_1_down 
+1 
+unknown CON 1 1 17 13 14 2 2 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_upper 
+1 
+unknown CON 1 1 9 13 29 1 1 0 0 row_1_flux_1_Main_Blade_down_snubber_1_upstream 
+row_1_flux_1_Main_Blade_up_snubber_1_lower domain22 FLUID
+17 33 69
+ROTATION 0 0 1 0 0 0 36 1 
+1 
+unknown CON 1 1 33 69 13 6 4 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_lower 
+1 
+row_1_flux_1_Main_Blade_up__hub_identifier__rotating SOL 1 1 17 69 
+1 
+unknown CON 1 1 17 33 7 4 2 0 0 row_1_flux_1_Main_Blade_up_downstream 
+1 
+unknown CON 1 1 17 33 8 3 2 0 0 row_1_flux_1_Main_Blade_up_upstream 
+3 
+unknown CON 1 1 17 25 24 2 1 0 0 row_1_flux_1_Main_Blade_up_snubber_1_downstream 
+unknown CON 1 57 17 69 25 2 1 0 0 row_1_flux_1_Main_Blade_up_snubber_1_upstream 
+unknown CON 1 25 17 57 11 6 7 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_up 
+1 
+unknown PER 1 1 33 69 26 6 1 1 3 -1 row_1_flux_1_Main_Blade_down_snubber_1_lower 
+row_1_flux_1_Main_Blade_up_snubber_1_upper domain23 FLUID
+17 41 69
+ROTATION 0 0 1 0 0 0 36 1 
+1 
+unknown CON 1 1 41 69 14 6 4 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_upper 
+3 
+unknown CON 1 1 17 25 24 5 1 0 0 row_1_flux_1_Main_Blade_up_snubber_1_downstream 
+unknown CON 1 57 17 69 25 5 1 0 0 row_1_flux_1_Main_Blade_up_snubber_1_upstream 
+unknown CON 1 25 17 57 11 6 9 1 3 row_1_flux_1_Main_Blade_skin_snubber_1_up 
+1 
+unknown CON 1 1 17 41 7 4 3 0 0 row_1_flux_1_Main_Blade_up_downstream 
+1 
+unknown CON 1 1 17 41 8 3 3 0 0 row_1_flux_1_Main_Blade_up_upstream 
+1 
+row_1_flux_1_Main_Blade_up__shroud_identifier_ SOL 1 1 17 69 
+1 
+unknown PER 1 1 41 69 27 6 1 1 3 -1 row_1_flux_1_Main_Blade_down_snubber_1_upper 
+row_1_flux_1_Main_Blade_up_snubber_1_downstream domain24 FLUID
+17 9 25
+ROTATION 0 0 1 0 0 0 36 1 
+1 
+unknown CON 1 1 9 25 18 6 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_downstream_up 
+1 
+unknown CON 1 1 17 25 22 5 1 0 0 row_1_flux_1_Main_Blade_up_snubber_1_lower 
+1 
+unknown CON 1 1 17 9 7 4 1 0 0 row_1_flux_1_Main_Blade_up_downstream 
+2 
+unknown CON 1 1 17 5 11 6 6 1 3 row_1_flux_1_Main_Blade_skin_snubber_1_up 
+unknown CON 1 5 17 9 11 6 10 1 3 row_1_flux_1_Main_Blade_skin_snubber_1_up 
+1 
+unknown CON 1 1 17 25 23 2 1 0 0 row_1_flux_1_Main_Blade_up_snubber_1_upper 
+1 
+unknown PER 1 1 9 25 28 6 1 1 3 -1 row_1_flux_1_Main_Blade_down_snubber_1_downstream 
+row_1_flux_1_Main_Blade_up_snubber_1_upstream domain25 FLUID
+17 9 13
+ROTATION 0 0 1 0 0 0 36 1 
+1 
+unknown CON 1 1 9 13 20 6 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_upstream_up 
+1 
+unknown CON 1 1 17 13 22 5 2 0 0 row_1_flux_1_Main_Blade_up_snubber_1_lower 
+1 
+unknown CON 1 1 17 9 11 6 8 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_up 
+1 
+unknown CON 1 1 17 9 8 3 1 0 0 row_1_flux_1_Main_Blade_up_upstream 
+1 
+unknown CON 1 1 17 13 23 2 2 0 0 row_1_flux_1_Main_Blade_up_snubber_1_upper 
+1 
+unknown PER 1 1 9 13 29 6 1 1 3 -1 row_1_flux_1_Main_Blade_down_snubber_1_upstream 
+row_1_flux_1_Main_Blade_down_snubber_1_lower domain26 FLUID
+17 33 69
+ROTATION 0 0 1 0 0 0 36 1 
+1 
+unknown CON 1 1 33 69 13 6 2 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_lower 
+1 
+row_1_flux_1_Main_Blade_down__hub_identifier__rotating SOL 1 1 17 69 
+1 
+unknown CON 1 1 17 33 10 4 2 0 0 row_1_flux_1_Main_Blade_down_upstream 
+1 
+unknown CON 1 1 17 33 9 3 2 0 0 row_1_flux_1_Main_Blade_down_downstream 
+3 
+unknown CON 1 45 17 69 28 2 1 0 0 row_1_flux_1_Main_Blade_down_snubber_1_downstream 
+unknown CON 1 1 17 13 29 2 1 0 0 row_1_flux_1_Main_Blade_down_snubber_1_upstream 
+unknown CON 1 13 17 45 12 6 7 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_down 
+1 
+(aap) PER 1 1 33 69 22 6 1 1 3 1 row_1_flux_1_Main_Blade_up_snubber_1_lower 
+row_1_flux_1_Main_Blade_down_snubber_1_upper domain27 FLUID
+17 41 69
+ROTATION 0 0 1 0 0 0 36 1 
+1 
+unknown CON 1 1 41 69 14 6 2 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_upper 
+3 
+unknown CON 1 45 17 69 28 5 1 0 0 row_1_flux_1_Main_Blade_down_snubber_1_downstream 
+unknown CON 1 1 17 13 29 5 1 0 0 row_1_flux_1_Main_Blade_down_snubber_1_upstream 
+unknown CON 1 13 17 45 12 6 9 1 3 row_1_flux_1_Main_Blade_skin_snubber_1_down 
+1 
+unknown CON 1 1 17 41 10 4 3 0 0 row_1_flux_1_Main_Blade_down_upstream 
+1 
+unknown CON 1 1 17 41 9 3 3 0 0 row_1_flux_1_Main_Blade_down_downstream 
+1 
+row_1_flux_1_Main_Blade_down__shroud_identifier_ SOL 1 1 17 69 
+1 
+(aap) PER 1 1 41 69 23 6 1 1 3 1 row_1_flux_1_Main_Blade_up_snubber_1_upper 
+row_1_flux_1_Main_Blade_down_snubber_1_downstream domain28 FLUID
+17 9 25
+ROTATION 0 0 1 0 0 0 36 1 
+1 
+unknown CON 1 1 9 25 19 6 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_downstream_down 
+1 
+unknown CON 1 1 17 25 26 5 1 0 0 row_1_flux_1_Main_Blade_down_snubber_1_lower 
+2 
+unknown CON 1 1 17 5 12 6 6 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_down 
+unknown CON 1 5 17 9 12 6 10 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_down 
+1 
+unknown CON 1 1 17 9 9 3 1 0 0 row_1_flux_1_Main_Blade_down_downstream 
+1 
+unknown CON 1 1 17 25 27 2 1 0 0 row_1_flux_1_Main_Blade_down_snubber_1_upper 
+1 
+(aap) PER 1 1 9 25 24 6 1 1 3 1 row_1_flux_1_Main_Blade_up_snubber_1_downstream 
+row_1_flux_1_Main_Blade_down_snubber_1_upstream domain29 FLUID
+17 9 13
+ROTATION 0 0 1 0 0 0 36 1 
+1 
+unknown CON 1 1 9 13 21 6 1 0 0 row_1_flux_1_Main_Blade_skin_snubber_1_upstream_down 
+1 
+unknown CON 1 1 17 13 26 5 2 0 0 row_1_flux_1_Main_Blade_down_snubber_1_lower 
+1 
+unknown CON 1 1 17 9 10 4 1 0 0 row_1_flux_1_Main_Blade_down_upstream 
+1 
+unknown CON 1 1 17 9 12 6 8 1 3 row_1_flux_1_Main_Blade_skin_snubber_1_down 
+1 
+unknown CON 1 1 17 13 27 2 2 0 0 row_1_flux_1_Main_Blade_down_snubber_1_upper 
+1 
+(aap) PER 1 1 9 13 25 6 1 1 3 1 row_1_flux_1_Main_Blade_up_snubber_1_upstream 
+NUMBER_OF_BLADES  0
+NI_BEGIN NITurbomachineryConfigurationMesh
+BYPASS       0
+NI_BEGIN NITurbomachineryRow row
+  NAME                      row 1
+  TYPE                      0
+  BOUNDARIES_ROTATION_SPEED -17188
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_downStream
+  ROTATION_SPEED      -17188
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_outlet
+  ROTATION_SPEED      -17188
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_upStream
+  ROTATION_SPEED      -17188
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_inlet
+  ROTATION_SPEED      -17188
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_shroudgap1
+  ROTATION_SPEED      -17188
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_shroudgap2
+  ROTATION_SPEED      -17188
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_up_downstream
+  ROTATION_SPEED      -17188
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_up_upstream
+  ROTATION_SPEED      -17188
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_down_downstream
+  ROTATION_SPEED      -17188
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_down_upstream
+  ROTATION_SPEED      -17188
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_skin_snubber_1_up
+  ROTATION_SPEED      -17188
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_skin_snubber_1_down
+  ROTATION_SPEED      -17188
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_skin_snubber_1_lower
+  ROTATION_SPEED      -17188
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_skin_snubber_1_upper
+  ROTATION_SPEED      -17188
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_skin_snubber_1_upstream
+  ROTATION_SPEED      -17188
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_skin_snubber_1_downstream1
+  ROTATION_SPEED      -17188
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_skin_snubber_1_downstream2
+  ROTATION_SPEED      -17188
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_skin_snubber_1_downstream_up
+  ROTATION_SPEED      -17188
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_skin_snubber_1_downstream_down
+  ROTATION_SPEED      -17188
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_skin_snubber_1_upstream_up
+  ROTATION_SPEED      -17188
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_skin_snubber_1_upstream_down
+  ROTATION_SPEED      -17188
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_up_snubber_1_lower
+  ROTATION_SPEED      -17188
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_up_snubber_1_upper
+  ROTATION_SPEED      -17188
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_up_snubber_1_downstream
+  ROTATION_SPEED      -17188
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_up_snubber_1_upstream
+  ROTATION_SPEED      -17188
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_down_snubber_1_lower
+  ROTATION_SPEED      -17188
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_down_snubber_1_upper
+  ROTATION_SPEED      -17188
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_down_snubber_1_downstream
+  ROTATION_SPEED      -17188
+  NI_END   NITurbomachineryBlocks
+  NI_BEGIN NITurbomachineryBlocks
+  NAME                row_1_flux_1_Main_Blade_down_snubber_1_upstream
+  ROTATION_SPEED      -17188
+  NI_END   NITurbomachineryBlocks
+NI_END   NITurbomachineryRow row
+NI_END NITurbomachineryConfigurationMesh

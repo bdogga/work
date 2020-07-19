@@ -1,0 +1,41 @@
+NI_BEGIN PROJECT_INFO
+NUMECA Int.- AUTOGRID - PROJECT INFO
+  
+BY PASS           YES
+NUMBER OF POINTS 3267389
+NUMBER OF ROWS   5
+  
+ROW NAME: row 1
+          NUMBER OF MAIN BLADES       18
+          NUMBER OF SPLITTER BLADES 0
+          NUMBER OF POINTS                   1466571
+          NUMBER OF LAYERS                  145
+          BLADE TO BLADE TOPOLOGY    Default
+ROW NAME: row 2
+          NUMBER OF MAIN BLADES       77
+          NUMBER OF SPLITTER BLADES 0
+          NUMBER OF POINTS                   323133
+          NUMBER OF LAYERS                  57
+          BLADE TO BLADE TOPOLOGY    Default
+ROW NAME: row 3
+          NUMBER OF MAIN BLADES       119
+          NUMBER OF SPLITTER BLADES 0
+          NUMBER OF POINTS                   504097
+          NUMBER OF LAYERS                  89
+          BLADE TO BLADE TOPOLOGY    Default
+ROW NAME: row 4
+          NUMBER OF MAIN BLADES       127
+          NUMBER OF SPLITTER BLADES 0
+          NUMBER OF POINTS                   438875
+          NUMBER OF LAYERS                  73
+          BLADE TO BLADE TOPOLOGY    Default
+ROW NAME: row 5
+          NUMBER OF MAIN BLADES       117
+          NUMBER OF SPLITTER BLADES 0
+          NUMBER OF POINTS                   534713
+          NUMBER OF LAYERS                  89
+          BLADE TO BLADE TOPOLOGY    Default
+NI_END PROJECT_INFO
+NI_BEGIN PERSONNAL_INFO
+NI_END PERSONNAL_INFO
+NI_END INFO

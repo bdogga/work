@@ -1,0 +1,259 @@
+
+*******  AUTOGRID version 14.1  REPORT FILE ********
+
+PROJECT        : tutorial4
+TEMPLATE FILE  : D:\OneDrive - University of Cincinnati\Masters Research\Summer 2020\Dr Turner Meetings\Meeting 10\fine_turbo_bypass_adv-tut4\bypass_tut4_1\tutorial4.trb
+
+NI_BEGIN PROJECT_INFO
+NUMECA Int.- AUTOGRID - PROJECT INFO
+  
+BY PASS           YES
+NUMBER OF POINTS 3292317
+NUMBER OF ROWS   5
+  
+ROW NAME: row 1
+          NUMBER OF MAIN BLADES       18
+          NUMBER OF SPLITTER BLADES 0
+          NUMBER OF POINTS                   1466571
+          NUMBER OF LAYERS                  145
+          BLADE TO BLADE TOPOLOGY    Default
+ROW NAME: row 2
+          NUMBER OF MAIN BLADES       77
+          NUMBER OF SPLITTER BLADES 0
+          NUMBER OF POINTS                   323133
+          NUMBER OF LAYERS                  57
+          BLADE TO BLADE TOPOLOGY    Default
+ROW NAME: row 3
+          NUMBER OF MAIN BLADES       119
+          NUMBER OF SPLITTER BLADES 0
+          NUMBER OF POINTS                   504097
+          NUMBER OF LAYERS                  89
+          BLADE TO BLADE TOPOLOGY    Default
+ROW NAME: row 4
+          NUMBER OF MAIN BLADES       127
+          NUMBER OF SPLITTER BLADES 0
+          NUMBER OF POINTS                   438875
+          NUMBER OF LAYERS                  73
+          BLADE TO BLADE TOPOLOGY    Default
+ROW NAME: row 5
+          NUMBER OF MAIN BLADES       117
+          NUMBER OF SPLITTER BLADES 0
+          NUMBER OF POINTS                   534713
+          NUMBER OF LAYERS                  89
+          BLADE TO BLADE TOPOLOGY    Default
+NI_END PROJECT_INFO
+NI_BEGIN PERSONNAL_INFO
+NI_END PERSONNAL_INFO
+NI_END INFO
+
+************************************
+*******  GRID QUALITY REPORT *******
+************************************
+
+Generation Date : 2020-05-02 22:49:01
+Generation Time : 00:02:13
+Mesh Validity    : OK  (No Overlapping Cells Generated)
+
+	Entire Mesh Quality
+
+		 No Negative Cell
+		Number of Points 3292317
+		Number of grid levels  3
+		Minimal Skewness  Angle:		16.177
+		Maximal Skewness  Angle:		90
+		Average Skewness  Angle:		82.6017
+		Minimal Spanwise Skewness Angle:		145
+		Maximal Spanwise Skewness Angle:		180
+		Average Spanwise Skewness Angle:		179.725
+		Minimal Spanwise Expansion Ratio:		1
+		Maximal Spanwise Expansion Ratio:		14.818
+		Average Spanwise Expansion Ratio:		1.43105
+		Minimal Aspect    Ratio:		1
+		Maximal Aspect    Ratio:		3736
+		Average Aspect    Ratio:		25.3561
+		Minimal Expansion Ratio:		1
+		Maximal Expansion Ratio:		14.818
+		Average Expansion Ratio:		1.21933
+		Minimal wall Distance  :		7.8707e-006
+		Maximal wall Distance  :		0.00025449
+		Average wall Distance  :		0.000107029
+
+	row 1 Quality
+
+		 No Negative Cell
+		Number of Points 1303678
+		Number of grid levels  3
+		Minimal Skewness  Angle:		27.238
+		Maximal Skewness  Angle:		90
+		Average Skewness  Angle:		82.5481
+		Max Location Skewness  Angle:		row_1_flux_1_Main_Blade_downStream I,J,K:18,60,3
+		Minimal Spanwise Skewness Angle:		170.28
+		Maximal Spanwise Skewness Angle:		180
+		Average Spanwise Skewness Angle:		179.725
+		Max Location Spanwise Skewness Angle:		row_1_flux_1_Main_Blade_up I,J,K:9,0,4
+		Minimal Spanwise Expansion Ratio:		1
+		Maximal Spanwise Expansion Ratio:		2.2184
+		Average Spanwise Expansion Ratio:		1.40099
+		Max Location Spanwise Expansion Ratio:		row_1_flux_3_Main_Blade_down I,J,K:11,57,93
+		Minimal Aspect    Ratio:		1
+		Maximal Aspect    Ratio:		1311.1
+		Average Aspect    Ratio:		31.8474
+		Max Location Aspect    Ratio:		row_1_flux_3_Main_Blade_skin I,J,K:0,15,57
+		Minimal Expansion Ratio:		1
+		Maximal Expansion Ratio:		2.998
+		Average Expansion Ratio:		1.20673
+		Max Location Expansion Ratio:		row_1_flux_1_Main_Blade_hubgap1 I,J,K:9,0,0
+		Minimal wall Distance  :		9.6285e-005
+		Maximal wall Distance  :		0.00014529
+		Average wall Distance  :		0.000102445
+		Max Location wall Distance  :		C_block_around_nozzle I,J,K:18,0,20
+
+	row 2 Quality
+
+		 No Negative Cell
+		Number of Points 323133
+		Number of grid levels  3
+		Minimal Skewness  Angle:		47.726
+		Maximal Skewness  Angle:		89.999
+		Average Skewness  Angle:		84.876
+		Max Location Skewness  Angle:		row_2_flux_1_Main_Blade_up I,J,K:0,2,3
+		Minimal Spanwise Skewness Angle:		174.61
+		Maximal Spanwise Skewness Angle:		180
+		Average Spanwise Skewness Angle:		179.908
+		Max Location Spanwise Skewness Angle:		row_2_flux_1_Main_Blade_down I,J,K:0,54,59
+		Minimal Spanwise Expansion Ratio:		1
+		Maximal Spanwise Expansion Ratio:		1.451
+		Average Spanwise Expansion Ratio:		1.3056
+		Max Location Spanwise Expansion Ratio:		row_2_flux_1_Main_Blade_up I,J,K:11,1,21
+		Minimal Aspect    Ratio:		1
+		Maximal Aspect    Ratio:		994.73
+		Average Aspect    Ratio:		30.0853
+		Max Location Aspect    Ratio:		row_2_flux_1_Main_Blade_skin I,J,K:0,19,54
+		Minimal Expansion Ratio:		1
+		Maximal Expansion Ratio:		2.1245
+		Average Expansion Ratio:		1.16878
+		Max Location Expansion Ratio:		row_2_flux_1_Main_Blade_skin I,J,K:6,55,102
+		Minimal wall Distance  :		9.4675e-005
+		Maximal wall Distance  :		0.00010317
+		Average wall Distance  :		9.87095e-005
+		Max Location wall Distance  :		row_2_flux_1_Main_Blade_up I,J,K:11,56,99
+
+	row 3 Quality
+
+		 No Negative Cell
+		Number of Points 504097
+		Number of grid levels  3
+		Minimal Skewness  Angle:		32.96
+		Maximal Skewness  Angle:		89.997
+		Average Skewness  Angle:		79.0295
+		Max Location Skewness  Angle:		row_3_flux_1_Main_Blade_skin I,J,K:5,53,81
+		Minimal Spanwise Skewness Angle:		153.55
+		Maximal Spanwise Skewness Angle:		180
+		Average Spanwise Skewness Angle:		179.684
+		Max Location Spanwise Skewness Angle:		row_3_flux_1_Main_Blade_down I,J,K:0,86,60
+		Minimal Spanwise Expansion Ratio:		1
+		Maximal Spanwise Expansion Ratio:		14.818
+		Average Spanwise Expansion Ratio:		1.55064
+		Max Location Spanwise Expansion Ratio:		row_3_flux_1_Main_Blade_skin I,J,K:0,11,68
+		Minimal Aspect    Ratio:		1
+		Maximal Aspect    Ratio:		760.7
+		Average Aspect    Ratio:		14.9399
+		Max Location Aspect    Ratio:		row_3_flux_1_Main_Blade_skin I,J,K:4,11,43
+		Minimal Expansion Ratio:		1
+		Maximal Expansion Ratio:		14.818
+		Average Expansion Ratio:		1.25413
+		Max Location Expansion Ratio:		row_3_flux_1_Main_Blade_skin I,J,K:0,11,68
+		Minimal wall Distance  :		7.8707e-006
+		Maximal wall Distance  :		0.00015032
+		Average wall Distance  :		9.65231e-005
+		Max Location wall Distance  :		row_3_flux_1_Main_Blade_hubgap2 I,J,K:6,12,2
+
+	row 4 Quality
+
+		 No Negative Cell
+		Number of Points 438875
+		Number of grid levels  3
+		Minimal Skewness  Angle:		40.923
+		Maximal Skewness  Angle:		89.999
+		Average Skewness  Angle:		85.2156
+		Max Location Skewness  Angle:		row_4_flux_1_Main_Blade_shroudgap1 I,J,K:9,2,57
+		Minimal Spanwise Skewness Angle:		175.56
+		Maximal Spanwise Skewness Angle:		180
+		Average Spanwise Skewness Angle:		179.932
+		Max Location Spanwise Skewness Angle:		row_4_flux_1_Main_Blade_down I,J,K:0,6,63
+		Minimal Spanwise Expansion Ratio:		1
+		Maximal Spanwise Expansion Ratio:		2.038
+		Average Spanwise Expansion Ratio:		1.33252
+		Max Location Spanwise Expansion Ratio:		row_4_flux_1_Main_Blade_down I,J,K:11,69,73
+		Minimal Aspect    Ratio:		1
+		Maximal Aspect    Ratio:		204.35
+		Average Aspect    Ratio:		13.016
+		Max Location Aspect    Ratio:		row_4_flux_1_Main_Blade_skin I,J,K:0,39,62
+		Minimal Expansion Ratio:		1
+		Maximal Expansion Ratio:		3.4742
+		Average Expansion Ratio:		1.17432
+		Max Location Expansion Ratio:		row_4_flux_1_Main_Blade_shroudgap2 I,J,K:14,11,2
+		Minimal wall Distance  :		9.7478e-005
+		Maximal wall Distance  :		0.00010103
+		Average wall Distance  :		9.98369e-005
+		Max Location wall Distance  :		row_4_flux_1_Main_Blade_up I,J,K:1,0,0
+
+	row 5 Quality
+
+		 No Negative Cell
+		Number of Points 534713
+		Number of grid levels  3
+		Minimal Skewness  Angle:		32.554
+		Maximal Skewness  Angle:		89.995
+		Average Skewness  Angle:		83.2315
+		Max Location Skewness  Angle:		row_5_flux_1_Main_Blade_shroudgap1 I,J,K:11,11,9
+		Minimal Spanwise Skewness Angle:		159.37
+		Maximal Spanwise Skewness Angle:		180
+		Average Spanwise Skewness Angle:		179.77
+		Max Location Spanwise Skewness Angle:		row_5_flux_1_Main_Blade_down I,J,K:2,62,61
+		Minimal Spanwise Expansion Ratio:		1
+		Maximal Spanwise Expansion Ratio:		5.6806
+		Average Spanwise Expansion Ratio:		1.59567
+		Max Location Spanwise Expansion Ratio:		row_5_flux_1_Main_Blade_skin I,J,K:6,75,60
+		Minimal Aspect    Ratio:		1
+		Maximal Aspect    Ratio:		482.53
+		Average Aspect    Ratio:		19.7059
+		Max Location Aspect    Ratio:		row_5_flux_1_Main_Blade_up I,J,K:12,12,20
+		Minimal Expansion Ratio:		1
+		Maximal Expansion Ratio:		5.6806
+		Average Expansion Ratio:		1.27325
+		Max Location Expansion Ratio:		row_5_flux_1_Main_Blade_skin I,J,K:6,75,60
+		Minimal wall Distance  :		1.7488e-005
+		Maximal wall Distance  :		0.00025449
+		Average wall Distance  :		0.000129007
+		Max Location wall Distance  :		row_5_flux_1_Main_Blade_skin I,J,K:7,0,104
+
+	Inlet Bulb Quality
+
+		 No Negative Cell
+		Number of Points 187821
+		Number of grid levels  3
+		Minimal Skewness  Angle:		16.177
+		Maximal Skewness  Angle:		90
+		Average Skewness  Angle:		80.7483
+		Max Location Skewness  Angle:		bulb_at_inlet_H1 I,J,K:38,58,22
+		Minimal Spanwise Skewness Angle:		145
+		Maximal Spanwise Skewness Angle:		180
+		Average Spanwise Skewness Angle:		178.904
+		Max Location Spanwise Skewness Angle:		bulb_at_inlet_H1 I,J,K:3,5,15
+		Minimal Spanwise Expansion Ratio:		1
+		Maximal Spanwise Expansion Ratio:		2.4203
+		Average Spanwise Expansion Ratio:		1.29618
+		Max Location Spanwise Expansion Ratio:		bulb_at_inlet_H1 I,J,K:32,123,1
+		Minimal Aspect    Ratio:		1
+		Maximal Aspect    Ratio:		3736
+		Average Aspect    Ratio:		45.0399
+		Max Location Aspect    Ratio:		bulb_at_inlet_H1 I,J,K:32,111,0
+		Minimal Expansion Ratio:		1
+		Maximal Expansion Ratio:		2.4206
+		Average Expansion Ratio:		1.25199
+		Max Location Expansion Ratio:		bulb_at_inlet_butterfly_1 I,J,K:1,3,3
+		Minimal wall Distance  :		0.00010537
+		Maximal wall Distance  :		0.00016231
+		Average wall Distance  :		0.000135589
+		Max Location wall Distance  :		bulb_at_inlet_H1 I,J,K:8,128,1

@@ -1,0 +1,318 @@
+
+ ************************************************************
+ ************************************************************
+ ****  T-BLADE3:Turbomachinery BLADE 3D Geometry Builder ****
+ ****                                                    ****
+ ****  Master Version 1.2	                               ****
+ ****                                                    ****
+ ****  ...was also called as below till Aug 2016...      ****
+ ****  3DBGB: 3 Dimensional Blade Geometry Builder       ****
+ ****                                                    ****
+ ****  Develop Version 1.2.2                             ****
+ ****                                                    ****
+ ****  This software comes with ABSOLUTELY NO WARRANTY   ****
+ ****                                                    ****
+ ****  This is a program which generates a 3D blade...   ****
+ ****  ...shape and outputs 3D blade section files.      ****
+ ****                                                    ****
+ ****  Inputs: LE and TE curve(x,r), inlet angle,        ****
+ ****          exit angle, chord, tm/c, incidence,       ****
+ ****          deviation, secondary flow angles,         ****
+ ****          streamline coordinates:(x,r)              ****
+ ****          control points for sweep, lean,           ****
+ ****          blade scaling factor.                     ****
+ ****                                                    ****
+ ****  Outputs: 3D blade sections (x,y,z),               ****
+ ****           2D airfoils (mprime,theta).              ****
+ ****                                                    ****
+ ****  ---------------by Kiran Siddappaji         ----   ****
+ ****  ---------------by Mark G. Turner           ----   ****
+ ****  ------------------- turnermr@ucmail.uc.edu ----   ****
+ ****  ---------------by Karthik Balasubramanian  ----   ****
+ ****  ---------------by Syed Moez Hussain Mahmood----   ****
+ ****  ---------------by Ahmed Nemnem             ----   ****
+ ****  ---------------by Marshall C. Galbraith    ----   ****
+ ************************************************************
+ ************************************************************
+
+ T-Blade3 Copyright (C) 2017 University of Cincinnati, developed by Kiran Siddappaji,
+ Dr. Mark G. Turner, Karthik  Balasubramanian, Syed Moez Hussain, Ahmed Farid Nemnem 
+  and Marshall C. Galbraith.
+
+ This program is free software; you can redistribute it and/or modify it under the 
+ terms of the GNU General Public License as published by the Free Software Foundation; 
+ either version 2 of the License, or (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+ See the GNU General Public License for more details.  For the complete terms of the 
+ GNU General Public License, please see this URL: http://www.gnu.org/licenses/gpl-2.0.html
+
+ ************************************************************
+
+ 2nd Argument: develop
+ Row number and blade type is 2                                                                                                                                                                                                                                                               
+ 3dbgbinput.2.dat                                                                                                                                                                                                                                                
+ 
+ WARNING: Background grid generation is no longer available with T-Blade3
+ WARNING: Background grid generation parameters should be removed from main input file
+ For developers: Check subroutine readinput in readinput.f90
+ 
+
+ Reading inputs from file : 3dbgbinput.2.dat                                                                                                                                                                                                                                                
+
+ Reading the spanwise_input file ....
+
+ NACA spanwise input file read successfully
+
+ case:TT                                                                                                                                                                                                                                                              
+ bladerow #:           2
+   2       
+
+ Number of blades in this row:          71
+ bsf:   381.00000000000000     
+
+ Number of streamlines:           2
+
+    in_betaZ*    out_betaZ*
+   29.520625630000001       -56.918181349999998     
+   29.520625630000001       -56.918181349999998     
+
+ LE/TE defined by a curve with no. of points as:           2
+ xLE    rLE     xTE     rTE
+  0.43307000000000001       0.81942199999999998       0.52231000000000005       0.81679800000000002     
+  0.44356899999999999        1.0000000000000000       0.51705999999999996        1.0000000000000000     
+ sect1                 0.10000000000000001       0.10000000000000001       0.20000000000000001        8.0000000000000002E-002   5.0000000000000003E-002   10.000000000000000        6.0000000000000000                1
+ sect1                 0.20000000000000001       0.20000000000000001       0.29999999999999999        8.0000000000000002E-002   5.0000000000000003E-002   10.000000000000000        6.0000000000000000                1
+ Sweep in the axial direction (m-prime).
+
+ Lean in the tangential direction (theta).
+
+ Writing dimensional hub and casing streamlines
+
+ Using x_s and r_s coordinates for streamline from the input file...
+
+ Calculating the m_prime coordinates for each streamline...
+
+
+ hub offset:   0.0000000000000000     
+ tip offset:   0.0000000000000000     
+
+ xLE    rLE     xTE     rTE
+ Calculating LE x, r points... 
+ 
+ WARNING: Bad initial guess provided for spline 2 in section 1    . Using maximum value.
+ For developers: Check subroutine spl_intersect in spline.f90
+ 
+ 
+ WARNING: spl_intersect - splines may not intersect for section 1    . Knot 1 of spline 2 is closest possible to spline 1.
+ For developers: Check subroutine spl_intersect in spline.f90
+ 
+ 
+ WARNING: Bad initial guess provided for spline 2 in section 2    . Using maximum value.
+ For developers: Check subroutine spl_intersect in spline.f90
+ 
+ Calculating TE x, r points...
+ 
+ WARNING: Bad initial guess provided for spline 2 in section 1    . Using maximum value.
+ For developers: Check subroutine spl_intersect in spline.f90
+ 
+ 
+ WARNING: Bad initial guess provided for spline 2 in section 2    . Using maximum value.
+ For developers: Check subroutine spl_intersect in spline.f90
+ 
+ i_slope           0
+ i_slope           0
+ ile:           2
+ ite:           2
+ ile:           2
+ ite:           2
+ Using x values for msLE due to a purely axial flow.
+ Using x values for msTE due to a purely axial flow.
+ msle:  0.16270401750733435     
+ mste:  0.27209817785524715     
+ chordm:  0.10939416034791280     
+ Using x values for msLE due to a purely axial flow.
+ Using x values for msTE due to a purely axial flow.
+ msle:  0.14356900000000000     
+ mste:  0.21705999999999998     
+ chordm:   7.3490999999999973E-002
+ phi_s_in(ia)   0.0000000000000000     
+ phi_s_in(ia)   0.0000000000000000     
+ phi_s_out(ia)   0.0000000000000000     
+ phi_s_out(ia)   0.0000000000000000     
+ Creating cubic B-spline with spancontrolinput file
+ Writing spanwise curvature variation data to file
+ Writing spanwise thickness variation data to file
+ B-spline created successfully
+ Internally calculated chord...
+ Stagger calculated from the inlet and exit angles...
+
+ ---------------------------------------------------------------------------------
+ airfoil type:           1 sect1
+  =================================================== 
+ Using ellipse based clustering function
+ 
+ Hyperbolic midchord clustering with delta_LE =    4.0436035156249996     
+ Hyperbolic midchord clustering with delta_TE =    8.4453125000000000     
+ lethk =    8.0000000000000002E-002
+
+Using curvature control for camber definition...
+ xcp  -5.1233151719999995E-002   0.0000000000000000        5.1233151719999995E-002  0.27449141539999994       0.44237955519999994       0.60111529529999985        1.0000000000000000        1.3988847047000001     
+ ycp   1.5497365599999999       0.45000000000000001      -0.64973655999999991       0.82803128000000004        6.1942880000000006E-002 -0.20022772000000000       0.86500481000000007        1.9302373400000001     
+Total camber is:  -86.438806979999995
+Determinant is:   12.238063410515402
+Possible values of scaling factor are:        -9.841229067217052        8.613116412422915
+Camber line second derivative scaling factor:         8.613116412422915        0.000000000000000
+Inlet u-v metal angle in deg:        32.702564089695983        0.000000000000000
+Exit u-v metal angle in deg:       -53.736242890304020        0.000000000000000
+Stagger angle in deg:        -3.181938459695985       29.520625630000001
+ 
+ Using modified NACA four digit thickness distribution
+ Maximum thickness for the blade section =    8.4999999999999992E-002
+ Chordwise location for the maximum thickness =   0.29999999999999999     
+ Thickness at TE =    5.0000000000000001E-004
+ Leading edge radius =    3.9999999999999996     
+ TE derivative for maximum thickness chordwise location =  -0.19890000015470000     
+ Modified NACA thickness coefficients (u < u_max) =   0.16824561410826336       0.20395716364780292       -1.0861565923299432        1.0894454135906944     
+ Modified NACA thickness coefficients (u > u_max) =    4.1837397915098391E-004  0.19894153633061226       -5.0557699592469599E-002  -8.7184188368132548E-002
+ 
+ Writing thickness data to file
+ 
+ i_le =            0
+ i_te =            0
+         121
+         241
+
+ Stacking position on the chord as % of chord:   25.000000000000000     
+ Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
+ top curve points index range for % chord stacking:          45          46
+ bottom curve points index range for % chord stacking:          50          51
+ vtop_stack  vbot_stack  0.26171471154346920        7.2162223281895352E-002
+
+ u_stack  v_stack  0.25000000000000000        0.0000000000000000     
+
+ chrd bladegen:   0.10956307249071698     
+ pitch    8.8495567706754735E-002
+ np_sidee         121
+ n_normal_distance =          27
+ number of intersection points (k) =          27 from np_side of         121
+ 
+ Writing non-dimensional throat points to a file for debugging...
+ 
+ ******************************************
+
+ Internally calculated chord...
+ Stagger calculated from the inlet and exit angles...
+
+ ---------------------------------------------------------------------------------
+ airfoil type:           2 sect1
+  =================================================== 
+ Using ellipse based clustering function
+ 
+ Hyperbolic midchord clustering with delta_LE =    4.0436035156249996     
+ Hyperbolic midchord clustering with delta_TE =    8.4453125000000000     
+ lethk =    8.0000000000000002E-002
+
+Using curvature control for camber definition...
+ xcp  -5.1233151720000002E-002   0.0000000000000000        5.1233151720000002E-002  0.27449141539999999       0.44237955520000000       0.60111529529999996        1.0000000000000000        1.3988847046999999     
+ ycp   1.5497365599999999       0.45000000000000001      -0.64973656000000002       0.82803128000000004        6.1942880000000020E-002 -0.20022772000000000       0.86500481000000007        1.9302373400000001     
+Total camber is:  -86.438806979999995
+Determinant is:   12.238063410515394
+Possible values of scaling factor are:        -9.841229067217055        8.613116412422917
+Camber line second derivative scaling factor:         8.613116412422917        0.000000000000000
+Inlet u-v metal angle in deg:        32.702564089695990        0.000000000000000
+Exit u-v metal angle in deg:       -53.736242890304005        0.000000000000000
+Stagger angle in deg:        -3.181938459695991       29.520625630000001
+ 
+ Using modified NACA four digit thickness distribution
+ Maximum thickness for the blade section =    8.5000000000000020E-002
+ Chordwise location for the maximum thickness =   0.29999999999999999     
+ Thickness at TE =    5.0000000000000001E-004
+ Leading edge radius =    4.0000000000000000     
+ TE derivative for maximum thickness chordwise location =  -0.19890000015470005     
+ Modified NACA thickness coefficients (u < u_max) =   0.16824561410826341       0.20395716364780281       -1.0861565923299428        1.0894454135906937     
+ Modified NACA thickness coefficients (u > u_max) =    4.1837397915098391E-004  0.19894153633061232       -5.0557699592469543E-002  -8.7184188368132631E-002
+ 
+ Writing thickness data to file
+ 
+ i_le =            0
+ i_te =            0
+         121
+         241
+
+ Stacking position on the chord as % of chord:   25.000000000000000     
+ Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
+ top curve points index range for % chord stacking:          45          46
+ bottom curve points index range for % chord stacking:          50          51
+ vtop_stack  vbot_stack  0.26171471154346937        7.2162223281895407E-002
+
+ u_stack  v_stack  0.25000000000000000        0.0000000000000000     
+
+ chrd bladegen:    7.3604475182288895E-002
+ pitch    8.8495567706754735E-002
+ np_sidee         121
+ n_normal_distance =          21
+ number of intersection points (k) =          21 from np_side of         121
+ 
+ Writing non-dimensional throat points to a file for debugging...
+ 
+ ******************************************
+
+ Number of airfoil coordinates:         241
+
+ Stacking Axis location:       25000
+
+ Section #           1
+ Section #           2
+
+ i_slope           0
+ i_slope           0
+ span          delta_m
+   0.0000000000000000        0.0000000000000000     
+   1.0000000000000000        0.0000000000000000     
+
+ span         delta_theta
+   0.0000000000000000        0.0000000000000000     
+   1.0000000000000000        0.0000000000000000     
+
+ 
+ section(           1 )
+ 3D throat line [mm] =   20.579478046375748     
+ 3D mouth line [mm] =   21.539566462496062     
+ 3D exit line [mm] =   21.799985513393974     
+ section(           2 )
+ 3D throat line [mm] =   28.147995266158123     
+ 3D mouth line [mm] =   29.370625765297497     
+ 3D exit line [mm] =   28.859533965961674     
+ Number of radial sections:           2
+
+ Writing 3D blade geometry ...
+
+ chord_actual(mm):   34.104464353768869     
+ chord_actual(mm):   28.043304984361072     
+
+ Calculating the meanline by taking the average of PS and SS in 3D...
+ Writing the meanline in 3D to meanline.sec#.dat files...
+
+ Writing the top and bottom periodic wall coordinates...
+
+         121
+ throat_index           1           6
+ throat_index           2           4
+
+ casename:TT
+
+ fname: blade3d.TT.dat
+
+ Creating section data files for CAD system
+ 
+ Number of points:          241
+ 
+ Number of sections:            2
+ 
+ bsf:    381.00000000000000     
+ Number of blades in this row:           71
+
+ --- END ---
+ 

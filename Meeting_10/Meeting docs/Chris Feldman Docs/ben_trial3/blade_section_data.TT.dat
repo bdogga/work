@@ -1,0 +1,8 @@
+ TT
+ Blade sections Data:
+ ---------------------
+
+section  span            betaZ*le(deg)    betaZ*te(deg)    betaM*le(deg)    betaM*te(deg)      chord [mm]  sweep       lean        area[mm^2]  lethk [mm]  tethk [mm] throat [mm]  (r*delta_theta)WT  Geom Zweifel  le/te/btween/none
+   1     0.00000000        4.44915233      -4.47316135       4.44915233      -4.47316135       0.00000000  0.00000000  0.00000000  0.00000000  0.00000000  0.00000000  0.00000000  0.19039955          -Infinity    none 
+   2     1.00000000        4.44915233      -4.47316135       4.44915233      -4.47316135       0.00000000  0.00000000  0.00000000  0.00000000  0.00000000  0.00000000  0.00000000  0.19039955          -Infinity    none 
+ Total Volume of the blade =   0.0000000000000000      [m^3]

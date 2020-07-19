@@ -1,0 +1,84 @@
+
+*******  AUTOGRID version 14.1  REPORT FILE ********
+
+PROJECT        : tutorial7-3d-snubber-without-fillet
+TEMPLATE FILE  : D:\OneDrive - University of Cincinnati\Masters Research\Summer 2020\Dr Turner Meetings\Meeting 10\fine_turbo_snubber_adv-tut7\tutorial7-3d-snubber-without-fillet.trb
+
+NI_BEGIN PROJECT_INFO
+NUMECA Int.- AUTOGRID - PROJECT INFO
+  
+NUMBER OF POINTS 1172909
+NUMBER OF ROWS   1
+  
+ROW NAME: row 1
+          NUMBER OF MAIN BLADES       36
+          NUMBER OF SPLITTER BLADES 0
+          NUMBER OF POINTS                   1063057
+          NUMBER OF LAYERS                  81
+          BLADE TO BLADE TOPOLOGY    Default
+NI_END PROJECT_INFO
+NI_BEGIN PERSONNAL_INFO
+NI_END PERSONNAL_INFO
+NI_END INFO
+
+************************************
+*******  GRID QUALITY REPORT *******
+************************************
+
+Generation Date : 2020-05-04 03:08:58
+Generation Time : 00:01:54
+Mesh Validity    : OK  (No Overlapping Cells Generated)
+
+	Entire Mesh Quality
+
+		 No Negative Cell
+		Number of Points 1172909
+		Number of grid levels  3
+		Minimal Skewness  Angle:		19.07
+		Maximal Skewness  Angle:		90
+		Average Skewness  Angle:		79.7174
+		Minimal Spanwise Skewness Angle:		143.87
+		Maximal Spanwise Skewness Angle:		180
+		Average Spanwise Skewness Angle:		179.335
+		Minimal Spanwise Expansion Ratio:		1
+		Maximal Spanwise Expansion Ratio:		3.4341
+		Average Spanwise Expansion Ratio:		1.3296
+		Minimal Aspect    Ratio:		1
+		Maximal Aspect    Ratio:		1081.6
+		Average Aspect    Ratio:		35.0259
+		Minimal Expansion Ratio:		1
+		Maximal Expansion Ratio:		3.4341
+		Average Expansion Ratio:		1.17031
+		Minimal wall Distance  :		8.8927e-007
+		Maximal wall Distance  :		6.2864e-006
+		Average wall Distance  :		3.07306e-006
+
+	row 1 Quality
+
+		 No Negative Cell
+		Number of Points 1172909
+		Number of grid levels  3
+		Minimal Skewness  Angle:		19.07
+		Maximal Skewness  Angle:		90
+		Average Skewness  Angle:		79.7174
+		Max Location Skewness  Angle:		row_1_flux_1_Main_Blade_skin_snubber_1_lower I,J,K:0,11,101
+		Minimal Spanwise Skewness Angle:		143.87
+		Maximal Spanwise Skewness Angle:		180
+		Average Spanwise Skewness Angle:		179.335
+		Max Location Spanwise Skewness Angle:		row_1_flux_1_Main_Blade_up_snubber_1_upper I,J,K:6,2,35
+		Minimal Spanwise Expansion Ratio:		1
+		Maximal Spanwise Expansion Ratio:		3.4341
+		Average Spanwise Expansion Ratio:		1.3296
+		Max Location Spanwise Expansion Ratio:		row_1_flux_1_Main_Blade_upStream I,J,K:17,63,17
+		Minimal Aspect    Ratio:		1
+		Maximal Aspect    Ratio:		1081.6
+		Average Aspect    Ratio:		35.0259
+		Max Location Aspect    Ratio:		row_1_flux_1_Main_Blade_upStream I,J,K:0,64,17
+		Minimal Expansion Ratio:		1
+		Maximal Expansion Ratio:		3.4341
+		Average Expansion Ratio:		1.17031
+		Max Location Expansion Ratio:		row_1_flux_1_Main_Blade_upStream I,J,K:17,63,17
+		Minimal wall Distance  :		8.8927e-007
+		Maximal wall Distance  :		6.2864e-006
+		Average wall Distance  :		3.07306e-006
+		Max Location wall Distance  :		row_1_flux_1_Main_Blade_skin_snubber_1_up I,J,K:0,0,38

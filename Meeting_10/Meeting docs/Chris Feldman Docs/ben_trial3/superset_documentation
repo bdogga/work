@@ -1,0 +1,18 @@
+Let's do this.
+
+Step 1: Make the alterations in _____.py and the _________.sh 
+
+Step1.2:
+Run the .sh file once.
+
+Step1.5:
+mpi4py install as conda install 
+openmdao install as pip install
+
+
+Step2: 
+   cOMMENTING ___ AND uncommenting ___ runs the optimization only one.
+   cOMMENTING ___ AND uncommenting ___ runs the optimization many times.
+   
+Step3: Finally run project_thickness.py
+   

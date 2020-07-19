@@ -1,0 +1,26 @@
+T-Blade3 ERROR LOG FILE
+ 
+ WARNING: Background grid generation is no longer available with T-Blade3
+ WARNING: Background grid generation parameters should be removed from main input file
+ For developers: Check subroutine readinput in readinput.f90
+ 
+ 
+ WARNING: Bad initial guess provided for spline 2 in section 1    . Using maximum value.
+ For developers: Check subroutine spl_intersect in spline.f90
+ 
+ 
+ WARNING: spl_intersect - splines may not intersect for section 1    . Knot 1 of spline 2 is closest possible to spline 1.
+ For developers: Check subroutine spl_intersect in spline.f90
+ 
+ 
+ WARNING: Bad initial guess provided for spline 2 in section 2    . Using maximum value.
+ For developers: Check subroutine spl_intersect in spline.f90
+ 
+ 
+ WARNING: Bad initial guess provided for spline 2 in section 1    . Using maximum value.
+ For developers: Check subroutine spl_intersect in spline.f90
+ 
+ 
+ WARNING: Bad initial guess provided for spline 2 in section 2    . Using maximum value.
+ For developers: Check subroutine spl_intersect in spline.f90
+ 
