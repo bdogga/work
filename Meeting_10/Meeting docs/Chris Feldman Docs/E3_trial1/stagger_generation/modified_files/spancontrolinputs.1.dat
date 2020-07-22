@@ -1,7 +1,7 @@
 Casename:
- GE-E3-Fan-rotor
+ GE_E3_Fan_rotor
 Blade row#:
-2
+1
 Span control points, Chord & curvature control points
 		5	7
 Span	u2	    u3	    u4	    u5	    u6	    cur1	   cur2		    cur3		    cur4		    cur5		    cur6		    cur7

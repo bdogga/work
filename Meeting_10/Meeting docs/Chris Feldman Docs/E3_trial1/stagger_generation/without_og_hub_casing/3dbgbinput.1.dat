@@ -1,5 +1,5 @@
  Input parameters (version 1.31_TEST)
- GE-E3-Fan-rotor
+ GE_E3_Fan_rotor
  Blade row #:
            1
  Number of blades in this row:
@@ -9,7 +9,7 @@
  Number of streamlines:
           18
  Angles in the input file (0=Beta_z (default),1=Beta_r):
-            0
+            0  inci_dev_spline
  Airfoil camber defined by curvature control (0=no,1=yes ;spanwise_spline= spancontrolinputs file):
             1  spanwise_spline
  Airfoil Thickness distribution (0=Wennerstrom,1=Spline,2=Spline + sharp TE):
@@ -94,7 +94,6 @@
 17   sect1 25.00  0.00  0.30  0.02  0.02 15 10  0
 18   sect1 25.00  0.00  0.30  0.02  0.02 15 10  0
 
-
  Control table for blending section variable:
            4           0           0
        span                       bf1         bf2
@@ -123,7 +122,7 @@
    1.0000000000000000        0.0000000000000000
 
  Control points for in_beta*:
-           8
+           5
         span                     in_beta*
    0.0000000000000000             38.62
    0.2500000000000000             39.66
@@ -132,7 +131,7 @@
   1.00000000000000000             58.27
 
  Control points for out_beta*:
-           7
+           5
         span                     out_beta*
    0.0000000000000000             14.08
    0.2500000000000000             28.10
