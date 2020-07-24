@@ -368,23 +368,23 @@
    1.0000000000000000        55.320000000000000        57.799999999999997        113.12000000000000     
  
     span        chord_multipliers
-   0.0000000000000000        1.0499999999999998     
-   7.3184850721428704E-002   1.0426986235665521     
-  0.14337399962372843        1.0357933370654859     
-  0.21605233071391949        1.0288552596659986     
-  0.29298542670660943        1.0219041488782112     
-  0.37501266299078129        1.0152080675754285     
-  0.42732890490452236        1.0115146979108141     
-  0.44766205010202759        1.0102258425010964     
-  0.48253954471121085        1.0082193589164670     
-  0.51141116369263739        1.0067595905107987     
-  0.56158555116571229        1.0046577722668342     
-  0.61482800040521568        1.0029969965070882     
-  0.64478501859650617        1.0022890583492119     
-  0.69636318904759131        1.0013775175377686     
-  0.76490253115095730        1.0006159070717642     
-  0.80578590138780770        1.0003413763903428     
-  0.88831965730328954        1.0000633963190295     
+   0.0000000000000000       0.99999999999999989     
+   7.3184850721428704E-002   1.0000000000000000     
+  0.14337399962372843       0.99999999999999989     
+  0.21605233071391949        1.0000000000000000     
+  0.29298542670660943       0.99999999999999989     
+  0.37501266299078129        1.0000000000000000     
+  0.42732890490452236        1.0000000000000000     
+  0.44766205010202759        1.0000000000000000     
+  0.48253954471121085       0.99999999999999989     
+  0.51141116369263739       0.99999999999999989     
+  0.56158555116571229        1.0000000000000000     
+  0.61482800040521568        1.0000000000000000     
+  0.64478501859650617       0.99999999999999989     
+  0.69636318904759131       0.99999999999999989     
+  0.76490253115095730        1.0000000000000000     
+  0.80578590138780770        1.0000000000000000     
+  0.88831965730328954        1.0000000000000000     
    1.0000000000000000        1.0000000000000000     
  
  Chord multiplier calculated using spline control points...
@@ -433,11 +433,11 @@ Stagger angle in deg:        -4.929620323122314        3.498822605336857
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.15857528760058898     
+ chrd bladegen:   0.15102408342913237     
  pitch   0.39269908169872414     
  np_sidee         121
- n_normal_distance =           42
- Number of intersection points (k) =           42 from np_side of         121
+ n_normal_distance =           41
+ Number of intersection points (k) =           41 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -489,7 +489,7 @@ Stagger angle in deg:        17.804251196978292        4.256991256431980
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.18089958076397830     
+ chrd bladegen:   0.17349172299202911     
  pitch   0.39269908169872414     
  np_sidee         121
  n_normal_distance =           29
@@ -545,11 +545,11 @@ Stagger angle in deg:        23.023598165214416        4.450766833511481
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.20368202465495414     
+ chrd bladegen:   0.19664349766142269     
  pitch   0.39269908169872414     
  np_sidee         121
- n_normal_distance =           28
- Number of intersection points (k) =           28 from np_side of         121
+ n_normal_distance =           26
+ Number of intersection points (k) =           26 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -601,7 +601,7 @@ Stagger angle in deg:        26.380385815436732        4.462549847857557
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.22825232049095048     
+ chrd bladegen:   0.22185075922637451     
  pitch   0.39269908169872414     
  np_sidee         121
  n_normal_distance =           27
@@ -657,11 +657,11 @@ Stagger angle in deg:        31.015328585095251        4.690648726960247
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.25901839488028272     
+ chrd bladegen:   0.25346642849490186     
  pitch   0.39269908169872414     
  np_sidee         121
- n_normal_distance =           27
- Number of intersection points (k) =           27 from np_side of         121
+ n_normal_distance =           26
+ Number of intersection points (k) =           26 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -713,7 +713,7 @@ Stagger angle in deg:        34.894741811931539        4.462374199459616
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.29369722844013779     
+ chrd bladegen:   0.28929757142450657     
  pitch   0.39269908169872414     
  np_sidee         121
  n_normal_distance =           27
@@ -769,11 +769,11 @@ Stagger angle in deg:        36.580254637457706        4.229709763370270
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.31580738185521812     
+ chrd bladegen:   0.31221235095000377     
  pitch   0.39269908169872414     
  np_sidee         121
- n_normal_distance =           28
- Number of intersection points (k) =           28 from np_side of         121
+ n_normal_distance =           27
+ Number of intersection points (k) =           27 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -825,7 +825,7 @@ Stagger angle in deg:        38.287376446398305        5.270419736572171
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.33003560874107274     
+ chrd bladegen:   0.32669487836895700     
  pitch   0.39269908169872414     
  np_sidee         121
  n_normal_distance =           26
@@ -881,7 +881,7 @@ Stagger angle in deg:        40.300352790786661        5.764726004540815
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.35441772801817295     
+ chrd bladegen:   0.35152839001134190     
  pitch   0.39269908169872414     
  np_sidee         121
  n_normal_distance =           26
@@ -937,7 +937,7 @@ Stagger angle in deg:        41.601342948959370        5.915676594464891
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.37326467308321859     
+ chrd bladegen:   0.37075849746197659     
  pitch   0.39269908169872414     
  np_sidee         121
  n_normal_distance =           25
@@ -993,7 +993,7 @@ Stagger angle in deg:        43.300675546456709        5.769288456944346
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.40484532463140699     
+ chrd bladegen:   0.40296838964172299     
  pitch   0.39269908169872414     
  np_sidee         121
  n_normal_distance =           26
@@ -1049,7 +1049,7 @@ Stagger angle in deg:        44.384728136678589        5.136966030140492
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.43829682819406085     
+ chrd bladegen:   0.43698717914452245     
  pitch   0.39269908169872414     
  np_sidee         121
  n_normal_distance =           27
@@ -1105,7 +1105,7 @@ Stagger angle in deg:        46.281291434887969        5.638811772179020
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.46998808271316972     
+ chrd bladegen:   0.46891470958213238     
  pitch   0.39269908169872414     
  np_sidee         121
  n_normal_distance =           28
@@ -1161,7 +1161,7 @@ Stagger angle in deg:        49.290434259945833        6.122976487276225
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.53139816816084717     
+ chrd bladegen:   0.53066716483456955     
  pitch   0.39269908169872414     
  np_sidee         121
  n_normal_distance =           28
@@ -1217,7 +1217,7 @@ Stagger angle in deg:       -40.627468540695169        5.988120057514623
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.49909086287000504     
+ chrd bladegen:   0.49878365848746220     
  pitch   0.39269908169872414     
  np_sidee         121
  n_normal_distance =           28
@@ -1273,7 +1273,7 @@ Stagger angle in deg:       -37.763480128469411        6.599200919323286
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.50737303388941124     
+ chrd bladegen:   0.50719988782252423     
  pitch   0.39269908169872414     
  np_sidee         121
  n_normal_distance =           27
@@ -1329,7 +1329,7 @@ Stagger angle in deg:       -34.324193783099773        6.212960270141428
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.54388409985989028     
+ chrd bladegen:   0.54384962179576279     
  pitch   0.39269908169872414     
  np_sidee         121
  n_normal_distance =           26
@@ -1476,73 +1476,73 @@ Stagger angle in deg:       -31.044635988230254        4.488917001904269
    1.0000000000000000        0.0000000000000000     
  
  section(           1 )
- 3D throat line [mm] =   385.13684256718761     
- 3D mouth line [mm] =   399.71305239352648     
- 3D exit line [mm] =   386.04099832401886     
+ 3D throat line [mm] =   386.46304227048012     
+ 3D mouth line [mm] =   399.28146073223735     
+ 3D exit line [mm] =   388.17784043648055     
  section(           2 )
- 3D throat line [mm] =   350.18022003996373     
- 3D mouth line [mm] =   378.09241193854780     
- 3D exit line [mm] =   350.18022003996373     
+ 3D throat line [mm] =   352.21773915267698     
+ 3D mouth line [mm] =   379.44866380894803     
+ 3D exit line [mm] =   352.58528526019450     
  section(           3 )
- 3D throat line [mm] =   323.26522791399043     
- 3D mouth line [mm] =   360.62619549340832     
- 3D exit line [mm] =   323.26522791399043     
+ 3D throat line [mm] =   324.99998378049958     
+ 3D mouth line [mm] =   360.14771853927158     
+ 3D exit line [mm] =   324.99998378049958     
  section(           4 )
- 3D throat line [mm] =   297.63070769833206     
- 3D mouth line [mm] =   342.23285429685353     
- 3D exit line [mm] =   297.63070769833206     
+ 3D throat line [mm] =   298.67503430131370     
+ 3D mouth line [mm] =   342.94573612517303     
+ 3D exit line [mm] =   298.67503430131370     
  section(           5 )
- 3D throat line [mm] =   266.33313473353888     
- 3D mouth line [mm] =   323.27730295979956     
- 3D exit line [mm] =   266.33313473353888     
+ 3D throat line [mm] =   267.17951128136565     
+ 3D mouth line [mm] =   322.40229085549777     
+ 3D exit line [mm] =   267.17951128136565     
  section(           6 )
- 3D throat line [mm] =   235.34954562983717     
- 3D mouth line [mm] =   302.44778663243363     
- 3D exit line [mm] =   235.34954562983717     
+ 3D throat line [mm] =   235.92249139618033     
+ 3D mouth line [mm] =   302.67309275265956     
+ 3D exit line [mm] =   235.92249139618033     
  section(           7 )
- 3D throat line [mm] =   213.75977289927556     
- 3D mouth line [mm] =   289.28580675774134     
- 3D exit line [mm] =   213.75977289927556     
+ 3D throat line [mm] =   218.80154718744035     
+ 3D mouth line [mm] =   289.40769051394506     
+ 3D exit line [mm] =   218.80154718744035     
  section(           8 )
- 3D throat line [mm] =   202.93125409686095     
- 3D mouth line [mm] =   283.20960778895756     
- 3D exit line [mm] =   202.93125409686095     
+ 3D throat line [mm] =   203.61378022332673     
+ 3D mouth line [mm] =   283.31722966654405     
+ 3D exit line [mm] =   203.61378022332673     
  section(           9 )
- 3D throat line [mm] =   186.44438458576820     
- 3D mouth line [mm] =   274.72941654547424     
- 3D exit line [mm] =   186.44438458576820     
+ 3D throat line [mm] =   186.80711076169609     
+ 3D mouth line [mm] =   274.92377532388178     
+ 3D exit line [mm] =   186.80711076169609     
  section(          10 )
- 3D throat line [mm] =   175.02911820015220     
- 3D mouth line [mm] =   266.52200307379661     
- 3D exit line [mm] =   175.02911820015220     
+ 3D throat line [mm] =   175.30867523004861     
+ 3D mouth line [mm] =   266.57811382949785     
+ 3D exit line [mm] =   175.30867523004861     
  section(          11 )
- 3D throat line [mm] =   151.15803006154647     
- 3D mouth line [mm] =   253.90181088120539     
- 3D exit line [mm] =   151.15803006154647     
+ 3D throat line [mm] =   151.35839552020346     
+ 3D mouth line [mm] =   253.93343861192596     
+ 3D exit line [mm] =   151.35839552020346     
  section(          12 )
- 3D throat line [mm] =   135.16421966552656     
- 3D mouth line [mm] =   240.83620623928311     
- 3D exit line [mm] =   135.16421966552656     
+ 3D throat line [mm] =   135.26593980606808     
+ 3D mouth line [mm] =   240.85463821316648     
+ 3D exit line [mm] =   135.26593980606808     
  section(          13 )
- 3D throat line [mm] =   114.51320996337267     
- 3D mouth line [mm] =   233.26586383512395     
- 3D exit line [mm] =   114.51320996337267     
+ 3D throat line [mm] =   114.58333542423604     
+ 3D mouth line [mm] =   233.30136709732113     
+ 3D exit line [mm] =   114.58333542423604     
  section(          14 )
- 3D throat line [mm] =   83.868946138700835     
- 3D mouth line [mm] =   219.14835059936550     
- 3D exit line [mm] =   83.868946138700835     
+ 3D throat line [mm] =   83.927981876724559     
+ 3D mouth line [mm] =   219.15394284251263     
+ 3D exit line [mm] =   83.927981876724559     
  section(          15 )
- 3D throat line [mm] =   104.17420495259347     
- 3D mouth line [mm] =   201.95086177568027     
- 3D exit line [mm] =   104.17420495259347     
+ 3D throat line [mm] =   104.19448230394516     
+ 3D mouth line [mm] =   201.95309463523313     
+ 3D exit line [mm] =   104.19448230394516     
  section(          16 )
- 3D throat line [mm] =   108.24939539168228     
- 3D mouth line [mm] =   191.11265195417292     
- 3D exit line [mm] =   108.24939539168228     
+ 3D throat line [mm] =   108.25513718112603     
+ 3D mouth line [mm] =   191.11395030973301     
+ 3D exit line [mm] =   108.25513718112603     
  section(          17 )
- 3D throat line [mm] =   109.37752416003539     
- 3D mouth line [mm] =   169.34004755746321     
- 3D exit line [mm] =   109.37752416003539     
+ 3D throat line [mm] =   109.37809204544951     
+ 3D mouth line [mm] =   169.34015442017431     
+ 3D exit line [mm] =   109.37809204544951     
  section(          18 )
  3D throat line [mm] =   102.60609442576097     
  3D mouth line [mm] =   139.97448266053323     
@@ -1551,23 +1551,23 @@ Stagger angle in deg:       -31.044635988230254        4.488917001904269
  
  Writing 3D blade geometry ...
  
- chord_actual(mm):   164.94885462484609     
- chord_actual(mm):   178.94131513280999     
- chord_actual(mm):   191.99183172724091     
- chord_actual(mm):   204.44041371407548     
- chord_actual(mm):   219.59243517666738     
- chord_actual(mm):   233.98868386041386     
- chord_actual(mm):   241.24677740203953     
- chord_actual(mm):   247.94429297478456     
- chord_actual(mm):   257.51509655939287     
- chord_actual(mm):   264.39465845912184     
- chord_actual(mm):   273.74142401302583     
- chord_actual(mm):   281.08283937905037     
- chord_actual(mm):   292.17228254521240     
- chord_actual(mm):   312.78311341264504     
- chord_actual(mm):   272.51015853400065     
- chord_actual(mm):   265.11117082698979     
- chord_actual(mm):   259.01972296125473     
+ chord_actual(mm):   157.23423958913844     
+ chord_actual(mm):   171.69415947534350     
+ chord_actual(mm):   185.38423462291837     
+ chord_actual(mm):   198.68934314781541     
+ chord_actual(mm):   214.83520151078423     
+ chord_actual(mm):   230.41671024816509     
+ chord_actual(mm):   238.43268855248135     
+ chord_actual(mm):   245.36682646541709     
+ chord_actual(mm):   255.34966689766176     
+ chord_actual(mm):   262.55747168402360     
+ chord_actual(mm):   272.42011714527575     
+ chord_actual(mm):   280.20226934650429     
+ chord_actual(mm):   291.47007187377591     
+ chord_actual(mm):   312.32752107695291     
+ chord_actual(mm):   272.32970763685944     
+ chord_actual(mm):   265.01299553369222     
+ chord_actual(mm):   259.00159054594690     
  chord_actual(mm):   261.85325073247003     
  
  Calculating the meanline by taking the average of PS ans SS in 3D...
@@ -1576,13 +1576,13 @@ Stagger angle in deg:       -31.044635988230254        4.488917001904269
  Writing the top and bottom periodic wall coordinates...
  
          121
- throat_index           1          30
- throat_index           2          29
- throat_index           3          28
+ throat_index           1          28
+ throat_index           2          28
+ throat_index           3          26
  throat_index           4          27
- throat_index           5          27
+ throat_index           5          26
  throat_index           6          27
- throat_index           7          28
+ throat_index           7          27
  throat_index           8          26
  throat_index           9          26
  throat_index          10          25
