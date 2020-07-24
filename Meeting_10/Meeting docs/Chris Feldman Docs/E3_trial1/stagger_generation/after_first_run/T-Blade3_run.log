@@ -400,7 +400,7 @@
 
 Using curvature control for camber definition...
  xcp -0.14999999999999999        0.0000000000000000       0.14999999999999999       0.24999999999999997       0.49999999999999994       0.75000000000000000       0.94999999999999996        1.0000000000000000        1.0500000000000000     
- ycp -0.16085652106500001        0.0000000000000000       0.16085652106500001       0.36734052787899996        6.0692246700000001E-002  0.39217871236299995       -7.3852399160000012E-002   0.0000000000000000        7.3852399160000012E-002
+ ycp -0.16085652106499998        0.0000000000000000       0.16085652106499998       0.36734052787900001        6.0692246699999994E-002  0.39217871236299995       -7.3852399159999998E-002   0.0000000000000000        7.3852399159999998E-002
 Total camber is:  -16.046138495145666
 Determinant is:    0.032845758893954
 Possible values of scaling factor are:       -81.668301366736756        1.618442841638924
@@ -429,7 +429,7 @@ Stagger angle in deg:        -4.929620323122314        3.498822605336857
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
  top curve points index range for % chord stacking:          63          64
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack  0.10144042666231975       -1.8998536491754797E-002
+ vtop_stack vbot_stack  0.10144042666231974       -1.8998536491754797E-002
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
@@ -456,14 +456,14 @@ Stagger angle in deg:        -4.929620323122314        3.498822605336857
 
 Using curvature control for camber definition...
  xcp -0.14999999999999999        0.0000000000000000       0.14999999999999999       0.25000000000000000       0.50000000000000000       0.75000000000000000       0.94999999999999996        1.0000000000000000        1.0500000000000000     
- ycp  0.14200563703849781       0.16411487270796707       0.18622410837743633       0.36494764572286681       0.14310173136563031       0.40408298576813917        9.8043539577136171E-002  0.11912270187538554       0.14020186417363489     
+ ycp -0.16085652106500001        0.0000000000000000       0.16085652106500001       0.36734052787899996        6.0692246700000001E-002  0.39217871236299995       -7.3852399159999998E-002   0.0000000000000000        7.3852399159999998E-002
 Total camber is:   25.817084688543709
-Determinant is:    0.070389080915501
-Possible values of scaling factor are:        36.539464681271738       -1.919261215763242
-Camber line second derivative scaling factor:        -1.919261215763242        0.000000000000000
-Inlet u-v metal angle in deg:       -12.971382664785992        0.000000000000000
-Exit u-v metal angle in deg:        12.845702023757692        0.000000000000000
-Stagger angle in deg:        17.228373921217969        4.256991256431980
+Determinant is:    0.037425310309602
+Possible values of scaling factor are:        50.222405183999214       -2.631803022008917
+Camber line second derivative scaling factor:        -2.631803022008917        0.000000000000000
+Inlet u-v metal angle in deg:       -13.547259940546313        0.000000000000000
+Exit u-v metal angle in deg:        12.269824747997379        0.000000000000000
+Stagger angle in deg:        17.804251196978292        4.256991256431980
  
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    5.7056710372074840E-002
@@ -484,16 +484,16 @@ Stagger angle in deg:        17.228373921217969        4.256991256431980
  Stacking position on the chord as % of chord:   55.000000000000000     
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
  top curve points index range for % chord stacking:          62          63
- bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack  -6.1089978616377747E-003 -0.11580837531295037     
+ bottom curve points index range for % chord stacking:          63          64
+ vtop_stack vbot_stack  -1.2161910511063903E-002 -0.12187319823189197     
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.18032663501367557     
+ chrd bladegen:   0.18089958076397830     
  pitch   0.39269908169872414     
  np_sidee         121
- n_normal_distance =           26
- Number of intersection points (k) =           26 from np_side of         121
+ n_normal_distance =           29
+ Number of intersection points (k) =           29 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -512,14 +512,14 @@ Stagger angle in deg:        17.228373921217969        4.256991256431980
 
 Using curvature control for camber definition...
  xcp -0.14999999999999999        0.0000000000000000       0.14999999999999999       0.25000000000000006       0.50000000000000011       0.75000000000000011       0.95000000000000007        1.0000000000000000        1.0499999999999998     
- ycp  0.38388854263926042       0.29468150438328239       0.20547446612730438       0.36394825536698222       0.20675790218237808       0.40484852586932846       0.23218674076856066       0.21389442903998154       0.19560211731140242     
+ ycp -0.16085652106500001        0.0000000000000000       0.16085652106500001       0.36734052787900007        6.0692246700000001E-002  0.39217871236300006       -7.3852399159999998E-002   0.0000000000000000        7.3852399159999998E-002
 Total camber is:   35.444511965613898
-Determinant is:    0.124684187435604
-Possible values of scaling factor are:        21.758741054063801       -2.221758356395306
-Camber line second derivative scaling factor:        -2.221758356395306        0.000000000000000
-Inlet u-v metal angle in deg:       -17.496064258597649        0.000000000000000
-Exit u-v metal angle in deg:        17.948447707016250        0.000000000000000
-Stagger angle in deg:        21.946831092109132        4.450766833511481
+Determinant is:    0.045676656042571
+Possible values of scaling factor are:        36.014335883337687       -3.670079552874874
+Camber line second derivative scaling factor:        -3.670079552874874        0.000000000000000
+Inlet u-v metal angle in deg:       -18.572831331702936        0.000000000000000
+Exit u-v metal angle in deg:        16.871680633910966        0.000000000000000
+Stagger angle in deg:        23.023598165214416        4.450766833511481
  
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    5.1615647549168572E-002
@@ -541,15 +541,15 @@ Stagger angle in deg:        21.946831092109132        4.450766833511481
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
  top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack  -3.1158832059792065E-002 -0.13053863632407672     
+ vtop_stack vbot_stack  -4.3735548891672991E-002 -0.14314199134680380     
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.20210373767591089     
+ chrd bladegen:   0.20368202465495414     
  pitch   0.39269908169872414     
  np_sidee         121
- n_normal_distance =           21
- Number of intersection points (k) =           21 from np_side of         121
+ n_normal_distance =           28
+ Number of intersection points (k) =           28 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -568,14 +568,14 @@ Stagger angle in deg:        21.946831092109132        4.450766833511481
 
 Using curvature control for camber definition...
  xcp -0.14999999999999999        0.0000000000000000       0.14999999999999999       0.25000000000000000       0.50000000000000000       0.75000000000000000       0.94999999999999996        1.0000000000000000        1.0500000000000000     
- ycp  0.53421225334061240       0.37457562794566124       0.21493900255071011       0.36558379381728701       0.24097030719516183       0.38368646249311739       0.30777447463291191       0.27188554042238372       0.23599660621185553     
+ ycp -0.16085652106500001        0.0000000000000000       0.16085652106500001       0.36734052787900001        6.0692246699999994E-002  0.39217871236300000       -7.3852399159999985E-002   0.0000000000000000        7.3852399159999985E-002
 Total camber is:   41.877385489811523
-Determinant is:    0.174628763638227
-Possible values of scaling factor are:        16.801047848375987       -2.459470909217551
-Camber line second derivative scaling factor:        -2.459470909217551        0.000000000000000
-Inlet u-v metal angle in deg:       -20.660819248581930        0.000000000000000
-Exit u-v metal angle in deg:        21.216566241229600        0.000000000000000
-Stagger angle in deg:        25.123369096439486        4.462549847857557
+Determinant is:    0.054666874409139
+Possible values of scaling factor are:        30.075510910473717       -4.394787444484468
+Camber line second derivative scaling factor:        -4.394787444484468        0.000000000000000
+Inlet u-v metal angle in deg:       -21.917835967579176        0.000000000000000
+Exit u-v metal angle in deg:        19.959549522232351        0.000000000000000
+Stagger angle in deg:        26.380385815436732        4.462549847857557
  
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    4.5981623323056955E-002
@@ -597,15 +597,15 @@ Stagger angle in deg:        25.123369096439486        4.462549847857557
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
  top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack  -4.9812595366641996E-002 -0.13850550193898215     
+ vtop_stack vbot_stack  -6.7503492408424251E-002 -0.15622948647335527     
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.22584933556981840     
+ chrd bladegen:   0.22825232049095048     
  pitch   0.39269908169872414     
  np_sidee         121
- n_normal_distance =           20
- Number of intersection points (k) =           20 from np_side of         121
+ n_normal_distance =           27
+ Number of intersection points (k) =           27 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -624,14 +624,14 @@ Stagger angle in deg:        25.123369096439486        4.462549847857557
 
 Using curvature control for camber definition...
  xcp -0.14999999999999997        0.0000000000000000       0.14999999999999997       0.25000000000000000       0.50000000000000000       0.75000000000000000       0.94999999999999984        1.0000000000000000        1.0500000000000003     
- ycp  0.52938990567497735       0.36882187063488064       0.20825383559478391       0.37081184348674867       0.22578607891245811       0.32578153787540054       0.28521826035938297       0.26774375467243966       0.25026924898549635     
+ ycp -0.16085652106500001        0.0000000000000000       0.16085652106500001       0.36734052787900001        6.0692246700000001E-002  0.39217871236300000       -7.3852399159999998E-002   0.0000000000000000        7.3852399159999998E-002
 Total camber is:   50.389194580496124
-Determinant is:    0.209649926941764
-Possible values of scaling factor are:        14.563226334430007       -3.223031723213620
-Camber line second derivative scaling factor:        -3.223031723213620        0.000000000000000
-Inlet u-v metal angle in deg:       -25.374134603869905        0.000000000000000
-Exit u-v metal angle in deg:        25.015059976626230        0.000000000000000
-Stagger angle in deg:        30.064783330830153        4.690648726960247
+Determinant is:    0.074527732941211
+Possible values of scaling factor are:        24.458296700091935       -5.404116212855850
+Camber line second derivative scaling factor:        -5.404116212855850        0.000000000000000
+Inlet u-v metal angle in deg:       -26.324679858135003        0.000000000000000
+Exit u-v metal angle in deg:        24.064514722361128        0.000000000000000
+Stagger angle in deg:        31.015328585095251        4.690648726960247
  
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    4.0025059986868783E-002
@@ -653,15 +653,15 @@ Stagger angle in deg:        30.064783330830153        4.690648726960247
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
  top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack  -7.5955389115304320E-002 -0.15337947097902715     
+ vtop_stack vbot_stack  -9.8807785597904665E-002 -0.17625129437224751     
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.25649541989750974     
+ chrd bladegen:   0.25901839488028272     
  pitch   0.39269908169872414     
  np_sidee         121
- n_normal_distance =           18
- Number of intersection points (k) =           18 from np_side of         121
+ n_normal_distance =           27
+ Number of intersection points (k) =           27 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -680,14 +680,14 @@ Stagger angle in deg:        30.064783330830153        4.690648726960247
 
 Using curvature control for camber definition...
  xcp -0.14999999999999999        0.0000000000000000       0.14999999999999999       0.25000000000000000       0.50000000000000000       0.75000000000000011       0.94999999999999996        1.0000000000000000        1.0500000000000000     
- ycp  0.34512966502418341       0.26867071578904517       0.19221176655390695       0.36144266153120025       0.16420896466758489       0.23470060943126342       0.17242292305088494       0.19586501404763859       0.21930710504439224     
+ ycp -0.16085652106500001        0.0000000000000000       0.16085652106500001       0.36734052787900007        6.0692246700000001E-002  0.39217871236299995       -7.3852399159999998E-002   0.0000000000000000        7.3852399159999998E-002
 Total camber is:   58.366704311302378
-Determinant is:    0.190175686325487
-Possible values of scaling factor are:        15.682461978621314       -4.881164033473879
-Camber line second derivative scaling factor:        -4.881164033473879        0.000000000000000
-Inlet u-v metal angle in deg:       -30.746325532891191        0.000000000000000
-Exit u-v metal angle in deg:        27.620378778411197        0.000000000000000
-Stagger angle in deg:        35.208699732350809        4.462374199459616
+Determinant is:    0.110094019831536
+Possible values of scaling factor are:        20.599247751071552       -6.416519638632431
+Camber line second derivative scaling factor:        -6.416519638632431        0.000000000000000
+Inlet u-v metal angle in deg:       -30.432367612471925        0.000000000000000
+Exit u-v metal angle in deg:        27.934336698830460        0.000000000000000
+Stagger angle in deg:        34.894741811931539        4.462374199459616
  
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    3.3838343686325281E-002
@@ -709,15 +709,15 @@ Stagger angle in deg:        35.208699732350809        4.462374199459616
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
  top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack -0.10457548064792201      -0.17038402769336997     
+ vtop_stack vbot_stack -0.13039398623612347      -0.19612086696340517     
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.29482844620817239     
+ chrd bladegen:   0.29369722844013779     
  pitch   0.39269908169872414     
  np_sidee         121
- n_normal_distance =           21
- Number of intersection points (k) =           21 from np_side of         121
+ n_normal_distance =           27
+ Number of intersection points (k) =           27 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -736,14 +736,14 @@ Stagger angle in deg:        35.208699732350809        4.462374199459616
 
 Using curvature control for camber definition...
  xcp -0.14999999999999999        0.0000000000000000       0.14999999999999999       0.24999999999999997       0.49999999999999994       0.74999999999999989       0.94999999999999996        1.0000000000000000        1.0500000000000000     
- ycp  0.16157820444041401       0.17498064121427548       0.18838307798813694       0.33048358523702664       0.11938029540717472       0.17559892394050783        9.1965968743109486E-002  0.12943707801675203       0.16690818729039458     
+ ycp -0.16085652106499998        0.0000000000000000       0.16085652106499998       0.36734052787899996        6.0692246699999994E-002  0.39217871236300000       -7.3852399159999998E-002   0.0000000000000000        7.3852399159999998E-002
 Total camber is:   62.107911745359274
-Determinant is:    0.145447176874923
-Possible values of scaling factor are:        18.705089367035967       -6.738587164170971
-Camber line second derivative scaling factor:        -6.738587164170971        0.000000000000000
-Inlet u-v metal angle in deg:       -34.012415840386467        0.000000000000000
-Exit u-v metal angle in deg:        28.095495904972807        0.000000000000000
-Stagger angle in deg:        38.242125603756733        4.229709763370270
+Determinant is:    0.138364244428073
+Possible values of scaling factor are:        19.104798362242391       -6.918444007084081
+Camber line second derivative scaling factor:        -6.918444007084081        0.000000000000000
+Inlet u-v metal angle in deg:       -32.350544874087433        0.000000000000000
+Exit u-v metal angle in deg:        29.757366871271852        0.000000000000000
+Stagger angle in deg:        36.580254637457706        4.229709763370270
  
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    3.0115284402022272E-002
@@ -765,15 +765,15 @@ Stagger angle in deg:        38.242125603756733        4.229709763370270
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
  top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack -0.12160099399046484      -0.18049926827800461     
+ vtop_stack vbot_stack -0.14667000550925982      -0.20533989017604748     
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.32289268022674139     
+ chrd bladegen:   0.31580738185521812     
  pitch   0.39269908169872414     
  np_sidee         121
- n_normal_distance =           23
- Number of intersection points (k) =           23 from np_side of         121
+ n_normal_distance =           28
+ Number of intersection points (k) =           28 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -792,14 +792,14 @@ Stagger angle in deg:        38.242125603756733        4.229709763370270
 
 Using curvature control for camber definition...
  xcp -0.15000000000000002        0.0000000000000000       0.15000000000000002       0.25000000000000000       0.50000000000000000       0.75000000000000000       0.95000000000000007        1.0000000000000000        1.0499999999999998     
- ycp   8.1207229701825756E-002  0.13560361168346133       0.18999999366509690       0.31055317872198113       0.10376880774130016       0.15474627665678528        6.5098146319767070E-002  0.10178971023640031       0.13848127415303355     
+ ycp -0.16085652106500001        0.0000000000000000       0.16085652106500001       0.36734052787900007        6.0692246700000008E-002  0.39217871236300006       -7.3852399160000012E-002   0.0000000000000000        7.3852399160000012E-002
 Total camber is:   63.410189735699483
-Determinant is:    0.125983180800064
-Possible values of scaling factor are:        20.509855024427804       -7.757635036844608
-Camber line second derivative scaling factor:        -7.757635036844608        0.000000000000000
-Inlet u-v metal angle in deg:       -35.289551024907155        0.000000000000000
-Exit u-v metal angle in deg:        28.120638710792321        0.000000000000000
-Stagger angle in deg:        40.559970761479327        5.270419736572171
+Determinant is:    0.151132329454038
+Possible values of scaling factor are:        18.622076137169156       -7.097784197755846
+Camber line second derivative scaling factor:        -7.097784197755846        0.000000000000000
+Inlet u-v metal angle in deg:       -33.016956709826140        0.000000000000000
+Exit u-v metal angle in deg:        30.393233025873336        0.000000000000000
+Stagger angle in deg:        38.287376446398305        5.270419736572171
  
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    2.8736079945190139E-002
@@ -821,15 +821,15 @@ Stagger angle in deg:        40.559970761479327        5.270419736572171
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
  top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack -0.12844597856630585      -0.18480309743491002     
+ vtop_stack vbot_stack -0.15253117494701274      -0.20858507201550466     
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.34097725051976208     
+ chrd bladegen:   0.33003560874107274     
  pitch   0.39269908169872414     
  np_sidee         121
- n_normal_distance =           22
- Number of intersection points (k) =           22 from np_side of         121
+ n_normal_distance =           26
+ Number of intersection points (k) =           26 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -848,14 +848,14 @@ Stagger angle in deg:        40.559970761479327        5.270419736572171
 
 Using curvature control for camber definition...
  xcp -0.14999999999999999        0.0000000000000000       0.14999999999999999       0.25000000000000000       0.50000000000000000       0.75000000000000000       0.94999999999999996        1.0000000000000000        1.0500000000000000     
- ycp  -6.4035687708652089E-002   6.7189777555876268E-002  0.19841524282040462       0.26367241909132050        8.2051553898385907E-002  0.12384990025244609        3.0362236774708722E-002   5.4243664517251683E-002   7.8125092259794637E-002
+ ycp -0.16085652106500001        0.0000000000000000       0.16085652106500001       0.36734052787900001        6.0692246700000001E-002  0.39217871236300000       -7.3852399159999998E-002   0.0000000000000000        7.3852399159999998E-002
 Total camber is:   66.382906441105547
-Determinant is:    0.101114118547253
-Possible values of scaling factor are:        24.216981144670957      -10.230843986687880
-Camber line second derivative scaling factor:       -10.230843986687880        0.000000000000000
-Inlet u-v metal angle in deg:       -37.863316841130484        0.000000000000000
-Exit u-v metal angle in deg:        28.519589599975074        0.000000000000000
-Stagger angle in deg:        43.628042845671295        5.764726004540815
+Determinant is:    0.188634768184037
+Possible values of scaling factor are:        17.583855983639065       -7.516865348464437
+Camber line second derivative scaling factor:        -7.516865348464437        0.000000000000000
+Inlet u-v metal angle in deg:       -34.535626786245849        0.000000000000000
+Exit u-v metal angle in deg:        31.847279654859722        0.000000000000000
+Stagger angle in deg:        40.300352790786661        5.764726004540815
  
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    2.6477705211826651E-002
@@ -877,15 +877,15 @@ Stagger angle in deg:        43.628042845671295        5.764726004540815
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
  top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack -0.14357505684509206      -0.19579297917621727     
+ vtop_stack vbot_stack -0.16531785602713794      -0.21708898096830931     
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.37343047273418378     
+ chrd bladegen:   0.35441772801817295     
  pitch   0.39269908169872414     
  np_sidee         121
- n_normal_distance =           25
- Number of intersection points (k) =           25 from np_side of         121
+ n_normal_distance =           26
+ Number of intersection points (k) =           26 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -904,14 +904,14 @@ Stagger angle in deg:        43.628042845671295        5.764726004540815
 
 Using curvature control for camber definition...
  xcp -0.14999999999999999        0.0000000000000000       0.14999999999999999       0.25000000000000000       0.50000000000000000       0.75000000000000000       0.94999999999999984        1.0000000000000000        1.0500000000000003     
- ycp -0.18802266064776171        1.1959325688909752E-002  0.21194131202558122       0.21098642791589928        7.0892000078861359E-002  0.10449040399981716        1.6579528046528371E-002   1.6448351942231751E-002   1.6317175837935131E-002
+ ycp -0.16085652106500001        0.0000000000000000       0.16085652106500001       0.36734052787900007        6.0692246700000008E-002  0.39217871236300006       -7.3852399160000012E-002   0.0000000000000000        7.3852399160000012E-002
 Total camber is:   68.638767056016192
-Determinant is:    0.082956937534410
-Possible values of scaling factor are:        28.205645001883731      -12.954018625081721
-Camber line second derivative scaling factor:       -12.954018625081721        0.000000000000000
-Inlet u-v metal angle in deg:       -39.610078651255712        0.000000000000000
-Exit u-v metal angle in deg:        29.028688404760484        0.000000000000000
-Stagger angle in deg:        45.525755245720603        5.915676594464891
+Determinant is:    0.228175561676958
+Possible values of scaling factor are:        16.849432054650833       -7.844506408708418
+Camber line second derivative scaling factor:        -7.844506408708418        0.000000000000000
+Inlet u-v metal angle in deg:       -35.685666354494487        0.000000000000000
+Exit u-v metal angle in deg:        32.953100701521713        0.000000000000000
+Stagger angle in deg:        41.601342948959370        5.915676594464891
  
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    2.4724907115490854E-002
@@ -933,15 +933,15 @@ Stagger angle in deg:        45.525755245720603        5.915676594464891
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
  top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack -0.15630468022718785      -0.20526248646853340     
+ vtop_stack vbot_stack -0.17530090188610495      -0.22374551437636855     
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.39840900925515493     
+ chrd bladegen:   0.37326467308321859     
  pitch   0.39269908169872414     
  np_sidee         121
- n_normal_distance =           26
- Number of intersection points (k) =           26 from np_side of         121
+ n_normal_distance =           25
+ Number of intersection points (k) =           25 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -960,14 +960,14 @@ Stagger angle in deg:        45.525755245720603        5.915676594464891
 
 Using curvature control for camber definition...
  xcp -0.14999999999999999        0.0000000000000000       0.14999999999999999       0.25000000000000000       0.50000000000000000       0.75000000000000000       0.94999999999999996        1.0000000000000000        1.0500000000000000     
- ycp -0.39908883283900853       -7.4852740825677139E-002  0.24938335118765428        9.1605576188332274E-002   6.6387622845680491E-002   8.5999914249639792E-002   2.6219958338567585E-002  -4.2555775964295370E-002 -0.11133151026715832     
+ ycp -0.16085652106500001        0.0000000000000000       0.16085652106500001       0.36734052787900001        6.0692246700000001E-002  0.39217871236300006       -7.3852399159999998E-002   0.0000000000000000        7.3852399159999998E-002
 Total camber is:   72.267988417024611
-Determinant is:    0.061455280779537
-Possible values of scaling factor are:        36.498173233879633      -19.279134111766595
-Camber line second derivative scaling factor:       -19.279134111766595        0.000000000000000
-Inlet u-v metal angle in deg:       -40.833931376942580        0.000000000000000
-Exit u-v metal angle in deg:        31.434057040082035        0.000000000000000
-Stagger angle in deg:        46.603219833886925        5.769288456944346
+Determinant is:    0.326327872736242
+Possible values of scaling factor are:        15.752656517256241       -8.390678587514046
+Camber line second derivative scaling factor:        -8.390678587514046        0.000000000000000
+Inlet u-v metal angle in deg:       -37.531387089512364        0.000000000000000
+Exit u-v metal angle in deg:        34.736601327512261        0.000000000000000
+Stagger angle in deg:        43.300675546456709        5.769288456944346
  
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    2.1948483245838969E-002
@@ -989,15 +989,15 @@ Stagger angle in deg:        46.603219833886925        5.769288456944346
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
  top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack -0.17672099900290300      -0.22018411254285167     
+ vtop_stack vbot_stack -0.19180505819709337      -0.23497601767523113     
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.42883858381243606     
+ chrd bladegen:   0.40484532463140699     
  pitch   0.39269908169872414     
  np_sidee         121
- n_normal_distance =           29
- Number of intersection points (k) =           29 from np_side of         121
+ n_normal_distance =           26
+ Number of intersection points (k) =           26 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -1016,14 +1016,14 @@ Stagger angle in deg:        46.603219833886925        5.769288456944346
 
 Using curvature control for camber definition...
  xcp -0.14999999999999997        0.0000000000000000       0.14999999999999997       0.24999999999999997       0.49999999999999994       0.74999999999999989       0.94999999999999984        1.0000000000000000        1.0500000000000003     
- ycp -0.59229184959049830      -0.14492638333596022       0.30243908291857785       -5.8996935979370529E-002   7.3773039036101010E-002   8.5832351855900407E-002   6.8317465278145015E-002  -9.3083753244969952E-002 -0.25448497176808493     
+ ycp -0.16085652106499998        0.0000000000000000       0.16085652106499998       0.36734052787899996        6.0692246699999994E-002  0.39217871236300000       -7.3852399159999998E-002   0.0000000000000000        7.3852399159999998E-002
 Total camber is:   75.652812059261279
-Determinant is:    0.049556834128851
-Possible values of scaling factor are:        46.697919244824639      -28.149531309858563
-Camber line second derivative scaling factor:       -28.149531309858563        0.000000000000000
-Inlet u-v metal angle in deg:       -38.180214023714313        0.000000000000000
-Exit u-v metal angle in deg:        37.472598035546966        0.000000000000000
-Stagger angle in deg:        43.317180053854806        5.136966030140492
+Determinant is:    0.492932086663366
+Possible values of scaling factor are:        14.812254238745552       -8.923387055433061
+Camber line second derivative scaling factor:        -8.923387055433061        0.000000000000000
+Inlet u-v metal angle in deg:       -39.247762106538097        0.000000000000000
+Exit u-v metal angle in deg:        36.405049952723168        0.000000000000000
+Stagger angle in deg:        44.384728136678589        5.136966030140492
  
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    1.9370023959913132E-002
@@ -1045,15 +1045,15 @@ Stagger angle in deg:        43.317180053854806        5.136966030140492
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
  top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack -0.19044379093720615      -0.22856709679242104     
+ vtop_stack vbot_stack -0.20778022209705310      -0.24604820176349976     
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.43052090164274992     
+ chrd bladegen:   0.43829682819406085     
  pitch   0.39269908169872414     
  np_sidee         121
- n_normal_distance =           31
- Number of intersection points (k) =           31 from np_side of         121
+ n_normal_distance =           27
+ Number of intersection points (k) =           27 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -1072,14 +1072,14 @@ Stagger angle in deg:        43.317180053854806        5.136966030140492
 
 Using curvature control for camber definition...
  xcp -0.15000000000000002        0.0000000000000000       0.15000000000000002       0.25000000000000000       0.50000000000000000       0.74999999999999989       0.94999999999999996        1.0000000000000000        1.0500000000000000     
- ycp -0.67574263827718406      -0.17013217309165549       0.33547829209387309      -0.14766304108008058        7.9405958223785711E-002   9.3747196885570219E-002   9.9405796540684654E-002 -0.11480204343760615      -0.32900988341589699     
+ ycp -0.16085652106500004        0.0000000000000000       0.16085652106500004       0.36734052787900001        6.0692246699999994E-002  0.39217871236300000       -7.3852399160000012E-002   0.0000000000000000        7.3852399160000012E-002
 Total camber is:   78.410530457373298
-Determinant is:    0.054259786346501
-Possible values of scaling factor are:        52.529116557126827      -34.802599414061568
-Camber line second derivative scaling factor:       -34.802599414061568        0.000000000000000
-Inlet u-v metal angle in deg:       -35.099279106561703        0.000000000000000
-Exit u-v metal angle in deg:        43.311251350811595        0.000000000000000
-Stagger angle in deg:        40.738090878740721        5.638811772179020
+Determinant is:    0.749901881985032
+Possible values of scaling factor are:        14.097492832377750       -9.375814501727408
+Camber line second derivative scaling factor:        -9.375814501727408        0.000000000000000
+Inlet u-v metal angle in deg:       -40.642479662708951        0.000000000000000
+Exit u-v metal angle in deg:        37.768050794664347        0.000000000000000
+Stagger angle in deg:        46.281291434887969        5.638811772179020
  
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    1.8082070976385839E-002
@@ -1101,15 +1101,15 @@ Stagger angle in deg:        40.738090878740721        5.638811772179020
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
  top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack -0.19756962848535403      -0.23373932096973493     
+ vtop_stack vbot_stack -0.22049941895803615      -0.25631978838161912     
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.42868833883854074     
+ chrd bladegen:   0.46998808271316972     
  pitch   0.39269908169872414     
  np_sidee         121
- n_normal_distance =           32
- Number of intersection points (k) =           32 from np_side of         121
+ n_normal_distance =           28
+ Number of intersection points (k) =           28 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -1128,14 +1128,14 @@ Stagger angle in deg:        40.738090878740721        5.638811772179020
 
 Using curvature control for camber definition...
  xcp -0.14999999999999997        0.0000000000000000       0.14999999999999997       0.25000000000000000       0.50000000000000000       0.75000000000000000       0.94999999999999984        1.0000000000000000        1.0500000000000003     
- ycp -0.75749572525902997      -0.18230197977137599       0.39289176571627804      -0.29518907991702065        8.4727348104627190E-002  0.11952987812026517       0.15344653709677875      -0.13875436229224875      -0.43095526168127624     
+ ycp -0.16085652106500001        0.0000000000000000       0.16085652106500001       0.36734052787899996        6.0692246700000001E-002  0.39217871236299995       -7.3852399159999985E-002   0.0000000000000000        7.3852399159999985E-002
 Total camber is:   83.419957653234519
-Determinant is:    0.091758927826966
-Possible values of scaling factor are:        65.817277143675781      -50.637441714292628
-Camber line second derivative scaling factor:       -50.637441714292628        0.000000000000000
-Inlet u-v metal angle in deg:       -27.477304615589482        0.000000000000000
-Exit u-v metal angle in deg:        55.942653037645023        0.000000000000000
-Stagger angle in deg:        33.600281102865701        6.122976487276225
+Determinant is:    2.304740947392181
+Possible values of scaling factor are:        12.901096794603186      -10.245289981166366
+Camber line second derivative scaling factor:       -10.245289981166366        0.000000000000000
+Inlet u-v metal angle in deg:       -43.167457772669607        0.000000000000000
+Exit u-v metal angle in deg:        40.252499880564891        0.000000000000000
+Stagger angle in deg:        49.290434259945833        6.122976487276225
  
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    1.6133088603850158E-002
@@ -1157,15 +1157,15 @@ Stagger angle in deg:        33.600281102865701        6.122976487276225
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
  top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack -0.20698946112236410      -0.24533463871938049     
+ vtop_stack vbot_stack -0.24443671418693205      -0.27655587462719883     
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.41611651388058596     
+ chrd bladegen:   0.53139816816084717     
  pitch   0.39269908169872414     
  np_sidee         121
- n_normal_distance =           29
- Number of intersection points (k) =           29 from np_side of         121
+ n_normal_distance =           28
+ Number of intersection points (k) =           28 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -1184,14 +1184,14 @@ Stagger angle in deg:        33.600281102865701        6.122976487276225
 
 Using curvature control for camber definition...
  xcp -0.14999999999999999        0.0000000000000000       0.14999999999999999       0.25000000000000000       0.50000000000000000       0.75000000000000011       0.94999999999999996        1.0000000000000000        1.0500000000000000     
- ycp -0.70302131600731066      -0.12166649483255187       0.45968832634220691      -0.45563624310240486        6.8314895042610471E-002  0.17462422931995686       0.20025977818394827      -0.13968780460770325      -0.47963538739935474     
+ ycp -0.16085652106500001        0.0000000000000000       0.16085652106500001       0.36734052787900007        6.0692246700000001E-002  0.39217871236300006       -7.3852399159999998E-002   0.0000000000000000        7.3852399159999998E-002
 Total camber is:  -90.296912970436537
-Determinant is:   23.141850786065824
-Possible values of scaling factor are:        80.863109519449040      -79.600810668442250
-Camber line second derivative scaling factor:        80.863109519449040        0.000000000000000
-Inlet u-v metal angle in deg:        20.750714035622604        0.000000000000000
-Exit u-v metal angle in deg:       -69.546198934813944        0.000000000000000
-Stagger angle in deg:       -14.762593978107981        5.988120057514623
+Determinant is: 1126.937798661841271
+Possible values of scaling factor are:        11.556570429785170      -11.437258011697379
+Camber line second derivative scaling factor:        11.556570429785170        0.000000000000000
+Inlet u-v metal angle in deg:        46.615588598209797        0.000000000000000
+Exit u-v metal angle in deg:       -43.681324372226740        0.000000000000000
+Stagger angle in deg:       -40.627468540695169        5.988120057514623
  
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    1.4055156278705447E-002
@@ -1213,15 +1213,15 @@ Stagger angle in deg:       -14.762593978107981        5.988120057514623
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
  top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack  0.23772142778283417       0.17814210830103477     
+ vtop_stack vbot_stack  0.30790163875281973       0.27973246348903086     
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.39172032257674588     
+ chrd bladegen:   0.49909086287000504     
  pitch   0.39269908169872414     
  np_sidee         121
- n_normal_distance =            8
- Number of intersection points (k) =            8 from np_side of         121
+ n_normal_distance =           28
+ Number of intersection points (k) =           28 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -1240,14 +1240,14 @@ Stagger angle in deg:       -14.762593978107981        5.988120057514623
 
 Using curvature control for camber definition...
  xcp -0.14999999999999999        0.0000000000000000       0.14999999999999999       0.25000000000000000       0.50000000000000000       0.75000000000000000       0.94999999999999996        1.0000000000000000        1.0500000000000000     
- ycp -0.56852108806016066       -3.9178112657332204E-002  0.49016486274549625      -0.52213588575386383        4.0075115185401314E-002  0.21699580935458987       0.20425347494748625      -0.12234201375166898      -0.44893750245082420     
+ ycp -0.16085652106500001        0.0000000000000000       0.16085652106500001       0.36734052787900001        6.0692246700000001E-002  0.39217871236300006       -7.3852399160000012E-002   0.0000000000000000        7.3852399160000012E-002
 Total camber is:  -85.798949388536954
-Determinant is:    0.147203037608375
-Possible values of scaling factor are:       -79.288348773725204       64.226576898857047
-Camber line second derivative scaling factor:        64.226576898857047        0.000000000000000
-Inlet u-v metal angle in deg:        20.033605723276732        0.000000000000000
-Exit u-v metal angle in deg:       -65.765343665260218        0.000000000000000
-Stagger angle in deg:       -13.434404803953448        6.599200919323286
+Determinant is:    5.639272473871999
+Possible values of scaling factor are:       -12.373404038222260       10.682224335963392
+Camber line second derivative scaling factor:        10.682224335963392        0.000000000000000
+Inlet u-v metal angle in deg:        44.362681047792698        0.000000000000000
+Exit u-v metal angle in deg:       -41.436268340744263        0.000000000000000
+Stagger angle in deg:       -37.763480128469411        6.599200919323286
  
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    1.3074354076092165E-002
@@ -1269,15 +1269,15 @@ Stagger angle in deg:       -13.434404803953448        6.599200919323286
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
  top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack  0.12189062144303142        6.7754523685690460E-002
+ vtop_stack vbot_stack  0.28470373783491854       0.25845694832082078     
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.41238577604461640     
+ chrd bladegen:   0.50737303388941124     
  pitch   0.39269908169872414     
  np_sidee         121
- n_normal_distance =            9
- Number of intersection points (k) =            9 from np_side of         121
+ n_normal_distance =           27
+ Number of intersection points (k) =           27 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -1296,14 +1296,14 @@ Stagger angle in deg:       -13.434404803953448        6.599200919323286
 
 Using curvature control for camber definition...
  xcp -0.14999999999999999        0.0000000000000000       0.14999999999999999       0.24999999999999997       0.49999999999999994       0.74999999999999989       0.94999999999999984        1.0000000000000000        1.0500000000000003     
- ycp -0.11518791572501647       0.20947127767604459       0.53413047107710565      -0.60257710790818186       -5.0766150935686982E-002  0.31859348241244484       0.16757408810699140       -5.5774126543269770E-002 -0.27912234119353097     
+ ycp -0.16085652106500001        0.0000000000000000       0.16085652106500001       0.36734052787900001        6.0692246700000001E-002  0.39217871236300000       -7.3852399159999998E-002   0.0000000000000000        7.3852399159999998E-002
 Total camber is:  -78.202045070719223
-Determinant is:    0.052193882596786
-Possible values of scaling factor are:       -53.867553852959368       34.299223516958712
-Camber line second derivative scaling factor:        34.299223516958712        0.000000000000000
-Inlet u-v metal angle in deg:        27.653344440801341        0.000000000000000
-Exit u-v metal angle in deg:       -50.548700629917882        0.000000000000000
-Stagger angle in deg:       -21.440384170659915        6.212960270141428
+Determinant is:    0.723994656707844
+Possible values of scaling factor are:       -14.150041081059619        9.340996042246656
+Camber line second derivative scaling factor:         9.340996042246656        0.000000000000000
+Inlet u-v metal angle in deg:        40.537154053241203        0.000000000000000
+Exit u-v metal angle in deg:       -37.664891017478013        0.000000000000000
+Stagger angle in deg:       -34.324193783099773        6.212960270141428
  
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    1.1539898052302450E-002
@@ -1325,15 +1325,15 @@ Stagger angle in deg:       -21.440384170659915        6.212960270141428
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
  top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack  -6.3063929038348031E-003  -4.3506744222439900E-002
+ vtop_stack vbot_stack  0.24908152060779318       0.22588845485433792     
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.48256664847408720     
+ chrd bladegen:   0.54388409985989028     
  pitch   0.39269908169872414     
  np_sidee         121
- n_normal_distance =           19
- Number of intersection points (k) =           19 from np_side of         121
+ n_normal_distance =           26
+ Number of intersection points (k) =           26 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -1352,14 +1352,14 @@ Stagger angle in deg:       -21.440384170659915        6.212960270141428
 
 Using curvature control for camber definition...
  xcp -0.14999999999999999        0.0000000000000000       0.14999999999999999       0.25000000000000000       0.50000000000000000       0.75000000000000000       0.94999999999999996        1.0000000000000000        1.0500000000000000     
- ycp  0.71713958374199960       0.64481022634799978       0.57248086895399997      -0.64664320766300010      -0.21442183373199994       0.47540605999999996        6.4071861360000051E-002   7.2289719049999951E-002   8.0507576739999850E-002
+ ycp -0.16085652106500001        0.0000000000000000       0.16085652106500001       0.36734052787900007        6.0692246699999994E-002  0.39217871236300000       -7.3852399159999998E-002   0.0000000000000000        7.3852399159999998E-002
 Total camber is:  -68.340151780968455
-Determinant is:    0.037470524656931
-Possible values of scaling factor are:       -41.258847731505575       18.997770707978972
-Camber line second derivative scaling factor:        18.997770707978972        0.000000000000000
-Inlet u-v metal angle in deg:        35.403437314318474        0.000000000000000
-Exit u-v metal angle in deg:       -32.936714466649974        0.000000000000000
-Stagger angle in deg:       -30.914520312414208        4.488917001904269
+Determinant is:    0.222221926842867
+Possible values of scaling factor are:       -16.944195398130180        7.800634649810005
+Camber line second derivative scaling factor:         7.800634649810005        0.000000000000000
+Inlet u-v metal angle in deg:        35.533552990134524        0.000000000000000
+Exit u-v metal angle in deg:       -32.806598790833931        0.000000000000000
+Stagger angle in deg:       -31.044635988230254        4.488917001904269
  
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    1.0000000000000002E-002
@@ -1379,17 +1379,17 @@ Stagger angle in deg:       -30.914520312414208        4.488917001904269
  
  Stacking position on the chord as % of chord:   55.000000000000000     
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
- top curve points index range for % chord stacking:          61          62
+ top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack  -5.6942341513478864E-002  -8.3612790912196200E-002
+ vtop_stack vbot_stack  0.20841274026905127       0.18834394429976109     
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
- chrd bladegen:   0.63282182036119727     
+ chrd bladegen:   0.63368521197913064     
  pitch   0.39269908169872414     
  np_sidee         121
- n_normal_distance =           19
- Number of intersection points (k) =           19 from np_side of         121
+ n_normal_distance =           29
+ Number of intersection points (k) =           29 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -1480,95 +1480,95 @@ Stagger angle in deg:       -30.914520312414208        4.488917001904269
  3D mouth line [mm] =   399.71305239352648     
  3D exit line [mm] =   386.04099832401886     
  section(           2 )
- 3D throat line [mm] =   351.78700975067090     
- 3D mouth line [mm] =   376.78635777474926     
- 3D exit line [mm] =   351.78700975067090     
+ 3D throat line [mm] =   350.18022003996373     
+ 3D mouth line [mm] =   378.09241193854780     
+ 3D exit line [mm] =   350.18022003996373     
  section(           3 )
- 3D throat line [mm] =   325.58732063826301     
- 3D mouth line [mm] =   354.98070288273902     
- 3D exit line [mm] =   325.58732063826301     
+ 3D throat line [mm] =   323.26522791399043     
+ 3D mouth line [mm] =   360.62619549340832     
+ 3D exit line [mm] =   323.26522791399043     
  section(           4 )
- 3D throat line [mm] =   300.19873940597756     
- 3D mouth line [mm] =   335.81570357415109     
- 3D exit line [mm] =   300.19873940597756     
+ 3D throat line [mm] =   297.63070769833206     
+ 3D mouth line [mm] =   342.23285429685353     
+ 3D exit line [mm] =   297.63070769833206     
  section(           5 )
- 3D throat line [mm] =   270.96163951026330     
- 3D mouth line [mm] =   314.72807175575770     
- 3D exit line [mm] =   270.96163951026330     
+ 3D throat line [mm] =   266.33313473353888     
+ 3D mouth line [mm] =   323.27730295979956     
+ 3D exit line [mm] =   266.33313473353888     
  section(           6 )
- 3D throat line [mm] =   236.56925370222029     
- 3D mouth line [mm] =   299.28390017859442     
- 3D exit line [mm] =   236.56925370222029     
+ 3D throat line [mm] =   235.34954562983717     
+ 3D mouth line [mm] =   302.44778663243363     
+ 3D exit line [mm] =   235.34954562983717     
  section(           7 )
- 3D throat line [mm] =   215.26447845616030     
- 3D mouth line [mm] =   287.14753016463720     
- 3D exit line [mm] =   215.26447845616030     
+ 3D throat line [mm] =   213.75977289927556     
+ 3D mouth line [mm] =   289.28580675774134     
+ 3D exit line [mm] =   213.75977289927556     
  section(           8 )
- 3D throat line [mm] =   202.60273557493537     
- 3D mouth line [mm] =   280.92368384649973     
- 3D exit line [mm] =   202.60273557493537     
+ 3D throat line [mm] =   202.93125409686095     
+ 3D mouth line [mm] =   283.20960778895756     
+ 3D exit line [mm] =   202.93125409686095     
  section(           9 )
- 3D throat line [mm] =   175.27828871595119     
- 3D mouth line [mm] =   273.95488926851868     
- 3D exit line [mm] =   175.27828871595119     
+ 3D throat line [mm] =   186.44438458576820     
+ 3D mouth line [mm] =   274.72941654547424     
+ 3D exit line [mm] =   186.44438458576820     
  section(          10 )
- 3D throat line [mm] =   159.55101162263537     
- 3D mouth line [mm] =   266.65820174946515     
- 3D exit line [mm] =   159.55101162263537     
+ 3D throat line [mm] =   175.02911820015220     
+ 3D mouth line [mm] =   266.52200307379661     
+ 3D exit line [mm] =   175.02911820015220     
  section(          11 )
- 3D throat line [mm] =   134.87372064008974     
- 3D mouth line [mm] =   254.93029082444195     
- 3D exit line [mm] =   134.87372064008974     
+ 3D throat line [mm] =   151.15803006154647     
+ 3D mouth line [mm] =   253.90181088120539     
+ 3D exit line [mm] =   151.15803006154647     
  section(          12 )
- 3D throat line [mm] =   141.95171883664437     
- 3D mouth line [mm] =   241.96282851814007     
- 3D exit line [mm] =   141.95171883664437     
+ 3D throat line [mm] =   135.16421966552656     
+ 3D mouth line [mm] =   240.83620623928311     
+ 3D exit line [mm] =   135.16421966552656     
  section(          13 )
- 3D throat line [mm] =   147.61477412881112     
- 3D mouth line [mm] =   234.20606630608333     
- 3D exit line [mm] =   147.61477412881112     
+ 3D throat line [mm] =   114.51320996337267     
+ 3D mouth line [mm] =   233.26586383512395     
+ 3D exit line [mm] =   114.51320996337267     
  section(          14 )
- 3D throat line [mm] =   172.68849785829761     
- 3D mouth line [mm] =   220.96953196267518     
- 3D exit line [mm] =   172.68849785829761     
+ 3D throat line [mm] =   83.868946138700835     
+ 3D mouth line [mm] =   219.14835059936550     
+ 3D exit line [mm] =   83.868946138700835     
  section(          15 )
- 3D throat line [mm] =   192.26324477705134     
- 3D mouth line [mm] =   204.04121636984416     
- 3D exit line [mm] =   250.60055376564389     
+ 3D throat line [mm] =   104.17420495259347     
+ 3D mouth line [mm] =   201.95086177568027     
+ 3D exit line [mm] =   104.17420495259347     
  section(          16 )
- 3D throat line [mm] =   198.78437743269970     
- 3D mouth line [mm] =   191.77286055200784     
- 3D exit line [mm] =   275.23615193552718     
+ 3D throat line [mm] =   108.24939539168228     
+ 3D mouth line [mm] =   191.11265195417292     
+ 3D exit line [mm] =   108.24939539168228     
  section(          17 )
- 3D throat line [mm] =   164.50284558498979     
- 3D mouth line [mm] =   169.90994778338847     
- 3D exit line [mm] =   182.88451856288839     
+ 3D throat line [mm] =   109.37752416003539     
+ 3D mouth line [mm] =   169.34004755746321     
+ 3D exit line [mm] =   109.37752416003539     
  section(          18 )
- 3D throat line [mm] =   121.66242171561382     
- 3D mouth line [mm] =   140.13131038627719     
- 3D exit line [mm] =   150.81140218398642     
+ 3D throat line [mm] =   102.60609442576097     
+ 3D mouth line [mm] =   139.97448266053323     
+ 3D exit line [mm] =   102.60609442576097     
  Number of radial sections:          18
  
  Writing 3D blade geometry ...
  
  chord_actual(mm):   164.94885462484609     
- chord_actual(mm):   178.37081469948444     
- chord_actual(mm):   190.48760427361299     
- chord_actual(mm):   202.25835171658269     
- chord_actual(mm):   217.42554199920872     
- chord_actual(mm):   234.90033700394878     
- chord_actual(mm):   246.71656989673895     
- chord_actual(mm):   256.23992233738511     
- chord_actual(mm):   271.49222901386344     
- chord_actual(mm):   282.39092457481615     
- chord_actual(mm):   290.12583174110307     
- chord_actual(mm):   276.02813665259066     
- chord_actual(mm):   266.10588453163507     
- chord_actual(mm):   243.75891293397956     
- chord_actual(mm):   212.13050607770043     
- chord_actual(mm):   214.17913505900975     
- chord_actual(mm):   229.45931488696434     
- chord_actual(mm):   261.49875084690530     
+ chord_actual(mm):   178.94131513280999     
+ chord_actual(mm):   191.99183172724091     
+ chord_actual(mm):   204.44041371407548     
+ chord_actual(mm):   219.59243517666738     
+ chord_actual(mm):   233.98868386041386     
+ chord_actual(mm):   241.24677740203953     
+ chord_actual(mm):   247.94429297478456     
+ chord_actual(mm):   257.51509655939287     
+ chord_actual(mm):   264.39465845912184     
+ chord_actual(mm):   273.74142401302583     
+ chord_actual(mm):   281.08283937905037     
+ chord_actual(mm):   292.17228254521240     
+ chord_actual(mm):   312.78311341264504     
+ chord_actual(mm):   272.51015853400065     
+ chord_actual(mm):   265.11117082698979     
+ chord_actual(mm):   259.01972296125473     
+ chord_actual(mm):   261.85325073247003     
  
  Calculating the meanline by taking the average of PS ans SS in 3D...
  Writing the meanline in 3D to meanline.sec#.dat files...
@@ -1577,23 +1577,23 @@ Stagger angle in deg:       -30.914520312414208        4.488917001904269
  
          121
  throat_index           1          30
- throat_index           2          26
- throat_index           3          21
- throat_index           4          20
- throat_index           5          18
- throat_index           6          21
- throat_index           7          23
- throat_index           8          22
- throat_index           9          25
- throat_index          10          26
- throat_index          11          29
- throat_index          12          31
- throat_index          13          32
- throat_index          14          29
- throat_index          15           3
- throat_index          16           8
- throat_index          17          11
- throat_index          18           8
+ throat_index           2          29
+ throat_index           3          28
+ throat_index           4          27
+ throat_index           5          27
+ throat_index           6          27
+ throat_index           7          28
+ throat_index           8          26
+ throat_index           9          26
+ throat_index          10          25
+ throat_index          11          26
+ throat_index          12          27
+ throat_index          13          28
+ throat_index          14          28
+ throat_index          15          28
+ throat_index          16          27
+ throat_index          17          26
+ throat_index          18          29
  
  casename:GE_E3_Fan_rotor
  
