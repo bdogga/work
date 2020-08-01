@@ -8,7 +8,7 @@ from cycler import cycler
 import os
 import sys
 
-
+## THe main issue was with the difference in number of coodrinatesin some of the rows. Wrote a rough code to bypass that issue. 
 
 # Plot (m', \theta) sections
 # Stored in the same PDF

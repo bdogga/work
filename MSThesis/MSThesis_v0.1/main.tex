@@ -1,0 +1,56 @@
+\documentclass[12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+
+
+\title{
+	{Thesis Title}\\
+	{\large Insitute name}\\
+	{\includegraphics[scale=0.05]{university.jpg}}
+}
+\author{Author Name}
+\date{Day Month Year}
+
+\begin{document}
+
+\maketitle
+
+\chapter*{Abstract}
+T-Blade3 (formerly 3DBGB) is a general parametric 3D blade geometry builder. The tool can create a variety of 3D blade geometries based on few basic parameters and limited interaction with a CAD system. The geometric and aerodynamic parameters are used to create 2D airfoils and these airfoils are stacked on the desired stacking axis. The tool generates a specified number of 2D blade sections in a 3D Cartesian coordinate system. The geometry modeler can also be used for generating 3D blades with special features like bent tip, split tip and other concepts, which can be explored with minimum changes to the blade geometry. The use of control points for the definition of splines makes it easy to modify the blade shapes quickly and smoothly to obtain the desired blade model. The second derivative of the mean-line (related to the curvature) is controlled using B-splines to create the airfoils. This is analytically integrated twice to obtain the mean-line. A smooth thickness distribution is then added to the airfoil. This can be either a Wennerstrom thickness distribution, a smooth quartic thickness distribution or a new exact thickness distribution. B-splines have also been implemented to achieve customized airfoil leading and trailing edges.
+
+\chapter*{Dedication}
+To Dr. Turner
+
+\chapter*{Declaration}
+I declare that it it is god damn time that I take responsibility and show accountability for my actions.
+
+\chapter*{Acknowledgements}
+I want to thank my parents, uncles and all the mentors I have ever encountered in my life who inspired the living hell out of me so that I could finally get uot my smooth smooth bed and accomplish something.
+
+\tableofcontents
+
+\chapter{Introduction}
+\input{chapters/introduction}
+
+\chapter{Chapter Two Title}
+\input{chapters/chapter_02}
+
+\chapter{Chapter Three Title}
+\input{chapters/chapter_03}
+
+\chapter{Chapter Four Title}
+\input{chapters/chapter_04}
+
+\chapter{Chapter Five Title}
+\input{chapters/chapter_05}
+
+\chapter{Conclusion}
+\input{chapters/conclusion}
+
+\appendix
+\chapter{Appendix Title}
+\input{chapters/appendix}
+
+
+\end{document}
