@@ -4,3 +4,55 @@ T-Blade3 ERROR LOG FILE
  WARNING: Background grid generation parameters should be removed from main input file
  For developers: Check subroutine readinput in readinput.f90
  
+ 
+ WARNING: Thickness distribution for blade section 6 isn't monotonic
+ For developers: Check subroutine bladegen in bladegen.f90
+ 
+ 
+ WARNING: Thickness distribution for blade section 7 isn't monotonic
+ For developers: Check subroutine bladegen in bladegen.f90
+ 
+ 
+ WARNING: Thickness distribution for blade section 8 isn't monotonic
+ For developers: Check subroutine bladegen in bladegen.f90
+ 
+ 
+ WARNING: Thickness distribution for blade section 9 isn't monotonic
+ For developers: Check subroutine bladegen in bladegen.f90
+ 
+ 
+ WARNING: Thickness distribution for blade section 10 isn't monotonic
+ For developers: Check subroutine bladegen in bladegen.f90
+ 
+ 
+ WARNING: Thickness distribution for blade section 11 isn't monotonic
+ For developers: Check subroutine bladegen in bladegen.f90
+ 
+ 
+ WARNING: Thickness distribution for blade section 12 isn't monotonic
+ For developers: Check subroutine bladegen in bladegen.f90
+ 
+ 
+ WARNING: Thickness distribution for blade section 13 isn't monotonic
+ For developers: Check subroutine bladegen in bladegen.f90
+ 
+ 
+ WARNING: Thickness distribution for blade section 14 isn't monotonic
+ For developers: Check subroutine bladegen in bladegen.f90
+ 
+ 
+ WARNING: Thickness distribution for blade section 15 isn't monotonic
+ For developers: Check subroutine bladegen in bladegen.f90
+ 
+ 
+ WARNING: Thickness distribution for blade section 16 isn't monotonic
+ For developers: Check subroutine bladegen in bladegen.f90
+ 
+ 
+ WARNING: Thickness distribution for blade section 17 isn't monotonic
+ For developers: Check subroutine bladegen in bladegen.f90
+ 
+ 
+ WARNING: Thickness distribution for blade section 18 isn't monotonic
+ For developers: Check subroutine bladegen in bladegen.f90
+ 
