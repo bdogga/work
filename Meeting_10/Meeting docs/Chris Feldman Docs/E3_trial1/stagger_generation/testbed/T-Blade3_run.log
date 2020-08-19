@@ -413,7 +413,7 @@
  Using ellipse based clustering function
  
  Hyperbolic midchord clustering with delta_TE =    4.7237792968750005     
- Hyperbolic midchord clustering with delta_TE =    4.6946289062500011     
+ Hyperbolic midchord clustering with delta_TE =    5.5691406250000011     
  lethk =    2.0000000000000000E-002
 
 Using curvature control for camber definition...
@@ -430,11 +430,11 @@ Stagger angle in deg:        12.860061115431563       39.055116491086473
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    4.7749999999999994E-002
  Chordwise location for the maximum thickness =   0.40000000000000002     
- Thickness at TE =    1.0000000000000000E-002
+ Thickness at TE =    5.0000000000000001E-003
  Leading edge radius =    5.5000000000000000     
  TE derivative for maximum thickness chordwise location =  -0.15041250010695997     
- Modified NACA thickness coefficients (u < u_max) =   0.12995736589759607       -5.4939863942894372E-002 -0.11424216451145332        9.0819326695797953E-002
- Modified NACA thickness coefficients (u > u_max) =    8.6914540629874932E-003  0.15360972667238731      -0.18654453943285354        6.5040482080589754E-002
+ Modified NACA thickness coefficients (u < u_max) =   0.12995736589759607       -7.0718359290223187E-002  -3.5349687774809305E-002  -7.7962692250070249E-003
+ Modified NACA thickness coefficients (u > u_max) =    4.3499358567165546E-003  0.15164957468274884      -0.14383138108180077        1.9396372792048221E-002
  
  Writing thickness data to file
  
@@ -445,17 +445,17 @@ Stagger angle in deg:        12.860061115431563       39.055116491086473
  
  Stacking position on the chord as % of chord:   55.000000000000000     
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
- top curve points index range for % chord stacking:          63          64
+ top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack  0.13299148481867862        4.0227957040010545E-002
+ vtop_stack vbot_stack  0.13226579348182771        4.1018354183554741E-002
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
  chrd bladegen:   0.55688848878345121     
  pitch   0.19634954084936207     
  np_sidee         121
- n_normal_distance =           74
- Number of intersection points (k) =           74 from np_side of         121
+ n_normal_distance =           70
+ Number of intersection points (k) =           70 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -469,7 +469,7 @@ Stagger angle in deg:        12.860061115431563       39.055116491086473
  Using ellipse based clustering function
  
  Hyperbolic midchord clustering with delta_TE =    5.1999023437500007     
- Hyperbolic midchord clustering with delta_TE =    4.6751953125000005     
+ Hyperbolic midchord clustering with delta_TE =    5.5497070312500014     
  lethk =    2.0000000000000000E-002
 
 Using curvature control for camber definition...
@@ -486,11 +486,11 @@ Stagger angle in deg:        19.746048252959010       40.939016139509469
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    3.9610363150868542E-002
  Chordwise location for the maximum thickness =   0.40461579322322261     
- Thickness at TE =    9.9257102423228934E-003
+ Thickness at TE =    5.0000000000000001E-003
  Leading edge radius =    5.5000000000000000     
  TE derivative for maximum thickness chordwise location =  -0.12685591994860457     
- Modified NACA thickness coefficients (u < u_max) =   0.10780436559861947       -4.1290837096668670E-002 -0.11721287809831477       0.10466200502263939     
- Modified NACA thickness coefficients (u > u_max) =    8.8028748994609454E-003  0.12991169359454158      -0.17567101968003213        7.4542316887723267E-002
+ Modified NACA thickness coefficients (u < u_max) =   0.10780436559861947       -5.7520590983047272E-002  -3.6989841043382987E-002   5.5271734137882960E-003
+ Modified NACA thickness coefficients (u > u_max) =    4.4385344092311464E-003  0.12802080698088955      -0.13238359122393589        2.7850367927539622E-002
  
  Writing thickness data to file
  
@@ -501,17 +501,17 @@ Stagger angle in deg:        19.746048252959010       40.939016139509469
  
  Stacking position on the chord as % of chord:   55.000000000000000     
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
- top curve points index range for % chord stacking:          63          64
+ top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack  0.10692351890102328        2.9517069762039123E-002
+ vtop_stack vbot_stack  0.10620059948392380        3.0255105882097486E-002
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
  chrd bladegen:   0.47720369517554084     
  pitch   0.19634954084936207     
  np_sidee         121
- n_normal_distance =           49
- Number of intersection points (k) =           49 from np_side of         121
+ n_normal_distance =           45
+ Number of intersection points (k) =           45 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -525,7 +525,7 @@ Stagger angle in deg:        19.746048252959010       40.939016139509469
  Using ellipse based clustering function
  
  Hyperbolic midchord clustering with delta_TE =    5.5691406250000011     
- Hyperbolic midchord clustering with delta_TE =    4.7043457031250009     
+ Hyperbolic midchord clustering with delta_TE =    5.5302734375000009     
  lethk =    2.0000000000000000E-002
 
 Using curvature control for camber definition...
@@ -542,11 +542,11 @@ Stagger angle in deg:        23.895877511508846       42.009005335622703
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    3.4191262093921621E-002
  Chordwise location for the maximum thickness =   0.40854995958541929     
- Thickness at TE =    9.6093021795330934E-003
+ Thickness at TE =    5.0000000000000001E-003
  Leading edge radius =    5.5000000000000000     
  TE derivative for maximum thickness chordwise location =  -0.11107388771992138     
- Modified NACA thickness coefficients (u < u_max) =    9.3055630543254012E-002  -3.2737728290380498E-002 -0.11607395965303779       0.10941558782844824     
- Modified NACA thickness coefficients (u > u_max) =    8.6417627969592164E-003  0.11391349454790113      -0.16608805005319655        7.8663016920579545E-002
+ Modified NACA thickness coefficients (u < u_max) =    9.3055630543254012E-002  -4.8439550139804471E-002  -3.9207855613484999E-002   1.5343734146766895E-002
+ Modified NACA thickness coefficients (u > u_max) =    4.5004098530581011E-003  0.11218836461045195      -0.12473821754551979        3.3698450135119649E-002
  
  Writing thickness data to file
  
@@ -557,17 +557,17 @@ Stagger angle in deg:        23.895877511508846       42.009005335622703
  
  Stacking position on the chord as % of chord:   55.000000000000000     
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
- top curve points index range for % chord stacking:          63          64
+ top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack   9.1112639416319280E-002   2.3958273348910732E-002
+ vtop_stack vbot_stack   9.0445786103104428E-002   2.4620405022185536E-002
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
  chrd bladegen:   0.43855627929568836     
  pitch   0.19634954084936207     
  np_sidee         121
- n_normal_distance =           42
- Number of intersection points (k) =           42 from np_side of         121
+ n_normal_distance =           38
+ Number of intersection points (k) =           38 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -580,8 +580,8 @@ Stagger angle in deg:        23.895877511508846       42.009005335622703
   =================================================== 
  Using ellipse based clustering function
  
- Hyperbolic midchord clustering with delta_TE =    5.7440429687499996     
- Hyperbolic midchord clustering with delta_TE =    4.7334960937500004     
+ Hyperbolic midchord clustering with delta_TE =    5.7634765625000002     
+ Hyperbolic midchord clustering with delta_TE =    5.5302734375000009     
  lethk =    2.0000000000000000E-002
 
 Using curvature control for camber definition...
@@ -598,11 +598,11 @@ Stagger angle in deg:        26.013208598006866       42.788380245984520
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    3.1838822347401256E-002
  Chordwise location for the maximum thickness =   0.41078992860464492     
- Thickness at TE =    9.3069850746598480E-003
+ Thickness at TE =    5.0000000000000001E-003
  Leading edge radius =    5.5000000000000000     
  TE derivative for maximum thickness chordwise location =  -0.10428143985006234     
- Modified NACA thickness coefficients (u < u_max) =    8.6653182943450979E-002  -2.9535711628586619E-002 -0.11297248831161830       0.10815305538656059     
- Modified NACA thickness coefficients (u > u_max) =    8.4211757212496845E-003  0.10696035722650700      -0.16070380300678491        7.9131833010109606E-002
+ Modified NACA thickness coefficients (u < u_max) =    8.6653182943450979E-002  -4.4461546117132870E-002  -4.0303547574703197E-002   1.9702809072399338E-002
+ Modified NACA thickness coefficients (u > u_max) =    4.5276749144596163E-003  0.10537572468161795      -0.12167991400511158        3.6499409800014780E-002
  
  Writing thickness data to file
  
@@ -613,17 +613,17 @@ Stagger angle in deg:        26.013208598006866       42.788380245984520
  
  Stacking position on the chord as % of chord:   55.000000000000000     
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
- top curve points index range for % chord stacking:          63          64
+ top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack   8.4348785401163778E-002   2.1684496893770371E-002
+ vtop_stack vbot_stack   8.3733871336968635E-002   2.2287856850899214E-002
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
  chrd bladegen:   0.42123002627397926     
  pitch   0.19634954084936207     
  np_sidee         121
- n_normal_distance =           39
- Number of intersection points (k) =           39 from np_side of         121
+ n_normal_distance =           35
+ Number of intersection points (k) =           35 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -636,8 +636,8 @@ Stagger angle in deg:        26.013208598006866       42.788380245984520
   =================================================== 
  Using ellipse based clustering function
  
- Hyperbolic midchord clustering with delta_TE =    6.0161132812500018     
- Hyperbolic midchord clustering with delta_TE =    4.8306640625000004     
+ Hyperbolic midchord clustering with delta_TE =    6.0355468750000014     
+ Hyperbolic midchord clustering with delta_TE =    5.5108398437500004     
  lethk =    2.0000000000000000E-002
 
 Using curvature control for camber definition...
@@ -654,11 +654,11 @@ Stagger angle in deg:        29.894325331945847       44.181208676604157
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    2.8528008089570556E-002
  Chordwise location for the maximum thickness =   0.41514794699347501     
- Thickness at TE =    8.5316817928433285E-003
+ Thickness at TE =    5.0000000000000001E-003
  Leading edge radius =    5.5000000000000000     
  TE derivative for maximum thickness chordwise location =   -9.4948184248572445E-002
- Modified NACA thickness coefficients (u < u_max) =    7.7642403887453443E-002  -2.6265920297942932E-002 -0.10254743486085703        9.8945611382023388E-002
- Modified NACA thickness coefficients (u > u_max) =    7.7858811858475150E-003   9.7273475083237887E-002 -0.15072215326591232        7.7012524450096556E-002
+ Modified NACA thickness coefficients (u < u_max) =    7.7642403887453443E-002  -3.8879957381302961E-002  -4.1778558730255357E-002   2.5756189911083544E-002
+ Modified NACA thickness coefficients (u > u_max) =    4.5657629566164728E-003   9.6020678233885007E-002 -0.11819564039226854        4.1156760805518479E-002
  
  Writing thickness data to file
  
@@ -669,17 +669,17 @@ Stagger angle in deg:        29.894325331945847       44.181208676604157
  
  Stacking position on the chord as % of chord:   55.000000000000000     
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
- top curve points index range for % chord stacking:          63          64
+ top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack   7.2905603640804922E-002   1.6657863457384712E-002
+ vtop_stack vbot_stack   7.2419041726651839E-002   1.7126658938056847E-002
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
  chrd bladegen:   0.39923401044986589     
  pitch   0.19634954084936207     
  np_sidee         121
- n_normal_distance =           35
- Number of intersection points (k) =           35 from np_side of         121
+ n_normal_distance =           32
+ Number of intersection points (k) =           32 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -693,7 +693,7 @@ Stagger angle in deg:        29.894325331945847       44.181208676604157
  Using ellipse based clustering function
  
  Hyperbolic midchord clustering with delta_TE =    6.1910156250000004     
- Hyperbolic midchord clustering with delta_TE =    4.9472656250000000     
+ Hyperbolic midchord clustering with delta_TE =    5.5108398437500004     
  lethk =    2.0000000000000000E-002
 
 Using curvature control for camber definition...
@@ -710,11 +710,11 @@ Stagger angle in deg:        33.113535474146929       45.394500322052757
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    2.6504404889942160E-002
  Chordwise location for the maximum thickness =   0.41911366095250113     
- Thickness at TE =    7.7959491685048125E-003
+ Thickness at TE =    5.0000000000000001E-003
  Leading edge radius =    5.5000000000000000     
  TE derivative for maximum thickness chordwise location =   -8.9521892899971839E-002
- Modified NACA thickness coefficients (u < u_max) =    7.2134924485450225E-002  -2.5265006093512586E-002  -9.1414434739525846E-002   8.7631308362444676E-002
- Modified NACA thickness coefficients (u > u_max) =    7.1505062810609957E-003   9.1551624485744859E-002 -0.14314267263118902        7.3840358696077066E-002
+ Modified NACA thickness coefficients (u < u_max) =    7.2134924485450225E-002  -3.5506851400402634E-002  -4.2540602836199884E-002   2.9325129804279152E-002
+ Modified NACA thickness coefficients (u > u_max) =    4.5882328076251094E-003   9.0589470340457889E-002 -0.11704940141583597        4.4844332124067431E-002
  
  Writing thickness data to file
  
@@ -725,17 +725,17 @@ Stagger angle in deg:        33.113535474146929       45.394500322052757
  
  Stacking position on the chord as % of chord:   55.000000000000000     
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
- top curve points index range for % chord stacking:          63          64
+ top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack   6.4412242764047722E-002   1.2145136488671869E-002
+ vtop_stack vbot_stack   6.4041671410739659E-002   1.2496226353125401E-002
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
  chrd bladegen:   0.38691451204578098     
  pitch   0.19634954084936207     
  np_sidee         121
- n_normal_distance =           31
- Number of intersection points (k) =           31 from np_side of         121
+ n_normal_distance =           29
+ Number of intersection points (k) =           29 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -748,8 +748,8 @@ Stagger angle in deg:        33.113535474146929       45.394500322052757
   =================================================== 
  Using ellipse based clustering function
  
- Hyperbolic midchord clustering with delta_TE =    6.2687500000000007     
- Hyperbolic midchord clustering with delta_TE =    5.0152832031250005     
+ Hyperbolic midchord clustering with delta_TE =    6.3076171875000009     
+ Hyperbolic midchord clustering with delta_TE =    5.5108398437500004     
  lethk =    2.0000000000000000E-002
 
 Using curvature control for camber definition...
@@ -766,11 +766,11 @@ Stagger angle in deg:        34.322003519177272       46.182603492099929
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    2.5474086791071160E-002
  Chordwise location for the maximum thickness =   0.42176559296072208     
- Thickness at TE =    7.3475322719418392E-003
+ Thickness at TE =    4.9999999999999992E-003
  Leading edge radius =    5.5000000000000000     
  TE derivative for maximum thickness chordwise location =   -8.6899333898444467E-002
- Modified NACA thickness coefficients (u < u_max) =    6.9330789906059773E-002  -2.5061794455487008E-002  -8.4334292329079755E-002   8.0243450769045058E-002
- Modified NACA thickness coefficients (u > u_max) =    6.7558478526046836E-003   8.8763243505349698E-002 -0.13906537074303044        7.1841320874235254E-002
+ Modified NACA thickness coefficients (u < u_max) =    6.9330789906059773E-002  -3.3802749336814181E-002  -4.2884942134498054E-002   3.1105551795809254E-002
+ Modified NACA thickness coefficients (u > u_max) =    4.5991742230459993E-003   8.7968793263485903E-002 -0.11696677145134299        4.7155095664263479E-002
  
  Writing thickness data to file
  
@@ -783,15 +783,15 @@ Stagger angle in deg:        34.322003519177272       46.182603492099929
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
  top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack   6.2048895747846680E-002   1.1804206854969145E-002
+ vtop_stack vbot_stack   6.1745613179555132E-002   1.2090430977338033E-002
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
  chrd bladegen:   0.37813749655171547     
  pitch   0.19634954084936207     
  np_sidee         121
- n_normal_distance =           29
- Number of intersection points (k) =           29 from np_side of         121
+ n_normal_distance =           28
+ Number of intersection points (k) =           28 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -805,7 +805,7 @@ Stagger angle in deg:        34.322003519177272       46.182603492099929
  Using ellipse based clustering function
  
  Hyperbolic midchord clustering with delta_TE =    6.4630859375000007     
- Hyperbolic midchord clustering with delta_TE =    5.1610351562499996     
+ Hyperbolic midchord clustering with delta_TE =    5.4914062500000007     
  lethk =    2.0000000000000000E-002
 
 Using curvature control for camber definition...
@@ -822,11 +822,11 @@ Stagger angle in deg:        35.978610585548466       47.787475702768198
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    2.3841250107233085E-002
  Chordwise location for the maximum thickness =   0.42723845956698864     
- Thickness at TE =    6.5759848010942855E-003
+ Thickness at TE =    5.0000000000000001E-003
  Leading edge radius =    5.5000000000000000     
  TE derivative for maximum thickness chordwise location =   -8.3024461527027971E-002
- Modified NACA thickness coefficients (u < u_max) =    6.4886828557943282E-002  -2.5035660054914609E-002  -7.1847838198072014E-002   6.7189049216206734E-002
- Modified NACA thickness coefficients (u > u_max) =    6.0686263694034667E-003   8.4626626007844694E-002 -0.13297702555910321        6.8790766356020203E-002
+ Modified NACA thickness coefficients (u < u_max) =    6.4886828557943282E-002  -3.1101607652964807E-002  -4.3451763536637711E-002   3.3956934895068534E-002
+ Modified NACA thickness coefficients (u > u_max) =    4.6154284200240194E-003   8.4106070116717571E-002 -0.11787013549582724        5.1736008936473246E-002
  
  Writing thickness data to file
  
@@ -839,15 +839,15 @@ Stagger angle in deg:        35.978610585548466       47.787475702768198
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
  top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack   6.0279768128676581E-002   1.3230291868956492E-002
+ vtop_stack vbot_stack   6.0087930635760414E-002   1.3410980863748569E-002
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
  chrd bladegen:   0.36239863837961761     
  pitch   0.19634954084936207     
  np_sidee         121
- n_normal_distance =           27
- Number of intersection points (k) =           27 from np_side of         121
+ n_normal_distance =           26
+ Number of intersection points (k) =           26 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -861,7 +861,7 @@ Stagger angle in deg:        35.978610585548466       47.787475702768198
  Using ellipse based clustering function
  
  Hyperbolic midchord clustering with delta_TE =    6.5796875000000004     
- Hyperbolic midchord clustering with delta_TE =    5.2776367187499993     
+ Hyperbolic midchord clustering with delta_TE =    5.4914062500000007     
  lethk =    2.0000000000000000E-002
 
 Using curvature control for camber definition...
@@ -878,11 +878,11 @@ Stagger angle in deg:        37.922275381323040       49.103549789914091
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    2.2459909958541149E-002
  Chordwise location for the maximum thickness =   0.43343337160850193     
- Thickness at TE =    5.9524950604512173E-003
+ Thickness at TE =    5.0000000000000001E-003
  Leading edge radius =    5.5000000000000000     
  TE derivative for maximum thickness chordwise location =   -8.0082237828360020E-002
- Modified NACA thickness coefficients (u < u_max) =    6.1127345267208248E-002  -2.4955152721438070E-002  -6.1727746000952557E-002   5.6850711789317401E-002
- Modified NACA thickness coefficients (u > u_max) =    5.5085737025412146E-003   8.1496672319395155E-002 -0.12926128509381485        6.7470451913364468E-002
+ Modified NACA thickness coefficients (u < u_max) =    6.1127345267208248E-002  -2.8760760717009132E-002  -4.4167455331832264E-002   3.6593514467439747E-002
+ Modified NACA thickness coefficients (u > u_max) =    4.6278289035515466E-003   8.1185724864742168E-002 -0.11993231206791011        5.6816148457548336E-002
  
  Writing thickness data to file
  
@@ -895,15 +895,15 @@ Stagger angle in deg:        37.922275381323040       49.103549789914091
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
  top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack   5.6927330639922724E-002   1.2563542157754869E-002
+ vtop_stack vbot_stack   5.6819110956951448E-002   1.2664894999779623E-002
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
  chrd bladegen:   0.35145897479817573     
  pitch   0.19634954084936207     
  np_sidee         121
- n_normal_distance =           26
- Number of intersection points (k) =           26 from np_side of         121
+ n_normal_distance =           25
+ Number of intersection points (k) =           25 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -917,7 +917,7 @@ Stagger angle in deg:        37.922275381323040       49.103549789914091
  Using ellipse based clustering function
  
  Hyperbolic midchord clustering with delta_TE =    6.6574218750000007     
- Hyperbolic midchord clustering with delta_TE =    5.3359375000000000     
+ Hyperbolic midchord clustering with delta_TE =    5.4914062500000007     
  lethk =    2.0000000000000000E-002
 
 Using curvature control for camber definition...
@@ -934,11 +934,11 @@ Stagger angle in deg:        39.129359158528814       49.899602102763112
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    2.1702245848231744E-002
  Chordwise location for the maximum thickness =   0.43751990314030659     
- Thickness at TE =    5.6706395803833402E-003
+ Thickness at TE =    4.9999148299946653E-003
  Leading edge radius =    5.5000000000000000     
  TE derivative for maximum thickness chordwise location =   -7.8605875046415224E-002
- Modified NACA thickness coefficients (u < u_max) =    5.9065271298392424E-002  -2.4670307629040079E-002  -5.7349203350779393E-002   5.2597137721983558E-002
- Modified NACA thickness coefficients (u > u_max) =    5.2550505949531924E-003   7.9945541303939216E-002 -0.12830605819822405        6.7843396427465813E-002
+ Modified NACA thickness coefficients (u < u_max) =    5.9065271298392424E-002  -2.7417236744834688E-002  -4.4792384353159048E-002   3.8247140261875381E-002
+ Modified NACA thickness coefficients (u > u_max) =    4.6339866768302339E-003   7.9726519023478742E-002 -0.12163826197856234        6.0171299351942549E-002
  
  Writing thickness data to file
  
@@ -951,15 +951,15 @@ Stagger angle in deg:        39.129359158528814       49.899602102763112
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
  top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack   5.4889177600110417E-002   1.1980549097197441E-002
+ vtop_stack vbot_stack   5.4816579833775629E-002   1.2048312088839217E-002
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
  chrd bladegen:   0.34561063981570150     
  pitch   0.19634954084936207     
  np_sidee         121
- n_normal_distance =           24
- Number of intersection points (k) =           24 from np_side of         121
+ n_normal_distance =           23
+ Number of intersection points (k) =           23 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -973,7 +973,7 @@ Stagger angle in deg:        39.129359158528814       49.899602102763112
  Using ellipse based clustering function
  
  Hyperbolic midchord clustering with delta_TE =    6.7740234375000004     
- Hyperbolic midchord clustering with delta_TE =    5.3942382812500007     
+ Hyperbolic midchord clustering with delta_TE =    5.4914062500000007     
  lethk =    2.0000000000000000E-002
 
 Using curvature control for camber definition...
@@ -990,11 +990,11 @@ Stagger angle in deg:        40.622023550675564       50.831811291827620
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    2.0811225887640540E-002
  Chordwise location for the maximum thickness =   0.44304590567571367     
- Thickness at TE =    5.4118780180704915E-003
+ Thickness at TE =    4.9977061231207924E-003
  Leading edge radius =    5.5000000000000000     
  TE derivative for maximum thickness chordwise location =   -7.7009422823770657E-002
- Modified NACA thickness coefficients (u < u_max) =    5.6640253349897918E-002  -2.4003885322618351E-002  -5.3739229428801064E-002   4.9373613948006830E-002
- Modified NACA thickness coefficients (u > u_max) =    5.0227653275833244E-003   7.8291515133825207E-002 -0.12844762281740879        6.9619374625175298E-002
+ Modified NACA thickness coefficients (u < u_max) =    5.6640253349897918E-002  -2.5758046134206323E-002  -4.5820588091115694E-002   4.0437021558547524E-002
+ Modified NACA thickness coefficients (u > u_max) =    4.6386869279536587E-003   7.8155170661233245E-002 -0.12424349835956194        6.4733606833370913E-002
  
  Writing thickness data to file
  
@@ -1007,7 +1007,7 @@ Stagger angle in deg:        40.622023550675564       50.831811291827620
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
  top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack   5.2261348343646020E-002   1.1047485917842565E-002
+ vtop_stack vbot_stack   5.2219578163364665E-002   1.1086372209676539E-002
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
@@ -1029,7 +1029,7 @@ Stagger angle in deg:        40.622023550675564       50.831811291827620
  Using ellipse based clustering function
  
  Hyperbolic midchord clustering with delta_TE =    6.8128906249999996     
- Hyperbolic midchord clustering with delta_TE =    5.4136718750000004     
+ Hyperbolic midchord clustering with delta_TE =    5.4914062500000007     
  lethk =    2.0000000000000000E-002
 
 Using curvature control for camber definition...
@@ -1046,11 +1046,11 @@ Stagger angle in deg:        41.421694518805573       51.364301687422099
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    2.0305216196292185E-002
  Chordwise location for the maximum thickness =   0.44660516162818742     
- Thickness at TE =    5.2973975073917091E-003
+ Thickness at TE =    4.9938594807553919E-003
  Leading edge radius =    5.5000000000000000     
  TE derivative for maximum thickness chordwise location =   -7.6187148195906523E-002
- Modified NACA thickness coefficients (u < u_max) =    5.5263087138247902E-002  -2.3457722170853606E-002  -5.2444782114869762E-002   4.8389932966490218E-002
- Modified NACA thickness coefficients (u > u_max) =    4.9202861251921373E-003   7.7450505334734868E-002 -0.12919890969857781        7.1343023673127670E-002
+ Modified NACA thickness coefficients (u < u_max) =    5.5263087138247902E-002  -2.4771477603129720E-002  -4.6561484987328483E-002   4.1803245627171803E-002
+ Modified NACA thickness coefficients (u > u_max) =    4.6385889731697643E-003   7.7349716175791922E-002 -0.12607513229667150        6.7689558705557373E-002
  
  Writing thickness data to file
  
@@ -1063,15 +1063,15 @@ Stagger angle in deg:        41.421694518805573       51.364301687422099
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
  top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack   5.0937247172082332E-002   1.0678775979053839E-002
+ vtop_stack vbot_stack   5.0907917424256044E-002   1.0705791035467123E-002
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
  chrd bladegen:   0.33434702648557352     
  pitch   0.19634954084936207     
  np_sidee         121
- n_normal_distance =           22
- Number of intersection points (k) =           22 from np_side of         121
+ n_normal_distance =           21
+ Number of intersection points (k) =           21 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -1085,7 +1085,7 @@ Stagger angle in deg:        41.421694518805573       51.364301687422099
  Using ellipse based clustering function
  
  Hyperbolic midchord clustering with delta_TE =    6.9683593750000004     
- Hyperbolic midchord clustering with delta_TE =    5.4719726562500011     
+ Hyperbolic midchord clustering with delta_TE =    5.4914062500000007     
  lethk =    2.0000000000000000E-002
 
 Using curvature control for camber definition...
@@ -1102,11 +1102,11 @@ Stagger angle in deg:        43.410146361815833       52.692763080325150
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    1.9054459817340566E-002
  Chordwise location for the maximum thickness =   0.45708054753950117     
- Thickness at TE =    5.1041983273507549E-003
+ Thickness at TE =    4.9687594962810108E-003
  Leading edge radius =    5.5000000000000009     
  TE derivative for maximum thickness chordwise location =   -7.4503906442646498E-002
- Modified NACA thickness coefficients (u < u_max) =    5.1859003276715603E-002  -2.1529560053307351E-002  -5.1726684018111577E-002   4.8603668288208855E-002
- Modified NACA thickness coefficients (u > u_max) =    4.7482140258523998E-003   7.5763625461087697E-002 -0.13349216392231072        7.8241054942800217E-002
+ Modified NACA thickness coefficients (u < u_max) =    5.1859003276715603E-002  -2.2154401974509505E-002  -4.8992627954839024E-002   4.5612886818738985E-002
+ Modified NACA thickness coefficients (u > u_max) =    4.6223282915723056E-003   7.5717043829602954E-002 -0.13203933747016539        7.6509764066531122E-002
  
  Writing thickness data to file
  
@@ -1119,7 +1119,7 @@ Stagger angle in deg:        43.410146361815833       52.692763080325150
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
  top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack   4.7676790797903289E-002   9.7694052843465603E-003
+ vtop_stack vbot_stack   4.7665873527368487E-002   9.7798389720488120E-003
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
@@ -1141,7 +1141,7 @@ Stagger angle in deg:        43.410146361815833       52.692763080325150
  Using ellipse based clustering function
  
  Hyperbolic midchord clustering with delta_TE =    7.2015624999999996     
- Hyperbolic midchord clustering with delta_TE =    5.4914062500000007     
+ Hyperbolic midchord clustering with delta_TE =    5.5302734375000009     
  lethk =    2.0000000000000000E-002
 
 Using curvature control for camber definition...
@@ -1158,11 +1158,11 @@ Stagger angle in deg:        46.530588032490343       54.615648668051804
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    1.7265420139868128E-002
  Chordwise location for the maximum thickness =   0.47805247134809314     
- Thickness at TE =    5.0042360634312321E-003
+ Thickness at TE =    4.8580541362394066E-003
  Leading edge radius =    5.4999999999999991     
  TE derivative for maximum thickness chordwise location =   -7.3423321622584650E-002
- Modified NACA thickness coefficients (u < u_max) =    4.6989916701415002E-002  -1.6940062498374646E-002  -5.7894650879696835E-002   5.5881311175129615E-002
- Modified NACA thickness coefficients (u > u_max) =    4.6596211294361129E-003   7.4791359573632615E-002 -0.14777024712224512        9.7230478478338322E-002
+ Modified NACA thickness coefficients (u < u_max) =    4.6989916701415002E-002  -1.7706414023629581E-002  -5.4688511088833117E-002   5.2527976569597200E-002
+ Modified NACA thickness coefficients (u > u_max) =    4.5236299283091851E-003   7.4736278400655401E-002 -0.14606164713048447        9.5115534155776546E-002
  
  Writing thickness data to file
  
@@ -1175,15 +1175,15 @@ Stagger angle in deg:        46.530588032490343       54.615648668051804
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
  top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack   4.2225030413318730E-002   7.6995465487672684E-003
+ vtop_stack vbot_stack   4.2216692196100990E-002   7.7068522274195295E-003
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
  chrd bladegen:   0.31575370529812830     
  pitch   0.19634954084936207     
  np_sidee         121
- n_normal_distance =           19
- Number of intersection points (k) =           19 from np_side of         121
+ n_normal_distance =           18
+ Number of intersection points (k) =           18 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -1197,7 +1197,7 @@ Stagger angle in deg:        46.530588032490343       54.615648668051804
  Using ellipse based clustering function
  
  Hyperbolic midchord clustering with delta_TE =    7.4347656250000007     
- Hyperbolic midchord clustering with delta_TE =    5.4914062500000007     
+ Hyperbolic midchord clustering with delta_TE =    5.5885742187500007     
  lethk =    2.0000000000000000E-002
 
 Using curvature control for camber definition...
@@ -1214,11 +1214,11 @@ Stagger angle in deg:        49.443626293596225       56.486237201468377
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    1.5812624306990250E-002
  Chordwise location for the maximum thickness =   0.50382503131604428     
- Thickness at TE =    5.0000000000000001E-003
+ Thickness at TE =    4.6349536258824195E-003
  Leading edge radius =    5.5000000000000000     
  TE derivative for maximum thickness chordwise location =   -7.4689820475792174E-002
- Modified NACA thickness coefficients (u < u_max) =    4.3035958175178086E-002  -1.0612654511036303E-002  -7.1841705745377182E-002   6.9188914331743068E-002
- Modified NACA thickness coefficients (u > u_max) =    4.6497376916427146E-003   7.6272499202863997E-002 -0.17141402414319207       0.12704327219303752     
+ Modified NACA thickness coefficients (u < u_max) =    4.3035958175178086E-002  -1.2852800132974955E-002  -6.2949151851867169E-002   6.0363872560513759E-002
+ Modified NACA thickness coefficients (u > u_max) =    4.3105973165373148E-003   7.6116896803387818E-002 -0.16665414330809725       0.12085851992962525     
  
  Writing thickness data to file
  
@@ -1231,15 +1231,15 @@ Stagger angle in deg:        49.443626293596225       56.486237201468377
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
  top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack   3.7555077503699151E-002   5.8607924548471904E-003
+ vtop_stack vbot_stack   3.7544361533148461E-002   5.8690914843860078E-003
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
  chrd bladegen:   0.30567416714171419     
  pitch   0.19634954084936207     
  np_sidee         121
- n_normal_distance =           17
- Number of intersection points (k) =           17 from np_side of         121
+ n_normal_distance =           16
+ Number of intersection points (k) =           16 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -1253,7 +1253,7 @@ Stagger angle in deg:        49.443626293596225       56.486237201468377
  Using ellipse based clustering function
  
  Hyperbolic midchord clustering with delta_TE =    7.6679687500000000     
- Hyperbolic midchord clustering with delta_TE =    5.4914062500000007     
+ Hyperbolic midchord clustering with delta_TE =    5.6857421875000007     
  lethk =    2.0000000000000000E-002
 
 Using curvature control for camber definition...
@@ -1270,11 +1270,11 @@ Stagger angle in deg:        52.235568823130180       58.483002552806319
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    1.4630050529020932E-002
  Chordwise location for the maximum thickness =   0.53338106425500553     
- Thickness at TE =    5.0000000000000001E-003
+ Thickness at TE =    4.3130886247196784E-003
  Leading edge radius =    5.5000000000000000     
  TE derivative for maximum thickness chordwise location =   -7.8033235893572001E-002
- Modified NACA thickness coefficients (u < u_max) =    3.9817441459691988E-002  -2.0434147274562414E-003  -9.3603050282314360E-002   8.7448040352635217E-002
- Modified NACA thickness coefficients (u > u_max) =    4.6347461130243732E-003   7.9916883092340324E-002 -0.20481737390430221       0.17027939245259602     
+ Modified NACA thickness coefficients (u < u_max) =    3.9817441459691988E-002  -7.1045951333068430E-003  -7.4625322181224876E-002   6.9658012384922835E-002
+ Modified NACA thickness coefficients (u > u_max) =    3.9986867125627037E-003   7.9578570999485246E-002 -0.19460348121274246       0.15620455519761872     
  
  Writing thickness data to file
  
@@ -1287,7 +1287,7 @@ Stagger angle in deg:        52.235568823130180       58.483002552806319
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
  top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack   3.3885969202970156E-002   4.5866111928883650E-003
+ vtop_stack vbot_stack   3.3880294953898639E-002   4.5876893397697556E-003
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
@@ -1309,7 +1309,7 @@ Stagger angle in deg:        52.235568823130180       58.483002552806319
  Using ellipse based clustering function
  
  Hyperbolic midchord clustering with delta_TE =    7.8234375000000007     
- Hyperbolic midchord clustering with delta_TE =    5.4914062500000007     
+ Hyperbolic midchord clustering with delta_TE =    5.8023437500000004     
  lethk =    2.0000000000000000E-002
 
 Using curvature control for camber definition...
@@ -1326,11 +1326,11 @@ Stagger angle in deg:        55.219004147966487       60.977038332209894
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    1.3605975817596587E-002
  Chordwise location for the maximum thickness =   0.56516394982820861     
- Thickness at TE =    5.0000000000000001E-003
+ Thickness at TE =    3.9328374291608351E-003
  Leading edge radius =    5.5000000000000000     
  TE derivative for maximum thickness chordwise location =   -8.2688451193432197E-002
- Modified NACA thickness coefficients (u < u_max) =    3.7030299009868976E-002   9.6578067389750805E-003 -0.12427460870307110       0.11081320643095054     
- Modified NACA thickness coefficients (u > u_max) =    4.6141206913673360E-003   8.4958045964259044E-002 -0.24809331405686974       0.23059046233201774     
+ Modified NACA thickness coefficients (u < u_max) =    3.7030299009868976E-002   3.8557364970270847E-005  -9.0234046218755720E-002   8.0697553712246003E-002
+ Modified NACA thickness coefficients (u > u_max) =    3.6304256278422986E-003   8.4343675849217967E-002 -0.22966015521452607       0.20341283214971898     
  
  Writing thickness data to file
  
@@ -1343,15 +1343,15 @@ Stagger angle in deg:        55.219004147966487       60.977038332209894
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
  top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack   3.1350316135362877E-002   4.0893879221437736E-003
+ vtop_stack vbot_stack   3.1342344488787997E-002   4.0901192289319131E-003
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
  chrd bladegen:   0.28956996967591692     
  pitch   0.19634954084936207     
  np_sidee         121
- n_normal_distance =           14
- Number of intersection points (k) =           14 from np_side of         121
+ n_normal_distance =           13
+ Number of intersection points (k) =           13 from np_side of         121
  
  Writing non-dimensional throat points to a file for debugging...
  
@@ -1365,7 +1365,7 @@ Stagger angle in deg:        55.219004147966487       60.977038332209894
  Using ellipse based clustering function
  
  Hyperbolic midchord clustering with delta_TE =    7.9789062500000005     
- Hyperbolic midchord clustering with delta_TE =    5.5108398437500004     
+ Hyperbolic midchord clustering with delta_TE =    5.9578125000000011     
  lethk =    2.0000000000000000E-002
 
 Using curvature control for camber definition...
@@ -1382,11 +1382,11 @@ Stagger angle in deg:        57.534301061000527       63.262235775304987
  Using modified NACA four digit thickness distribution
  Maximum thickness for the blade section =    1.2600000000000002E-002
  Chordwise location for the maximum thickness =   0.59999999999999998     
- Thickness at TE =    5.0000000000000010E-003
+ Thickness at TE =    3.5000000000000005E-003
  Leading edge radius =    5.5000000000000000     
  TE derivative for maximum thickness chordwise location =   -8.8200000032256018E-002
- Modified NACA thickness coefficients (u < u_max) =    3.4292414875596040E-002   2.6331727788456438E-002 -0.16723624778710330       0.14094084346018301     
- Modified NACA thickness coefficients (u > u_max) =    4.5898590862446936E-003   9.0969688593143666E-002 -0.30465830083280615       0.31824365015229428     
+ Modified NACA thickness coefficients (u < u_max) =    3.4292414875596040E-002   9.3244278547349457E-003 -0.11054524800803167        9.3698343644290014E-002
+ Modified NACA thickness coefficients (u > u_max) =    3.2145348251863982E-003   8.9946420595266557E-002 -0.27375463094857760       0.26886934200749069     
  
  Writing thickness data to file
  
@@ -1399,7 +1399,7 @@ Stagger angle in deg:        57.534301061000527       63.262235775304987
  Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
  top curve points index range for % chord stacking:          62          63
  bottom curve points index range for % chord stacking:          62          63
- vtop_stack vbot_stack   3.0416487947332829E-002   4.8399747885941192E-003
+ vtop_stack vbot_stack   3.0345443292854442E-002   4.9001709598425602E-003
  
  u_stack  v_stack  0.55000000000000004        0.0000000000000000     
  
@@ -1494,41 +1494,45 @@ Stagger angle in deg:        57.534301061000527       63.262235775304987
    1.0000000000000000        0.0000000000000000     
  
  section(           1 )
- 3D throat line [mm] =   47.238397086569996     
- 3D mouth line [mm] =   49.725517812092683     
- 3D exit line [mm] =   90.568067122599558     
+ 3D throat line [mm] =   47.518707643262800     
+ 3D mouth line [mm] =   49.716512788785906     
+ 3D exit line [mm] =   92.176805933475322     
  section(           2 )
- 3D throat line [mm] =   60.540369882753495     
- 3D mouth line [mm] =   60.860858011568482     
- 3D exit line [mm] =   94.684993096911555     
+ 3D throat line [mm] =   60.778532000853744     
+ 3D mouth line [mm] =   61.013228692655510     
+ 3D exit line [mm] =   97.377012570562385     
  section(           3 )
- 3D throat line [mm] =   70.168290220907352     
- 3D mouth line [mm] =   70.291708722186556     
- 3D exit line [mm] =   98.890731418845732     
+ 3D throat line [mm] =   70.172895787615090     
+ 3D mouth line [mm] =   70.407349319622753     
+ 3D exit line [mm] =   100.38437663252610     
  section(           4 )
- 3D throat line [mm] =   74.336816412550959     
- 3D mouth line [mm] =   74.550641562777656     
- 3D exit line [mm] =   100.95592684388083     
+ 3D throat line [mm] =   74.489667331948098     
+ 3D mouth line [mm] =   74.676826820068783     
+ 3D exit line [mm] =   102.00894495144688     
  section(           5 )
- 3D throat line [mm] =   80.786107400965335     
- 3D mouth line [mm] =   81.454460359661525     
- 3D exit line [mm] =   104.52263760482700     
+ 3D throat line [mm] =   80.711082597370606     
+ 3D mouth line [mm] =   81.569545566872449     
+ 3D exit line [mm] =   104.62079294396283     
  section(           6 )
- 3D throat line [mm] =   84.262633275934178     
- 3D mouth line [mm] =   84.946251703522506     
- 3D exit line [mm] =   104.48720203015182     
+ 3D throat line [mm] =   84.339239723169527     
+ 3D mouth line [mm] =   84.932068469248719     
+ 3D exit line [mm] =   105.44842843345762     
  section(           7 )
- 3D throat line [mm] =   86.556629667745398     
- 3D mouth line [mm] =   86.570740399005359     
- 3D exit line [mm] =   106.16676549052640     
+ 3D throat line [mm] =   86.619631981528329     
+ 3D mouth line [mm] =   86.637887080182651     
+ 3D exit line [mm] =   107.48524798925756     
  section(           9 )
- 3D throat line [mm] =   93.404701761960197     
- 3D mouth line [mm] =   94.004912799786126     
- 3D exit line [mm] =   113.58717498235195     
+ 3D throat line [mm] =   93.429626913025473     
+ 3D mouth line [mm] =   93.983349479689309     
+ 3D exit line [mm] =   112.50364902118038     
  section(          11 )
- 3D throat line [mm] =   96.603863632251233     
- 3D mouth line [mm] =   96.820230723135680     
- 3D exit line [mm] =   114.00732643014962     
+ 3D throat line [mm] =   96.617102288661698     
+ 3D mouth line [mm] =   96.817569625917514     
+ 3D exit line [mm] =   114.28989432339273     
+ section(          16 )
+ 3D throat line [mm] =   103.61490081171706     
+ 3D mouth line [mm] =   104.19411628206468     
+ 3D exit line [mm] =   113.31587133999706     
  Number of radial sections:          18
  
  Writing 3D blade geometry ...
@@ -1560,9 +1564,9 @@ Stagger angle in deg:        57.534301061000527       63.262235775304987
          121
  throat_index           1           6
  throat_index           2           3
- throat_index           3           3
+ throat_index           3           2
  throat_index           4           2
- throat_index           5           3
+ throat_index           5           2
  throat_index           6           2
  throat_index           7           2
  throat_index           8           1
@@ -1573,7 +1577,7 @@ Stagger angle in deg:        57.534301061000527       63.262235775304987
  throat_index          13           1
  throat_index          14           1
  throat_index          15           1
- throat_index          16           1
+ throat_index          16           2
  throat_index          17           1
  throat_index          18           1
  

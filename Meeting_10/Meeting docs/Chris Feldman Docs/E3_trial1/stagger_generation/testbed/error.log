@@ -5,10 +5,6 @@ T-Blade3 ERROR LOG FILE
  For developers: Check subroutine readinput in readinput.f90
  
  
- WARNING: Thickness distribution for blade section 14 isn't monotonic
- For developers: Check subroutine bladegen in bladegen.f90
- 
- 
  WARNING: Thickness distribution for blade section 15 isn't monotonic
  For developers: Check subroutine bladegen in bladegen.f90
  
