@@ -1,0 +1,116 @@
+ 
+PROJECT NAME :   C:\Users\ravi\Desktop\GE Fan tip with 0_007 t_max\GE-E3-0_07-t_TE_3727_speedline\GE-E3-0_07-t_TE_3727_speedline\GE-E3-0_07-t_TE_3727_speedline_000_SA_90kPa\GE-E3-0_07-t_TE_3727_speedline_000_SA_90kPa.run
+ 
+ Mesh data   
+ ---------   
+ 
+  Number_of_blocks                      9
+  Total_number_of_nodes            994109
+ 
+ Fluid properties  
+ ----------------  
+ 
+  Fluid_type                     Perfect gas    
+ 
+  Specific_heat (Cp)               1006.0         [J/(kg K)]
+  Specific_heat_ratio              1.4000         [  ]
+ 
+ Weight factors used for averaging 
+ --------------------------------- 
+ 
+  For static pressure                    cell face area 
+  For all other variables                absolute cell face mass flux 
+ 
+ 
+ *********************************************************************
+ *                                                                   *
+ * GLOBAL RESULTS AT INLET AND OUTLET                                *
+ *                                                                   *
+ *********************************************************************
+ 
+ 
+                                           INLET              OUTLET 
+ Geometrical data  
+ ----------------  
+ 
+  Hub_radius                             0.23364             0.55154       [m]
+  Shroud_radius                           1.0547              1.0310       [m]
+  Area                                   0.10384             0.74482E-01   [m2]
+ 
+  Number_of_blades                          32                   32        
+ 
+  Rotational_speed                        390.36              390.36       [rad/s]
+ 
+ 
+ Absolute velocities  
+ -------------------  
+ 
+  Radial_velocity                       -0.68201E-16          29.734       [m/s]
+  Absolute_tangential_velocity          -0.42394E-15          101.60       [m/s]
+  Axial_velocity                          181.81              237.06       [m/s]
+  Absolute_velocity_magnitude             181.81              260.83       [m/s]
+  Meridional_flow_angle                 -0.21493E-16          7.1491       [deg]
+  Absolute_blade-to-blade_flow_angle    -0.13360E-15          23.038       [deg]
+  Absolute_Mach_number                   0.55013             0.76990       [   ]
+  Swirl                                 -0.56998E-15          80.009       [m2/s]
+ 
+ Relative velocities  
+ -------------------  
+ 
+  Relative_tangential_velocity           -297.15             -214.57       [m/s]
+  Relative_velocity_magnitude             349.37              326.96       [m/s]
+  Relative_blade-to-blade_flow_angle     -58.539             -41.926       [deg]
+  Relative_Mach_number                    1.0571             0.96508       [   ] 
+ 
+ Static conditions 
+ ----------------- 
+ 
+  Static_pressure                          83099.32            90000.00    [Pa]
+  Static_temperature                      271.43              285.23       [K]
+  Density                                 1.0534              1.0981       [kg/m3]
+ 
+ Total conditions 
+ ---------------- 
+ 
+  Absolute_total_pressure                 101330.00           133706.13    [Pa]
+  Absolute_total_temperature              288.20              319.23       [K]
+ 
+  Relative_total_pressure                 175050.39           166059.37    [Pa]
+  Relative_total_temperature              335.15              339.22       [K]
+  Rothalpy                                289929.20           289908.07    [J/kg]
+ 
+ Mass flow  
+ ---------  
+ 
+  Mass_flow                               615.47              615.46       [kg/s]
+  Absolute_Mass_flow                      615.47              615.46       [kg/s]
+  (Different in case of backflow) 
+ 
+ Global performance 
+ ------------------ 
+ 
+  Static_pressure_ratio                          1.0830    
+  Absolute_total_pressure_ratio                  1.3195    
+ 
+  Static_temperature_ratio                       1.0508    
+  Absolute_total_temperature_ratio               1.1077    
+ 
+  Isentropic_efficiency                         0.76580        (total-total)
+  Polytropic_efficiency                         0.77480    
+ 
+ 
+  Axial_thrust                                  16803.        [N]
+  Torque                                       -49154.        [N m]
+  Power                                       -0.19188E+08    [W]
+ 
+ *********************************************************************
+ *
+ *  MASSFLOW INTEGRATED ON INLET/OUTLET GROUPS                       *
+ *
+ *********************************************************************
+ INLET GROUPS:
+ *************
+row_1_flux_1_Main_Blade_upStream_inlet       615.47    
+ OUTLET GROUPS:
+ **************
+row_1_flux_1_Main_Blade_downStream_outlet       615.46    

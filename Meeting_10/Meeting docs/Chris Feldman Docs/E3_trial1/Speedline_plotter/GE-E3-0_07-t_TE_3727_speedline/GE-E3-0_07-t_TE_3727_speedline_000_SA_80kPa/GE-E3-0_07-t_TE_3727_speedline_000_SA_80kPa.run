@@ -1,0 +1,5308 @@
+NUMECA_PROJECT_FILE   VERSION 1410
+PROJECT_TYPE  STRUCTURED
+COMPUTATION_NAME 000_SA_80kPa
+SUB_PROJECT_FLAG 0
+GRID_FILE          C:\Users\ravi\Desktop\GE Fan tip with 0_007 t_max\GE-E3-0_007-t_TE_speedline\GE-E3-0_007-t_TE_speedline.igg
+RELATIVE_GRID_FILE undefined
+TRB_FILE          \usr\unknown
+RELATIVE_TRB_FILE undefined
+GEOMETRY_FILE \usr\unknown
+RELATIVE_GEOMETRY_FILE undefined
+SOLVER_PRECISION hybrid
+PERFORMANCE_CURVE_AXIS         0
+LAST_USED_COMPUTATION_INDEX    0
+***********************************************************
+******* START COMPUTATION 1 SECTION  **************
+***********************************************************
+  NI_BEGIN computation
+    VERSION                          1410
+    NAME                             000_SA_80kPa
+    POINTER                          82438464
+    COARSE_FLAG                      1 1 1
+    NUMBER_OF_GRID_LEVEL             3
+    REFERENCE_RUN_FILE               \usr\unknown
+    RELATIVE_REFERENCE_RUN_FILE      undefined
+    POSITION                         -1
+    ACTIVE                           0
+    NON_DETERMINISTIC_ACTIVE         0
+    generalisedTransitionModel       0
+    GRID_LEVEL_I                     0
+    GRID_LEVEL_J                     0
+    GRID_LEVEL_K                     0
+    Efficiency                       1
+    Efficiency_mean                  1
+    Efficiency_variance              1
+    Perf_curve_Pressure              1
+    Perf_curve_Pressure_mean         1
+    Perf_curve_Pressure_variance     1
+    PressureRatio                    1
+    PressureRatio_mean               1
+    PressureRatio_variance           1
+    Mass_flow                        1
+    Mass_flow_mean                   1
+    Mass_flow_variance               1
+    uncertainty_weight_factor        1
+    uncertainty_grid_type            1
+    AXISYMMETRIC                     no
+    AXISYMMETRIC_AXIS                0 0 1
+    AUTO_GRID_MESH                   yes
+    START_FROM_INITIAL_SOLUTION_FILE no
+    RESET_CONVERGENCE_HISTORY        no
+    INITIAL_SOLUTION_FILE            unknown
+    INITIAL_RESIDUAL_FILE            unknown
+    FLUID_NAME                       AIR(Perfect)
+    FLUID_TYPE                       Perfect Gas
+    STEAM_TABLES_PATH                unknown
+    LAST_USED_FLUID_RECORD           0
+    TIME_STEPS_CHOICE                0
+    SWEEPS_DEFINITION                0
+    USER_SOLVER_PRECISION            1
+    MULTI_RANK_UPDATE                0
+    MAXIMUM_RANK                     1
+    MULTIRK_PARTIAL                  0
+    MULTI_RANK_INTERACTION           0
+    MAX_ORDER_INTERACTION            1
+    MAXIMUM_HARMONICS_NUMBER         0
+    ALL_HARMONICS_ON                 1
+           NB_HARMONICS_PER_RANK      3
+           NB_HARMONICS_PER_RANK      3
+    MEMORY_ESTIMATION_REAL           126042511.2
+    MEMORY_ESTIMATION_INTEGER        8230207.5
+    SUBTASK_STATUS                   pending
+    RUNNING_MODE                     STOPPED
+        START_UNITS_OF_THE_COMPUTATION      
+           VALUE_UNITS_NAME                 length 2
+           VALUE_UNITS_NAME                 mass 2
+           VALUE_UNITS_NAME                 angle 2
+           VALUE_UNITS_NAME                 velocity 2
+           VALUE_UNITS_NAME                 massflow 2
+           VALUE_UNITS_NAME                 rotational_speed 2
+           VALUE_UNITS_NAME                 acceleration 2
+           VALUE_UNITS_NAME                 force 2
+           VALUE_UNITS_NAME                 pressure 2
+           VALUE_UNITS_NAME                 density 2
+           VALUE_UNITS_NAME                 energy 2
+           VALUE_UNITS_NAME                 torque 2
+           VALUE_UNITS_NAME                 heatflux 2
+           VALUE_UNITS_NAME                 enthalpy 2
+           VALUE_UNITS_NAME                 entropy 2
+           VALUE_UNITS_NAME                 viscosity 2
+           VALUE_UNITS_NAME                 kinematic_viscosity 2
+           VALUE_UNITS_NAME                 temperature 2
+           VALUE_UNITS_NAME                 heat_capacity 2
+           VALUE_UNITS_NAME                 heat_conductivity 2
+           VALUE_UNITS_NAME                 compressibility 2
+           VALUE_UNITS_NAME                 dilatation 2
+           VALUE_UNITS_NAME                 velocity_gradient 2
+           VALUE_UNITS_NAME                 k 2
+           VALUE_UNITS_NAME                 epsilon 2
+           VALUE_UNITS_NAME                 omega 2
+           VALUE_UNITS_NAME                 turbulent_production 2
+           VALUE_UNITS_NAME                 particle_concentration 2
+           VALUE_UNITS_NAME                 heat_transfer_coefficient 2
+           VALUE_UNITS_NAME                 power 2
+           VALUE_UNITS_NAME                 gravity_constant 2
+           VALUE_UNITS_NAME                 r_gas_constant 2
+           VALUE_UNITS_NAME                 adimensional 2
+           VALUE_UNITS_NAME                 surface 2
+           VALUE_UNITS_NAME                 strain 2
+           VALUE_UNITS_NAME                 molality 2
+           VALUE_UNITS_NAME                 volume 2
+           VALUE_UNITS_NAME                 surface_energy_density 2
+        END_UNITS_OF_THE_COMPUTATION        
+    AUTOMATIC_MEMORY_ESTIMATION      yes
+    RESIDUALS_PER_GROUP                  0
+#                                                                             
+#*****************************************************************************
+#*******                START SOLVER PARAMETERS SECTION            ***********
+#*****************************************************************************
+#                                                                             
+    NI_BEGIN solver_parameters
+EURANUS,L,1,0, 779
+PHYFRE,R,1,1,0
+0.4
+STHICK,R,1,1,0
+0.03
+ITRINI,I,1,1,0
+10
+ROFRE2,R,1,1,0
+1
+ROFRE1,R,1,1,0
+1000
+ILVSET,I,1,1,0
+0
+IVIMOD,I,1,1,0
+3
+IBARO,I,1,1,0
+0
+IHCMOD,I,1,1,0
+3
+ITIMAQ,I,1,1,0
+0
+ITMXAQ,I,1,1,0
+100
+DELTAT,R,1,1,0
+0.15708
+BETNP1,R,1,1,0
+1.5
+BETN,R,1,1,0
+-2
+BETNM1,R,1,1,0
+0.5
+ITHRF,I,1,1,0
+0
+ICYL,I,1,1,0
+1
+INPRES,I,1,1,0
+0
+INSEUL,I,1,1,0
+1
+ITURB,I,1,1,0
+3
+CPUBOO,I,1,1,0
+0
+REYNO,R,1,1,0
+4406359
+MTETUR,I,1,1,0
+0
+MTURBV,I,1,1,0
+1
+RLEN,R,1,1,0
+0.15
+RVEL,R,1,1,0
+411.5
+RRO,R,1,1,0
+1.225
+TINF,R,1,1,0
+293
+TSUTHE,R,1,1,0
+110
+RGCST,R,1,1,0
+287
+IRGCON,I,1,1,0
+1
+I2D,I,1,1,0
+0
+IAXSYM,I,1,1,0
+0
+ITYGAS,I,1,1,0
+1
+ISTEAM,I,1,1,0
+0
+NOFROT,I,1,1,0
+30
+IMULOU,I,1,1,0
+0
+ICFVTA,I,1,1,0
+0
+ITYGAI,I,1,1,0
+1
+CP,R,1,1,0
+1004.5
+GAMMA,R,1,1,0
+1.4
+ICPGA,I,1,1,0
+1
+COMPCO,R,1,4,0
+288.15 101330 1e-011 6.4e-005
+KAPPAS,R,1,1,0
+100
+IHARMO,I,1,1,0
+0
+IMPCCI,I,1,1,0
+0
+IMOVGR,I,1,1,0
+0
+IMVTYP,I,1,1,0
+1
+IMODAL,I,1,1,0
+0
+IMOVTY,I,1,1,0
+2
+XCOSC,R,1,1,0
+0
+YCOSC,R,1,1,0
+0
+ZCOSC,R,1,1,0
+0
+ALFOSC,R,1,1,0
+0
+AMPOSC,R,1,1,0
+0
+AMPDEG,R,1,1,0
+0
+FRQOSC,R,1,1,0
+34.4
+XROTC,R,1,1,0
+0
+YROTC,R,1,1,0
+0
+ZROTC,R,1,1,0
+0
+BMPOSC,R,1,1,0
+0
+CMPOSC,R,1,1,0
+0
+BETOSC,R,1,1,0
+0
+PHIOSC,R,1,1,0
+0
+OMGOSC,R,1,1,0
+-5.235987755
+FRZOSC,R,1,1,0
+0
+NDTREC,I,1,1,0
+10
+NBHAR,I,1,1,0
+3
+NPERT,I,1,1,0
+2
+NHARMO,I,1,1,0
+1
+NHTIME,I,1,1,0
+0
+OMEGAT,R,1,1,0
+1
+IPLT3D,I,1,2,0
+0 0
+HCCOEF,R,1,10,0
+293 500 0 0 0 0.01 0 0 0 0
+VICOEF,R,1,10,0
+293 500 0 0 0 1.8e-005 0 0 0 0
+ICPTE,R,1,9,0
+293 500 0 0 0 1004.5 0 0 0
+IGAMTE,R,1,9,0
+293 500 0 0 0 1.4 0 0 0
+ROPDAT,R,1,9,0
+0 0 0 0 0 1.2 0 0 0
+PRREF,R,1,1,0
+0.708
+IMITRA,I,1,1,0
+0
+PVAPS,R,1,1,0
+2000
+AMIN,R,1,1,0
+50
+RHOL,R,1,1,0
+1000
+RHOV,R,1,1,0
+1
+MULIQ,R,1,1,0
+0.001001
+MUGAS,R,1,1,0
+9.73e-006
+PRTLV,R,1,1,0
+1
+CPLREF,R,1,1,0
+4182
+CPVREF,R,1,1,0
+1860
+IEQCH,I,1,1,0
+1
+IARDIS,I,1,1,0
+2
+IUPWIN,I,1,1,0
+0
+GLOTST,I,1,1,0
+0
+NSWPFC,I,1,10,0
+1 2 3 4 5 6 7 8 9 10
+NSWPCF,I,1,10,0
+1 2 3 4 5 6 7 8 9 10
+LIMITE,I,1,2,0
+3 3
+IMPLIC,I,1,1,0
+0
+BETPAR,R,1,1,0
+3
+NGRID,I,1,1,0
+3
+IFULMG,I,1,1,0
+1
+IFLMOI,I,1,1,0
+1
+NFMGCY,I,1,1,0
+100
+ITMAX,I,1,1,0
+2000
+INIUNS,I,1,1,0
+0
+RESTAQ,R,1,1,0
+-4
+RESRED,R,1,1,0
+-6
+CFL,R,1,1,0
+3
+CFLBMG,R,1,1,0
+3
+BOOFMG,I,1,1,0
+0
+IWRSOL,I,1,2,0
+100 100
+ITUFIL,I,1,1,0
+0
+PFREE,R,1,1,0
+100000
+TFREE,R,1,1,0
+293
+UFREE,R,1,1,0
+10
+VFREE,R,1,1,0
+0
+WFREE,R,1,1,0
+0
+OMGSY,R,1,1,0
+0
+INIFIT,I,1,1,0
+0
+INIOPT,I,1,1,0
+2
+IDIRTM,I,1,3,0
+3 2 1
+NPER,I,1,1,0
+1
+INIRPE,I,1,1,0
+0
+PRFACT,R,1,1,0
+1
+EKFRE,R,1,1,0
+1
+EPFRE,R,1,1,0
+100000
+IORDER,I,1,1,0
+1
+RESFMG,R,1,1,0
+-3
+IPRECO,I,1,1,0
+0
+ICOVIC,I,1,1,0
+2
+PREF,R,1,1,0
+101330
+TREF,R,1,1,0
+288.15
+QREF,R,1,1,0
+169332.25
+ICONAT,I,1,1,0
+0
+IROVAR,I,1,1,0
+1
+ROREF,R,1,1,0
+1.2
+MERKLE,I,1,1,0
+1
+ITRANS,I,1,1,0
+0
+IDOMAV,I,1,30,0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+PRSINL,R,1,30,0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+PRSROT,R,1,30,0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+IPASSI,I,1,1,0
+0
+ICOMBU,I,1,1,0
+0
+IRECKM,I,1,1,0
+0
+AEBU,R,1,1,0
+4
+BEBU,R,1,1,0
+0.5
+MVAVIS,I,1,1,0
+2
+HTRACO,R,1,1,0
+0.001
+BIPLLV,R,1,1,0
+0
+PLCST,R,1,1,0
+1
+PLD0,R,1,1,0
+0
+PLPOW,R,1,1,0
+1
+PLCOEF,R,1,4,0
+0 0 0 0
+CACST,R,1,1,0
+1
+CAPOW,R,1,1,0
+1
+CAISRV,R,1,1,0
+1.5e-005
+KPCF,I,1,1,0
+0
+NGI,I,1,1,0
+1
+KBODY,I,1,1,0
+0
+IGRAV,R,1,3,0
+0 -9.81 0
+KTURB,I,1,1,0
+0
+CELT,R,1,1,0
+0.28
+TMAX,R,1,1,0
+1000
+RKEXP,I,1,1,0
+1
+NRKS,I,1,1,0
+2
+KDRAG,I,1,1,0
+1
+COOLFL,I,1,1,0
+2
+DEPHAR,I,1,1,0
+0
+RSHAME,I,1,1,0
+4
+INLPIT,R,1,1,0
+0
+NHDEPT,I,1,3,0
+3 3 3
+CLMERG,I,1,1,0
+1
+CLOREP,I,1,1,0
+21
+NPOCLO,I,1,1,0
+10
+INLDIS,I,1,1,0
+0
+FBNORM,I,1,1,0
+1
+TFUPDA,I,1,1,0
+0
+THCONE,R,1,1,0
+5
+TGBETA,I,1,1,0
+0
+WZOR2D,I,1,1,0
+1
+BETABL,I,1,1,0
+0
+TFEDGE,R,1,2,0
+0.5 0.5
+BETALE,I,1,1,0
+1
+NSMOTF,I,1,2,0
+0 4
+NTABTF,I,1,3,0
+0 0 0
+IDORTF,I,1,30,0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+NSTSTF,I,1,7,0
+0 0 0 0 0 0 0
+NPGFIL,I,1,1,0
+64
+ISTDDN,I,1,1,0
+0
+RLAMBL,R,1,1,0
+1e+030
+IADVTU,I,1,1,0
+0
+IPARA,I,1,1,0
+1
+NSTEP,I,1,1,0
+20
+INMBCO,I,1,1,0
+0
+ICORNM,I,1,1,0
+0
+IRECAL,I,1,1,0
+1
+IPOPRO,I,1,1,0
+0
+IKEMGL,I,1,1,0
+10
+ICFSCL,I,1,1,0
+0
+RCFSCL,R,1,1,0
+1
+IKATOL,I,1,1,0
+0
+IMHD,I,1,1,0
+0
+IMHDI,I,1,1,0
+1
+BXFRE,R,1,1,0
+0
+BYFRE,R,1,1,0
+0
+BZFRE,R,1,1,0
+0
+MUMHD,R,1,1,0
+1.25664e-006
+SIGMHD,R,1,1,0
+1
+IPHABC,I,1,1,0
+0
+IDOMSC,I,1,1,0
+0
+THFKAP,R,1,1,0
+1
+THEFIL,L,1,1,0
+D:\E\Softwares\FineTurbo\Installation\Fine141\bin\THERMO_BALAK
+NQNTME,I,1,8,0
+6 1 3 2 0 0 0 1
+IQNTME,I,1,7,0
+000051 001051 000050 001050 000052 000252  000004 
+ICFV,I,1,1,0
+2101
+NQUANT,I,1,2,0
+7 1
+IQUANT,I,1,8,0
+000051 001051 000050 001050 000052 000250 000252  000004 
+NQNTAV,I,1,2,0
+0 1
+IQNTAV,I,1,1,0
+0
+ITYPAV,I,1,1,0
+0
+NQNTSD,I,1,2,0
+1 0
+IQNTSD,I,1,1,0
+000071  
+NQNTTR,I,1,2,0
+0 0
+IQNTTR,I,1,1,0
+0
+ACCCTL,I,1,5,0
+0 0 0 0 0 
+ACCDEV,I,1,10,0
+0 1 2 3 4 5 6 7 8 9 
+ACCNBD,I,1,1,0
+1 
+ADECMF,I,1,1,0
+0 
+ADUSCC,I,1,1,0
+0 
+BC2DIN,I,1,1,0
+0 
+BCKFLO,I,1,1,0
+0 
+BCKFLU,I,1,1,0
+0 
+BLEXCH,I,1,1,0
+1 
+CAVCOM,I,1,1,0
+0 
+CFFNMB,I,1,1,0
+1 
+CLASID,I,1,1,0
+1 
+CLIPCG,I,1,1,0
+1 
+CLIPHA,I,1,1,0
+0 
+CLOAVU,I,1,1,0
+0 
+CONTRA,I,1,1,0
+1 
+COODBG,I,1,1,0
+0 
+CORMOD,I,1,1,0
+0 
+CPUBRB,I,1,1,0
+0 
+CSCOLL,I,1,1,0
+1 
+DECTST,I,1,1,0
+0 
+DOMTHE,I,1,1,0
+1 
+DWROT,I,1,1,0
+-1 
+EFFCOO,I,1,1,0
+0 
+EFFDEF,I,1,1,0
+1 
+EQWSPA,I,1,1,0
+0 
+EUWDIS,I,1,1,0
+0 
+EXCMTH,I,1,1,0
+0 
+FLXRS,I,1,2,0
+1 1 
+FNMDCE,I,1,1,0
+0 
+FSTOUT,I,1,1,0
+1 
+FULLPR,I,1,1,0
+0 
+HARSIM,I,1,1,0
+0 
+HARTCL,I,1,1,0
+0 
+HAVMOD,I,1,1,0
+2 
+HPCINI,I,1,1,0
+1 
+HTCDEF,I,1,1,0
+1 
+I1STOR,I,1,1,0
+0 
+I27FRZ,I,1,1,0
+1 
+I2DLAG,I,1,1,0
+0 
+IACCPB,I,1,4,0
+0 0 0 1024 
+IACODR,I,1,6,0
+1 1 1 1 1 1 
+IAMIN,I,1,1,0
+0 
+IARTV2,I,1,1,0
+0 
+IARTVS,I,1,1,0
+0 
+IASTWL,I,1,1,0
+0 
+IATFRZ,I,1,1,0
+1 
+IBCCHA,I,1,1,0
+11 
+IBCCHO,I,1,1,0
+11 
+IBCSIM,I,1,1,0
+0 
+IBECAV,I,1,1,0
+0 
+IBJPRE,I,1,1,0
+0 
+IBOTH,I,1,1,0
+2 
+IBOUND,I,1,1,0
+1 
+ICAFIL,I,1,1,0
+1 
+ICARES,I,1,1,0
+0 
+ICAV,I,1,1,0
+1 
+ICAVAM,I,1,1,0
+50 
+ICAVF,I,1,1,0
+2000000 
+ICAVP,I,1,1,0
+5000000 
+ICAVRE,I,1,1,0
+50 
+ICAVRO,I,1,1,0
+50 
+ICDIST,I,1,1,0
+1 
+ICGP3D,I,1,1,0
+0 
+ICOARS,I,1,2,0
+0 1 
+ICODKE,I,1,1,0
+0 
+ICOMP,I,1,1,0
+0 
+ICOPKE,I,1,1,0
+0 
+ICROSH,I,1,1,0
+0 
+ICSTST,I,1,1,0
+0 
+ICVDVM,I,1,1,0
+1 
+ICYOUT,I,1,1,0
+1 
+IDCNMB,I,1,1,0
+1 
+IDEBUG,I,1,10,0
+0 0 0 0 0 0 0 0 0 0 
+IDECAV,I,1,1,0
+0 
+IDECOU,I,1,1,0
+0 
+IDES,I,1,1,0
+0 
+IDIFFU,I,1,1,0
+1 
+IDISBC,I,1,1,0
+0 
+IDISIO,I,1,1,0
+0 
+IDISMO,I,1,1,0
+32 
+IDISNM,I,1,1,0
+0 
+IDISTN,I,1,1,0
+2 
+IDOMPO,I,1,50,0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+IDVTAY,I,1,1,0
+1 
+IDWCRS,I,1,1,0
+1 
+IDWGRD,I,1,1,0
+1 
+IDWRBF,I,1,1,0
+1 
+IDWROT,I,1,1,0
+0 
+IEARSM,I,1,1,0
+0 
+IEDGTH,I,1,1,0
+0 
+IELAED,I,1,1,0
+1 
+IELENG,I,1,1,0
+0 
+IFABCW,I,1,1,0
+1 
+IFACE,I,1,1,0
+1 
+IFNMB,I,1,1,0
+0 
+IFNMFI,I,1,1,0
+2 
+IFNPPP,I,1,1,0
+2 
+IFNRFI,I,1,1,0
+2 
+IFNSTD,I,1,1,0
+0 
+IFRCTO,I,1,1,0
+0 
+IFRSFI,I,1,1,0
+2 
+IGETBK,I,1,1,0
+1 
+IGTLAW,I,1,1,0
+1 
+IINLOR,I,1,1,0
+0 
+IINSRO,I,1,1,0
+0 
+IINSTA,I,1,1,0
+0 
+IINT,I,1,1,0
+1 
+IKELED,I,1,1,0
+0 
+IKENC,I,1,1,0
+1 
+ILININ,I,1,1,0
+0 
+ILOIET,I,1,1,0
+2 
+ILVSTI,I,1,1,0
+2 
+IMADIS,I,1,1,0
+0 
+IMASFL,I,1,1,0
+0 
+IMFABS,I,1,1,0
+1 
+IMGDIR,I,1,3,0
+1 1 1 
+IMINRS,I,1,1,0
+0 
+IMINUT,I,1,1,0
+0 
+IMODPO,I,1,1,0
+1 
+IMONOT,I,1,1,0
+0 
+IMOVQS,I,1,1,0
+0 
+IMOVWD,I,1,1,0
+0 
+IMTFIL,I,1,1,0
+0 
+IMUWAL,I,1,1,0
+0 
+IMVCRF,I,1,1,0
+0 
+IMVCYL,I,1,1,0
+0 
+IMVWEI,I,1,1,0
+0 
+INBLHA,I,1,2,0
+11 9 
+INCG,I,1,1,0
+0 
+INDEXT,I,1,2,0
+0 20 
+INEGP,I,1,1,0
+1 
+INEWF1,I,1,1,0
+0 
+INEWFN,I,1,1,0
+0 
+INEWKE,I,1,1,0
+10 
+INHARM,I,1,1,0
+0 
+INIKE,I,1,1,0
+2 
+INISOU,I,1,1,0
+0 
+INITHC,I,1,1,0
+0 
+INITMV,I,1,1,0
+0 
+INITRA,I,1,1,0
+100 
+INITRB,I,1,1,0
+2 
+INIVAP,I,1,1,0
+1 
+INLREL,I,1,1,0
+0 
+INMFTT,I,1,1,0
+0 
+INTERI,I,1,1,0
+0 
+INTERL,I,1,1,0
+0 
+INVMOD,I,1,1,0
+0 
+INVSPL,I,1,1,0
+1 
+IOBPCV,I,1,1,0
+0 
+IOCGBF,I,1,1,0
+0 
+IOCSMF,I,1,1,0
+1 
+IOCWIP,I,1,3,0
+0 1 1 
+IODRIV,I,1,6,0
+0 0 0 0 0 0 
+IOGVAL,I,1,1,0
+0 
+IOIMGD,I,1,3,0
+1 1 1 
+IOPALM,I,1,1,0
+0 
+IOPTKE,I,1,1,0
+1 
+IOPTPR,I,1,1,0
+0 
+IOTMTH,I,1,1,0
+0 
+IPDYN,I,1,1,0
+0 
+IPERFM,I,1,1,0
+1 
+IPLBCF,I,1,1,0
+0 
+IPORME,I,1,1,0
+0 
+IPRCAV,I,1,1,0
+0 
+IPRDMP,I,1,1,0
+0 
+IPRECG,I,1,1,0
+2 
+IPROC,I,1,1,0
+1 
+IPROLO,I,1,1,0
+1 
+IQNTMP,I,1,30,0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+IRADIA,I,1,1,0
+0 
+IRATIO,I,1,2,0
+3 3 
+IRCHOW,I,1,1,0
+0 
+IREDUC,I,1,1,0
+1 
+IRESTR,I,1,1,0
+0 
+IRHOV,I,1,1,0
+0 
+IROEAV,I,1,1,0
+0 
+IROTSP,I,1,1,0
+0 
+IROUGH,I,1,1,0
+0 
+IRSDCV,I,1,1,0
+0 
+IRSIBS,I,1,1,0
+10 
+IRSMCH,I,1,1,0
+3 
+IRSMRG,I,1,1,0
+2 
+IRSNEW,I,1,1,0
+0 
+IRSPAR,I,1,1,0
+1 
+IRSPPA,I,1,1,0
+0 
+IRSTPD,I,1,1,0
+1 
+IRSVAR,I,1,1,0
+2 
+IRSVFL,I,1,1,0
+1 
+ISCAV,I,1,1,0
+1000 
+ISCIST,I,1,1,0
+0 
+ISCVCP,I,1,1,0
+0 
+ISGLTS,I,1,1,0
+0 
+ISIDAT,I,1,1,0
+1 
+ISIGMA,I,1,1,0
+0 
+ISLEEP,I,1,1,0
+0 
+ISNGOR,I,1,1,0
+0 
+ISPCAV,I,1,1,0
+0 
+ISPINC,I,1,1,0
+1 
+ISSNRJ,I,1,1,0
+0 
+ISSNRP,I,1,1,0
+0 
+ISTNOR,I,1,1,0
+1 
+ISTOUT,I,1,1,0
+1 
+ISVMAT,I,1,1,0
+1 
+ISWS,I,1,10,0
+1 1 0 0 0 0 0 0 0 0 
+ITCPL,I,1,1,0
+100 
+ITFRZ,I,1,1,0
+1000000 
+ITHEDA,I,1,1,0
+3 
+ITHEPO,I,1,1,0
+0 
+ITHFIT,I,1,1,0
+0 
+ITHLOS,I,1,1,0
+1 
+ITHVZM,I,1,1,0
+0 
+ITRWKI,I,1,1,0
+0 
+ITSTAV,I,1,1,0
+-1 
+ITSTCO,I,1,1,0
+0 
+ITUCAV,I,1,2,0
+1 10 
+ITURRC,I,1,1,0
+0 
+ITYSTO,I,1,1,0
+0 
+IUNASC,I,1,1,0
+0 
+IUNIMF,I,1,1,0
+0 
+IUNSMF,I,1,1,0
+0 
+IUPDRO,I,1,1,0
+0 
+IUPTYP,I,1,1,0
+1 
+IUPW,I,1,1,0
+0 
+IUPWTE,I,1,1,0
+1 
+IUREF,I,1,1,0
+0 
+IVELSY,I,1,1,0
+1 
+IVIBS,I,1,1,0
+1 
+IWAITP,I,1,1,0
+1 
+IWAVCO,I,1,1,0
+0 
+IWAVVI,I,1,1,0
+0 
+IWRIAV,I,1,1,0
+10 
+IWRIT,I,1,1,0
+0 
+IWROUT,I,1,1,0
+2 
+IYAP,I,1,1,0
+0 
+KEGRID,I,1,1,0
+10 
+KETRAN,I,1,1,0
+1 
+KOUTPT,I,1,1,0
+0 
+LIMVAR,I,1,1,0
+1 
+LINSUB,I,1,1,0
+0 
+LINTYP,I,1,1,0
+2 
+LIPROD,I,1,1,0
+1 
+LMAX,I,1,1,0
+1500 
+LOCCOR,I,1,1,0
+-1 
+LOCTST,I,1,1,0
+1 
+MASPAO,I,1,1,0
+2 
+MASVSO,I,1,1,0
+0 
+MAXNBS,I,1,1,0
+50 
+MDECOU,I,1,1,0
+0 
+MGPRCO,I,1,1,0
+1 
+MGRSTR,I,1,1,0
+1 
+MGSIMP,I,1,1,0
+1 
+MNGDBL,I,1,1,0
+1 
+MNRSSZ,I,1,1,0
+500 
+MOVRBF,I,1,1,0
+2 
+MVGAP,I,1,1,0
+0 
+MVMERG,I,1,1,0
+1 
+MXBFSZ,I,1,1,0
+100000 
+NBCMAX,I,1,1,0
+40 
+NBLADE,I,1,1,0
+7 
+NBLRES,I,1,1,0
+0 
+NBPPER,I,1,1,0
+1 
+NCAV,I,1,1,0
+1 
+NCAV2,I,1,1,0
+1950 
+NCAVP,I,1,1,0
+5000000 
+NCAVRO,I,1,1,0
+1950 
+NCLASS,I,1,1,0
+20 
+NDTFRE,I,1,1,0
+1250 
+NDTHAR,I,1,1,0
+20 
+NEWNMB,I,1,1,0
+1 
+NEWRAP,I,1,1,0
+100 
+NGRAF,I,1,5,0
+0 0 3 500 0 
+NH2DNR,I,1,1,0
+3 
+NHGALL,I,1,20,0
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+NHIONR,I,1,1,0
+5 
+NHSUB,I,1,20,0
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+NHSUB2,I,1,20,0
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+NITCFL,I,1,1,0
+20 
+NITER,I,1,1,0
+2 
+NLINCF,I,1,10,0
+1 1 1 1 1 1 1 1 1 1 
+NLINFC,I,1,10,0
+1 1 1 1 1 1 1 1 1 1 
+NMXCYC,I,1,1,0
+5 
+NMXDIR,I,1,1,0
+10000 
+NPERBC,I,1,1,0
+1 
+NPLOUT,I,1,1,0
+0 
+NQNTMP,I,1,3,0
+0 0 0 
+NQSTDY,I,1,1,0
+0 
+NRAYS,I,1,2,0
+10 10 
+NRBCAM,I,1,2,0
+1 2 
+NRBCEQ,I,1,2,0
+2 2 
+NREPET,I,1,1,0
+1 
+NRO1,I,1,1,0
+1950 
+NRO2,I,1,1,0
+1950 
+NRRES,I,1,1,0
+1 
+NRRESH,I,1,1,0
+1 
+NSCHMF,I,1,2,0
+0 1 
+NSMONO,I,1,1,0
+20 
+NSTAGE,I,1,1,0
+4 
+NSTMAX,I,1,1,0
+40 
+NSUBFC,I,1,1,0
+100 
+NSUBM,I,1,1,0
+1000 
+NTASK,I,1,1,0
+0 
+NTUPTC,I,1,1,0
+100 
+NUNK,I,1,1,0
+5 
+OLDOWH,I,1,1,0
+0 
+OUTTYP,I,1,1,0
+0 
+PERVAR,I,1,1,0
+0 
+PKEDGE,I,1,1,0
+1 
+PKFACE,I,1,1,0
+1 
+PORBLD,I,1,1,0
+0 
+PREROT,I,1,1,0
+0 
+PROLPG,I,1,1,0
+0 
+PTHETA,I,1,1,0
+0 
+RADEQ1,I,1,1,0
+1 
+RBRSBS,I,1,1,0
+0 
+RELPRO,I,1,1,0
+0 
+RSIMGD,I,1,3,0
+1 1 1 
+SOLSTE,I,1,1,0
+1 
+STRCPL,I,1,1,0
+0 
+SWTEDC,I,1,1,0
+0 
+TDECOU,I,1,1,0
+0 
+TFMODE,I,1,1,0
+1 
+THNINI,I,1,2,0
+10 10 
+TIMEBC,I,1,1,0
+0 
+TORCYL,I,1,1,0
+0 
+TORRO,I,1,1,0
+1 
+UNSOUT,I,1,1,0
+1 
+VIS2SW,I,1,1,0
+1 
+VISNUL,I,1,1,0
+1 
+VISPOW,I,1,1,0
+1 
+ZMNMX,I,1,1,0
+0 
+A1SST,R,1,1,0
+0.31 
+ALF,R,1,1,0
+0.5 
+ALFAMG,R,1,1,0
+1 
+ALPHAP,R,1,1,0
+-1 
+AMINS,R,1,1,0
+50 
+ANGREL,R,1,3,0
+1 0.05 0.05 
+APORME,R,1,50,0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+ASTARH,R,1,1,0
+5000 
+ASTARL,R,1,1,0
+26 
+BETA1,R,1,1,0
+0.075 
+BETA2,R,1,1,0
+0.0828 
+BETSST,R,1,1,0
+0.09 
+BLFACT,R,1,1,0
+5 
+BWAKE,R,1,1,0
+-30 
+C1F,R,1,1,0
+1.4 
+C2F,R,1,1,0
+0.3 
+C3,R,1,1,0
+2 
+CDES,R,1,1,0
+0.65 
+CDIDTE,R,1,1,0
+100 
+CE1,R,1,1,0
+1.44 
+CE2,R,1,1,0
+1.92 
+CE2V2F,R,1,1,0
+1.9 
+CET,R,1,1,0
+70 
+CFDH,R,1,1,0
+8 
+CFDL,R,1,1,0
+6 
+CFLE,R,1,1,0
+1.5 
+CFLINT,R,1,1,0
+1 
+CFLV2F,R,1,1,0
+1 
+CFLVIS,R,1,1,0
+-1 
+CFSSE,R,1,1,0
+0.1 
+CL,R,1,1,0
+0.23 
+CLBMN2,R,1,1,0
+0.75 
+CMU,R,1,1,0
+0.09 
+CMUV2F,R,1,1,0
+0.22 
+CN,R,1,1,0
+0.8 
+CODIRI,R,1,6,0
+0 0 0 0 0 0 
+CODIRO,R,1,6,0
+0 0 0 0 0 0 
+COOLRT,R,1,1,0
+1 
+CP1,R,1,1,0
+4 
+CPLREL,R,1,1,0
+1 
+CSAS1,R,1,1,0
+2.3713 
+CSAS2,R,1,1,0
+8 
+CSASH,R,1,1,0
+2.25 
+CSASL,R,1,1,0
+2.75 
+CVLREF,R,1,1,0
+4216 
+CVVREF,R,1,1,0
+1860 
+CYLREF,R,1,3,0
+0 0 0 
+DDIMAX,R,1,1,0
+1e-005 
+DIAMR,R,1,1,0
+0.1 
+DMKLMX,R,1,1,0
+0 
+DPBETA,R,1,1,0
+50000 
+DPBETM,R,1,1,0
+100000 
+DPMG,R,1,1,0
+50000 
+DPSADT,R,1,1,0
+130 
+DRMAX,R,1,1,0
+5000000 
+EKCLIP,R,1,1,0
+1e-005 
+ENTRFX,R,1,2,0
+1.05 1.05 
+EPCLIP,R,1,1,0
+1e-005 
+EPORME,R,1,50,0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+EPS,R,1,1,0
+1e-028 
+EXPMAR,R,1,1,0
+0.5 
+FACTRS,R,1,1,0
+1 
+FCTNIT,R,1,1,0
+1 
+FHAR,R,1,20,0
+13194.7 15027.3 15027.3 13194.7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FKMPR3,R,1,2,0
+1 0 
+FMPLIM,R,1,1,0
+-1 
+FTRAST,R,1,1,0
+0.05 
+FTURBT,R,1,1,0
+0.95 
+GAM1,R,1,1,0
+0.5532 
+GAM2,R,1,1,0
+0.4403 
+GAMMAT,R,1,1,0
+10 
+GEONOR,R,1,4,0
+0 0 0 1 
+GRDCR1,R,1,1,0
+1e-005 
+GRDCR2,R,1,1,0
+3 
+GRDPCT,R,1,1,0
+10 
+GTCA1I,R,1,1,0
+2 
+GTCA2I,R,1,1,0
+0.06 
+GTCE1I,R,1,1,0
+1 
+GTCE2I,R,1,1,0
+50 
+GTCTHR,R,1,1,0
+0.03 
+GTSIGI,R,1,1,0
+1 
+GTSIGR,R,1,1,0
+2 
+HARAV2,R,1,1,0
+0.01 
+HDSVAV,R,1,1,0
+0.6 
+HLREF,R,1,1,0
+83840 
+HPORME,R,1,50,0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+HVREF,R,1,1,0
+2537200 
+IBPA,R,1,20,0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+IDCDP,R,1,3,0
+0 0 1 
+IDCLP,R,1,3,0
+0 0 1 
+IDCMP,R,1,3,0
+0 0 1 
+IDIRPO,R,1,150,0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+IDWAFX,R,1,1,0
+0 
+IDWAMV,R,1,1,0
+0.1 
+INBLCU,R,1,1,0
+2000 
+INTOL,R,1,3,0
+0.0001 1e-008 0.001 
+IOIMGR,R,1,1,0
+1 
+IOMRLX,R,1,1,0
+1 
+IREFPT,R,1,3,0
+0 0 0 
+IRKCO,R,1,10,0
+0 0 0 0 0 0 0 0 0 0 
+IRKCOD,R,1,27,0
+0.125 0.306 0.587 1 0.0695 0.1602 0.2898 0.506 1 0.0833 0.2069 0.4265 1 0.0533 0.1263 0.2375 0.4414 1 0.1084 0.2602 0.5052 1 0.0695 0.1602 0.2898 0.506 1 
+ISWV,R,1,10,0
+1 1 0 0 0 0 0 0 0 0 
+IXMP,R,1,3,0
+0 0 0 
+KPHAAN,R,1,10,0
+5.517 -7.156 -7.156 5.517 0 0 0 0 0 0 
+KPORME,R,1,50,0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+LEWIS,R,1,1,0
+3 
+LEWTUR,R,1,1,0
+3 
+LIQSS,R,1,1,0
+1480 
+LPORME,R,1,50,0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+LTMAX,R,1,1,0
+1000000 
+MAVREM,R,1,1,0
+0.95 
+MAVRES,R,1,1,0
+0.95 
+MAXPRD,R,1,1,0
+1000000 
+MERMAR,R,1,4,0
+1e-005 0 100000 0.1 
+MERTOL,R,1,1,0
+0 
+MINPRD,R,1,1,0
+1000000 
+MOVRAD,R,1,1,0
+1 
+MUCLIP,R,1,1,0
+5000 
+MVDIFF,R,1,1,0
+1 
+MVIVEL,R,1,6,0
+0 0 0 0 0 0 
+MVRELF,R,1,1,0
+0.9 
+NBLADJ,R,1,10,0
+36 -41 -41 -41 36 36 0 0 0 0 
+NPORME,R,1,50,0
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+NUTFRE,R,1,1,0
+0.0003 
+OMGINL,R,1,1,0
+0 
+P0USER,R,1,1,0
+101340 
+PBEAU,R,1,1,0
+300000000 
+PERCUT,R,1,1,0
+0 
+PPREXI,R,1,2,0
+0 0 
+PPRINI,R,1,2,0
+100 100 
+PPRINL,R,1,2,0
+0 0 
+PRCLIP,R,1,1,0
+50 
+PREFER,R,1,1,0
+0 
+PRELAX,R,1,1,0
+1 
+PRSCON,R,1,30,0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+PRT,R,1,1,0
+1 
+PSAREF,R,1,1,0
+2339 
+PTCHFR,R,1,1,0
+0.125 
+PTCLIP,R,1,2,0
+-1e+015 1e+015 
+PVAPE,R,1,1,0
+2000 
+PVAPOR,R,1,1,0
+2000 
+PVAPRE,R,1,1,0
+2000 
+QSAMPY,R,1,1,0
+0 
+QSOMGZ,R,1,1,0
+0 
+R1R2,R,1,2,0
+10 100 
+RANDBG,R,1,14,0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+RARTVS,R,1,1,0
+0 
+RECOVF,R,1,1,0
+-1 
+RELAEV,R,1,1,0
+100000 
+RELAPV,R,1,1,0
+0.25 
+RELAX,R,1,1,0
+1 
+RELAXF,R,1,1,0
+0.5 
+RELAXP,R,1,1,0
+1 
+RELPHL,R,1,2,0
+0.5 0.5 
+REQTOL,R,1,1,0
+1e-006 
+RESCPL,R,1,1,0
+-5 
+RESFRZ,R,1,1,0
+-12 
+RGAS,R,1,1,0
+287 
+RHOMIN,R,1,1,0
+0.01 
+RHOVS,R,1,1,0
+10 
+RMNOSC,R,1,1,0
+0 
+RMU1,R,1,1,0
+0.001 
+RMU2,R,1,1,0
+1.5e-005 
+RMUCAV,R,1,1,0
+1 
+RMXOSC,R,1,1,0
+1000000 
+RNDOFF,R,1,1,0
+1e-007 
+RONCG,R,1,1,0
+0.1 
+RQSTDY,R,1,1,0
+1 
+RSIMGR,R,1,1,0
+1 
+RSLAX,R,1,1,0
+1 
+RSLAXA,R,1,1,0
+0.1 
+RSMPAR,R,1,1,0
+2 
+RSTOL,R,1,1,0
+0.005 
+RTOL,R,1,1,0
+1.8 
+SCHMID,R,1,1,0
+1 
+SCHMTU,R,1,1,0
+0.9 
+SIGD1,R,1,1,0
+1 
+SIGD2,R,1,1,0
+0.4 
+SIGE,R,1,1,0
+1.3 
+SIGHRS,R,1,1,0
+1 
+SIGK,R,1,1,0
+1 
+SIGK1,R,1,1,0
+0.85 
+SIGK2,R,1,1,0
+1 
+SIGMA,R,1,1,0
+0.8 
+SIGMAI,R,1,1,0
+400 
+SIGO1,R,1,1,0
+0.5 
+SIGO2,R,1,1,0
+0.856 
+SIGRO,R,1,1,0
+0.5 
+SMCOR,R,1,1,0
+0 
+SMCORC,R,1,1,0
+0 
+SPORME,R,1,50,0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+SPULIM,R,1,1,0
+0.01 
+SRSDCV,R,1,1,0
+0.5 
+SRSDEC,R,1,2,0
+0.0001 0.0001 
+T0USER,R,1,1,0
+288.15 
+TEDAMP,R,1,1,0
+-1 
+TELFRE,R,1,1,0
+300 
+TEMAX,R,1,1,0
+10000 
+TEMIN,R,1,1,0
+0 
+THFREL,R,1,2,0
+0.1 0.85 
+TPORME,R,1,50,0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+TQPARK,R,1,2,0
+0.5 0.5 
+TTCLIP,R,1,2,0
+-1e+015 1e+015 
+TURFIX,R,1,1,0
+1 
+TVRMUL,R,1,1,0
+1 
+UENTR,R,1,3,0
+0 0 0 
+UFLUCW,R,1,6,0
+0.05 0 0.05 0 0.05 0 
+UNIGAS,R,1,1,0
+8.31434 
+UREFMI,R,1,1,0
+5 
+UREFRE,R,1,1,0
+5 
+URELNC,R,1,1,0
+1 
+URELNT,R,1,1,0
+1 
+URLBLD,R,1,1,0
+-1 
+VAPFRE,R,1,2,0
+0 0 
+VAPLAX,R,1,1,0
+1 
+VAPSS,R,1,1,0
+400 
+VELSCA,R,1,1,0
+2 
+VIS2,R,1,1,0
+1 
+VIS2KE,R,1,1,0
+1 
+VIS2NQ,R,1,1,0
+1 
+VIS4,R,1,1,0
+0.1 
+VIS4KE,R,1,1,0
+0.1 
+VIS4NQ,R,1,1,0
+0.1 
+VUNS2,R,1,1,0
+0 
+ISVEGL,I,1,1,0
+1
+    NI_END   solver_parameters
+#                                                                             
+#*****************************************************************************
+#*******                END  SOLVER PARAMETERS SECTION             ***********
+#*****************************************************************************
+#                                                                             
+#                                                                             
+#*****************************************************************************
+#******* START INITIAL SOLUTION AND BOUNDARY CONDITION SECTION  **************
+#*****************************************************************************
+#                                                                             
+#                                                                             
+#            *********   BEGIN INITIAL SOLUTIONS LIST    *******              
+    NI_BEGIN INITIAL_SOLUTION
+    INITIAL_SOLUTION_INDEX       0
+              VERSION                 1.2
+              TYPE                    turbo
+              mode_abs_rel            rel
+              abs_rel_velocity        rel
+              flow_direction          None
+              velocity_fitting        W
+              pressure_field          Constant
+   THROUGHFLOW_INITIAL_SOLUTION_FILE           unknown
+   RELATIVE_THROUGHFLOW_INITIAL_SOLUTION_FILE  undefined
+	  INITIAL_SOLUTION_FILE						  unknown
+   RELATIVE_INITIAL_SOLUTION_FILE              undefined
+				REAL_ENTRY		pressure		101000
+				REAL_ENTRY		temperature		300
+				REAL_ENTRY		v1		10
+				REAL_ENTRY		v2		0
+				REAL_ENTRY		v3		0
+				REAL_ENTRY		k		5
+				REAL_ENTRY		eps		3000
+				REAL_ENTRY		pressure field factor		0
+				REAL_ENTRY		turbulent_viscosity		0.0001
+				REAL_ENTRY		turbulent_intensity		0.05
+				REAL_ENTRY		turbulent_length_scale		0.0001
+				REAL_ENTRY		turbulent_viscosity_ratio		10
+				REAL_ENTRY		hydraulic_diameter		0.001
+				REAL_ENTRY		modified_turbulent_viscosity		0.0003
+				INTEGER_ENTRY		intensity_choice		0
+				PATCH_ENTRY		channel_entrance_patch		2 1 0
+				PATCH_ENTRY		channel_exit_patch		0 0 0
+				PATCH_ENTRY		channel_up_exit_patch		-1 -1 -1
+    NI_END   INITIAL_SOLUTION
+#            *********   END INITIAL SOLUTIONS LIST      *********            
+#                                                                             
+#            *********   BEGIN BOUNDARY CONDITIONS LIST  *********            
+    NI_BEGIN bc_parameters
+    BC_PARAMETERS_INDEX       0
+              VERSION                 3.0
+              TYPE                    OUTLET
+              TYPE_ID                 25
+              TYPE_OPSEL              10
+              CONDITION               none
+				REAL_ENTRY		Rotational Speed Unsteady		0
+				REAL_ENTRY		Relaxation coefficient-Turbo (incoming acoustic wave)		1
+                CHOICE_ENTRY          Backflow Control 0
+                CHOICE_ENTRY          Extrapolation 0
+                CHOICE_ENTRY          Rotating Boundary_Condition 0
+                CHOICE_ENTRY          Acoustic Source 0
+                CHOICE_ENTRY          Non reflecting Turbo 0
+              NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Static Pressure
+                TYPE                  variable
+                VALUE                 80000
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+              NI_END   physical_entry
+    NI_END   bc_parameters
+    NI_BEGIN bc_parameters
+    BC_PARAMETERS_INDEX       1
+              VERSION                 3.0
+              TYPE                    CONNECTION
+              TYPE_ID                 1
+              TYPE_OPSEL              -1
+              CONDITION               none
+    NI_END   bc_parameters
+    NI_BEGIN bc_parameters
+    BC_PARAMETERS_INDEX       2
+              VERSION                 3.0
+              TYPE                    SOLID
+              TYPE_ID                 113
+              TYPE_OPSEL              0
+              CONDITION               none
+				REAL_ENTRY		Rotational Speed 1		390.36383108627
+				REAL_ENTRY		von-karman-constant		0.41
+				REAL_ENTRY		Bo		5.36
+				REAL_ENTRY		Equivalent Roughness Height		1e-006
+				REAL_ENTRY		zero-displacement-plane		0
+                CHOICE_ENTRY          Pressure From 1
+                CHOICE_ENTRY          Wall-Type 1
+                CHOICE_ENTRY          Acoustic Source 0
+              NI_BEGIN lagrangian_physical_entry
+                VERSION               1.0
+                TYPE_NAME             Wall_reflection_ratio
+                TYPE_ID               113
+                COORDINATE_SYSTEM     0
+                REFERENCE_FRAME       0
+				REAL_ENTRY		ReflectingRatio		0.5
+              NI_END   lagrangian_physical_entry
+    NI_END   bc_parameters
+    NI_BEGIN bc_parameters
+    BC_PARAMETERS_INDEX       3
+              VERSION                 3.0
+              TYPE                    SOLID
+              TYPE_ID                 113
+              TYPE_OPSEL              0
+              CONDITION               none
+				REAL_ENTRY		Rotational Speed 1		0
+				REAL_ENTRY		von-karman-constant		0.41
+				REAL_ENTRY		Bo		5.36
+				REAL_ENTRY		Equivalent Roughness Height		1e-006
+				REAL_ENTRY		zero-displacement-plane		0
+                CHOICE_ENTRY          Pressure From 1
+                CHOICE_ENTRY          Wall-Type 1
+                CHOICE_ENTRY          Acoustic Source 0
+              NI_BEGIN lagrangian_physical_entry
+                VERSION               1.0
+                TYPE_NAME             Wall_reflection_ratio
+                TYPE_ID               113
+                COORDINATE_SYSTEM     0
+                REFERENCE_FRAME       0
+				REAL_ENTRY		ReflectingRatio		0.5
+              NI_END   lagrangian_physical_entry
+    NI_END   bc_parameters
+    NI_BEGIN bc_parameters
+    BC_PARAMETERS_INDEX       4
+              VERSION                 3.0
+              TYPE                    SOLID
+              TYPE_ID                 113
+              TYPE_OPSEL              0
+              CONDITION               none
+				REAL_ENTRY		Rotational Speed 1		382.5412653803
+				REAL_ENTRY		von-karman-constant		0.41
+				REAL_ENTRY		Bo		5.36
+				REAL_ENTRY		Equivalent Roughness Height		1e-006
+				REAL_ENTRY		zero-displacement-plane		0
+                CHOICE_ENTRY          Pressure From 1
+                CHOICE_ENTRY          Wall-Type 1
+                CHOICE_ENTRY          Acoustic Source 0
+              NI_BEGIN lagrangian_physical_entry
+                VERSION               1.0
+                TYPE_NAME             Wall_reflection_ratio
+                TYPE_ID               113
+                COORDINATE_SYSTEM     0
+                REFERENCE_FRAME       0
+				REAL_ENTRY		ReflectingRatio		0.5
+              NI_END   lagrangian_physical_entry
+    NI_END   bc_parameters
+    NI_BEGIN bc_parameters
+    BC_PARAMETERS_INDEX       5
+              VERSION                 3.0
+              TYPE                    PERIODIC
+              TYPE_ID                 2
+              TYPE_OPSEL              -1
+              CONDITION               none
+				REAL_ENTRY		angle in degrees		-11.25
+                CHOICE_ENTRY          Phase-lagged 0
+                CHOICE_ENTRY          Acoustic Source 0
+    NI_END   bc_parameters
+    NI_BEGIN bc_parameters
+    BC_PARAMETERS_INDEX       6
+              VERSION                 3.0
+              TYPE                    PERIODIC
+              TYPE_ID                 2
+              TYPE_OPSEL              -1
+              CONDITION               none
+				REAL_ENTRY		angle in degrees		11.25
+                CHOICE_ENTRY          Phase-lagged 0
+                CHOICE_ENTRY          Acoustic Source 0
+    NI_END   bc_parameters
+    NI_BEGIN bc_parameters
+    BC_PARAMETERS_INDEX       7
+              VERSION                 3.0
+              TYPE                    PERIODIC
+              TYPE_ID                 2
+              TYPE_OPSEL              -1
+              CONDITION               none
+				REAL_ENTRY		angle in degrees		-11.25
+                CHOICE_ENTRY          Phase-lagged 0
+                CHOICE_ENTRY          Acoustic Source 0
+    NI_END   bc_parameters
+    NI_BEGIN bc_parameters
+    BC_PARAMETERS_INDEX       8
+              VERSION                 3.0
+              TYPE                    PERIODIC
+              TYPE_ID                 2
+              TYPE_OPSEL              -1
+              CONDITION               none
+				REAL_ENTRY		angle in degrees		11.25
+                CHOICE_ENTRY          Phase-lagged 0
+                CHOICE_ENTRY          Acoustic Source 0
+    NI_END   bc_parameters
+    NI_BEGIN bc_parameters
+    BC_PARAMETERS_INDEX       9
+              VERSION                 3.0
+              TYPE                    PERIODIC
+              TYPE_ID                 2
+              TYPE_OPSEL              -1
+              CONDITION               none
+				REAL_ENTRY		angle in degrees		11.25
+                CHOICE_ENTRY          Phase-lagged 0
+                CHOICE_ENTRY          Acoustic Source 0
+    NI_END   bc_parameters
+    NI_BEGIN bc_parameters
+    BC_PARAMETERS_INDEX       10
+              VERSION                 3.0
+              TYPE                    PERIODIC
+              TYPE_ID                 2
+              TYPE_OPSEL              -1
+              CONDITION               none
+				REAL_ENTRY		angle in degrees		-11.25
+                CHOICE_ENTRY          Phase-lagged 0
+                CHOICE_ENTRY          Acoustic Source 0
+    NI_END   bc_parameters
+    NI_BEGIN bc_parameters
+    BC_PARAMETERS_INDEX       11
+              VERSION                 3.0
+              TYPE                    INLET
+              TYPE_ID                 124
+              TYPE_OPSEL              4
+              CONDITION               none
+				REAL_ENTRY		Rotational Speed Unsteady		0
+				REAL_ENTRY		Relaxation coefficient-Turbo (entropy wave)		1
+				REAL_ENTRY		Relaxation coefficient-Turbo (vorticity wave 1)		1
+				REAL_ENTRY		Relaxation coefficient-Turbo (vorticity wave 2)		1
+				REAL_ENTRY		Relaxation coefficient-Turbo (incoming acoustic wave)		1
+				REAL_ENTRY		Rotational Speed		0
+                CHOICE_ENTRY          Extrapolation 0
+                CHOICE_ENTRY          Rotating Boundary_Condition 0
+                CHOICE_ENTRY          Acoustic Source 0
+                CHOICE_ENTRY          Non reflecting Turbo 0
+                CHOICE_ENTRY          Turbulent Quantities (k-e) 0
+                CHOICE_ENTRY          Turbulent Quantities (S-A) 0
+                CHOICE_ENTRY          Inlet Distortion (Harmonic) 0
+              NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Vr/|V|
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+              NI_END   physical_entry
+              NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Vt/|V|
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+              NI_END   physical_entry
+              NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Vz/|V|
+                TYPE                  variable
+                VALUE                 1
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+              NI_END   physical_entry
+              NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Absolute Total Pressure
+                TYPE                  variable
+                VALUE                 101330
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+              NI_END   physical_entry
+              NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Absolute Total Temperature
+                TYPE                  variable
+                VALUE                 288.2
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+              NI_END   physical_entry
+              NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  k
+                TYPE                  variable
+                VALUE                 5
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+              NI_END   physical_entry
+              NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Epsilon
+                TYPE                  variable
+                VALUE                 30000
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+              NI_END   physical_entry
+              NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Turbulent Viscosity
+                TYPE                  variable
+                VALUE                 0.0001
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+              NI_END   physical_entry
+              NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Turbulent Intensity (k-e)
+                TYPE                  variable
+                VALUE                 0.05
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+              NI_END   physical_entry
+              NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Turbulent Viscosity Ratio (k-e)
+                TYPE                  variable
+                VALUE                 10
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+              NI_END   physical_entry
+              NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Turbulent Length Scale (k-e)
+                TYPE                  variable
+                VALUE                 0.0001
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+              NI_END   physical_entry
+              NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Hydraulic Diameter (k-e)
+                TYPE                  variable
+                VALUE                 0.001
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+              NI_END   physical_entry
+              NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Turbulent Intensity (S-A)
+                TYPE                  variable
+                VALUE                 0.05
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+              NI_END   physical_entry
+              NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Turbulent Viscosity Ratio (S-A)
+                TYPE                  variable
+                VALUE                 10
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+              NI_END   physical_entry
+              NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Turbulent Length Scale (S-A)
+                TYPE                  variable
+                VALUE                 0.0001
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+              NI_END   physical_entry
+              NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Hydraulic Diameter (S-A)
+                TYPE                  variable
+                VALUE                 0.001
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+              NI_END   physical_entry
+              NI_BEGIN lagrangian_physical_entry
+                VERSION               1.0
+                TYPE_NAME             Particle_class
+                TYPE_ID               51
+                COORDINATE_SYSTEM     0
+                REFERENCE_FRAME       0
+				INTEGER_ENTRY		Nb_of_particle_by_cell		1
+				INTEGER_ENTRY		Diameter_type		0
+				INTEGER_ENTRY		Velocity_type		0
+				REAL_ENTRY		Diameter		1
+				REAL_ENTRY		Density		1
+				REAL_ENTRY		Flux		1
+				REAL_ENTRY		Turbulent_kinetic_energy		0
+				REAL_ENTRY		Molecular_weight		0.018
+				REAL_ENTRY		Boiling_temperature		373
+				REAL_ENTRY		Freezing_temperature		273
+				REAL_ENTRY		Critical_temperature		647
+				REAL_ENTRY		Critical_pressure		22060
+				VECTOR_ENTRY		Position		0		0		0
+				VECTOR_ENTRY		Velocity		0		0		0
+              NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Vx
+                TYPE                  variable
+                VALUE                 1
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+              NI_END   physical_entry
+              NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Vy
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+              NI_END   physical_entry
+              NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Vz
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+              NI_END   physical_entry
+              NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  k
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+              NI_END   physical_entry
+              NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  T
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+              NI_END   physical_entry
+              NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Volume_fraction
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+              NI_END   physical_entry
+              NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Diameter
+                TYPE                  variable
+                VALUE                 1
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+              NI_END   physical_entry
+              NI_END   lagrangian_physical_entry
+    NI_END   bc_parameters
+#            *********   END  BOUNDARY CONDITIONS LIST  *********             
+#                                                                             
+ ACOUSTIC_CONFIGURATION 0
+    NI_BEGIN virtual_partition
+              NTASK  					1
+              NUMBER_OF_BLOCKS_PER_PROCESS     		8
+              BALANCING   				0.8000
+              PENALTIES   				1.0000 0.2000 0.2000 0.0500
+              RED_BLACK_TREE    			1
+              WORK_ON_COARSE_GRID    			0
+              NUMBER_OF_CONSTANT_ITERATION      	10
+              TOLERANCE_OF_CONSTANT_ITERATION      	1.0000e-002
+              RUN_COMPUTATION    			1
+              automaticMemoryEstimation     		1
+              INTEGER_RELAXATION    			1.5000
+              REAL_RELAXATION    			1.2000
+              sizeI  					10000
+              sizeD  					10000
+              activated   				0
+              PARTITIONED_RUNFILE    			0
+              WRITE_SOLUTION_ON_PARTITON     		0
+              PARTITION_NMB    			1
+              PROJECT_BUFFER_SIZE    			0.0000
+              MERGE_VIRTUAL_TOPOLOGY     		0
+    NI_END   virtual_partition
+#                                                                             
+#*****************************************************************************
+#******* END INITIAL SOLUTION AND BOUNDARY CONDITION SECTION    **************
+#*****************************************************************************
+#                                                                             
+#                                                                             
+#                                                                             
+#*****************************************************************************
+#*******        START BLADE-TO-BLADE PARAMETERS SECTION         **************
+#*****************************************************************************
+#                                                                             
+#                                                                             
+#*****************************************************************************
+#*******        END  BLADE-TO-BLADE PARAMETERS SECTION         **************
+#*****************************************************************************
+#                                                                             
+#                                                                             
+#*****************************************************************************
+#*******        START OUTPUT PARAMETERS SECTION                 **************
+#*****************************************************************************
+#                                                                             
+    NI_BEGIN output_parameters
+          VERSION                     1.0
+          NI_BEGIN niquantity
+          VERSION                     1.0
+          KEYNAME                     _STATIC_TEMPERATURE_
+          NAMECGNS                    Temperature
+          CODE                        000051
+          UNIT                        temperature
+          NAMEREC                     Static temperature
+          NAMECFVREC                  Static Temperature
+          NAMECYL                     Static temperature
+          NAMECFVCYL                  Static Temperature
+          NAMEEUR                     Static Temperature
+          TYPE                        SCALAR
+          EURTYPE                     FIELD_OR_MERIDIONAL
+          SELECTED                    1
+          TOWRITE                     0
+          AZISELECTED                 1
+          NI_END niquantity
+          NI_BEGIN niquantity
+          VERSION                     1.0
+          KEYNAME                     _RELATIVE_TOTAL_TEMPERATURE_
+          NAMECGNS                    RotatingTemperatureStagnation
+          CODE                        011051
+          UNIT                        temperature
+          NAMEREC                     _not_used_
+          NAMECFVREC                  _not_used_
+          NAMECYL                     Total relative temperature
+          NAMECFVCYL                  Relative Total Temperature
+          NAMEEUR                     Relative Total Temperature
+          TYPE                        SCALAR
+          EURTYPE                     FIELD_OR_MERIDIONAL
+          SELECTED                    1
+          TOWRITE                     0
+          AZISELECTED                 1
+          NI_END niquantity
+          NI_BEGIN niquantity
+          VERSION                     1.0
+          KEYNAME                     _ABSOLUTE_TOTAL_TEMPERATURE_
+          NAMECGNS                    TemperatureStagnation
+          CODE                        001051
+          UNIT                        temperature
+          NAMEREC                     Total Temperature
+          NAMECFVREC                  Total Temperature
+          NAMECYL                     Total Absolute Temperature
+          NAMECFVCYL                  Absolute Total Temperature
+          NAMEEUR                     Absolute Total Temperature
+          TYPE                        SCALAR
+          EURTYPE                     FIELD_OR_MERIDIONAL
+          SELECTED                    1
+          TOWRITE                     0
+          AZISELECTED                 1
+          NI_END niquantity
+          NI_BEGIN niquantity
+          VERSION                     1.0
+          KEYNAME                     _STATIC_PRESSURE_
+          NAMECGNS                    Pressure
+          CODE                        000050
+          UNIT                        pressure
+          NAMEREC                     Static pressure
+          NAMECFVREC                  Static Pressure
+          NAMECYL                     Static pressure
+          NAMECFVCYL                  Static Pressure
+          NAMEEUR                     Static Pressure
+          TYPE                        SCALAR
+          EURTYPE                     FIELD_OR_MERIDIONAL
+          SELECTED                    1
+          TOWRITE                     0
+          AZISELECTED                 1
+          NI_END niquantity
+          NI_BEGIN niquantity
+          VERSION                     1.0
+          KEYNAME                     _RELATIVE_TOTAL_PRESSURE_
+          NAMECGNS                    RotatingPressureStagnation
+          CODE                        011050
+          UNIT                        pressure
+          NAMEREC                     _not_used_
+          NAMECFVREC                  _not_used_
+          NAMECYL                     Total relative pressure
+          NAMECFVCYL                  Relative Total Pressure
+          NAMEEUR                     Relative Total Pressure
+          TYPE                        SCALAR
+          EURTYPE                     FIELD_OR_MERIDIONAL
+          SELECTED                    1
+          TOWRITE                     0
+          AZISELECTED                 1
+          NI_END niquantity
+          NI_BEGIN niquantity
+          VERSION                     1.0
+          KEYNAME                     _ABSOLUTE_TOTAL_PRESSURE_
+          NAMECGNS                    PressureStagnation
+          CODE                        001050
+          UNIT                        pressure
+          NAMEREC                     Total pressure
+          NAMECFVREC                  Total Pressure
+          NAMECYL                     Total absolute pressure
+          NAMECFVCYL                  Absolute Total Pressure
+          NAMEEUR                     Absolute Total Pressure
+          TYPE                        SCALAR
+          EURTYPE                     FIELD_OR_MERIDIONAL
+          SELECTED                    1
+          TOWRITE                     0
+          AZISELECTED                 1
+          NI_END niquantity
+          NI_BEGIN niquantity
+          VERSION                     1.0
+          KEYNAME                     _DENSITY_
+          NAMECGNS                    Density
+          CODE                        000052
+          UNIT                        density
+          NAMEREC                     Density
+          NAMECFVREC                  Density
+          NAMECYL                     Density
+          NAMECFVCYL                  Density
+          NAMEEUR                     Density
+          TYPE                        SCALAR
+          EURTYPE                     FIELD_OR_MERIDIONAL
+          SELECTED                    1
+          TOWRITE                     0
+          AZISELECTED                 1
+          NI_END niquantity
+          NI_BEGIN niquantity
+          VERSION                     1.0
+          KEYNAME                     _ENTROPY_
+          NAMECGNS                    Entropy
+          CODE                        000061
+          UNIT                        entropy
+          NAMEREC                     Entropy
+          NAMECFVREC                  Entropy
+          NAMECYL                     Entropy
+          NAMECFVCYL                  Entropy
+          NAMEEUR                     Entropy
+          TYPE                        SCALAR
+          EURTYPE                     FIELD_OR_MERIDIONAL
+          SELECTED                    1
+          TOWRITE                     0
+          AZISELECTED                 1
+          NI_END niquantity
+          NI_BEGIN niquantity
+          VERSION                     1.0
+          KEYNAME                     _DYNAMIC_VISCOSITY_
+          NAMECGNS                    ViscosityMolecular
+          CODE                        000054
+          UNIT                        viscosity
+          NAMEREC                     Dynamic viscosity
+          NAMECFVREC                  Dynamic viscosity
+          NAMECYL                     Dynamic viscosity
+          NAMECFVCYL                  Dynamic viscosity
+          NAMEEUR                     Dynamic viscosity
+          TYPE                        SCALAR
+          EURTYPE                     FIELD_OR_MERIDIONAL
+          SELECTED                    1
+          TOWRITE                     0
+          AZISELECTED                 0
+          NI_END niquantity
+          NI_BEGIN niquantity
+          VERSION                     1.0
+          KEYNAME                     _HEAT_CAPACITY_
+          NAMECGNS                    HeatCapacity
+          CODE                        000067
+          UNIT                        entropy
+          NAMEREC                     Heat capacity
+          NAMECFVREC                  HeatCapacity
+          NAMECYL                     Heat capacity
+          NAMECFVCYL                  HeatCapacity
+          NAMEEUR                     Heat Capacity
+          TYPE                        SCALAR
+          EURTYPE                     FIELD
+          SELECTED                    1
+          TOWRITE                     0
+          AZISELECTED                 0
+          NI_END niquantity
+          NI_BEGIN niquantity
+          VERSION                     1.0
+          KEYNAME                     _ROTHALPY_
+          NAMECGNS                    Rothalpy
+          CODE                        000060
+          UNIT                        enthalpy
+          NAMEREC                     _not_used_
+          NAMECFVREC                  _not_used_
+          NAMECYL                     Rothalpy
+          NAMECFVCYL                  Rothalpy
+          NAMEEUR                     Rothalpy
+          TYPE                        SCALAR
+          EURTYPE                     FIELD_OR_MERIDIONAL
+          SELECTED                    1
+          TOWRITE                     0
+          AZISELECTED                 1
+          NI_END niquantity
+          NI_BEGIN niquantity
+          VERSION                     1.0
+          KEYNAME                     _VELOCITY_MACH_NUMBER_
+          NAMECGNS                    Mach
+          CODE                        000053
+          UNIT                        none
+          NAMEREC                     Mach number
+          NAMECFVREC                  Mach Number
+          NAMECYL                     Absolute Mach number
+          NAMECFVCYL                  Absolute Mach Number
+          NAMEEUR                     Absolute Mach Number
+          TYPE                        SCALAR
+          EURTYPE                     FIELD_OR_MERIDIONAL
+          SELECTED                    1
+          TOWRITE                     0
+          AZISELECTED                 1
+          NI_END niquantity
+          NI_BEGIN niquantity
+          VERSION                     1.0
+          KEYNAME                     _VELOCITY_RELATIVE_MACH_NUMBER_
+          NAMECGNS                    RotatingMach
+          CODE                        010053
+          UNIT                        none
+          NAMEREC                     _not_used_
+          NAMECFVREC                  _not_used_
+          NAMECYL                     Relative Mach number
+          NAMECFVCYL                  Relative Mach Number
+          NAMEEUR                     Relative Mach Number
+          TYPE                        SCALAR
+          EURTYPE                     FIELD_OR_MERIDIONAL
+          SELECTED                    1
+          TOWRITE                     0
+          AZISELECTED                 1
+          NI_END niquantity
+          NI_BEGIN niquantity
+          VERSION                     1.0
+          KEYNAME                     _SD_YPLUS_
+          NAMECGNS                    y+
+          CODE                        000071
+          UNIT                        none
+          NAMEREC                     y+ (in first inner cell)
+          NAMECFVREC                  y+
+          NAMECYL                     y+ (in first inner cell)
+          NAMECFVCYL                  y+
+          NAMEEUR                     y+
+          TYPE                        SCALAR
+          EURTYPE                     SOLID_DATA
+          SELECTED                    1
+          TOWRITE                     0
+          AZISELECTED                 0
+          NI_END niquantity
+          NI_BEGIN niquantity
+          VERSION                     1.0
+          KEYNAME                     _TURB_WALL_DISTANCE_
+          NAMECGNS                    TurbulentDistance
+          CODE                        000250
+          UNIT                        length
+          NAMEREC                     Wall distance
+          NAMECFVREC                  Wall Distance
+          NAMECYL                     Wall distance
+          NAMECFVCYL                  Wall Distance
+          NAMEEUR                     Wall Distance
+          TYPE                        SCALAR
+          EURTYPE                     FIELD_OR_MERIDIONAL
+          SELECTED                    1
+          TOWRITE                     0
+          AZISELECTED                 1
+          NI_END niquantity
+          NI_BEGIN niquantity
+          VERSION                     1.0
+          KEYNAME                     _TURBULENT_VISCOSITY_
+          NAMECGNS                    Mu_turb over Mu_lam
+          CODE                        000252
+          UNIT                        none
+          NAMEREC                     Turbulent viscosity (Mut/Mu)
+          NAMECFVREC                  Turbulent Viscosity (Mut/Mu)
+          NAMECYL                     Turbulent viscosity (Mut/Mu)
+          NAMECFVCYL                  Turbulent Viscosity (Mut/Mu)
+          NAMEEUR                     Turbulent Viscosity (Mut/Mu)
+          TYPE                        SCALAR
+          EURTYPE                     FIELD_OR_MERIDIONAL
+          SELECTED                    1
+          TOWRITE                     0
+          AZISELECTED                 1
+          NI_END niquantity
+          NI_BEGIN niquantity
+          VERSION                     1.0
+          KEYNAME                     _VELOCITY_VXYZ_
+          NAMECGNS                    VelocityXYZ
+          CODE                        000004
+          UNIT                        velocity
+          NAMEREC                     Vxyz
+          NAMECFVREC                  Vxyz
+          NAMECYL                     Vxyz
+          NAMECFVCYL                  Vxyz
+          NAMEEUR                     Vxyz
+          TYPE                        VECTOR
+          EURTYPE                     FIELD_OR_MERIDIONAL
+          SELECTED                    1
+          TOWRITE                     0
+          AZISELECTED                 1
+          NI_END niquantity
+          NI_BEGIN niquantity
+          VERSION                     1.0
+          KEYNAME                     _VELOCITY_RELATIVE_W_XYZ_
+          NAMECGNS                    RotatingVelocityXYZ
+          CODE                        010004
+          UNIT                        velocity
+          NAMEREC                     _not_used_
+          NAMECFVREC                  _not_used_
+          NAMECYL                     Wxyz
+          NAMECFVCYL                  Wxyz
+          NAMEEUR                     Wxyz
+          TYPE                        VECTOR
+          EURTYPE                     FIELD_OR_MERIDIONAL
+          SELECTED                    1
+          TOWRITE                     0
+          AZISELECTED                 1
+          NI_END niquantity
+    NI_END   output_parameters
+#                                                                             
+#*****************************************************************************
+#*******        END OUTPUT PARAMETERS SECTION                   **************
+#*****************************************************************************
+#                                                                             
+#                                                                             
+#*****************************************************************************
+#*******            START GRID PARAMETERS SECTION               **************
+#*****************************************************************************
+#                                                                             
+    NI_BEGIN grid_bc
+      VERSION                        1.0
+      GRIDUNIT                       1
+      NUMBER_OF_GRID_LEVEL_I         2
+      NUMBER_OF_GRID_LEVEL_J         2
+      NUMBER_OF_GRID_LEVEL_K         2
+      IGGGRIDVERSION                 5
+      SHOWAG5MESSAGE                 0
+      NI_BEGIN block
+        VERSION                      3.0
+        NAME                         row_1_flux_1_Main_Blade_downStream
+        OLD_NAME		       domain1
+        BLOCK_TYPE                   FLUID
+        GROUP_NAME                   ROWS
+        GROUP_NAME                   row 1
+        GROUP_NAME                   ROWS (fluid)
+        GROUP_NAME                   row 1
+        INITIAL_SOLUTION_INDEX       0
+				REAL_ENTRY		Block_Rotation_Speed		390.36383108627
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Solid Conductivity
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Solid Density
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Solid Heat Capacity
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+        IMAX                         61
+        JMAX                         85
+        KMAX                         25
+        STREAMWISE_DIRECTION         K
+        SPANWISE_DIRECTION           J
+        AZIMUTAL_DIRECTION           I
+        AVERAGE_TOGGLE            no
+        AVERAGE_DIRECTION           K
+        REPETITION                   ROTATION 0 0 1 0 0 0 0 0 1
+        NUMBER_OF_BLADES             32
+        NUMBER_OF_REPETITION         1
+        PERIODICITY                  32
+        INITIAL_SOLUTION_TURBOMACHINERY yes
+        INITIAL_TEMPERATURE          288.15
+        INITIAL_PRESSURE             101300
+        INITIAL_VELOCITY             0 0 0
+        INITIAL_FLOW_DIRECTION       NONE
+        INITIAL_VELOCITY_FITTING     W
+        INITIAL_PRESSURE_FIELD       CONSTANT
+        RADIAL_EQUILIBRIUM_FACTOR    1
+        PROCESS_ID                   0
+        NB_CHANNELS                  1
+        PITCH_DISPLACEMENT           0
+        CLOCK_VAR                    0
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        KMIN
+          INDEX                       1
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      row_1_flux_1_Main_Blade_downStream_outlet
+            BC_PARAMETERS_INDEX        0
+            TYPE                      OUT
+            INDICES                   1 61 1 85
+            BC_INDICES                0 0 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              row_1_flux_1_Main_Blade_downStream_outlet
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        KMAX
+          INDEX                       25
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 17 1 85
+            BC_INDICES                0 1 0
+            CONNECTION_INFO           7 2 1 1 1 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   17 33 1 85
+            BC_INDICES                0 1 1
+            CONNECTION_INFO           2 1 1 0 0 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   33 61 1 85
+            BC_INDICES                0 1 2
+            CONNECTION_INFO           6 6 2 0 1 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        JMIN
+          INDEX                       1
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      row_1_flux_1_Main_Blade_downStream__hub_identifier__rotating
+            BC_PARAMETERS_INDEX        2
+            TYPE                      SOL
+            INDICES                   1 61 1 25
+            BC_INDICES                0 2 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+            MODAL_STRUCTURE_INDEX   -1
+              CONTROL_SURFACE_NAME              row 1_hub_(r.p.m. 3653)
+              CONTROL_SURFACE_NAME              Force_and_Torque
+              CONTROL_SURFACE_NAME              row 1_hub_(r.p.m. 3653)
+              CONTROL_SURFACE_NAME              row 1_hub_(r.p.m. 3653)
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        JMAX
+          INDEX                       85
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      row_1_flux_1_Main_Blade_downStream__shroud_identifier_
+            BC_PARAMETERS_INDEX        3
+            TYPE                      SOL
+            INDICES                   1 61 1 25
+            BC_INDICES                0 3 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+            MODAL_STRUCTURE_INDEX   -1
+              CONTROL_SURFACE_NAME              row 1_shroud
+              CONTROL_SURFACE_NAME              No_Force_and_Torque
+              CONTROL_SURFACE_NAME              row 1_shroud
+              CONTROL_SURFACE_NAME              row 1_shroud
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        IMIN
+          INDEX                       1
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      (aap)
+            BC_PARAMETERS_INDEX        5
+            TYPE                      PER
+            INDICES                   1 85 1 25
+            BC_INDICES                0 4 0
+            CONNECTION_INFO           1 6 1 0 0 1
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              (aap)
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        IMAX
+          INDEX                       61
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        6
+            TYPE                      PER
+            INDICES                   1 85 1 25
+            BC_INDICES                0 5 0
+            CONNECTION_INFO           1 5 1 0 0 -1
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              row_1_flux_1_Main_Blade_downStream Face_6 Patch_1
+          NI_END   boundary_condition
+        NI_END   face
+      NI_END   block
+      NI_BEGIN block
+        VERSION                      3.0
+        NAME                         row_1_flux_1_Main_Blade_outlet
+        OLD_NAME		       row_1_flux_1_Main_Blade_outlet
+        BLOCK_TYPE                   FLUID
+        GROUP_NAME                   ROWS
+        GROUP_NAME                   row 1
+        GROUP_NAME                   ROWS (fluid)
+        GROUP_NAME                   row 1
+        INITIAL_SOLUTION_INDEX       0
+				REAL_ENTRY		Block_Rotation_Speed		390.36383108627
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Solid Conductivity
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Solid Density
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Solid Heat Capacity
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+        IMAX                         17
+        JMAX                         85
+        KMAX                         17
+        STREAMWISE_DIRECTION         K
+        SPANWISE_DIRECTION           J
+        AZIMUTAL_DIRECTION           I
+        AVERAGE_TOGGLE            no
+        AVERAGE_DIRECTION           K
+        REPETITION                   ROTATION 0 0 1 0 0 0 0 0 1
+        NUMBER_OF_BLADES             32
+        NUMBER_OF_REPETITION         1
+        PERIODICITY                  32
+        INITIAL_SOLUTION_TURBOMACHINERY yes
+        INITIAL_TEMPERATURE          288.15
+        INITIAL_PRESSURE             101300
+        INITIAL_VELOCITY             0 0 0
+        INITIAL_FLOW_DIRECTION       NONE
+        INITIAL_VELOCITY_FITTING     W
+        INITIAL_PRESSURE_FIELD       CONSTANT
+        RADIAL_EQUILIBRIUM_FACTOR    1
+        PROCESS_ID                   0
+        NB_CHANNELS                  1
+        PITCH_DISPLACEMENT           0
+        CLOCK_VAR                    0
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        KMIN
+          INDEX                       1
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 17 1 85
+            BC_INDICES                1 0 0
+            CONNECTION_INFO           1 2 2 0 0 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        KMAX
+          INDEX                       17
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 9 1 85
+            BC_INDICES                1 1 0
+            CONNECTION_INFO           5 6 1 0 1 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   9 17 1 85
+            BC_INDICES                1 1 1
+            CONNECTION_INFO           5 6 5 0 1 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        JMIN
+          INDEX                       1
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      row_1_flux_1_Main_Blade_outlet__hub_identifier__rotating
+            BC_PARAMETERS_INDEX        2
+            TYPE                      SOL
+            INDICES                   1 17 1 17
+            BC_INDICES                1 2 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+            MODAL_STRUCTURE_INDEX   -1
+              CONTROL_SURFACE_NAME              row 1_hub_(r.p.m. 3653)
+              CONTROL_SURFACE_NAME              Force_and_Torque
+              CONTROL_SURFACE_NAME              row 1_hub_(r.p.m. 3653)
+              CONTROL_SURFACE_NAME              row 1_hub_(r.p.m. 3653)
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        JMAX
+          INDEX                       85
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      row_1_flux_1_Main_Blade_outlet__shroud_identifier_
+            BC_PARAMETERS_INDEX        3
+            TYPE                      SOL
+            INDICES                   1 17 1 17
+            BC_INDICES                1 3 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+            MODAL_STRUCTURE_INDEX   -1
+              CONTROL_SURFACE_NAME              row 1_shroud
+              CONTROL_SURFACE_NAME              No_Force_and_Torque
+              CONTROL_SURFACE_NAME              row 1_shroud
+              CONTROL_SURFACE_NAME              row 1_shroud
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        IMIN
+          INDEX                       1
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 85 1 17
+            BC_INDICES                1 4 0
+            CONNECTION_INFO           7 5 2 3 1 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        IMAX
+          INDEX                       17
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 85 1 17
+            BC_INDICES                1 5 0
+            CONNECTION_INFO           6 1 1 1 0 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+        NI_END   face
+      NI_END   block
+      NI_BEGIN block
+        VERSION                      3.0
+        NAME                         row_1_flux_1_Main_Blade_upStream
+        OLD_NAME		       domain3
+        BLOCK_TYPE                   FLUID
+        GROUP_NAME                   ROWS
+        GROUP_NAME                   row 1
+        GROUP_NAME                   ROWS (fluid)
+        GROUP_NAME                   row 1
+        INITIAL_SOLUTION_INDEX       0
+				REAL_ENTRY		Block_Rotation_Speed		390.36383108627
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Solid Conductivity
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Solid Density
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Solid Heat Capacity
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+        IMAX                         61
+        JMAX                         85
+        KMAX                         29
+        STREAMWISE_DIRECTION         K
+        SPANWISE_DIRECTION           J
+        AZIMUTAL_DIRECTION           I
+        AVERAGE_TOGGLE            no
+        AVERAGE_DIRECTION           K
+        REPETITION                   ROTATION 0 0 1 0 0 0 0 0 1
+        NUMBER_OF_BLADES             32
+        NUMBER_OF_REPETITION         1
+        PERIODICITY                  32
+        INITIAL_SOLUTION_TURBOMACHINERY yes
+        INITIAL_TEMPERATURE          288.15
+        INITIAL_PRESSURE             101300
+        INITIAL_VELOCITY             0 0 0
+        INITIAL_FLOW_DIRECTION       NONE
+        INITIAL_VELOCITY_FITTING     W
+        INITIAL_PRESSURE_FIELD       CONSTANT
+        RADIAL_EQUILIBRIUM_FACTOR    1
+        PROCESS_ID                   0
+        NB_CHANNELS                  1
+        PITCH_DISPLACEMENT           0
+        CLOCK_VAR                    0
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        KMIN
+          INDEX                       1
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 29 1 85
+            BC_INDICES                2 0 0
+            CONNECTION_INFO           7 6 1 3 0 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   29 45 1 85
+            BC_INDICES                2 0 1
+            CONNECTION_INFO           4 2 1 0 0 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   45 61 1 85
+            BC_INDICES                2 0 2
+            CONNECTION_INFO           6 2 1 0 0 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        KMAX
+          INDEX                       29
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      row_1_flux_1_Main_Blade_upStream_inlet
+            BC_PARAMETERS_INDEX        11
+            TYPE                      INL
+            INDICES                   1 61 1 85
+            BC_INDICES                2 1 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              row_1_flux_1_Main_Blade_upStream_inlet
+            NI_BEGIN initial_solution_turbo
+              VERSION                    1.0
+              INIT_TURBO_PRESSURE           100000
+              INIT_TURBO_RADIUS             1
+              INIT_TURBO_P_FIELD            CONSTANT
+              INIT_TURBO_TEMPERATURE        300
+              INIT_TURBO_VELOCITY_TYPE      ABSOLUTE
+              INIT_TURBO_RADIAL_VELOCITY    0
+              INIT_TURBO_AZIMUTHAL_VELOCITY 0
+              INIT_TURBO_AXIAL_VELOCITY     1
+            NI_END   initial_solution_turbo
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        JMIN
+          INDEX                       1
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      row_1_flux_1_Main_Blade_upStream__hub_identifier__rotating
+            BC_PARAMETERS_INDEX        2
+            TYPE                      SOL
+            INDICES                   1 61 1 29
+            BC_INDICES                2 2 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+            MODAL_STRUCTURE_INDEX   -1
+              CONTROL_SURFACE_NAME              row 1_hub_(r.p.m. 3653)
+              CONTROL_SURFACE_NAME              Force_and_Torque
+              CONTROL_SURFACE_NAME              row 1_hub_(r.p.m. 3653)
+              CONTROL_SURFACE_NAME              row 1_hub_(r.p.m. 3653)
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        JMAX
+          INDEX                       85
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      row_1_flux_1_Main_Blade_upStream__shroud_identifier_
+            BC_PARAMETERS_INDEX        3
+            TYPE                      SOL
+            INDICES                   1 61 1 29
+            BC_INDICES                2 3 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+            MODAL_STRUCTURE_INDEX   -1
+              CONTROL_SURFACE_NAME              row 1_shroud
+              CONTROL_SURFACE_NAME              No_Force_and_Torque
+              CONTROL_SURFACE_NAME              row 1_shroud
+              CONTROL_SURFACE_NAME              row 1_shroud
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        IMIN
+          INDEX                       1
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      (aap)-(B3_F5_P1)
+            BC_PARAMETERS_INDEX        7
+            TYPE                      PER
+            INDICES                   1 85 1 29
+            BC_INDICES                2 4 0
+            CONNECTION_INFO           3 6 1 0 0 1
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              (aap)-(B3_F5_P1)
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        IMAX
+          INDEX                       61
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        8
+            TYPE                      PER
+            INDICES                   1 85 1 29
+            BC_INDICES                2 5 0
+            CONNECTION_INFO           3 5 1 0 0 -1
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              row_1_flux_1_Main_Blade_upStream Face_6 Patch_1
+          NI_END   boundary_condition
+        NI_END   face
+      NI_END   block
+      NI_BEGIN block
+        VERSION                      3.0
+        NAME                         row_1_flux_1_Main_Blade_inlet
+        OLD_NAME		       row_1_flux_1_Main_Blade_inlet
+        BLOCK_TYPE                   FLUID
+        GROUP_NAME                   ROWS
+        GROUP_NAME                   row 1
+        GROUP_NAME                   ROWS (fluid)
+        GROUP_NAME                   row 1
+        INITIAL_SOLUTION_INDEX       0
+				REAL_ENTRY		Block_Rotation_Speed		390.36383108627
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Solid Conductivity
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Solid Density
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Solid Heat Capacity
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+        IMAX                         17
+        JMAX                         85
+        KMAX                         17
+        STREAMWISE_DIRECTION         K
+        SPANWISE_DIRECTION           J
+        AZIMUTAL_DIRECTION           I
+        AVERAGE_TOGGLE            no
+        AVERAGE_DIRECTION           K
+        REPETITION                   ROTATION 0 0 1 0 0 0 0 0 1
+        NUMBER_OF_BLADES             32
+        NUMBER_OF_REPETITION         1
+        PERIODICITY                  32
+        INITIAL_SOLUTION_TURBOMACHINERY yes
+        INITIAL_TEMPERATURE          288.15
+        INITIAL_PRESSURE             101300
+        INITIAL_VELOCITY             0 0 0
+        INITIAL_FLOW_DIRECTION       NONE
+        INITIAL_VELOCITY_FITTING     W
+        INITIAL_PRESSURE_FIELD       CONSTANT
+        RADIAL_EQUILIBRIUM_FACTOR    1
+        PROCESS_ID                   0
+        NB_CHANNELS                  1
+        PITCH_DISPLACEMENT           0
+        CLOCK_VAR                    0
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        KMIN
+          INDEX                       1
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 17 1 85
+            BC_INDICES                3 0 0
+            CONNECTION_INFO           5 6 3 3 0 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        KMAX
+          INDEX                       17
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 17 1 85
+            BC_INDICES                3 1 0
+            CONNECTION_INFO           3 1 2 0 0 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        JMIN
+          INDEX                       1
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      row_1_flux_1_Main_Blade_inlet__hub_identifier__rotating
+            BC_PARAMETERS_INDEX        2
+            TYPE                      SOL
+            INDICES                   1 17 1 17
+            BC_INDICES                3 2 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+            MODAL_STRUCTURE_INDEX   -1
+              CONTROL_SURFACE_NAME              row 1_hub_(r.p.m. 3653)
+              CONTROL_SURFACE_NAME              Force_and_Torque
+              CONTROL_SURFACE_NAME              row 1_hub_(r.p.m. 3653)
+              CONTROL_SURFACE_NAME              row 1_hub_(r.p.m. 3653)
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        JMAX
+          INDEX                       85
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      row_1_flux_1_Main_Blade_inlet__shroud_identifier_
+            BC_PARAMETERS_INDEX        3
+            TYPE                      SOL
+            INDICES                   1 17 1 17
+            BC_INDICES                3 3 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+            MODAL_STRUCTURE_INDEX   -1
+              CONTROL_SURFACE_NAME              row 1_shroud
+              CONTROL_SURFACE_NAME              No_Force_and_Torque
+              CONTROL_SURFACE_NAME              row 1_shroud
+              CONTROL_SURFACE_NAME              row 1_shroud
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        IMIN
+          INDEX                       1
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 85 1 17
+            BC_INDICES                3 4 0
+            CONNECTION_INFO           7 1 1 0 1 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        IMAX
+          INDEX                       17
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 85 1 17
+            BC_INDICES                3 5 0
+            CONNECTION_INFO           6 5 1 0 0 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+        NI_END   face
+      NI_END   block
+      NI_BEGIN block
+        VERSION                      3.0
+        NAME                         row_1_flux_1_Main_Blade_skin
+        OLD_NAME		       row_1_flux_1_Main_Blade_skin
+        BLOCK_TYPE                   FLUID
+        GROUP_NAME                   ROWS
+        GROUP_NAME                   row 1
+        GROUP_NAME                   ROWS (fluid)
+        GROUP_NAME                   row 1
+        INITIAL_SOLUTION_INDEX       0
+				REAL_ENTRY		Block_Rotation_Speed		390.36383108627
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Solid Conductivity
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Solid Density
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Solid Heat Capacity
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+        IMAX                         17
+        JMAX                         85
+        KMAX                         201
+        STREAMWISE_DIRECTION         K
+        SPANWISE_DIRECTION           J
+        AZIMUTAL_DIRECTION           I
+        AVERAGE_TOGGLE            no
+        AVERAGE_DIRECTION           K
+        REPETITION                   ROTATION 0 0 1 0 0 0 0 0 1
+        NUMBER_OF_BLADES             32
+        NUMBER_OF_REPETITION         1
+        PERIODICITY                  32
+        INITIAL_SOLUTION_TURBOMACHINERY yes
+        INITIAL_TEMPERATURE          288.15
+        INITIAL_PRESSURE             101300
+        INITIAL_VELOCITY             0 0 0
+        INITIAL_FLOW_DIRECTION       NONE
+        INITIAL_VELOCITY_FITTING     W
+        INITIAL_PRESSURE_FIELD       CONSTANT
+        RADIAL_EQUILIBRIUM_FACTOR    1
+        PROCESS_ID                   0
+        NB_CHANNELS                  1
+        PITCH_DISPLACEMENT           0
+        CLOCK_VAR                    0
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        KMIN
+          INDEX                       1
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 17 1 85
+            BC_INDICES                4 0 0
+            CONNECTION_INFO           5 2 1 0 0 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        KMAX
+          INDEX                       201
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 17 1 85
+            BC_INDICES                4 1 0
+            CONNECTION_INFO           5 1 1 0 0 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        JMIN
+          INDEX                       1
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      row_1_flux_1_Main_Blade_skin__hub_identifier__rotating
+            BC_PARAMETERS_INDEX        2
+            TYPE                      SOL
+            INDICES                   1 17 1 201
+            BC_INDICES                4 2 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+            MODAL_STRUCTURE_INDEX   -1
+              CONTROL_SURFACE_NAME              row 1_hub_(r.p.m. 3653)
+              CONTROL_SURFACE_NAME              Force_and_Torque
+              CONTROL_SURFACE_NAME              row 1_hub_(r.p.m. 3653)
+              CONTROL_SURFACE_NAME              row 1_hub_(r.p.m. 3653)
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        JMAX
+          INDEX                       85
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      row_1_flux_1_Main_Blade_skin__shroud_identifier_
+            BC_PARAMETERS_INDEX        3
+            TYPE                      SOL
+            INDICES                   1 17 1 201
+            BC_INDICES                4 3 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+            MODAL_STRUCTURE_INDEX   -1
+              CONTROL_SURFACE_NAME              row 1_shroud
+              CONTROL_SURFACE_NAME              No_Force_and_Torque
+              CONTROL_SURFACE_NAME              row 1_shroud
+              CONTROL_SURFACE_NAME              row 1_shroud
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        IMIN
+          INDEX                       1
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   69 85 1 201
+            BC_INDICES                4 4 0
+            CONNECTION_INFO           8 6 1 0 0 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      row_1_flux_1_Main_Blade_skin_blade_(aap-ps)_rotating
+            BC_PARAMETERS_INDEX        4
+            TYPE                      SOL
+            INDICES                   1 69 101 201
+            BC_INDICES                4 4 1
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+            MODAL_STRUCTURE_INDEX   -1
+              CONTROL_SURFACE_NAME              row 1_blade_(r.p.m. 3653)
+              CONTROL_SURFACE_NAME              Force_and_Torque
+              CONTROL_SURFACE_NAME              row 1_blade_(r.p.m. 3653)
+              CONTROL_SURFACE_NAME              row 1_blade_(r.p.m. 3653)
+          NI_END   boundary_condition
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      row_1_flux_1_Main_Blade_skin_blade_(aap-ss)_rotating
+            BC_PARAMETERS_INDEX        4
+            TYPE                      SOL
+            INDICES                   1 69 1 101
+            BC_INDICES                4 4 2
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+            MODAL_STRUCTURE_INDEX   -1
+              CONTROL_SURFACE_NAME              row 1_blade_(r.p.m. 3653)
+              CONTROL_SURFACE_NAME              Force_and_Torque
+              CONTROL_SURFACE_NAME              row 1_blade_(r.p.m. 3653)
+              CONTROL_SURFACE_NAME              row 1_blade_(r.p.m. 3653)
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        IMAX
+          INDEX                       17
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 85 193 201
+            BC_INDICES                4 5 0
+            CONNECTION_INFO           2 2 1 0 1 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 85 109 193
+            BC_INDICES                4 5 1
+            CONNECTION_INFO           7 5 1 0 0 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 85 93 109
+            BC_INDICES                4 5 2
+            CONNECTION_INFO           4 1 1 1 0 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 85 9 93
+            BC_INDICES                4 5 3
+            CONNECTION_INFO           6 5 2 0 0 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 85 1 9
+            BC_INDICES                4 5 4
+            CONNECTION_INFO           2 2 2 0 1 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+        NI_END   face
+      NI_END   block
+      NI_BEGIN block
+        VERSION                      3.0
+        NAME                         row_1_flux_1_Main_Blade_up
+        OLD_NAME		       row_1_flux_1_Main_Blade_up
+        BLOCK_TYPE                   FLUID
+        GROUP_NAME                   ROWS
+        GROUP_NAME                   row 1
+        GROUP_NAME                   ROWS (fluid)
+        GROUP_NAME                   row 1
+        INITIAL_SOLUTION_INDEX       0
+				REAL_ENTRY		Block_Rotation_Speed		390.36383108627
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Solid Conductivity
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Solid Density
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Solid Heat Capacity
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+        IMAX                         17
+        JMAX                         85
+        KMAX                         101
+        STREAMWISE_DIRECTION         K
+        SPANWISE_DIRECTION           J
+        AZIMUTAL_DIRECTION           I
+        AVERAGE_TOGGLE            no
+        AVERAGE_DIRECTION           K
+        REPETITION                   ROTATION 0 0 1 0 0 0 0 0 1
+        NUMBER_OF_BLADES             32
+        NUMBER_OF_REPETITION         1
+        PERIODICITY                  32
+        INITIAL_SOLUTION_TURBOMACHINERY yes
+        INITIAL_TEMPERATURE          288.15
+        INITIAL_PRESSURE             101300
+        INITIAL_VELOCITY             0 0 0
+        INITIAL_FLOW_DIRECTION       NONE
+        INITIAL_VELOCITY_FITTING     W
+        INITIAL_PRESSURE_FIELD       CONSTANT
+        RADIAL_EQUILIBRIUM_FACTOR    1
+        PROCESS_ID                   0
+        NB_CHANNELS                  1
+        PITCH_DISPLACEMENT           0
+        CLOCK_VAR                    0
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        KMIN
+          INDEX                       1
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 17 1 85
+            BC_INDICES                5 0 0
+            CONNECTION_INFO           2 6 1 3 0 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        KMAX
+          INDEX                       101
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 17 1 85
+            BC_INDICES                5 1 0
+            CONNECTION_INFO           3 1 3 0 0 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        JMIN
+          INDEX                       1
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      row_1_flux_1_Main_Blade_up__hub_identifier__rotating
+            BC_PARAMETERS_INDEX        2
+            TYPE                      SOL
+            INDICES                   1 17 1 101
+            BC_INDICES                5 2 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+            MODAL_STRUCTURE_INDEX   -1
+              CONTROL_SURFACE_NAME              row 1_hub_(r.p.m. 3653)
+              CONTROL_SURFACE_NAME              Force_and_Torque
+              CONTROL_SURFACE_NAME              row 1_hub_(r.p.m. 3653)
+              CONTROL_SURFACE_NAME              row 1_hub_(r.p.m. 3653)
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        JMAX
+          INDEX                       85
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      row_1_flux_1_Main_Blade_up__shroud_identifier_
+            BC_PARAMETERS_INDEX        3
+            TYPE                      SOL
+            INDICES                   1 17 1 101
+            BC_INDICES                5 3 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+            MODAL_STRUCTURE_INDEX   -1
+              CONTROL_SURFACE_NAME              row 1_shroud
+              CONTROL_SURFACE_NAME              No_Force_and_Torque
+              CONTROL_SURFACE_NAME              row 1_shroud
+              CONTROL_SURFACE_NAME              row 1_shroud
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        IMIN
+          INDEX                       1
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 85 85 101
+            BC_INDICES                5 4 0
+            CONNECTION_INFO           4 6 1 0 0 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 85 1 85
+            BC_INDICES                5 4 1
+            CONNECTION_INFO           5 6 4 0 0 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        IMAX
+          INDEX                       17
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        9
+            TYPE                      PER
+            INDICES                   1 85 29 101
+            BC_INDICES                5 5 0
+            CONNECTION_INFO           7 6 2 3 1 -1
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              row_1_flux_1_Main_Blade_up Face_6 Patch_1
+          NI_END   boundary_condition
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 85 1 29
+            BC_INDICES                5 5 1
+            CONNECTION_INFO           1 2 3 0 1 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+        NI_END   face
+      NI_END   block
+      NI_BEGIN block
+        VERSION                      3.0
+        NAME                         row_1_flux_1_Main_Blade_down
+        OLD_NAME		       row_1_flux_1_Main_Blade_down
+        BLOCK_TYPE                   FLUID
+        GROUP_NAME                   ROWS
+        GROUP_NAME                   row 1
+        GROUP_NAME                   ROWS (fluid)
+        GROUP_NAME                   row 1
+        INITIAL_SOLUTION_INDEX       0
+				REAL_ENTRY		Block_Rotation_Speed		390.36383108627
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Solid Conductivity
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Solid Density
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Solid Heat Capacity
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+        IMAX                         17
+        JMAX                         85
+        KMAX                         101
+        STREAMWISE_DIRECTION         K
+        SPANWISE_DIRECTION           J
+        AZIMUTAL_DIRECTION           I
+        AVERAGE_TOGGLE            no
+        AVERAGE_DIRECTION           K
+        REPETITION                   ROTATION 0 0 1 0 0 0 0 0 1
+        NUMBER_OF_BLADES             32
+        NUMBER_OF_REPETITION         1
+        PERIODICITY                  32
+        INITIAL_SOLUTION_TURBOMACHINERY yes
+        INITIAL_TEMPERATURE          288.15
+        INITIAL_PRESSURE             101300
+        INITIAL_VELOCITY             0 0 0
+        INITIAL_FLOW_DIRECTION       NONE
+        INITIAL_VELOCITY_FITTING     W
+        INITIAL_PRESSURE_FIELD       CONSTANT
+        RADIAL_EQUILIBRIUM_FACTOR    1
+        PROCESS_ID                   0
+        NB_CHANNELS                  1
+        PITCH_DISPLACEMENT           0
+        CLOCK_VAR                    0
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        KMIN
+          INDEX                       1
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 17 1 85
+            BC_INDICES                6 0 0
+            CONNECTION_INFO           4 5 1 0 1 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        KMAX
+          INDEX                       101
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 17 1 85
+            BC_INDICES                6 1 0
+            CONNECTION_INFO           1 2 1 1 1 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        JMIN
+          INDEX                       1
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      row_1_flux_1_Main_Blade_down__hub_identifier__rotating
+            BC_PARAMETERS_INDEX        2
+            TYPE                      SOL
+            INDICES                   1 17 1 101
+            BC_INDICES                6 2 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+            MODAL_STRUCTURE_INDEX   -1
+              CONTROL_SURFACE_NAME              row 1_hub_(r.p.m. 3653)
+              CONTROL_SURFACE_NAME              Force_and_Torque
+              CONTROL_SURFACE_NAME              row 1_hub_(r.p.m. 3653)
+              CONTROL_SURFACE_NAME              row 1_hub_(r.p.m. 3653)
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        JMAX
+          INDEX                       85
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      row_1_flux_1_Main_Blade_down__shroud_identifier_
+            BC_PARAMETERS_INDEX        3
+            TYPE                      SOL
+            INDICES                   1 17 1 101
+            BC_INDICES                6 3 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+            MODAL_STRUCTURE_INDEX   -1
+              CONTROL_SURFACE_NAME              row 1_shroud
+              CONTROL_SURFACE_NAME              No_Force_and_Torque
+              CONTROL_SURFACE_NAME              row 1_shroud
+              CONTROL_SURFACE_NAME              row 1_shroud
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        IMIN
+          INDEX                       1
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 85 1 85
+            BC_INDICES                6 4 0
+            CONNECTION_INFO           5 6 2 0 0 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 85 85 101
+            BC_INDICES                6 4 1
+            CONNECTION_INFO           2 5 1 3 1 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        IMAX
+          INDEX                       17
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 85 1 29
+            BC_INDICES                6 5 0
+            CONNECTION_INFO           3 1 1 1 0 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      (aap)-(B7_F6_P2)
+            BC_PARAMETERS_INDEX        10
+            TYPE                      PER
+            INDICES                   1 85 29 101
+            BC_INDICES                6 5 1
+            CONNECTION_INFO           6 6 1 3 1 1
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              (aap)-(B7_F6_P2)
+          NI_END   boundary_condition
+        NI_END   face
+      NI_END   block
+      NI_BEGIN block
+        VERSION                      3.0
+        NAME                         row_1_flux_1_Main_Blade_shroudgap1
+        OLD_NAME		       domain8
+        BLOCK_TYPE                   FLUID
+        GROUP_NAME                   ROWS
+        GROUP_NAME                   row 1
+        GROUP_NAME                   ROWS (fluid)
+        GROUP_NAME                   row 1
+        INITIAL_SOLUTION_INDEX       0
+				REAL_ENTRY		Block_Rotation_Speed		390.36383108627
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Solid Conductivity
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Solid Density
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Solid Heat Capacity
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+        IMAX                         17
+        JMAX                         17
+        KMAX                         201
+        STREAMWISE_DIRECTION         K
+        SPANWISE_DIRECTION           J
+        AZIMUTAL_DIRECTION           I
+        AVERAGE_TOGGLE            no
+        AVERAGE_DIRECTION           K
+        REPETITION                   ROTATION 0 0 1 0 0 0 0 0 1
+        NUMBER_OF_BLADES             32
+        NUMBER_OF_REPETITION         1
+        PERIODICITY                  32
+        INITIAL_SOLUTION_TURBOMACHINERY yes
+        INITIAL_TEMPERATURE          288.15
+        INITIAL_PRESSURE             101300
+        INITIAL_VELOCITY             0 0 0
+        INITIAL_FLOW_DIRECTION       NONE
+        INITIAL_VELOCITY_FITTING     W
+        INITIAL_PRESSURE_FIELD       CONSTANT
+        RADIAL_EQUILIBRIUM_FACTOR    1
+        PROCESS_ID                   0
+        NB_CHANNELS                  1
+        PITCH_DISPLACEMENT           0
+        CLOCK_VAR                    0
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        KMIN
+          INDEX                       1
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 17 1 17
+            BC_INDICES                7 0 0
+            CONNECTION_INFO           8 2 1 0 0 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        KMAX
+          INDEX                       201
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 17 1 17
+            BC_INDICES                7 1 0
+            CONNECTION_INFO           8 1 1 0 0 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        JMIN
+          INDEX                       1
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      row_1_flux_1_Main_Blade_shroudgap1_tip_gap_identifier_rotating
+            BC_PARAMETERS_INDEX        4
+            TYPE                      SOL
+            INDICES                   1 17 1 201
+            BC_INDICES                7 2 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+            MODAL_STRUCTURE_INDEX   -1
+              CONTROL_SURFACE_NAME              row 1_blade_(r.p.m. 3653)
+              CONTROL_SURFACE_NAME              Force_and_Torque
+              CONTROL_SURFACE_NAME              row 1_blade_(r.p.m. 3653)
+              CONTROL_SURFACE_NAME              row 1_blade_(r.p.m. 3653)
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        JMAX
+          INDEX                       17
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      row_1_flux_1_Main_Blade_shroudgap1__shroud_identifier_
+            BC_PARAMETERS_INDEX        3
+            TYPE                      SOL
+            INDICES                   1 17 1 201
+            BC_INDICES                7 3 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+            MODAL_STRUCTURE_INDEX   -1
+              CONTROL_SURFACE_NAME              row 1_shroud
+              CONTROL_SURFACE_NAME              No_Force_and_Torque
+              CONTROL_SURFACE_NAME              row 1_shroud
+              CONTROL_SURFACE_NAME              row 1_shroud
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        IMIN
+          INDEX                       1
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 17 193 201
+            BC_INDICES                7 4 0
+            CONNECTION_INFO           9 1 1 0 1 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 17 109 193
+            BC_INDICES                7 4 1
+            CONNECTION_INFO           9 5 1 3 1 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 17 93 109
+            BC_INDICES                7 4 2
+            CONNECTION_INFO           9 2 1 1 0 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 17 9 93
+            BC_INDICES                7 4 3
+            CONNECTION_INFO           9 6 1 0 0 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 17 1 9
+            BC_INDICES                7 4 4
+            CONNECTION_INFO           9 1 2 0 1 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        IMAX
+          INDEX                       17
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 17 1 201
+            BC_INDICES                7 5 0
+            CONNECTION_INFO           5 5 1 0 0 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+        NI_END   face
+      NI_END   block
+      NI_BEGIN block
+        VERSION                      3.0
+        NAME                         row_1_flux_1_Main_Blade_shroudgap2
+        OLD_NAME		       domain9
+        BLOCK_TYPE                   FLUID
+        GROUP_NAME                   ROWS
+        GROUP_NAME                   row 1
+        GROUP_NAME                   ROWS (fluid)
+        GROUP_NAME                   row 1
+        INITIAL_SOLUTION_INDEX       0
+				REAL_ENTRY		Block_Rotation_Speed		390.36383108627
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Solid Conductivity
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Solid Density
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  Solid Heat Capacity
+                TYPE                  variable
+                VALUE                 0
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+        IMAX                         17
+        JMAX                         17
+        KMAX                         85
+        STREAMWISE_DIRECTION         K
+        SPANWISE_DIRECTION           J
+        AZIMUTAL_DIRECTION           I
+        AVERAGE_TOGGLE            no
+        AVERAGE_DIRECTION           K
+        REPETITION                   ROTATION 0 0 1 0 0 0 0 0 1
+        NUMBER_OF_BLADES             32
+        NUMBER_OF_REPETITION         1
+        PERIODICITY                  32
+        INITIAL_SOLUTION_TURBOMACHINERY yes
+        INITIAL_TEMPERATURE          288.15
+        INITIAL_PRESSURE             101300
+        INITIAL_VELOCITY             0 0 0
+        INITIAL_FLOW_DIRECTION       NONE
+        INITIAL_VELOCITY_FITTING     W
+        INITIAL_PRESSURE_FIELD       CONSTANT
+        RADIAL_EQUILIBRIUM_FACTOR    1
+        PROCESS_ID                   0
+        NB_CHANNELS                  1
+        PITCH_DISPLACEMENT           0
+        CLOCK_VAR                    0
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        KMIN
+          INDEX                       1
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 9 1 17
+            BC_INDICES                8 0 0
+            CONNECTION_INFO           8 5 1 0 1 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   9 17 1 17
+            BC_INDICES                8 0 1
+            CONNECTION_INFO           8 5 5 0 1 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        KMAX
+          INDEX                       85
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 17 1 17
+            BC_INDICES                8 1 0
+            CONNECTION_INFO           8 5 3 3 0 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        JMIN
+          INDEX                       1
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      row_1_flux_1_Main_Blade_shroudgap2_tip_gap_identifier_rotating
+            BC_PARAMETERS_INDEX        4
+            TYPE                      SOL
+            INDICES                   1 17 1 85
+            BC_INDICES                8 2 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+            MODAL_STRUCTURE_INDEX   -1
+              CONTROL_SURFACE_NAME              row 1_blade_(r.p.m. 3653)
+              CONTROL_SURFACE_NAME              Force_and_Torque
+              CONTROL_SURFACE_NAME              row 1_blade_(r.p.m. 3653)
+              CONTROL_SURFACE_NAME              row 1_blade_(r.p.m. 3653)
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        JMAX
+          INDEX                       17
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      row_1_flux_1_Main_Blade_shroudgap2__shroud_identifier_
+            BC_PARAMETERS_INDEX        3
+            TYPE                      SOL
+            INDICES                   1 17 1 85
+            BC_INDICES                8 3 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+            MODAL_STRUCTURE_INDEX   -1
+              CONTROL_SURFACE_NAME              row 1_shroud
+              CONTROL_SURFACE_NAME              No_Force_and_Torque
+              CONTROL_SURFACE_NAME              row 1_shroud
+              CONTROL_SURFACE_NAME              row 1_shroud
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        IMIN
+          INDEX                       1
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 17 1 85
+            BC_INDICES                8 4 0
+            CONNECTION_INFO           8 5 2 3 1 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+        NI_END   face
+        NI_BEGIN face
+          VERSION                     1.0
+          TYPE                        IMAX
+          INDEX                       17
+          NI_BEGIN boundary_condition
+            VERSION                   4.0
+            NAME                      unknown
+            BC_PARAMETERS_INDEX        1
+            TYPE                      CON
+            INDICES                   1 17 1 85
+            BC_INDICES                8 5 0
+            CONNECTION_INFO           8 5 4 0 0 0
+            LAGRANGIAN_GROUP_NAME   Undefined
+            COUPLING_NAME           Undefined
+            COUPLING_TYPE           0
+            DEFORMATION_TYPE        0
+              CONTROL_SURFACE_NAME              MATCH_CON
+          NI_END   boundary_condition
+        NI_END   face
+      NI_END   block
+      NI_BEGIN blade_definition
+          VERSION                     1.0
+          NAME                        row_1_Main_Blade
+              GROUP_NAME              row_1_Main_Blade
+          NI_BEGIN trailing_edge
+          VERSION                     1.0
+          BLOCK_NAME                  row_1_flux_1_Main_Blade_skin
+          INDICES                     1 1 1 69 201 201
+          NI_END   trailing_edge
+          NI_BEGIN leading_edge
+          VERSION                     1.0
+          BLOCK_NAME                  row_1_flux_1_Main_Blade_skin
+          INDICES                     1 1 1 69 101 101
+          NI_END   leading_edge
+          NI_BEGIN BladeTransitionParameters
+          VERSION                      1.0
+          MODEL_SS                     1
+          HUB_SS                       0
+          SHROUD_SS                    0
+          MODEL_PS                     1
+          HUB_PS                       0
+          SHROUD_PS                    0
+          NI_END BladeTransitionParameters
+          NI_BEGIN topological_patch
+          VERSION                     1.0
+          BLOCK_NAME                  row_1_flux_1_Main_Blade_skin
+          INDICES                     5 2
+          NI_END   topological_patch
+          NI_BEGIN topological_patch
+          VERSION                     1.0
+          BLOCK_NAME                  row_1_flux_1_Main_Blade_skin
+          INDICES                     5 3
+          NI_END   topological_patch
+      NI_END   blade_definition
+        MERIDIONNAL_PATCH            1 1 1 1 85 1 25
+        MERIDIONNAL_PATCH            3 1 1 1 85 1 29
+        MERIDIONNAL_PATCH            7 17 17 1 85 29 101
+        MERIDIONNAL_PATCHPS          5 1 1 1 69 101 201
+        MERIDIONNAL_PATCHSS          5 1 1 1 69 1 101
+    NI_END   grid_bc
+#                                                                             
+#*****************************************************************************
+#*******            END  GRID PARAMETERS SECTION               **************
+#*****************************************************************************
+#                                                                             
+#*****************************************************************************
+#*******           START FLUID SECTION                          **************
+#*****************************************************************************
+#                                                                             
+    NI_BEGIN FLUID_PARAMETERS
+VERSION                   4.0
+FLUID_NAME                                 AIR(Perfect)
+FLUID_TYPE                                 Perfect Gas
+FLUID_OWNER                                root
+VISC_LAW_CHOICE                            4
+HEAT_COND_LAW_CHOICE                       6
+CP_LAW_CHOICE                              1
+BARO_LAW_CHOICE                            0
+THERMODYNAMIC_TABLES_PATH                  __undefined__
+     NI_BEGIN FLUID_PROPERTIES
+      VERSION                        5.0
+      COMPRESSIBILITY                     1e-011
+      DILATATION                          6.4e-005
+      PRANDTL                             0.708
+      R_GAS_CONST                         287
+      FLUID_TYPE                          Perfect Gas
+      REAL_GAS_MODEL                      0
+      TEMP_REF                            300
+      PRES_REF                            100000
+      TEMP_REF_MIN                        293
+      TEMP_REF_MAX                        500
+      PRES_REF_MIN                        0
+      PRES_REF_MAX                        0
+      TEMPERATURE_INF                     293.111
+      TEMPERATURE_SUTHERLAND              110.555
+      DENSITY_SUTHERLAND                  1
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  dynamic viscosity
+                TYPE                  variable
+                VALUE                 1.716e-005
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                  NB_COEFFICIENTS        8
+                     COEFFICIENT       0
+                     COEFFICIENT       0
+                     COEFFICIENT       0
+                     COEFFICIENT       1.716e-005
+                     COEFFICIENT       0
+                     COEFFICIENT       0
+                     COEFFICIENT       0
+                     COEFFICIENT       0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  heatConductivity
+                TYPE                  variable
+                VALUE                 0.001
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                  NB_COEFFICIENTS        8
+                     COEFFICIENT       0
+                     COEFFICIENT       0
+                     COEFFICIENT       0
+                     COEFFICIENT       0.001
+                     COEFFICIENT       0
+                     COEFFICIENT       0
+                     COEFFICIENT       0
+                     COEFFICIENT       0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  barotropicLaw
+                TYPE                  variable
+                VALUE                 1.2
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                  NB_COEFFICIENTS        8
+                     COEFFICIENT       0
+                     COEFFICIENT       0
+                     COEFFICIENT       0
+                     COEFFICIENT       1.2
+                     COEFFICIENT       0
+                     COEFFICIENT       0
+                     COEFFICIENT       0
+                     COEFFICIENT       0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  gamma
+                TYPE                  variable
+                VALUE                 1.4
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                  NB_COEFFICIENTS        8
+                     COEFFICIENT       0
+                     COEFFICIENT       0
+                     COEFFICIENT       0
+                     COEFFICIENT       1.4
+                     COEFFICIENT       0
+                     COEFFICIENT       0
+                     COEFFICIENT       0
+                     COEFFICIENT       0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+      NI_BEGIN physical_entry
+                VERSION               1.0
+                NAME                  heatCapacity
+                TYPE                  variable
+                VALUE                 1006
+                non_deterministic_data                 0
+                VARIABLETYPE          constant
+                EXTERNAL_PROFILE      
+                NI_BEGIN time_profile_entry
+                  VERSION               1.0
+                NI_END   time_profile_entry
+                NI_BEGIN space_profile_entry
+                  VERSION               1.0
+                NI_END   space_profile_entry
+                NI_BEGIN polynom_entry
+                  VERSION               1.0
+                  NB_COEFFICIENTS        8
+                     COEFFICIENT       0
+                     COEFFICIENT       0
+                     COEFFICIENT       0
+                     COEFFICIENT       1006
+                     COEFFICIENT       0
+                     COEFFICIENT       0
+                     COEFFICIENT       0
+                     COEFFICIENT       0
+                NI_END   polynom_entry
+                NI_BEGIN frequency_profile_entry
+                  VERSION               1.0
+                NI_END   frequency_profile_entry
+      NI_END   physical_entry
+				REAL_ENTRY		Schmidt number		0.7
+     NI_END   FLUID_PROPERTIES
+    NI_END   FLUID_PARAMETERS
+#                                                                             
+#*****************************************************************************
+#*******           END  FLUID SECTION                              ***********
+#*****************************************************************************
+#                                                                             
+  NI_END   computation

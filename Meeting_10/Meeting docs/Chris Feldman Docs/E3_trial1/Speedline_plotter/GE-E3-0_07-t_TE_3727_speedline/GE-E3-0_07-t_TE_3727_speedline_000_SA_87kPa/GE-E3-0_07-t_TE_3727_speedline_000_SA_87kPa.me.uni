@@ -1,0 +1,16 @@
+|weight                                  |  none 1
+|Static Temperature                      |  temperature 2
+|Relative Total Temperature              |  temperature 2
+|Absolute Total Temperature              |  temperature 2
+|Static Pressure                         |  pressure 2
+|Relative Total Pressure                 |  pressure 2
+|Absolute Total Pressure                 |  pressure 2
+|Density                                 |  density 2
+|Entropy                                 |  entropy 2
+|Rothalpy                                |  enthalpy 2
+|Absolute Mach Number                    |  none 1
+|Relative Mach Number                    |  none 1
+|Wall Distance                           |  length 2
+|Turbulent Viscosity (Mut/Mu)            |  none 1
+|Vxyz                                    |  velocity 2
+|Wxyz                                    |  velocity 2

@@ -1,0 +1,55 @@
+domain1
+   25   85
+  1
+  EXT        1   85
+  1
+  SOL        1   25
+  1
+  SOL        1   25
+  1
+  EXT        1   85
+ 
+domain2
+   29   85
+  1
+  EXT        1   85
+  1
+  SOL        1   29
+  1
+  SOL        1   29
+  1
+  EXT        1   85
+ 
+domain3
+   73   85
+  1
+  EXT        1   85
+  1
+  SOL        1   73
+  1
+  SOL        1   73
+  1
+  EXT        1   85
+ 
+domain4
+  101   69
+  1
+  EXT        1   69
+  1
+  EXT        1  101
+  1
+  EXT        1  101
+  1
+  EXT        1   69
+ 
+domain5
+  101   69
+  1
+  EXT        1   69
+  1
+  EXT        1  101
+  1
+  EXT        1  101
+  1
+  EXT        1   69
+ 

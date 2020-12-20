@@ -1,0 +1,48 @@
+void
+void
+void
+void
+void
+
+
+2D STRUCTURED CARTESIAN NONE
+
+
+    14
+     |weight                                  |
+     |Static Temperature                      |
+     |Relative Total Temperature              |
+     |Absolute Total Temperature              |
+     |Static Pressure                         |
+     |Relative Total Pressure                 |
+     |Absolute Total Pressure                 |
+     |Density                                 |
+     |Entropy                                 |
+     |Rothalpy                                |
+     |Absolute Mach Number                    |
+     |Relative Mach Number                    |
+     |Wall Distance                           |
+     |Turbulent Viscosity (Mut/Mu)            |
+     2
+     |Vxyz                                    |
+     |Wxyz                                    |
+     0
+     0
+     GE-E3-0_07-t_TE_3727_speedline_000_SA_80kPa.cgns  project2d_meridional
+
+
+     5
+   25   85
+          GE-E3-0_07-t_TE_3727_speedline_000_SA_80kPa.me.bc
+   29   85
+          GE-E3-0_07-t_TE_3727_speedline_000_SA_80kPa.me.bc
+   73   85
+          GE-E3-0_07-t_TE_3727_speedline_000_SA_80kPa.me.bc
+  101   69
+          GE-E3-0_07-t_TE_3727_speedline_000_SA_80kPa.me.bc
+  101   69
+          GE-E3-0_07-t_TE_3727_speedline_000_SA_80kPa.me.bc
+
+
+     0
+     0
