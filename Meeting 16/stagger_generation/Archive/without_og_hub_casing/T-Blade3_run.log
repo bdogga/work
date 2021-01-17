@@ -1,0 +1,1612 @@
+
+ ************************************************************
+ ************************************************************
+ ****  T-BLADE3:Turbomachinery BLADE 3D Geometry Builder ****
+ ****                                                    ****
+ ****  Master Version 1.13                               ****
+ ****                                                    ****
+ ****  ...was also called as below till Aug 2016...      ****
+ ****  3DBGB: 3 Dimensional Blade Geometry Builder       ****
+ ****                                                    ****
+ ****  Develop Version 1.2                               ****
+ ****                                                    ****
+ ****  This software comes with ABSOLUTELY NO WARRANTY   ****
+ ****                                                    ****
+ ****  This is a program which generates a 3D blade...   ****
+ ****  ...shape and outputs 3D blade section files.      ****
+ ****                                                    ****
+ ****  Inputs: LE and TE curve(x,r), inlet angle,        ****
+ ****          exit angle, chord, tm/c, incidence,       ****
+ ****          deviation, secondary flow angles,         ****
+ ****          streamline coordinates:(x,r)              ****
+ ****          control points for sweep, lean,           ****
+ ****          blade scaling factor.                     ****
+ ****                                                    ****
+ ****  Outputs: 3D blade sections (x,y,z),               ****
+ ****           2D airfoils (mprime,theta).              ****
+ ****                                                    ****
+ ****  ---------------by Kiran Siddappaji         ----   ****
+ ****  ---------------by Mark G. Turner           ----   ****
+ ****  ------------------- turnermr@ucmail.uc.edu ----   ****
+ ****  ---------------by Karthik Balasubramanian  ----   ****
+ ****  ---------------by Syed Moez Hussain Mahmood----   ****
+ ****  ---------------by Ahmed Nemnem             ----   ****
+ ****  ---------------by Marshall C. Galbraith    ----   ****
+ ************************************************************
+ ************************************************************
+
+ T-Blade3 Copyright (C) 2017 University of Cincinnati, developed by Kiran Siddappaji,
+ Dr. Mark G. Turner, Karthik  Balasubramanian, Syed Moez Hussain, Ahmed Farid Nemnem 
+  and Marshall C. Galbraith.
+
+ This program is free software; you can redistribute it and/or modify it under the 
+ terms of the GNU General Public License as published by the Free Software Foundation; 
+ either version 2 of the License, or (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+ See the GNU General Public License for more details.  For the complete terms of the 
+ GNU General Public License, please see this URL: http://www.gnu.org/licenses/gpl-2.0.html
+
+ ************************************************************
+
+ 2nd Argument: develop
+ Row number and blade  type is 1                                                                                                                                                                                                                                                               
+ 
+ 3dbgbinput.1.dat                                                                                                                                                                                                                                                
+ 
+ Incidence and Deviation defined spanwise as a B-spline using control points
+ 
+ inci_dev_spline
+ 
+ Reading inputs from file: 3dbgbinput.1.dat                                                                                                                                                                                                                                                
+ 
+ Reading the spanwise_input file ....
+ 
+ NACA spanwise input file read successfully
+
+ case:GE_E3_Fan_rotor                                                                                                                                                                                                                                                 
+ bladerow #:           1
+   1       
+
+ Number of blades in this row:          16
+ bsf:   10.000000000000000     
+
+ Number of streamlines:          18
+
+    in_betaZ*    out_betaZ*
+   42.119999999999997        1.4500000000000000     
+   43.200000000000003        11.900000000000000     
+   43.789999999999999        17.920000000000002     
+   44.380000000000003        20.620000000000001     
+   45.500000000000000        25.609999999999999     
+   46.530000000000001        29.620000000000001     
+   47.219999999999999        30.910000000000000     
+   48.659999999999997        32.399999999999999     
+   49.829999999999998        34.450000000000003     
+   50.549999999999997        35.719999999999999     
+   51.409999999999997        37.299999999999997     
+   51.890000000000001        38.130000000000003     
+   53.090000000000003        40.200000000000003     
+   54.859999999999999        43.560000000000002     
+   56.630000000000003        46.710000000000001     
+   58.560000000000002        49.689999999999998     
+   61.000000000000000        52.810000000000002     
+   63.270000000000003        55.320000000000000     
+
+ LE/TE defined by a curve with no. of points as:          18
+ xLE    rLE     xTE     rTE
+  -1.2700000000000000        36.067999999999998        17.789000000000001        47.884000000000000     
+  -1.3660000000000001        43.784999999999997        17.884000000000000        52.947000000000003     
+  -1.4290000000000000        49.488000000000000        17.981000000000002        56.957999999999998     
+  -1.4310000000000000        52.313000000000002        17.891999999999999        59.043999999999997     
+  -1.4219999999999999        57.048999999999999        17.850000000000001        62.753999999999998     
+  -1.4410000000000001        60.613000000000000        17.800000000000001        65.724999999999994     
+  -1.4490000000000001        62.683000000000000        17.782000000000000        67.491000000000000     
+  -1.4199999999999999        66.361999999999995        17.783000000000001        70.587999999999994     
+  -1.3640000000000001        69.828999999999994        17.792999999999999        73.453000000000003     
+  -1.3060000000000000        71.823999999999998        17.766999999999999        75.087999999999994     
+  -1.2370000000000001        74.233999999999995        17.699000000000002        77.272999999999996     
+  -1.2130000000000001        75.638999999999996        17.657000000000000        78.412000000000006     
+  -1.1730000000000000        79.254000000000005        17.545999999999999        81.340000000000003     
+ -0.98799999999999999        84.921999999999997        17.350000000000001        85.915000000000006     
+ -0.70699999999999996        90.238000000000000        17.062000000000001        90.210999999999999     
+ -0.34699999999999998        95.260000000000005        16.673999999999999        94.355000000000004     
+   5.0000000000000003E-002   100.11000000000000        16.305000000000000        98.424000000000007     
+  0.46700000000000003        105.16700000000000        15.981000000000000        102.99500000000000     
+ 
+ sect1                  25.000000000000000        0.0000000000000000       0.29999999999999999        2.0000000000000000E-002   2.0000000000000000E-002   15.000000000000000        10.000000000000000                0
+ sect1                  25.000000000000000        0.0000000000000000       0.29999999999999999        2.0000000000000000E-002   2.0000000000000000E-002   15.000000000000000        10.000000000000000                0
+ sect1                  25.000000000000000        0.0000000000000000       0.29999999999999999        2.0000000000000000E-002   2.0000000000000000E-002   15.000000000000000        10.000000000000000                0
+ sect1                  25.000000000000000        0.0000000000000000       0.29999999999999999        2.0000000000000000E-002   2.0000000000000000E-002   15.000000000000000        10.000000000000000                0
+ sect1                  25.000000000000000        0.0000000000000000       0.29999999999999999        2.0000000000000000E-002   2.0000000000000000E-002   15.000000000000000        10.000000000000000                0
+ sect1                  25.000000000000000        0.0000000000000000       0.29999999999999999        2.0000000000000000E-002   2.0000000000000000E-002   15.000000000000000        10.000000000000000                0
+ sect1                  25.000000000000000        0.0000000000000000       0.29999999999999999        2.0000000000000000E-002   2.0000000000000000E-002   15.000000000000000        10.000000000000000                0
+ sect1                  25.000000000000000        0.0000000000000000       0.29999999999999999        2.0000000000000000E-002   2.0000000000000000E-002   15.000000000000000        10.000000000000000                0
+ sect1                  25.000000000000000        0.0000000000000000       0.29999999999999999        2.0000000000000000E-002   2.0000000000000000E-002   15.000000000000000        10.000000000000000                0
+ sect1                  25.000000000000000        0.0000000000000000       0.29999999999999999        2.0000000000000000E-002   2.0000000000000000E-002   15.000000000000000        10.000000000000000                0
+ sect1                  25.000000000000000        0.0000000000000000       0.29999999999999999        2.0000000000000000E-002   2.0000000000000000E-002   15.000000000000000        10.000000000000000                0
+ sect1                  25.000000000000000        0.0000000000000000       0.29999999999999999        2.0000000000000000E-002   2.0000000000000000E-002   15.000000000000000        10.000000000000000                0
+ sect1                  25.000000000000000        0.0000000000000000       0.29999999999999999        2.0000000000000000E-002   2.0000000000000000E-002   15.000000000000000        10.000000000000000                0
+ sect1                  25.000000000000000        0.0000000000000000       0.29999999999999999        2.0000000000000000E-002   2.0000000000000000E-002   15.000000000000000        10.000000000000000                0
+ sect1                  25.000000000000000        0.0000000000000000       0.29999999999999999        2.0000000000000000E-002   2.0000000000000000E-002   15.000000000000000        10.000000000000000                0
+ sect1                  25.000000000000000        0.0000000000000000       0.29999999999999999        2.0000000000000000E-002   2.0000000000000000E-002   15.000000000000000        10.000000000000000                0
+ sect1                  25.000000000000000        0.0000000000000000       0.29999999999999999        2.0000000000000000E-002   2.0000000000000000E-002   15.000000000000000        10.000000000000000                0
+ sect1                  25.000000000000000        0.0000000000000000       0.29999999999999999        2.0000000000000000E-002   2.0000000000000000E-002   15.000000000000000        10.000000000000000                0
+ 
+ Sweep in the axial direction (m-prime).
+ 
+ Lean in the tangential direction (theta).
+ 
+ Writing dimensional hub and casing streamlines
+
+ Using x_s and r_s coordinates for streamline from the input file...
+
+ Calculating the m_prime coordinates for each streamline...
+
+ 
+ hub offset:   0.0000000000000000     
+ tip offset:   0.0000000000000000     
+
+ xLE    rLE     xTE     rTE
+ 
+ Calculating LE x, r points... 
+ 
+ Calculating TE x, r points...
+ 
+ i_slope           0
+ i_slope           0
+ i_slope           0
+ i_slope           0
+ i_slope           0
+ i_slope           0
+ i_slope           0
+ i_slope           0
+ i_slope           0
+ i_slope           0
+ i_slope           0
+ i_slope           0
+ i_slope           0
+ i_slope           0
+ i_slope           0
+ i_slope           0
+ i_slope           0
+ i_slope          18
+ 
+ ile:           4
+ ite:           0
+ ile:           4
+ ite:           0
+ ile:           4
+ ite:           0
+ ile:           4
+ ite:           0
+ ile:           5
+ ite:           0
+ ile:           4
+ ite:           0
+ ile:           5
+ ite:           0
+ ile:           4
+ ite:           0
+ ile:           5
+ ite:           0
+ ile:           5
+ ite:           0
+ ile:           5
+ ite:           0
+ ile:           4
+ ite:           0
+ ile:           5
+ ite:           0
+ ile:           5
+ ite:           0
+ ile:           4
+ ite:           0
+ ile:           5
+ ite:           0
+ ile:           4
+ ite:           0
+ ile:           4
+ ite:           0
+
+ Using x values for msLE due to axial flow at LE.
+ msle:  0.20372982957220043     
+ mste:  0.35419527565365805     
+ chordm:  0.15046544608145762     
+ Using x values for msLE due to axial flow at LE.
+ msle:  0.21091028172912682     
+ mste:  0.37609291502943687     
+ chordm:  0.16518263330031005     
+ Using x values for msLE due to axial flow at LE.
+ msle:  0.21907389080633094     
+ mste:  0.40005352386093379     
+ chordm:  0.18097963305460285     
+ Using x values for msLE due to axial flow at LE.
+ msle:  0.22964790353396064     
+ mste:  0.42839599449292270     
+ chordm:  0.19874809095896206     
+ Using x values for msLE due to axial flow at LE.
+ msle:  0.24419026145244824     
+ mste:  0.46141846278374055     
+ chordm:  0.21722820133129231     
+ Using x values for msLE due to axial flow at LE.
+ msle:  0.26434959309538619     
+ mste:  0.50163272823991090     
+ chordm:  0.23728313514452470     
+ Using x values for msLE due to axial flow at LE.
+ msle:  0.28044754132265437     
+ mste:  0.53116120863523097     
+ chordm:  0.25071366731257660     
+ Using x values for msLE due to axial flow at LE.
+ msle:  0.28716201710618083     
+ mste:  0.54358904241535710     
+ chordm:  0.25642702530917627     
+ Using x values for msLE due to axial flow at LE.
+ msle:  0.29912433113555897     
+ mste:  0.56722250121288909     
+ chordm:  0.26809817007733011     
+ Using x values for msLE due to axial flow at LE.
+ msle:  0.30985829742589727     
+ mste:  0.58710502416003119     
+ chordm:  0.27724672673413392     
+ Using x values for msLE due to axial flow at LE.
+ msle:  0.33122467269990163     
+ mste:  0.62449083039568354     
+ chordm:  0.29326615769578190     
+ Using x values for msLE due to axial flow at LE.
+ msle:  0.35778208813475643     
+ mste:  0.67007897218724455     
+ chordm:  0.31229688405248812     
+ Using x values for msLE due to axial flow at LE.
+ msle:  0.37494996841404082     
+ mste:  0.69902557186347380     
+ chordm:  0.32407560344943298     
+ Using x values for msLE due to axial flow at LE.
+ msle:  0.40837556464941821     
+ mste:  0.75448993927530561     
+ chordm:  0.34611437462588740     
+ Using x values for msLE due to axial flow at LE.
+ msle:  0.46140896502689210     
+ mste:  0.83996542551604758     
+ chordm:  0.37855646048915548     
+ Using x values for msLE due to axial flow at LE.
+ msle:  0.49954143301088694     
+ mste:  0.90050602897692489     
+ chordm:  0.40096459596603795     
+ Using x values for msLE due to axial flow at LE.
+ msle:  0.59796355688784020     
+ mste:   1.0471073500359784     
+ chordm:  0.44914379314813824     
+ Using x values for msLE due to axial flow at LE.
+ msle:  0.80247442173129802     
+ mste:   1.3453942411041793     
+ chordm:  0.54291981937288125     
+ 
+ phi_s_in(ia)  -1.4880483428260451     
+ phi_s_in(ia)   2.4903480351718374     
+ phi_s_in(ia)   4.4489118783565003     
+ phi_s_in(ia)   5.9799058473501132     
+ phi_s_in(ia)   7.6955294327364951     
+ phi_s_in(ia)   9.7032992348212375     
+ phi_s_in(ia)   11.090734834223356     
+ phi_s_in(ia)   11.604565076125830     
+ phi_s_in(ia)   12.264367293627284     
+ phi_s_in(ia)   12.926799606924003     
+ phi_s_in(ia)   14.113852178970909     
+ phi_s_in(ia)   15.340156551211894     
+ phi_s_in(ia)   16.030500378757463     
+ phi_s_in(ia)   17.252993644886928     
+ phi_s_in(ia)   18.935214039634921     
+ phi_s_in(ia)   20.022594388889999     
+ phi_s_in(ia)   22.525629036720975     
+ phi_s_in(ia)   26.189405261755695     
+ phi_s_out(ia)  -6.6665699460634134     
+ phi_s_out(ia) -0.11944484362722466     
+ phi_s_out(ia)   4.0172084351425745     
+ phi_s_out(ia)   7.0481844536778206     
+ phi_s_out(ia)   9.8098364577002606     
+ phi_s_out(ia)   12.634712787928690     
+ phi_s_out(ia)   14.452091471887954     
+ phi_s_out(ia)   15.173684829793054     
+ phi_s_out(ia)   16.458238808211298     
+ phi_s_out(ia)   17.408575920631531     
+ phi_s_out(ia)   18.816443947983473     
+ phi_s_out(ia)   20.309069804215071     
+ phi_s_out(ia)   21.215467143842599     
+ phi_s_out(ia)   22.864840149316187     
+ phi_s_out(ia)   24.898467735316686     
+ phi_s_out(ia)   26.619910017456206     
+ phi_s_out(ia)   27.825401740102691     
+ phi_s_out(ia)   29.583556126603582     
+ 
+ Creating cubic B-spline with spancontrolinput file
+ Writing spanwise curvature variation data to file
+ Writing spanwise thickness variation data to file
+ B-spline created successfully
+
+  Inlet Beta incidence defined spanwise by a cubic B-spline using control points.
+    span         in_Beta (spline)
+   0.0000000000000000        42.119999999999997        38.619999999999997        3.5000000000000000     
+   7.3184850721428704E-002   43.200000000000003        38.938999265390294        4.2610007346097092     
+  0.14337399962372843        43.789999999999999        39.325836303847183        4.4641636961528164     
+  0.21605233071391949        44.380000000000003        39.893133727260114        4.4868662727398885     
+  0.29298542670660943        45.500000000000000        40.766914525123191        4.7330854748768090     
+  0.37501266299078129        46.530000000000001        42.003126748236454        4.5268732517635470     
+  0.42732890490452236        47.219999999999999        42.910092356060417        4.3099076439395816     
+  0.44766205010202759        48.659999999999997        43.280239462011473        5.3797605379885240     
+  0.48253954471121085        49.829999999999998        43.931576520829402        5.8984234791705958     
+  0.51141116369263739        50.549999999999997        44.481635461325070        6.0683645386749276     
+  0.56158555116571229        51.409999999999997        45.462401683203694        5.9475983167963022     
+  0.61482800040521568        51.890000000000001        46.564325907419402        5.3256740925805985     
+  0.64478501859650617        53.090000000000003        47.224610851988189        5.8653891480118148     
+  0.69636318904759131        54.859999999999999        48.450883334989818        6.4091166650101812     
+  0.76490253115095730        56.630000000000003        50.302005919681726        6.3279940803182768     
+  0.80578590138780770        58.560000000000002        51.540377736928129        7.0196222630718736     
+  0.88831965730328954        61.000000000000000        54.278411870681801        6.7215881293181994     
+   1.0000000000000000        63.270000000000003        58.270000000000003        5.0000000000000000     
+
+  Outlet Beta deviation defined spanwise by a cubic B-spline using control points.
+    span        out_Beta (spline)
+   0.0000000000000000        1.4500000000000000        14.080000000000000       -12.630000000000001     
+   7.3184850721428704E-002   11.900000000000000        18.174129937021558        30.074129937021560     
+  0.14337399962372843        17.920000000000002        22.044650932909022        39.964650932909024     
+  0.21605233071391949        20.620000000000001        25.936962397272410        46.556962397272414     
+  0.29298542670660943        25.609999999999999        29.864938703891262        55.474938703891262     
+  0.37501266299078129        29.620000000000001        33.775579074566032        63.395579074566029     
+  0.42732890490452236        30.910000000000000        36.097482085517740        67.007482085517736     
+  0.44766205010202759        32.399999999999999        36.960241549376910        69.360241549376909     
+  0.48253954471121085        34.450000000000003        38.385289698006432        72.835289698006434     
+  0.51141116369263739        35.719999999999999        39.510302621090020        75.230302621090019     
+  0.56158555116571229        37.299999999999997        41.359589656206609        78.659589656206606     
+  0.61482800040521568        38.130000000000003        43.223407637681618        81.353407637681613     
+  0.64478501859650617        40.200000000000003        44.250032686571892        84.450032686571888     
+  0.69636318904759131        43.560000000000002        46.018847189559352        89.578847189559355     
+  0.76490253115095730        46.710000000000001        48.455245936887259        95.165245936887260     
+  0.80578590138780770        49.689999999999998        49.988303670389620        99.678303670389624     
+  0.88831965730328954        52.810000000000002        53.231893284572273        106.04189328457227     
+   1.0000000000000000        55.320000000000000        57.799999999999997        113.12000000000000     
+ 
+    span        chord_multipliers
+   0.0000000000000000        1.0499999999999998     
+   7.3184850721428704E-002   1.0426986235665521     
+  0.14337399962372843        1.0357933370654859     
+  0.21605233071391949        1.0288552596659986     
+  0.29298542670660943        1.0219041488782112     
+  0.37501266299078129        1.0152080675754285     
+  0.42732890490452236        1.0115146979108141     
+  0.44766205010202759        1.0102258425010964     
+  0.48253954471121085        1.0082193589164670     
+  0.51141116369263739        1.0067595905107987     
+  0.56158555116571229        1.0046577722668342     
+  0.61482800040521568        1.0029969965070882     
+  0.64478501859650617        1.0022890583492119     
+  0.69636318904759131        1.0013775175377686     
+  0.76490253115095730        1.0006159070717642     
+  0.80578590138780770        1.0003413763903428     
+  0.88831965730328954        1.0000633963190295     
+   1.0000000000000000        1.0000000000000000     
+ 
+ Chord multiplier calculated using spline control points...
+
+ ---------------------------------------------------------------------------------
+ airfoil type:           1 sect1
+  =================================================== 
+ Using ellipse based clustering function
+ 
+ Hyperbolic midchord clustering with delta_TE =    3.9901611328124997     
+ Hyperbolic midchord clustering with delta_TE =    4.4808593749999996     
+ lethk =    2.0000000000000000E-002
+
+Using curvature control for camber definition...
+ xcp -0.14999999999999999        0.0000000000000000       0.14999999999999999       0.24999999999999997       0.49999999999999994       0.75000000000000000       0.94999999999999996        1.0000000000000000        1.0500000000000000     
+ ycp -0.16085652106500001        0.0000000000000000       0.16085652106500001       0.36734052787899996        6.0692246700000001E-002  0.39217871236299995       -7.3852399160000012E-002   0.0000000000000000        7.3852399160000012E-002
+Total camber is:  -16.046138495145666
+Determinant is:    0.032845758893954
+Possible values of scaling factor are:       -81.668301366736756        1.618442841638924
+Camber line second derivative scaling factor:         1.618442841638924        0.000000000000000
+Inlet u-v metal angle in deg:         8.428442928459171        0.000000000000000
+Exit u-v metal angle in deg:        -7.617695566686487        0.000000000000000
+Stagger angle in deg:        -4.929620323122314        3.498822605336857
+ 
+ Using modified NACA four digit thickness distribution
+ Maximum thickness for the blade section =    6.2729999999999994E-002
+ Chordwise location for the maximum thickness =   0.40000000000000002     
+ Thickness at TE =    1.2239999999999999E-002
+ Leading edge radius =    5.5000000000000000     
+ TE derivative for maximum thickness chordwise location =  -0.19759950014051517     
+ Modified NACA thickness coefficients (u < u_max) =   0.17072723691636024       -7.5777738540922152E-002 -0.13207045505439013        9.6796605757737880E-002
+ Modified NACA thickness coefficients (u > u_max) =    1.0228715700291565E-002  0.20234330517870938      -0.23696698143146100        7.5941733832447955E-002
+ 
+ Writing thickness data to file
+ 
+ i_le =            0
+ i_te =            0
+         121
+         241
+ 
+ Stacking position on the chord as % of chord:   55.000000000000000     
+ Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
+ top curve points index range for % chord stacking:          63          64
+ bottom curve points index range for % chord stacking:          62          63
+ vtop_stack vbot_stack  0.10144042666231975       -1.8998536491754797E-002
+ 
+ u_stack  v_stack  0.55000000000000004        0.0000000000000000     
+ 
+ chrd bladegen:   0.15857528760058898     
+ pitch   0.39269908169872414     
+ np_sidee         121
+ n_normal_distance =           42
+ Number of intersection points (k) =           42 from np_side of         121
+ 
+ Writing non-dimensional throat points to a file for debugging...
+ 
+ ******************************************
+ 
+ Chord multiplier calculated using spline control points...
+
+ ---------------------------------------------------------------------------------
+ airfoil type:           2 sect1
+  =================================================== 
+ Using ellipse based clustering function
+ 
+ Hyperbolic midchord clustering with delta_TE =    4.2476562500000004     
+ Hyperbolic midchord clustering with delta_TE =    4.6168945312500007     
+ lethk =    2.0000000000000000E-002
+
+Using curvature control for camber definition...
+ xcp -0.14999999999999999        0.0000000000000000       0.14999999999999999       0.25000000000000000       0.50000000000000000       0.75000000000000000       0.94999999999999996        1.0000000000000000        1.0500000000000000     
+ ycp  0.14200563703849781       0.16411487270796707       0.18622410837743633       0.36494764572286681       0.14310173136563031       0.40408298576813917        9.8043539577136171E-002  0.11912270187538554       0.14020186417363489     
+Total camber is:   25.817084688543709
+Determinant is:    0.070389080915501
+Possible values of scaling factor are:        36.539464681271738       -1.919261215763242
+Camber line second derivative scaling factor:        -1.919261215763242        0.000000000000000
+Inlet u-v metal angle in deg:       -12.971382664785992        0.000000000000000
+Exit u-v metal angle in deg:        12.845702023757692        0.000000000000000
+Stagger angle in deg:        17.228373921217969        4.256991256431980
+ 
+ Using modified NACA four digit thickness distribution
+ Maximum thickness for the blade section =    5.7056710372074840E-002
+ Chordwise location for the maximum thickness =   0.40296920519664203     
+ Thickness at TE =    1.0901123972257889E-002
+ Leading edge radius =    5.5000000000000000     
+ TE derivative for maximum thickness chordwise location =  -0.18164923861682253     
+ Modified NACA thickness coefficients (u < u_max) =   0.15528669710443760       -7.0816757634099989E-002 -0.11205125418848234        7.9669861979815015E-002
+ Modified NACA thickness coefficients (u > u_max) =    9.2301878067865793E-003  0.18562231389715417      -0.21928976044527440        7.1280750558195646E-002
+ 
+ Writing thickness data to file
+ 
+ i_le =            0
+ i_te =            0
+         121
+         241
+ 
+ Stacking position on the chord as % of chord:   55.000000000000000     
+ Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
+ top curve points index range for % chord stacking:          62          63
+ bottom curve points index range for % chord stacking:          62          63
+ vtop_stack vbot_stack  -6.1089978616377747E-003 -0.11580837531295037     
+ 
+ u_stack  v_stack  0.55000000000000004        0.0000000000000000     
+ 
+ chrd bladegen:   0.18032663501367557     
+ pitch   0.39269908169872414     
+ np_sidee         121
+ n_normal_distance =           26
+ Number of intersection points (k) =           26 from np_side of         121
+ 
+ Writing non-dimensional throat points to a file for debugging...
+ 
+ ******************************************
+ 
+ Chord multiplier calculated using spline control points...
+
+ ---------------------------------------------------------------------------------
+ airfoil type:           3 sect1
+  =================================================== 
+ Using ellipse based clustering function
+ 
+ Hyperbolic midchord clustering with delta_TE =    4.5197265624999998     
+ Hyperbolic midchord clustering with delta_TE =    4.7626464843750007     
+ lethk =    2.0000000000000000E-002
+
+Using curvature control for camber definition...
+ xcp -0.14999999999999999        0.0000000000000000       0.14999999999999999       0.25000000000000006       0.50000000000000011       0.75000000000000011       0.95000000000000007        1.0000000000000000        1.0499999999999998     
+ ycp  0.38388854263926042       0.29468150438328239       0.20547446612730438       0.36394825536698222       0.20675790218237808       0.40484852586932846       0.23218674076856066       0.21389442903998154       0.19560211731140242     
+Total camber is:   35.444511965613898
+Determinant is:    0.124684187435604
+Possible values of scaling factor are:        21.758741054063801       -2.221758356395306
+Camber line second derivative scaling factor:        -2.221758356395306        0.000000000000000
+Inlet u-v metal angle in deg:       -17.496064258597649        0.000000000000000
+Exit u-v metal angle in deg:        17.948447707016250        0.000000000000000
+Stagger angle in deg:        21.946831092109132        4.450766833511481
+ 
+ Using modified NACA four digit thickness distribution
+ Maximum thickness for the blade section =    5.1615647549168572E-002
+ Chordwise location for the maximum thickness =   0.40604932913843322     
+ Thickness at TE =    9.6437272272706480E-003
+ Leading edge radius =    5.5000000000000009     
+ TE derivative for maximum thickness chordwise location =  -0.16616278374309576     
+ Modified NACA thickness coefficients (u < u_max) =   0.14047819046258975       -6.5824479114863388E-002  -9.3924296335492929E-002   6.4438075860385691E-002
+ Modified NACA thickness coefficients (u > u_max) =    8.2721694895651933E-003  0.16945154736315396      -0.20200071322235255        6.6619319547534001E-002
+ 
+ Writing thickness data to file
+ 
+ i_le =            0
+ i_te =            0
+         121
+         241
+ 
+ Stacking position on the chord as % of chord:   55.000000000000000     
+ Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
+ top curve points index range for % chord stacking:          62          63
+ bottom curve points index range for % chord stacking:          62          63
+ vtop_stack vbot_stack  -3.1158832059792065E-002 -0.13053863632407672     
+ 
+ u_stack  v_stack  0.55000000000000004        0.0000000000000000     
+ 
+ chrd bladegen:   0.20210373767591089     
+ pitch   0.39269908169872414     
+ np_sidee         121
+ n_normal_distance =           21
+ Number of intersection points (k) =           21 from np_side of         121
+ 
+ Writing non-dimensional throat points to a file for debugging...
+ 
+ ******************************************
+ 
+ Chord multiplier calculated using spline control points...
+
+ ---------------------------------------------------------------------------------
+ airfoil type:           4 sect1
+  =================================================== 
+ Using ellipse based clustering function
+ 
+ Hyperbolic midchord clustering with delta_TE =    4.8209472656250005     
+ Hyperbolic midchord clustering with delta_TE =    4.9278320312500004     
+ lethk =    2.0000000000000000E-002
+
+Using curvature control for camber definition...
+ xcp -0.14999999999999999        0.0000000000000000       0.14999999999999999       0.25000000000000000       0.50000000000000000       0.75000000000000000       0.94999999999999996        1.0000000000000000        1.0500000000000000     
+ ycp  0.53421225334061240       0.37457562794566124       0.21493900255071011       0.36558379381728701       0.24097030719516183       0.38368646249311739       0.30777447463291191       0.27188554042238372       0.23599660621185553     
+Total camber is:   41.877385489811523
+Determinant is:    0.174628763638227
+Possible values of scaling factor are:        16.801047848375987       -2.459470909217551
+Camber line second derivative scaling factor:        -2.459470909217551        0.000000000000000
+Inlet u-v metal angle in deg:       -20.660819248581930        0.000000000000000
+Exit u-v metal angle in deg:        21.216566241229600        0.000000000000000
+Stagger angle in deg:        25.123369096439486        4.462549847857557
+ 
+ Using modified NACA four digit thickness distribution
+ Maximum thickness for the blade section =    4.5981623323056955E-002
+ Chordwise location for the maximum thickness =   0.40971782895122977     
+ Thickness at TE =    8.3967198822691661E-003
+ Leading edge radius =    5.5000000000000000     
+ TE derivative for maximum thickness chordwise location =  -0.15001385563215433     
+ Modified NACA thickness coefficients (u < u_max) =   0.12514451616251207       -6.0378121010637602E-002  -7.6483398319923318E-002   5.0230231896651149E-002
+ Modified NACA thickness coefficients (u > u_max) =    7.3023751477240195E-003  0.15266871283278335      -0.18424628654525477        6.2035719455189792E-002
+ 
+ Writing thickness data to file
+ 
+ i_le =            0
+ i_te =            0
+         121
+         241
+ 
+ Stacking position on the chord as % of chord:   55.000000000000000     
+ Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
+ top curve points index range for % chord stacking:          62          63
+ bottom curve points index range for % chord stacking:          62          63
+ vtop_stack vbot_stack  -4.9812595366641996E-002 -0.13850550193898215     
+ 
+ u_stack  v_stack  0.55000000000000004        0.0000000000000000     
+ 
+ chrd bladegen:   0.22584933556981840     
+ pitch   0.39269908169872414     
+ np_sidee         121
+ n_normal_distance =           20
+ Number of intersection points (k) =           20 from np_side of         121
+ 
+ Writing non-dimensional throat points to a file for debugging...
+ 
+ ******************************************
+ 
+ Chord multiplier calculated using spline control points...
+
+ ---------------------------------------------------------------------------------
+ airfoil type:           5 sect1
+  =================================================== 
+ Using ellipse based clustering function
+ 
+ Hyperbolic midchord clustering with delta_TE =    5.1804687500000002     
+ Hyperbolic midchord clustering with delta_TE =    5.1027343750000007     
+ lethk =    2.0000000000000000E-002
+
+Using curvature control for camber definition...
+ xcp -0.14999999999999997        0.0000000000000000       0.14999999999999997       0.25000000000000000       0.50000000000000000       0.75000000000000000       0.94999999999999984        1.0000000000000000        1.0500000000000003     
+ ycp  0.52938990567497735       0.36882187063488064       0.20825383559478391       0.37081184348674867       0.22578607891245811       0.32578153787540054       0.28521826035938297       0.26774375467243966       0.25026924898549635     
+Total camber is:   50.389194580496124
+Determinant is:    0.209649926941764
+Possible values of scaling factor are:        14.563226334430007       -3.223031723213620
+Camber line second derivative scaling factor:        -3.223031723213620        0.000000000000000
+Inlet u-v metal angle in deg:       -25.374134603869905        0.000000000000000
+Exit u-v metal angle in deg:        25.015059976626230        0.000000000000000
+Stagger angle in deg:        30.064783330830153        4.690648726960247
+ 
+ Using modified NACA four digit thickness distribution
+ Maximum thickness for the blade section =    4.0025059986868783E-002
+ Chordwise location for the maximum thickness =   0.41441055627552009     
+ Thickness at TE =    7.1675730694108330E-003
+ Leading edge radius =    5.5000000000000000     
+ TE derivative for maximum thickness chordwise location =  -0.13285072279053983     
+ Modified NACA thickness coefficients (u < u_max) =   0.10893301289605735       -5.4217998424968571E-002  -5.9982285061206106E-002   3.7507272986822188E-002
+ Modified NACA thickness coefficients (u > u_max) =    6.3269768153230745E-003  0.13492855639633805      -0.16602139776602484        5.7849321378758554E-002
+ 
+ Writing thickness data to file
+ 
+ i_le =            0
+ i_te =            0
+         121
+         241
+ 
+ Stacking position on the chord as % of chord:   55.000000000000000     
+ Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
+ top curve points index range for % chord stacking:          62          63
+ bottom curve points index range for % chord stacking:          62          63
+ vtop_stack vbot_stack  -7.5955389115304320E-002 -0.15337947097902715     
+ 
+ u_stack  v_stack  0.55000000000000004        0.0000000000000000     
+ 
+ chrd bladegen:   0.25649541989750974     
+ pitch   0.39269908169872414     
+ np_sidee         121
+ n_normal_distance =           18
+ Number of intersection points (k) =           18 from np_side of         121
+ 
+ Writing non-dimensional throat points to a file for debugging...
+ 
+ ******************************************
+ 
+ Chord multiplier calculated using spline control points...
+
+ ---------------------------------------------------------------------------------
+ airfoil type:           6 sect1
+  =================================================== 
+ Using ellipse based clustering function
+ 
+ Hyperbolic midchord clustering with delta_TE =    5.6080078125000004     
+ Hyperbolic midchord clustering with delta_TE =    5.3165039062500004     
+ lethk =    2.0000000000000000E-002
+
+Using curvature control for camber definition...
+ xcp -0.14999999999999999        0.0000000000000000       0.14999999999999999       0.25000000000000000       0.50000000000000000       0.75000000000000011       0.94999999999999996        1.0000000000000000        1.0500000000000000     
+ ycp  0.34512966502418341       0.26867071578904517       0.19221176655390695       0.36144266153120025       0.16420896466758489       0.23470060943126342       0.17242292305088494       0.19586501404763859       0.21930710504439224     
+Total camber is:   58.366704311302378
+Determinant is:    0.190175686325487
+Possible values of scaling factor are:        15.682461978621314       -4.881164033473879
+Camber line second derivative scaling factor:        -4.881164033473879        0.000000000000000
+Inlet u-v metal angle in deg:       -30.746325532891191        0.000000000000000
+Exit u-v metal angle in deg:        27.620378778411197        0.000000000000000
+Stagger angle in deg:        35.208699732350809        4.462374199459616
+ 
+ Using modified NACA four digit thickness distribution
+ Maximum thickness for the blade section =    3.3838343686325281E-002
+ Chordwise location for the maximum thickness =   0.42083447302816029     
+ Thickness at TE =    5.9744604630329783E-003
+ Leading edge radius =    5.4999999999999991     
+ TE derivative for maximum thickness chordwise location =  -0.11503028115862846     
+ Modified NACA thickness coefficients (u < u_max) =    9.2095120666227950E-002  -4.7431836183152505E-002  -4.4733463461006553E-002   2.6538723525708626E-002
+ Modified NACA thickness coefficients (u > u_max) =    5.3575578277305427E-003  0.11660159226948393      -0.14793097560298962        5.4408777444583806E-002
+ 
+ Writing thickness data to file
+ 
+ i_le =            0
+ i_te =            0
+         121
+         241
+ 
+ Stacking position on the chord as % of chord:   55.000000000000000     
+ Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
+ top curve points index range for % chord stacking:          62          63
+ bottom curve points index range for % chord stacking:          62          63
+ vtop_stack vbot_stack -0.10457548064792201      -0.17038402769336997     
+ 
+ u_stack  v_stack  0.55000000000000004        0.0000000000000000     
+ 
+ chrd bladegen:   0.29482844620817239     
+ pitch   0.39269908169872414     
+ np_sidee         121
+ n_normal_distance =           21
+ Number of intersection points (k) =           21 from np_side of         121
+ 
+ Writing non-dimensional throat points to a file for debugging...
+ 
+ ******************************************
+ 
+ Chord multiplier calculated using spline control points...
+
+ ---------------------------------------------------------------------------------
+ airfoil type:           7 sect1
+  =================================================== 
+ Using ellipse based clustering function
+ 
+ Hyperbolic midchord clustering with delta_TE =    5.8800781250000007     
+ Hyperbolic midchord clustering with delta_TE =    5.4525390625000005     
+ lethk =    2.0000000000000000E-002
+
+Using curvature control for camber definition...
+ xcp -0.14999999999999999        0.0000000000000000       0.14999999999999999       0.24999999999999997       0.49999999999999994       0.74999999999999989       0.94999999999999996        1.0000000000000000        1.0500000000000000     
+ ycp  0.16157820444041401       0.17498064121427548       0.18838307798813694       0.33048358523702664       0.11938029540717472       0.17559892394050783        9.1965968743109486E-002  0.12943707801675203       0.16690818729039458     
+Total camber is:   62.107911745359274
+Determinant is:    0.145447176874923
+Possible values of scaling factor are:        18.705089367035967       -6.738587164170971
+Camber line second derivative scaling factor:        -6.738587164170971        0.000000000000000
+Inlet u-v metal angle in deg:       -34.012415840386467        0.000000000000000
+Exit u-v metal angle in deg:        28.095495904972807        0.000000000000000
+Stagger angle in deg:        38.242125603756733        4.229709763370270
+ 
+ Using modified NACA four digit thickness distribution
+ Maximum thickness for the blade section =    3.0115284402022272E-002
+ Chordwise location for the maximum thickness =   0.42601163423167510     
+ Thickness at TE =    5.2756293507464740E-003
+ Leading edge radius =    5.5000000000000000     
+ TE derivative for maximum thickness chordwise location =  -0.10438726308265769     
+ Modified NACA thickness coefficients (u < u_max) =    8.1962367207199502E-002  -4.3229785505746840E-002  -3.6160209214928636E-002   2.0665592657128810E-002
+ Modified NACA thickness coefficients (u > u_max) =    4.7763188869594389E-003  0.10569129827246707      -0.13753988628938602        5.2814577303054507E-002
+ 
+ Writing thickness data to file
+ 
+ i_le =            0
+ i_te =            0
+         121
+         241
+ 
+ Stacking position on the chord as % of chord:   55.000000000000000     
+ Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
+ top curve points index range for % chord stacking:          62          63
+ bottom curve points index range for % chord stacking:          62          63
+ vtop_stack vbot_stack -0.12160099399046484      -0.18049926827800461     
+ 
+ u_stack  v_stack  0.55000000000000004        0.0000000000000000     
+ 
+ chrd bladegen:   0.32289268022674139     
+ pitch   0.39269908169872414     
+ np_sidee         121
+ n_normal_distance =           23
+ Number of intersection points (k) =           23 from np_side of         121
+ 
+ Writing non-dimensional throat points to a file for debugging...
+ 
+ ******************************************
+ 
+ Chord multiplier calculated using spline control points...
+
+ ---------------------------------------------------------------------------------
+ airfoil type:           8 sect1
+  =================================================== 
+ Using ellipse based clustering function
+ 
+ Hyperbolic midchord clustering with delta_TE =    5.9966796875000012     
+ Hyperbolic midchord clustering with delta_TE =    5.5108398437500004     
+ lethk =    2.0000000000000000E-002
+
+Using curvature control for camber definition...
+ xcp -0.15000000000000002        0.0000000000000000       0.15000000000000002       0.25000000000000000       0.50000000000000000       0.75000000000000000       0.95000000000000007        1.0000000000000000        1.0499999999999998     
+ ycp   8.1207229701825756E-002  0.13560361168346133       0.18999999366509690       0.31055317872198113       0.10376880774130016       0.15474627665678528        6.5098146319767070E-002  0.10178971023640031       0.13848127415303355     
+Total camber is:   63.410189735699483
+Determinant is:    0.125983180800064
+Possible values of scaling factor are:        20.509855024427804       -7.757635036844608
+Camber line second derivative scaling factor:        -7.757635036844608        0.000000000000000
+Inlet u-v metal angle in deg:       -35.289551024907155        0.000000000000000
+Exit u-v metal angle in deg:        28.120638710792321        0.000000000000000
+Stagger angle in deg:        40.559970761479327        5.270419736572171
+ 
+ Using modified NACA four digit thickness distribution
+ Maximum thickness for the blade section =    2.8736079945190139E-002
+ Chordwise location for the maximum thickness =   0.42829952462911325     
+ Thickness at TE =    5.0168546477205493E-003
+ Leading edge radius =    5.5000000000000000     
+ TE derivative for maximum thickness chordwise location =  -0.10047368189919506     
+ Modified NACA thickness coefficients (u < u_max) =    7.8208696458631363E-002  -4.1659811972175567E-002  -3.3059332563451727E-002   1.8582900406604468E-002
+ Modified NACA thickness coefficients (u > u_max) =    4.5581541125289801E-003  0.10168487107081943      -0.13380433529149810        5.2326222901888798E-002
+ 
+ Writing thickness data to file
+ 
+ i_le =            0
+ i_te =            0
+         121
+         241
+ 
+ Stacking position on the chord as % of chord:   55.000000000000000     
+ Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
+ top curve points index range for % chord stacking:          62          63
+ bottom curve points index range for % chord stacking:          62          63
+ vtop_stack vbot_stack -0.12844597856630585      -0.18480309743491002     
+ 
+ u_stack  v_stack  0.55000000000000004        0.0000000000000000     
+ 
+ chrd bladegen:   0.34097725051976208     
+ pitch   0.39269908169872414     
+ np_sidee         121
+ n_normal_distance =           22
+ Number of intersection points (k) =           22 from np_side of         121
+ 
+ Writing non-dimensional throat points to a file for debugging...
+ 
+ ******************************************
+ 
+ Chord multiplier calculated using spline control points...
+
+ ---------------------------------------------------------------------------------
+ airfoil type:           9 sect1
+  =================================================== 
+ Using ellipse based clustering function
+ 
+ Hyperbolic midchord clustering with delta_TE =    6.1910156250000004     
+ Hyperbolic midchord clustering with delta_TE =    5.6080078125000004     
+ lethk =    2.0000000000000000E-002
+
+Using curvature control for camber definition...
+ xcp -0.14999999999999999        0.0000000000000000       0.14999999999999999       0.25000000000000000       0.50000000000000000       0.75000000000000000       0.94999999999999996        1.0000000000000000        1.0500000000000000     
+ ycp  -6.4035687708652089E-002   6.7189777555876268E-002  0.19841524282040462       0.26367241909132050        8.2051553898385907E-002  0.12384990025244609        3.0362236774708722E-002   5.4243664517251683E-002   7.8125092259794637E-002
+Total camber is:   66.382906441105547
+Determinant is:    0.101114118547253
+Possible values of scaling factor are:        24.216981144670957      -10.230843986687880
+Camber line second derivative scaling factor:       -10.230843986687880        0.000000000000000
+Inlet u-v metal angle in deg:       -37.863316841130484        0.000000000000000
+Exit u-v metal angle in deg:        28.519589599975074        0.000000000000000
+Stagger angle in deg:        43.628042845671295        5.764726004540815
+ 
+ Using modified NACA four digit thickness distribution
+ Maximum thickness for the blade section =    2.6477705211826651E-002
+ Chordwise location for the maximum thickness =   0.43262756885923243     
+ Thickness at TE =    4.5895005758415904E-003
+ Leading edge radius =    5.5000000000000000     
+ TE derivative for maximum thickness chordwise location =   -9.4117156729161155E-002
+ Modified NACA thickness coefficients (u < u_max) =    7.2062258101404042E-002  -3.9083474252923370E-002  -2.8028807021474478E-002   1.5237228728963459E-002
+ Modified NACA thickness coefficients (u > u_max) =    4.1940708662163281E-003   9.5182744845930048E-002 -0.12785262648948653        5.1667792722965351E-002
+ 
+ Writing thickness data to file
+ 
+ i_le =            0
+ i_te =            0
+         121
+         241
+ 
+ Stacking position on the chord as % of chord:   55.000000000000000     
+ Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
+ top curve points index range for % chord stacking:          62          63
+ bottom curve points index range for % chord stacking:          62          63
+ vtop_stack vbot_stack -0.14357505684509206      -0.19579297917621727     
+ 
+ u_stack  v_stack  0.55000000000000004        0.0000000000000000     
+ 
+ chrd bladegen:   0.37343047273418378     
+ pitch   0.39269908169872414     
+ np_sidee         121
+ n_normal_distance =           25
+ Number of intersection points (k) =           25 from np_side of         121
+ 
+ Writing non-dimensional throat points to a file for debugging...
+ 
+ ******************************************
+ 
+ Chord multiplier calculated using spline control points...
+
+ ---------------------------------------------------------------------------------
+ airfoil type:          10 sect1
+  =================================================== 
+ Using ellipse based clustering function
+ 
+ Hyperbolic midchord clustering with delta_TE =    6.3464843750000011     
+ Hyperbolic midchord clustering with delta_TE =    5.7051757812500004     
+ lethk =    2.0000000000000000E-002
+
+Using curvature control for camber definition...
+ xcp -0.14999999999999999        0.0000000000000000       0.14999999999999999       0.25000000000000000       0.50000000000000000       0.75000000000000000       0.94999999999999984        1.0000000000000000        1.0500000000000003     
+ ycp -0.18802266064776171        1.1959325688909752E-002  0.21194131202558122       0.21098642791589928        7.0892000078861359E-002  0.10449040399981716        1.6579528046528371E-002   1.6448351942231751E-002   1.6317175837935131E-002
+Total camber is:   68.638767056016192
+Determinant is:    0.082956937534410
+Possible values of scaling factor are:        28.205645001883731      -12.954018625081721
+Camber line second derivative scaling factor:       -12.954018625081721        0.000000000000000
+Inlet u-v metal angle in deg:       -39.610078651255712        0.000000000000000
+Exit u-v metal angle in deg:        29.028688404760484        0.000000000000000
+Stagger angle in deg:        45.525755245720603        5.915676594464891
+ 
+ Using modified NACA four digit thickness distribution
+ Maximum thickness for the blade section =    2.4724907115490854E-002
+ Chordwise location for the maximum thickness =   0.43662944841893220     
+ Thickness at TE =    4.2513783745008454E-003
+ Leading edge radius =    5.5000000000000009     
+ TE derivative for maximum thickness chordwise location =   -8.9247191614008917E-002
+ Modified NACA thickness coefficients (u < u_max) =    6.7291807346427687E-002  -3.7089282630878517E-002  -2.4125103633048268E-002   1.2655675368591796E-002
+ Modified NACA thickness coefficients (u > u_max) =    3.9024488329560342E-003   9.0204743907619109E-002 -0.12341430029913288        5.1305731524466630E-002
+ 
+ Writing thickness data to file
+ 
+ i_le =            0
+ i_te =            0
+         121
+         241
+ 
+ Stacking position on the chord as % of chord:   55.000000000000000     
+ Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
+ top curve points index range for % chord stacking:          62          63
+ bottom curve points index range for % chord stacking:          62          63
+ vtop_stack vbot_stack -0.15630468022718785      -0.20526248646853340     
+ 
+ u_stack  v_stack  0.55000000000000004        0.0000000000000000     
+ 
+ chrd bladegen:   0.39840900925515493     
+ pitch   0.39269908169872414     
+ np_sidee         121
+ n_normal_distance =           26
+ Number of intersection points (k) =           26 from np_side of         121
+ 
+ Writing non-dimensional throat points to a file for debugging...
+ 
+ ******************************************
+ 
+ Chord multiplier calculated using spline control points...
+
+ ---------------------------------------------------------------------------------
+ airfoil type:          11 sect1
+  =================================================== 
+ Using ellipse based clustering function
+ 
+ Hyperbolic midchord clustering with delta_TE =    6.6574218750000007     
+ Hyperbolic midchord clustering with delta_TE =    5.8800781250000007     
+ lethk =    2.0000000000000000E-002
+
+Using curvature control for camber definition...
+ xcp -0.14999999999999999        0.0000000000000000       0.14999999999999999       0.25000000000000000       0.50000000000000000       0.75000000000000000       0.94999999999999996        1.0000000000000000        1.0500000000000000     
+ ycp -0.39908883283900853       -7.4852740825677139E-002  0.24938335118765428        9.1605576188332274E-002   6.6387622845680491E-002   8.5999914249639792E-002   2.6219958338567585E-002  -4.2555775964295370E-002 -0.11133151026715832     
+Total camber is:   72.267988417024611
+Determinant is:    0.061455280779537
+Possible values of scaling factor are:        36.498173233879633      -19.279134111766595
+Camber line second derivative scaling factor:       -19.279134111766595        0.000000000000000
+Inlet u-v metal angle in deg:       -40.833931376942580        0.000000000000000
+Exit u-v metal angle in deg:        31.434057040082035        0.000000000000000
+Stagger angle in deg:        46.603219833886925        5.769288456944346
+ 
+ Using modified NACA four digit thickness distribution
+ Maximum thickness for the blade section =    2.1948483245838969E-002
+ Chordwise location for the maximum thickness =   0.44463190538373853     
+ Thickness at TE =    3.6972880149501431E-003
+ Leading edge radius =    5.4999999999999991     
+ TE derivative for maximum thickness chordwise location =   -8.1720864565886675E-002
+ Modified NACA thickness coefficients (u < u_max) =    5.9735435980664955E-002  -3.3959686359959218E-002  -1.7883300074998054E-002   8.5492996824621387E-003
+ Modified NACA thickness coefficients (u > u_max) =    3.4174733849542333E-003   8.2515845546073011E-002 -0.11691427963831014        5.1167206800845084E-002
+ 
+ Writing thickness data to file
+ 
+ i_le =            0
+ i_te =            0
+         121
+         241
+ 
+ Stacking position on the chord as % of chord:   55.000000000000000     
+ Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
+ top curve points index range for % chord stacking:          62          63
+ bottom curve points index range for % chord stacking:          62          63
+ vtop_stack vbot_stack -0.17672099900290300      -0.22018411254285167     
+ 
+ u_stack  v_stack  0.55000000000000004        0.0000000000000000     
+ 
+ chrd bladegen:   0.42883858381243606     
+ pitch   0.39269908169872414     
+ np_sidee         121
+ n_normal_distance =           29
+ Number of intersection points (k) =           29 from np_side of         121
+ 
+ Writing non-dimensional throat points to a file for debugging...
+ 
+ ******************************************
+ 
+ Chord multiplier calculated using spline control points...
+
+ ---------------------------------------------------------------------------------
+ airfoil type:          12 sect1
+  =================================================== 
+ Using ellipse based clustering function
+ 
+ Hyperbolic midchord clustering with delta_TE =    6.9683593750000004     
+ Hyperbolic midchord clustering with delta_TE =    6.0744140625000007     
+ lethk =    2.0000000000000000E-002
+
+Using curvature control for camber definition...
+ xcp -0.14999999999999997        0.0000000000000000       0.14999999999999997       0.24999999999999997       0.49999999999999994       0.74999999999999989       0.94999999999999984        1.0000000000000000        1.0500000000000003     
+ ycp -0.59229184959049830      -0.14492638333596022       0.30243908291857785       -5.8996935979370529E-002   7.3773039036101010E-002   8.5832351855900407E-002   6.8317465278145015E-002  -9.3083753244969952E-002 -0.25448497176808493     
+Total camber is:   75.652812059261279
+Determinant is:    0.049556834128851
+Possible values of scaling factor are:        46.697919244824639      -28.149531309858563
+Camber line second derivative scaling factor:       -28.149531309858563        0.000000000000000
+Inlet u-v metal angle in deg:       -38.180214023714313        0.000000000000000
+Exit u-v metal angle in deg:        37.472598035546966        0.000000000000000
+Stagger angle in deg:        43.317180053854806        5.136966030140492
+ 
+ Using modified NACA four digit thickness distribution
+ Maximum thickness for the blade section =    1.9370023959913132E-002
+ Chordwise location for the maximum thickness =   0.45488643218932401     
+ Thickness at TE =    3.1559260874985621E-003
+ Leading edge radius =    5.4999999999999991     
+ TE derivative for maximum thickness chordwise location =   -7.5083089589400992E-002
+ Modified NACA thickness coefficients (u < u_max) =    5.2717849030442583E-002  -3.1087104934161593E-002  -1.2067182236278909E-002   4.8062513127766554E-003
+ Modified NACA thickness coefficients (u > u_max) =    2.9351367917906674E-003   7.5737307509925370E-002 -0.11195133925856783        5.1954980284402409E-002
+ 
+ Writing thickness data to file
+ 
+ i_le =            0
+ i_te =            0
+         121
+         241
+ 
+ Stacking position on the chord as % of chord:   55.000000000000000     
+ Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
+ top curve points index range for % chord stacking:          62          63
+ bottom curve points index range for % chord stacking:          62          63
+ vtop_stack vbot_stack -0.19044379093720615      -0.22856709679242104     
+ 
+ u_stack  v_stack  0.55000000000000004        0.0000000000000000     
+ 
+ chrd bladegen:   0.43052090164274992     
+ pitch   0.39269908169872414     
+ np_sidee         121
+ n_normal_distance =           31
+ Number of intersection points (k) =           31 from np_side of         121
+ 
+ Writing non-dimensional throat points to a file for debugging...
+ 
+ ******************************************
+ 
+ Chord multiplier calculated using spline control points...
+
+ ---------------------------------------------------------------------------------
+ airfoil type:          13 sect1
+  =================================================== 
+ Using ellipse based clustering function
+ 
+ Hyperbolic midchord clustering with delta_TE =    7.1238281249999993     
+ Hyperbolic midchord clustering with delta_TE =    6.1521484375000011     
+ lethk =    2.0000000000000000E-002
+
+Using curvature control for camber definition...
+ xcp -0.15000000000000002        0.0000000000000000       0.15000000000000002       0.25000000000000000       0.50000000000000000       0.74999999999999989       0.94999999999999996        1.0000000000000000        1.0500000000000000     
+ ycp -0.67574263827718406      -0.17013217309165549       0.33547829209387309      -0.14766304108008058        7.9405958223785711E-002   9.3747196885570219E-002   9.9405796540684654E-002 -0.11480204343760615      -0.32900988341589699     
+Total camber is:   78.410530457373298
+Determinant is:    0.054259786346501
+Possible values of scaling factor are:        52.529116557126827      -34.802599414061568
+Camber line second derivative scaling factor:       -34.802599414061568        0.000000000000000
+Inlet u-v metal angle in deg:       -35.099279106561703        0.000000000000000
+Exit u-v metal angle in deg:        43.311251350811595        0.000000000000000
+Stagger angle in deg:        40.738090878740721        5.638811772179020
+ 
+ Using modified NACA four digit thickness distribution
+ Maximum thickness for the blade section =    1.8082070976385839E-002
+ Chordwise location for the maximum thickness =   0.46159592065068111     
+ Thickness at TE =    2.8724698961053838E-003
+ Leading edge radius =    5.4999999999999991     
+ TE derivative for maximum thickness chordwise location =   -7.1981317652570889E-002
+ Modified NACA thickness coefficients (u < u_max) =    4.9212530137475945E-002  -2.9660202512367246E-002  -9.2000374350410773E-003   3.0293763670085792E-003
+ Modified NACA thickness coefficients (u > u_max) =    2.6792687404197388E-003   7.2569157294420913E-002 -0.11016547991352971        5.2962256441619199E-002
+ 
+ Writing thickness data to file
+ 
+ i_le =            0
+ i_te =            0
+         121
+         241
+ 
+ Stacking position on the chord as % of chord:   55.000000000000000     
+ Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
+ top curve points index range for % chord stacking:          62          63
+ bottom curve points index range for % chord stacking:          62          63
+ vtop_stack vbot_stack -0.19756962848535403      -0.23373932096973493     
+ 
+ u_stack  v_stack  0.55000000000000004        0.0000000000000000     
+ 
+ chrd bladegen:   0.42868833883854074     
+ pitch   0.39269908169872414     
+ np_sidee         121
+ n_normal_distance =           32
+ Number of intersection points (k) =           32 from np_side of         121
+ 
+ Writing non-dimensional throat points to a file for debugging...
+ 
+ ******************************************
+ 
+ Chord multiplier calculated using spline control points...
+
+ ---------------------------------------------------------------------------------
+ airfoil type:          14 sect1
+  =================================================== 
+ Using ellipse based clustering function
+ 
+ Hyperbolic midchord clustering with delta_TE =    7.3570312500000004     
+ Hyperbolic midchord clustering with delta_TE =    6.3853515625000004     
+ lethk =    2.0000000000000000E-002
+
+Using curvature control for camber definition...
+ xcp -0.14999999999999997        0.0000000000000000       0.14999999999999997       0.25000000000000000       0.50000000000000000       0.75000000000000000       0.94999999999999984        1.0000000000000000        1.0500000000000003     
+ ycp -0.75749572525902997      -0.18230197977137599       0.39289176571627804      -0.29518907991702065        8.4727348104627190E-002  0.11952987812026517       0.15344653709677875      -0.13875436229224875      -0.43095526168127624     
+Total camber is:   83.419957653234519
+Determinant is:    0.091758927826966
+Possible values of scaling factor are:        65.817277143675781      -50.637441714292628
+Camber line second derivative scaling factor:       -50.637441714292628        0.000000000000000
+Inlet u-v metal angle in deg:       -27.477304615589482        0.000000000000000
+Exit u-v metal angle in deg:        55.942653037645023        0.000000000000000
+Stagger angle in deg:        33.600281102865701        6.122976487276225
+ 
+ Using modified NACA four digit thickness distribution
+ Maximum thickness for the blade section =    1.6133088603850158E-002
+ Chordwise location for the maximum thickness =   0.47497538099570280     
+ Thickness at TE =    2.4201818354169869E-003
+ Leading edge radius =    5.4999999999999991     
+ TE derivative for maximum thickness chordwise location =   -6.7760910357174464E-002
+ Modified NACA thickness coefficients (u < u_max) =    4.3908140287934917E-002  -2.7492682995998503E-002  -5.0357429989153959E-003   6.2241340162784951E-004
+ Modified NACA thickness coefficients (u > u_max) =    2.2663676899353771E-003   6.8253494567367706E-002 -0.10908497891078520        5.5977944952151013E-002
+ 
+ Writing thickness data to file
+ 
+ i_le =            0
+ i_te =            0
+         121
+         241
+ 
+ Stacking position on the chord as % of chord:   55.000000000000000     
+ Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
+ top curve points index range for % chord stacking:          62          63
+ bottom curve points index range for % chord stacking:          62          63
+ vtop_stack vbot_stack -0.20698946112236410      -0.24533463871938049     
+ 
+ u_stack  v_stack  0.55000000000000004        0.0000000000000000     
+ 
+ chrd bladegen:   0.41611651388058596     
+ pitch   0.39269908169872414     
+ np_sidee         121
+ n_normal_distance =           29
+ Number of intersection points (k) =           29 from np_side of         121
+ 
+ Writing non-dimensional throat points to a file for debugging...
+ 
+ ******************************************
+ 
+ Chord multiplier calculated using spline control points...
+
+ ---------------------------------------------------------------------------------
+ airfoil type:          15 sect1
+  =================================================== 
+ Using ellipse based clustering function
+ 
+ Hyperbolic midchord clustering with delta_TE =    7.6679687500000000     
+ Hyperbolic midchord clustering with delta_TE =    6.6574218750000007     
+ lethk =    2.0000000000000000E-002
+
+Using curvature control for camber definition...
+ xcp -0.14999999999999999        0.0000000000000000       0.14999999999999999       0.25000000000000000       0.50000000000000000       0.75000000000000011       0.94999999999999996        1.0000000000000000        1.0500000000000000     
+ ycp -0.70302131600731066      -0.12166649483255187       0.45968832634220691      -0.45563624310240486        6.8314895042610471E-002  0.17462422931995686       0.20025977818394827      -0.13968780460770325      -0.47963538739935474     
+Total camber is:  -90.296912970436537
+Determinant is:   23.141850786065824
+Possible values of scaling factor are:        80.863109519449040      -79.600810668442250
+Camber line second derivative scaling factor:        80.863109519449040        0.000000000000000
+Inlet u-v metal angle in deg:        20.750714035622604        0.000000000000000
+Exit u-v metal angle in deg:       -69.546198934813944        0.000000000000000
+Stagger angle in deg:       -14.762593978107981        5.988120057514623
+ 
+ Using modified NACA four digit thickness distribution
+ Maximum thickness for the blade section =    1.4055156278705447E-002
+ Chordwise location for the maximum thickness =   0.49685542390721238     
+ Thickness at TE =    1.8892733220829286E-003
+ Leading edge radius =    5.4999999999999991     
+ TE derivative for maximum thickness chordwise location =   -6.4521182816124095E-002
+ Modified NACA thickness coefficients (u < u_max) =    3.8252797638944888E-002  -2.5088480184793399E-002  -1.2674512924246118E-003  -1.0617296881797026E-003
+ Modified NACA thickness coefficients (u > u_max) =    1.7746343804329549E-003   6.4919212102722834E-002 -0.11252392200270364        6.3613849453050778E-002
+ 
+ Writing thickness data to file
+ 
+ i_le =            0
+ i_te =            0
+         121
+         241
+ 
+ Stacking position on the chord as % of chord:   55.000000000000000     
+ Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
+ top curve points index range for % chord stacking:          62          63
+ bottom curve points index range for % chord stacking:          62          63
+ vtop_stack vbot_stack  0.23772142778283417       0.17814210830103477     
+ 
+ u_stack  v_stack  0.55000000000000004        0.0000000000000000     
+ 
+ chrd bladegen:   0.39172032257674588     
+ pitch   0.39269908169872414     
+ np_sidee         121
+ n_normal_distance =            8
+ Number of intersection points (k) =            8 from np_side of         121
+ 
+ Writing non-dimensional throat points to a file for debugging...
+ 
+ ******************************************
+ 
+ Chord multiplier calculated using spline control points...
+
+ ---------------------------------------------------------------------------------
+ airfoil type:          16 sect1
+  =================================================== 
+ Using ellipse based clustering function
+ 
+ Hyperbolic midchord clustering with delta_TE =    7.8234375000000007     
+ Hyperbolic midchord clustering with delta_TE =    6.8906250000000000     
+ lethk =    2.0000000000000000E-002
+
+Using curvature control for camber definition...
+ xcp -0.14999999999999999        0.0000000000000000       0.14999999999999999       0.25000000000000000       0.50000000000000000       0.75000000000000000       0.94999999999999996        1.0000000000000000        1.0500000000000000     
+ ycp -0.56852108806016066       -3.9178112657332204E-002  0.49016486274549625      -0.52213588575386383        4.0075115185401314E-002  0.21699580935458987       0.20425347494748625      -0.12234201375166898      -0.44893750245082420     
+Total camber is:  -85.798949388536954
+Determinant is:    0.147203037608375
+Possible values of scaling factor are:       -79.288348773725204       64.226576898857047
+Camber line second derivative scaling factor:        64.226576898857047        0.000000000000000
+Inlet u-v metal angle in deg:        20.033605723276732        0.000000000000000
+Exit u-v metal angle in deg:       -65.765343665260218        0.000000000000000
+Stagger angle in deg:       -13.434404803953448        6.599200919323286
+ 
+ Using modified NACA four digit thickness distribution
+ Maximum thickness for the blade section =    1.3074354076092165E-002
+ Chordwise location for the maximum thickness =   0.51224700215268915     
+ Thickness at TE =    1.6088644253421328E-003
+ Leading edge radius =    5.5000000000000000     
+ TE derivative for maximum thickness chordwise location =   -6.3927741268566721E-002
+ Modified NACA thickness coefficients (u < u_max) =    3.5583426524427982E-002  -2.3825119976431719E-002  -1.4163991750764261E-004  -1.1286339324796794E-003
+ Modified NACA thickness coefficients (u > u_max) =    1.5121106185092817E-003   6.4282803413982681E-002 -0.11778553158041710        7.0922030735362823E-002
+ 
+ Writing thickness data to file
+ 
+ i_le =            0
+ i_te =            0
+         121
+         241
+ 
+ Stacking position on the chord as % of chord:   55.000000000000000     
+ Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
+ top curve points index range for % chord stacking:          62          63
+ bottom curve points index range for % chord stacking:          62          63
+ vtop_stack vbot_stack  0.12189062144303142        6.7754523685690460E-002
+ 
+ u_stack  v_stack  0.55000000000000004        0.0000000000000000     
+ 
+ chrd bladegen:   0.41238577604461640     
+ pitch   0.39269908169872414     
+ np_sidee         121
+ n_normal_distance =            9
+ Number of intersection points (k) =            9 from np_side of         121
+ 
+ Writing non-dimensional throat points to a file for debugging...
+ 
+ ******************************************
+ 
+ Chord multiplier calculated using spline control points...
+
+ ---------------------------------------------------------------------------------
+ airfoil type:          17 sect1
+  =================================================== 
+ Using ellipse based clustering function
+ 
+ Hyperbolic midchord clustering with delta_TE =    8.1343750000000004     
+ Hyperbolic midchord clustering with delta_TE =    7.2792968750000000     
+ lethk =    2.0000000000000000E-002
+
+Using curvature control for camber definition...
+ xcp -0.14999999999999999        0.0000000000000000       0.14999999999999999       0.24999999999999997       0.49999999999999994       0.74999999999999989       0.94999999999999984        1.0000000000000000        1.0500000000000003     
+ ycp -0.11518791572501647       0.20947127767604459       0.53413047107710565      -0.60257710790818186       -5.0766150935686982E-002  0.31859348241244484       0.16757408810699140       -5.5774126543269770E-002 -0.27912234119353097     
+Total camber is:  -78.202045070719223
+Determinant is:    0.052193882596786
+Possible values of scaling factor are:       -53.867553852959368       34.299223516958712
+Camber line second derivative scaling factor:        34.299223516958712        0.000000000000000
+Inlet u-v metal angle in deg:        27.653344440801341        0.000000000000000
+Exit u-v metal angle in deg:       -50.548700629917882        0.000000000000000
+Stagger angle in deg:       -21.440384170659915        6.212960270141428
+ 
+ Using modified NACA four digit thickness distribution
+ Maximum thickness for the blade section =    1.1539898052302450E-002
+ Chordwise location for the maximum thickness =   0.54743349211305847     
+ Thickness at TE =    1.1055330727026929E-003
+ Leading edge radius =    5.4999999999999991     
+ TE derivative for maximum thickness chordwise location =   -6.5214133421781117E-002
+ Modified NACA thickness coefficients (u < u_max) =    3.1407219970764941E-002  -2.1337152742451890E-002  -3.7868074287952845E-004   5.8665922333549811E-004
+ Modified NACA thickness coefficients (u > u_max) =    1.0378399654143739E-003   6.5494760550816739E-002 -0.13561067326125031        9.3174382509085094E-002
+ 
+ Writing thickness data to file
+ 
+ i_le =            0
+ i_te =            0
+         121
+         241
+ 
+ Stacking position on the chord as % of chord:   55.000000000000000     
+ Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
+ top curve points index range for % chord stacking:          62          63
+ bottom curve points index range for % chord stacking:          62          63
+ vtop_stack vbot_stack  -6.3063929038348031E-003  -4.3506744222439900E-002
+ 
+ u_stack  v_stack  0.55000000000000004        0.0000000000000000     
+ 
+ chrd bladegen:   0.48256664847408720     
+ pitch   0.39269908169872414     
+ np_sidee         121
+ n_normal_distance =           19
+ Number of intersection points (k) =           19 from np_side of         121
+ 
+ Writing non-dimensional throat points to a file for debugging...
+ 
+ ******************************************
+ 
+ Chord multiplier calculated using spline control points...
+
+ ---------------------------------------------------------------------------------
+ airfoil type:          18 sect1
+  =================================================== 
+ Using ellipse based clustering function
+ 
+ Hyperbolic midchord clustering with delta_TE =    8.4453125000000000     
+ Hyperbolic midchord clustering with delta_TE =    8.1343750000000004     
+ lethk =    2.0000000000000000E-002
+
+Using curvature control for camber definition...
+ xcp -0.14999999999999999        0.0000000000000000       0.14999999999999999       0.25000000000000000       0.50000000000000000       0.75000000000000000       0.94999999999999996        1.0000000000000000        1.0500000000000000     
+ ycp  0.71713958374199960       0.64481022634799978       0.57248086895399997      -0.64664320766300010      -0.21442183373199994       0.47540605999999996        6.4071861360000051E-002   7.2289719049999951E-002   8.0507576739999850E-002
+Total camber is:  -68.340151780968455
+Determinant is:    0.037470524656931
+Possible values of scaling factor are:       -41.258847731505575       18.997770707978972
+Camber line second derivative scaling factor:        18.997770707978972        0.000000000000000
+Inlet u-v metal angle in deg:        35.403437314318474        0.000000000000000
+Exit u-v metal angle in deg:       -32.936714466649974        0.000000000000000
+Stagger angle in deg:       -30.914520312414208        4.488917001904269
+ 
+ Using modified NACA four digit thickness distribution
+ Maximum thickness for the blade section =    1.0000000000000002E-002
+ Chordwise location for the maximum thickness =   0.59999999999999998     
+ Thickness at TE =    5.0000000000000023E-004
+ Leading edge radius =    5.5000000000000000     
+ TE derivative for maximum thickness chordwise location =   -7.0000000025600015E-002
+ Modified NACA thickness coefficients (u < u_max) =    2.7216202282219080E-002  -1.7881984286702991E-002  -3.4599109693883266E-003   4.1350874249640648E-003
+ Modified NACA thickness coefficients (u > u_max) =    4.6732698264149303E-004   7.0160349016572990E-002 -0.17206412600739290       0.14060614956112774     
+ 
+ Writing thickness data to file
+ 
+ i_le =            0
+ i_te =            0
+         121
+         241
+ 
+ Stacking position on the chord as % of chord:   55.000000000000000     
+ Stacking position in % above(+ve) or below(-ve) meanline :   0.0000000000000000     
+ top curve points index range for % chord stacking:          61          62
+ bottom curve points index range for % chord stacking:          62          63
+ vtop_stack vbot_stack  -5.6942341513478864E-002  -8.3612790912196200E-002
+ 
+ u_stack  v_stack  0.55000000000000004        0.0000000000000000     
+ 
+ chrd bladegen:   0.63282182036119727     
+ pitch   0.39269908169872414     
+ np_sidee         121
+ n_normal_distance =           19
+ Number of intersection points (k) =           19 from np_side of         121
+ 
+ Writing non-dimensional throat points to a file for debugging...
+ 
+ ******************************************
+ Number of airfoil coordinates:         241
+ 
+ Stacking Axis location:       55000
+ 
+ Section #           1
+ Section #           2
+ Section #           3
+ Section #           4
+ Section #           5
+ Section #           6
+ Section #           7
+ Section #           8
+ Section #           9
+ Section #          10
+ Section #          11
+ Section #          12
+ Section #          13
+ Section #          14
+ Section #          15
+ Section #          16
+ Section #          17
+ Section #          18
+ i_slope           0
+ i_slope           0
+ i_slope           0
+ i_slope           0
+ i_slope           0
+ i_slope           0
+ i_slope           0
+ i_slope           0
+ i_slope           0
+ i_slope           0
+ i_slope           0
+ i_slope           0
+ i_slope           0
+ i_slope           0
+ i_slope           0
+ i_slope           0
+ i_slope           0
+ i_slope          18
+ 
+ span          delta_m
+   0.0000000000000000        0.0000000000000000     
+   7.3184850721428704E-002   0.0000000000000000     
+  0.14337399962372843        0.0000000000000000     
+  0.21605233071391949        0.0000000000000000     
+  0.29298542670660943        0.0000000000000000     
+  0.37501266299078129        0.0000000000000000     
+  0.42732890490452236        0.0000000000000000     
+  0.44766205010202759        0.0000000000000000     
+  0.48253954471121085        0.0000000000000000     
+  0.51141116369263739        0.0000000000000000     
+  0.56158555116571229        0.0000000000000000     
+  0.61482800040521568        0.0000000000000000     
+  0.64478501859650617        0.0000000000000000     
+  0.69636318904759131        0.0000000000000000     
+  0.76490253115095730        0.0000000000000000     
+  0.80578590138780770        0.0000000000000000     
+  0.88831965730328954        0.0000000000000000     
+   1.0000000000000000        0.0000000000000000     
+ 
+ span         delta_theta
+   0.0000000000000000        0.0000000000000000     
+   7.3184850721428704E-002   0.0000000000000000     
+  0.14337399962372843        0.0000000000000000     
+  0.21605233071391949        0.0000000000000000     
+  0.29298542670660943        0.0000000000000000     
+  0.37501266299078129        0.0000000000000000     
+  0.42732890490452236        0.0000000000000000     
+  0.44766205010202759        0.0000000000000000     
+  0.48253954471121085        0.0000000000000000     
+  0.51141116369263739        0.0000000000000000     
+  0.56158555116571229        0.0000000000000000     
+  0.61482800040521568        0.0000000000000000     
+  0.64478501859650617        0.0000000000000000     
+  0.69636318904759131        0.0000000000000000     
+  0.76490253115095730        0.0000000000000000     
+  0.80578590138780770        0.0000000000000000     
+  0.88831965730328954        0.0000000000000000     
+   1.0000000000000000        0.0000000000000000     
+ 
+ section(           1 )
+ 3D throat line [mm] =   385.13684256718761     
+ 3D mouth line [mm] =   399.71305239352648     
+ 3D exit line [mm] =   386.04099832401886     
+ section(           2 )
+ 3D throat line [mm] =   351.78700975067090     
+ 3D mouth line [mm] =   376.78635777474926     
+ 3D exit line [mm] =   351.78700975067090     
+ section(           3 )
+ 3D throat line [mm] =   325.58732063826301     
+ 3D mouth line [mm] =   354.98070288273902     
+ 3D exit line [mm] =   325.58732063826301     
+ section(           4 )
+ 3D throat line [mm] =   300.19873940597756     
+ 3D mouth line [mm] =   335.81570357415109     
+ 3D exit line [mm] =   300.19873940597756     
+ section(           5 )
+ 3D throat line [mm] =   270.96163951026330     
+ 3D mouth line [mm] =   314.72807175575770     
+ 3D exit line [mm] =   270.96163951026330     
+ section(           6 )
+ 3D throat line [mm] =   236.56925370222029     
+ 3D mouth line [mm] =   299.28390017859442     
+ 3D exit line [mm] =   236.56925370222029     
+ section(           7 )
+ 3D throat line [mm] =   215.26447845616030     
+ 3D mouth line [mm] =   287.14753016463720     
+ 3D exit line [mm] =   215.26447845616030     
+ section(           8 )
+ 3D throat line [mm] =   202.60273557493537     
+ 3D mouth line [mm] =   280.92368384649973     
+ 3D exit line [mm] =   202.60273557493537     
+ section(           9 )
+ 3D throat line [mm] =   175.27828871595119     
+ 3D mouth line [mm] =   273.95488926851868     
+ 3D exit line [mm] =   175.27828871595119     
+ section(          10 )
+ 3D throat line [mm] =   159.55101162263537     
+ 3D mouth line [mm] =   266.65820174946515     
+ 3D exit line [mm] =   159.55101162263537     
+ section(          11 )
+ 3D throat line [mm] =   134.87372064008974     
+ 3D mouth line [mm] =   254.93029082444195     
+ 3D exit line [mm] =   134.87372064008974     
+ section(          12 )
+ 3D throat line [mm] =   141.95171883664437     
+ 3D mouth line [mm] =   241.96282851814007     
+ 3D exit line [mm] =   141.95171883664437     
+ section(          13 )
+ 3D throat line [mm] =   147.61477412881112     
+ 3D mouth line [mm] =   234.20606630608333     
+ 3D exit line [mm] =   147.61477412881112     
+ section(          14 )
+ 3D throat line [mm] =   172.68849785829761     
+ 3D mouth line [mm] =   220.96953196267518     
+ 3D exit line [mm] =   172.68849785829761     
+ section(          15 )
+ 3D throat line [mm] =   192.26324477705134     
+ 3D mouth line [mm] =   204.04121636984416     
+ 3D exit line [mm] =   250.60055376564389     
+ section(          16 )
+ 3D throat line [mm] =   198.78437743269970     
+ 3D mouth line [mm] =   191.77286055200784     
+ 3D exit line [mm] =   275.23615193552718     
+ section(          17 )
+ 3D throat line [mm] =   164.50284558498979     
+ 3D mouth line [mm] =   169.90994778338847     
+ 3D exit line [mm] =   182.88451856288839     
+ section(          18 )
+ 3D throat line [mm] =   121.66242171561382     
+ 3D mouth line [mm] =   140.13131038627719     
+ 3D exit line [mm] =   150.81140218398642     
+ Number of radial sections:          18
+ 
+ Writing 3D blade geometry ...
+ 
+ chord_actual(mm):   164.94885462484609     
+ chord_actual(mm):   178.37081469948444     
+ chord_actual(mm):   190.48760427361299     
+ chord_actual(mm):   202.25835171658269     
+ chord_actual(mm):   217.42554199920872     
+ chord_actual(mm):   234.90033700394878     
+ chord_actual(mm):   246.71656989673895     
+ chord_actual(mm):   256.23992233738511     
+ chord_actual(mm):   271.49222901386344     
+ chord_actual(mm):   282.39092457481615     
+ chord_actual(mm):   290.12583174110307     
+ chord_actual(mm):   276.02813665259066     
+ chord_actual(mm):   266.10588453163507     
+ chord_actual(mm):   243.75891293397956     
+ chord_actual(mm):   212.13050607770043     
+ chord_actual(mm):   214.17913505900975     
+ chord_actual(mm):   229.45931488696434     
+ chord_actual(mm):   261.49875084690530     
+ 
+ Calculating the meanline by taking the average of PS ans SS in 3D...
+ Writing the meanline in 3D to meanline.sec#.dat files...
+ 
+ Writing the top and bottom periodic wall coordinates...
+ 
+         121
+ throat_index           1          30
+ throat_index           2          26
+ throat_index           3          21
+ throat_index           4          20
+ throat_index           5          18
+ throat_index           6          21
+ throat_index           7          23
+ throat_index           8          22
+ throat_index           9          25
+ throat_index          10          26
+ throat_index          11          29
+ throat_index          12          31
+ throat_index          13          32
+ throat_index          14          29
+ throat_index          15           3
+ throat_index          16           8
+ throat_index          17          11
+ throat_index          18           8
+ 
+ casename:GE_E3_Fan_rotor
+ 
+ fname: blade3d.GE_E3_Fan_rotor.dat
+ 
+ Creating section data files for CAD system
+ 
+ Number of points:          241
+ 
+ Number of sections:           18
+ 
+ bsf:    10.000000000000000     
+ Number of blades in this row:           16
+
+ --- END ---
+ 
